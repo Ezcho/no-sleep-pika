@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika 支援 macOS 13 以上、Apple Silicon 與 Intel。從官方下載完整 PKG，安裝應用程式和管理員輔助服務，由使用者完成 macOS 認證與必要批准。開啟 /Applications/pika.app，確認服務連線，開啟 Session、按需關閉 Monitor，再闔蓋。睡眠防止先準備，畫面策略於闔蓋後套用。開蓋時改 Monitor 只儲存選擇。Session OFF 恢復管理的設定，不會立刻關閉螢幕；關閉視窗不等於結束程式。
 
-[下載 pika · 1.0.13](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下載 pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 [安裝說明](https://no-sleep-pika.online/install/)
 
@@ -75,7 +75,7 @@ man caffeinate
 
 鎖定不等於睡眠。Wi-Fi、VPN、API 限額、等待批准或程式錯誤可能中斷工作，pika 不會自動接續 AI 對話或恢復網路。運作中請放在通風的硬質平面，不要放進袋子。電池與熱保護或服務問題可能結束 Session；不能保證防止所有過熱與電力耗盡。
 
-## 資料來源與範圍
+資料來源與範圍
 
 本文由 no-sleep-pika 開發者撰寫並介紹自家應用程式，參考 Apple 資料、macOS 的 caffeinate(8) 手冊與 pika 1.0.13 公開實作。並非 Apple 或 AI 供應商背書。選擇適合情境的方法，完成後解除防睡眠。
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Mac 鎖定螢幕後，Claude Code 與 Codex 還會繼續工作嗎？ →](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/)
+
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook 闔蓋指南 →](https://no-sleep-pika.online/guide/zh-TW/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook 闔蓋指南 →](https://no-sleep-pika.online/guide/zh-TW/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/index.md)

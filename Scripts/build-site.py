@@ -11,10 +11,12 @@ from pika_motion import render as render_pika_motion
 from ai_docs import build as build_ai_docs
 from keep_awake_article import build as build_keep_awake, UPDATED as KEEP_UPDATED, PATHS as KEEP_PATHS, COPY as KEEP_COPY
 
+from locked_ai_article import build as build_locked_ai, UPDATED as LOCK_UPDATED, PATHS as LOCK_PATHS, COPY as LOCK_COPY
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'docs'
 BASE = 'https://no-sleep-pika.online'
-REPO = 'https://github.com/Ezcho/always-awake-mac'
+REPO = 'https://github.com/Ezcho/no-sleep-pika'
 # Keep this aligned with the published release, not the unreleased source version.
 RELEASE = 'v1.0.13'
 DOWNLOAD = f'{REPO}/releases/download/{RELEASE}/pika-{RELEASE[1:]}.pkg'
@@ -937,6 +939,12 @@ def main():
     support_urls = build_support(OUT, BASE, REPO)
     article_urls = build_article(OUT, BASE, REPO)
     keep_urls = build_keep_awake(OUT, BASE, REPO, RELEASE)
+    lock_urls = build_locked_ai(OUT, BASE, REPO, RELEASE)
+    for locale, path in KEEP_PATHS.items():
+        page = OUT / path.strip("/") / "index.html"
+        content = page.read_text(encoding="utf-8")
+        related = f'<p><a href="{LOCK_PATHS[locale]}">{html.escape(LOCK_COPY[locale]["title"])} →</a></p>'
+        page.write_text(content.replace("</article>", related + "</article>"), encoding="utf-8")
     # Link the comparison from each localized existing article; keep the homepage compact.
     for locale, path in ARTICLE_PATHS.items():
         page = OUT / path.strip('/') / 'index.html'
@@ -944,12 +952,12 @@ def main():
         related = f'<p><a href="{KEEP_PATHS[locale]}">{html.escape(KEEP_COPY[locale]["title"])} →</a></p>'
         page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
     # Apply the same analytics loader to every generated language and guide.
-    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls:
+    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls:
         page = OUT / url.removeprefix(BASE).lstrip('/') / 'index.html'
         content = page.read_text(encoding='utf-8')
         content = content.replace('</head>', '<script src="/ga.js" defer></script></head>')
         page.write_text(content, encoding='utf-8')
-    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS))):
+    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS))):
         alternates = ''.join(f'<xhtml:link rel="alternate" hreflang="{language}" href="{url}"/>' for language, url in zip(languages, urls))
         alternates += f'<xhtml:link rel="alternate" hreflang="x-default" href="{urls[0]}"/>'
         entries += ''.join(f'<url><loc>{url}</loc><lastmod>{updated}</lastmod>{alternates}</url>' for url in urls)
@@ -961,7 +969,7 @@ def main():
             robots.write(f'\nUser-agent: {agent}\nAllow: /\n')
     build_ai_docs(OUT, BASE)
     (OUT / '.nojekyll').touch()
-    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 30 articles, sitemap.xml and robots.txt.')
+    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 45 articles, sitemap.xml and robots.txt.')
 
 if __name__ == '__main__':
     main()

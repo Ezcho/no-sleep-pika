@@ -18,6 +18,8 @@ Markdown pages below are generated from the same HTML as the public website. The
 - [맥북 덮개를 닫고 작업하기: pika 사용 가이드 — no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/index.md)
 - [How to keep your Mac awake: clamshell mode, caffeinate and pika | no-sleep-pika (en)](https://no-sleep-pika.online/guide/keep-mac-awake/index.md)
 - [Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)
+- [Mac locked: will Claude Code and Codex keep working? | no-sleep-pika (en)](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)
+- [맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까? | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)
 
 ## All localized pages and articles
 
@@ -70,9 +72,24 @@ Markdown pages below are generated from the same HTML as the public website. The
 - [كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika | no-sleep-pika (ar)](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)
 - [Cách giữ Mac không ngủ: clamshell, caffeinate và pika | no-sleep-pika (vi)](https://no-sleep-pika.online/guide/vi/keep-mac-awake/index.md)
 - [วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika | no-sleep-pika (th)](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)
+- [Mac locked: will Claude Code and Codex keep working? | no-sleep-pika (en)](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)
+- [맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까? | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)
+- [Mac 锁屏后，Claude Code 和 Codex 还会继续工作吗？ | no-sleep-pika (zh-CN)](https://no-sleep-pika.online/guide/zh-CN/mac-locked-ai-running/index.md)
+- [Mac 鎖定螢幕後，Claude Code 與 Codex 還會繼續工作嗎？ | no-sleep-pika (zh-TW)](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)
+- [MacをロックしてもClaude Code・Codexは動き続ける？ | no-sleep-pika (ja)](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/index.md)
+- [Mac लॉक होने पर क्या Claude Code और Codex काम करते रहते हैं? | no-sleep-pika (hi)](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)
+- [Mac terkunci: apakah Claude Code dan Codex tetap bekerja? | no-sleep-pika (id)](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)
+- [Mac bloqueado: ¿siguen trabajando Claude Code y Codex? | no-sleep-pika (es)](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)
+- [Mac verrouillé : Claude Code et Codex continuent-ils à travailler ? | no-sleep-pika (fr)](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/index.md)
+- [Mac gesperrt: Arbeiten Claude Code und Codex weiter? | no-sleep-pika (de)](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)
+- [Mac bloqueado: Claude Code e Codex continuam trabalhando? | no-sleep-pika (pt-BR)](https://no-sleep-pika.online/guide/pt-BR/mac-locked-ai-running/index.md)
+- [Mac заблокирован: продолжат ли работу Claude Code и Codex? | no-sleep-pika (ru)](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)
+- [هل يواصل Claude Code وCodex العمل عند قفل Mac؟ | no-sleep-pika (ar)](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)
+- [Mac đã khóa: Claude Code và Codex có tiếp tục chạy không? | no-sleep-pika (vi)](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)
+- [ล็อก Mac แล้ว Claude Code และ Codex ยังทำงานต่อหรือไม่? | no-sleep-pika (th)](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)
 
 ## Optional
 
 - [Complete text collection](https://no-sleep-pika.online/llms-full.txt): All published languages; use individual pages for smaller context.
-- [Source code and MCP reference](https://github.com/Ezcho/always-awake-mac#readme)
-- [Published releases](https://github.com/Ezcho/always-awake-mac/releases)
+- [Source code and MCP reference](https://github.com/Ezcho/no-sleep-pika#readme)
+- [Published releases](https://github.com/Ezcho/no-sleep-pika/releases)

@@ -29,7 +29,7 @@ Open the downloaded pika PKG, continue through macOS Installer and approve insta
 
 pika→
 
-● ● ●**pika**Session Monitor 
+● ● ●**pika**Session Monitor
 
 ## Open pika
 
@@ -39,7 +39,7 @@ If macOS blocks the PKG or pika because the developer is unidentified or it cann
 
 If macOS says the app will damage your computer or is damaged, stop and check the download; this is a different warning.
 
-[Apple’s instructions for opening an app ↗](https://support.apple.com/en-us/102445) 
+[Apple’s instructions for opening an app ↗](https://support.apple.com/en-us/102445)
 
 ## App opened, but Session will not start?
 

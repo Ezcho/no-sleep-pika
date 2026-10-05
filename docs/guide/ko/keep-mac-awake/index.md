@@ -71,7 +71,7 @@ pika는 Session과 Monitor를 메뉴 막대에서 제어하는 macOS 13 이상�
 
 덮개를 다시 열면 화면 제어가 대기 상태로 돌아갑니다. Session OFF를 누르면 pika가 관리한 잠자기 설정을 복구하며 Monitor도 OFF로 표시되지만 화면을 즉시 끄지는 않습니다. 창의 X 버튼은 앱 종료가 아니며 메뉴 막대에 남습니다. 완전히 끝낼 때는 Session OFF 또는 앱의 종료 메뉴를 사용하세요. 보조 서비스 오류가 보이면 정상 실행으로 간주하지 말고 설치·연결 문제부터 해결해야 합니다.
 
-[pika 다운로드 · 1.0.13](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pika 다운로드 · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
@@ -95,7 +95,7 @@ man caffeinate
 
 ‘가방 안에서 켜 두어도 되나요?’ 실행 중인 맥북은 통풍되는 단단한 곳에 두세요. 덮개를 닫았다는 이유로 발열이 사라지지 않으며, pika의 배터리·열 상태 보호가 모든 과열이나 방전을 막는 보장은 아닙니다. 배터리·열 보호, 보조 서비스 연결 문제 등에 따라 세션이 종료될 수 있습니다. 장시간 작업 전에는 전원·환기·작업 저장 및 재시도 방법을 함께 확인하세요.
 
-## 공식 자료와 이 글의 범위
+공식 자료와 이 글의 범위
 
 이 글은 no-sleep-pika 제작자가 작성한 자사 앱을 포함한 방법 비교입니다. 외장 화면 사용 조건과 설정 위치는 Apple 공식 자료를, 터미널 옵션은 macOS의 caffeinate(8) 매뉴얼을 근거로 설명했습니다. pika 동작은 공개 1.0.13 문서와 구현을 기준으로 하며 Apple이나 AI 서비스 제공자의 공식 추천을 의미하지 않습니다.
 
@@ -109,6 +109,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까? →](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/)
+
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)[맥북 덮개 닫기 가이드 →](https://no-sleep-pika.online/guide/ko/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[맥북 덮개 닫기 가이드 →](https://no-sleep-pika.online/guide/ko/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)

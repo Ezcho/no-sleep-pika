@@ -3,7 +3,7 @@ Language: fr
 
 # Fermez votre Mac, vos tâches continuent.
 
-[Télécharger pour Mac](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg) 
+[Télécharger pour Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 36 Téléchargements
 
@@ -13,7 +13,7 @@ Version publique 1.0.13 · macOS 13+ · Apple Silicon et Intel
 
 STDIO
 
-Installez et ouvrez pika, puis connectez-le avec la commande ci-dessous. [Voir le code source ↗](https://github.com/Ezcho/always-awake-mac#mcp)
+Installez et ouvrez pika, puis connectez-le avec la commande ci-dessous. [Voir le code source ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -48,7 +48,7 @@ Add a server named pika using STDIO. Set Command to the path below. Leave argume
 
 This is a local STDIO connection. The website address is not an MCP endpoint, and a cloud-only URL connector cannot run this Mac executable.
 
-[Codex official documentation ↗](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) 
+[Codex official documentation ↗](https://learn.chatgpt.com/docs/extend/mcp?surface=cli)
 
 ### 3Check the connection
 

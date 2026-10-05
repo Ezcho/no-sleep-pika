@@ -3,7 +3,7 @@ Language: th
 
 # พับฝา Mac แล้วให้งานทำต่อไป
 
-[ดาวน์โหลดสำหรับ Mac](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg) 
+[ดาวน์โหลดสำหรับ Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 36 ดาวน์โหลด
 
@@ -13,7 +13,7 @@ Language: th
 
 STDIO
 
-ติดตั้งและเปิด pika แล้วเชื่อมต่อด้วยคำสั่งด้านล่าง [ดูซอร์สโค้ด ↗](https://github.com/Ezcho/always-awake-mac#mcp)
+ติดตั้งและเปิด pika แล้วเชื่อมต่อด้วยคำสั่งด้านล่าง [ดูซอร์สโค้ด ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -48,7 +48,7 @@ Add a server named pika using STDIO. Set Command to the path below. Leave argume
 
 This is a local STDIO connection. The website address is not an MCP endpoint, and a cloud-only URL connector cannot run this Mac executable.
 
-[Codex official documentation ↗](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) 
+[Codex official documentation ↗](https://learn.chatgpt.com/docs/extend/mcp?surface=cli)
 
 ### 3Check the connection
 

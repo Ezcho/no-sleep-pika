@@ -28,7 +28,7 @@ enum UpdateDownload {
         let suffix = version.map { "tags/v\($0)" } ?? "latest"
         let endpoints = [
             URL(string: "https://no-sleep-pika.online/updates/\(version.map { "v\($0)" } ?? "latest").json")!,
-            URL(string: "https://api.github.com/repos/Ezcho/always-awake-mac/releases/\(suffix)")!
+            URL(string: "https://api.github.com/repos/Ezcho/no-sleep-pika/releases/\(suffix)")!
         ]
         let session = suppliedSession ?? session()
         defer { if suppliedSession == nil { session.invalidateAndCancel() } }

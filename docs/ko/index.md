@@ -3,7 +3,7 @@ Language: ko
 
 # 맥을 덮어도 작업을 유지하세요
 
-[Mac용 다운로드](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg) 
+[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 36 다운로드
 
@@ -13,7 +13,7 @@ Language: ko
 
 STDIO
 
-pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요. [소스코드 보기 ↗](https://github.com/Ezcho/always-awake-mac#mcp)
+pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요. [소스코드 보기 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -48,7 +48,7 @@ MCP 서버 추가에서 이름은 pika, 연결 방식은 STDIO로 선택하세�
 
 이 연결은 Mac 내부의 STDIO 방식입니다. 홈페이지 주소는 MCP 서버 주소가 아니며, URL만 받는 클라우드 연결에는 이 실행 파일을 등록할 수 없습니다.
 
-[Codex 공식 문서 ↗](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) 
+[Codex 공식 문서 ↗](https://learn.chatgpt.com/docs/extend/mcp?surface=cli)
 
 ### 3연결 확인하기
 

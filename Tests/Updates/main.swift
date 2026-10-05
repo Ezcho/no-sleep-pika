@@ -18,6 +18,9 @@ func manifest(version: String = "1.0.10", edits: [String: Any] = [:], assetEdits
 let release = try UpdateRelease.parse(manifest())
 check(release.isNewer(than: "1.0.9"), "numeric 1.0.10 sorts after 1.0.9")
 check(!release.isNewer(than: "1.0.10") && !release.isNewer(than: "1.1.0"), "no reinstall or downgrade")
+let legacyRelease = try UpdateRelease.parse(manifest(assetEdits: ["browser_download_url": "\(UpdateRelease.legacyRepository)/releases/download/v1.0.10/pika-1.0.10.pkg"]))
+check(legacyRelease.url.absoluteString.hasPrefix(UpdateRelease.repository + "/"), "legacy feed resolves to renamed repository")
+rejected("wrong repo under same owner") { _ = try UpdateRelease.parse(manifest(assetEdits: ["browser_download_url": "https://github.com/Ezcho/unrelated/releases/download/v1.0.10/pika-1.0.10.pkg"])) }
 for value in ["1.0", "1.0.1-beta", "01.0.1", "1.-1.0", "1.0.9999999999", "1.0.$(id)", "1.０.1", "v1.0.1", "1.0.1\n"] {
     check(UpdateVersion(value) == nil, "invalid version: \(value.debugDescription)")
 }

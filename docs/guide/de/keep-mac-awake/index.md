@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika unterstützt macOS 13 oder neuer, Apple Silicon und Intel. Das vollständige offizielle PKG installiert App und Administrator-Hilfsdienst. macOS-Authentifizierung und erforderliche Freigaben selbst abschließen. /Applications/pika.app öffnen, Dienstverbindung prüfen, Session einschalten, bei Bedarf Monitor OFF wählen und Deckel schließen. Schlafverhinderung wird vorher vorbereitet, Displaysteuerung danach angewendet. Bei offenem Deckel speichert Monitor nur die Wahl. Session OFF stellt die verwaltete Einstellung wieder her, ohne sofort das Display auszuschalten. Das Schließen des Fensters beendet die App nicht.
 
-[pika herunterladen · 1.0.13](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pika herunterladen · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 [Installationshilfe](https://no-sleep-pika.online/install/)
 
@@ -75,7 +75,7 @@ man caffeinate
 
 Eine Sperre ist nicht zwingend Schlaf. WLAN, VPN, API-Limits, wartende Freigaben oder App-Fehler können Arbeit unterbrechen. pika führt KI-Gespräche nicht weiter und repariert keine Verbindung. Ein laufender Mac gehört auf eine feste, belüftete Fläche, nicht in eine Tasche. Akku- oder Wärmeschutz sowie Dienstfehler können die Sitzung beenden; vollständiger Schutz vor Überhitzung oder Entladung wird nicht garantiert.
 
-## Quellen und Geltungsbereich
+Quellen und Geltungsbereich
 
 Vergleich vom Entwickler von no-sleep-pika mit eigener App. Grundlage sind Apple-Dokumente, das macOS-Handbuch caffeinate(8) und pika 1.0.13. Keine Empfehlung durch Apple oder KI-Anbieter. Nur so lange wach halten, wie die Aufgabe es benötigt.
 
@@ -87,6 +87,8 @@ Vergleich vom Entwickler von no-sleep-pika mit eigener App. Grundlage sind Apple
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Mac gesperrt: Arbeiten Claude Code und Codex weiter? →](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/)
+
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook mit geschlossenem Deckel →](https://no-sleep-pika.online/guide/de/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/de/keep-mac-awake/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook mit geschlossenem Deckel →](https://no-sleep-pika.online/guide/de/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/de/keep-mac-awake/index.md)

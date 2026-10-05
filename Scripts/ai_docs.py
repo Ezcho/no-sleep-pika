@@ -92,6 +92,7 @@ class Markdown(HTMLParser):
         chunks = ''.join(self.parts).split('```')
         for i in range(0, len(chunks), 2):
             chunks[i] = re.sub(r'\n[ \t]+', '\n', chunks[i])
+            chunks[i] = re.sub(r'[ \t]+\n', '\n', chunks[i])
             chunks[i] = re.sub(r'\n{3,}', '\n\n', chunks[i])
         body = '```'.join(chunks).strip()
         return f'Source: {self.url}\nLanguage: {self.language}\n\n{body}\n'
@@ -133,7 +134,7 @@ Markdown pages below are generated from the same HTML as the public website. The
     index += ''.join(f'- [{d.title} ({d.language})]({u})\n' for d, u in preferred)
     index += '\n## All localized pages and articles\n\n'
     index += ''.join(f'- [{d.title} ({d.language})]({u})\n' for d, u in records)
-    index += f'\n## Optional\n\n- [Complete text collection]({base}/llms-full.txt): All published languages; use individual pages for smaller context.\n- [Source code and MCP reference](https://github.com/Ezcho/always-awake-mac#readme)\n- [Published releases](https://github.com/Ezcho/always-awake-mac/releases)\n'
+    index += f'\n## Optional\n\n- [Complete text collection]({base}/llms-full.txt): All published languages; use individual pages for smaller context.\n- [Source code and MCP reference](https://github.com/Ezcho/no-sleep-pika#readme)\n- [Published releases](https://github.com/Ezcho/no-sleep-pika/releases)\n'
     (out / 'llms.txt').write_text(index, encoding='utf-8')
     (out / 'llms-full.txt').write_text(header + '\n\n' + '\n\n---\n\n'.join(d.text() for d, _ in records), encoding='utf-8')
     return len(records)

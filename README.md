@@ -4,7 +4,7 @@
 
 macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입니다. Swift / AppKit으로 만들었으며 외부 패키지나 서버 없이 실행됩니다.
 
-[다운로드 페이지](https://no-sleep-pika.online/) · [공개 릴리스](https://github.com/Ezcho/always-awake-mac/releases/tag/v1.0.13)
+[다운로드 페이지](https://no-sleep-pika.online/) · [공개 릴리스](https://github.com/Ezcho/no-sleep-pika/releases/tag/v1.0.13)
 
 웹페이지의 다운로드 수는 공개 GitHub Release의 DMG·ZIP·설치 PKG 다운로드 합계입니다. 제거 패키지와 체크섬 파일은 제외합니다. 고유 사용자 수나 설치 성공 횟수는 아닙니다. 브라우저는 공개 API에서 갱신하고 1시간 캐시합니다. API 연결 실패 시 마지막 집계값을 유지하며, 표시값에 마우스를 올리면 집계 시각을 볼 수 있습니다. 배포용 기본 집계는 `python3 Scripts/update-downloads.py` 후 `python3 Scripts/build-site.py`로 갱신합니다.
 
@@ -173,14 +173,14 @@ command = "/Applications/pika.app/Contents/MacOS/pika-mcp"
 ## 홈페이지 방문 집계와 애니메이션
 
 - 홈페이지는 `Scripts/pika_motion.py`에서 같은 원본을 공유하는 16방향 시선·상체 자세를 만듭니다. 마우스가 움직이는 동안 손을 쉬고, 방향 전환은 최대 12Hz로 중간 자세를 순서대로 거칩니다. 350ms 동안 마우스 움직임이 없으면 약 83ms의 중간 복귀 자세를 거쳐 타이핑을 재개합니다. 고개·상체는 작은 범위로 기울며 노트북과 발 위치는 변형 가중치를 0으로 유지합니다. 유휴 폴링은 없고, 동작 줄이기·터치 입력에서는 시선을 추적하지 않으며 숨긴 탭에서는 타이핑도 멈춥니다. 원본 래스터 그림은 변경하지 않았습니다.
-- Google Analytics 4로 방문·신규 사용자·유입 경로를 집계합니다. 측정 ID는 `docs/analytics.json`의 `measurementId`에 저장하며, `docs/ga.js`를 모든 49개 페이지에 공통으로 삽입합니다. 로컬 미리보기, GPC 활성 브라우저, 언어 자동 이동 직전의 중간 페이지는 제외합니다.
+- Google Analytics 4로 방문·신규 사용자·유입 경로를 집계합니다. 측정 ID는 `docs/analytics.json`의 `measurementId`에 저장하며, `docs/ga.js`를 모든 64개 페이지에 공통으로 삽입합니다. 로컬 미리보기, GPC 활성 브라우저, 언어 자동 이동 직전의 중간 페이지는 제외합니다.
 - GitHub 설치 파일 링크 클릭은 `pika_download_click` 이벤트로 기록합니다. 이는 다운로드 완료나 설치 사용자 수가 아니며 GitHub 릴리스 다운로드 횟수와 별개입니다. Google signals 및 광고 개인화 신호는 사용하지 않습니다.
 - 통계는 소유자의 GA 대시보드에서 확인합니다. GA는 사이트에 공개할 누적 카운터 API를 제공하지 않으므로 기존 눈 아이콘은 `—`로 유지합니다. GoatCounter는 연결하지 않았으며 요청을 보내지 않습니다. GA 비밀키나 계정 인증 정보를 홈페이지에 넣지 않습니다.
 - 집계는 태그 배포 이후부터 시작하며 과거 방문을 복원하지 않습니다. 광고 차단·사용자 설정 등에 따라 실제 방문과 차이가 날 수 있습니다.
 
 ## 업데이트 정보 배포
 
-PKG를 GitHub 정식 릴리스로 공개한 뒤 `gh api repos/Ezcho/always-awake-mac/releases/tags/vVERSION > .build/release.json`으로 공개 정보를 가져옵니다. `python3 Scripts/publish-update-feed.py --release-json .build/release.json --package dist/pika-VERSION.pkg`가 원격 자산의 크기·SHA256과 로컬 파일을 검증한 후 `docs/updates/latest.json`과 버전 고정 JSON을 생성합니다. 웹 버전·다운로드 링크와 함께 커밋하고 Pages를 배포합니다. 미공개 릴리스, 같은 버전 파일 교체, latest 다운그레이드는 거절합니다. API 토큰은 앱이나 사이트에 포함하지 않습니다.
+PKG를 GitHub 정식 릴리스로 공개한 뒤 `gh api repos/Ezcho/no-sleep-pika/releases/tags/vVERSION > .build/release.json`으로 공개 정보를 가져옵니다. `python3 Scripts/publish-update-feed.py --release-json .build/release.json --package dist/pika-VERSION.pkg`가 원격 자산의 크기·SHA256과 로컬 파일을 검증한 후 `docs/updates/latest.json`과 버전 고정 JSON을 생성합니다. 웹 버전·다운로드 링크와 함께 커밋하고 Pages를 배포합니다. 미공개 릴리스, 같은 버전 파일 교체, latest 다운그레이드는 거절합니다. API 토큰은 앱이나 사이트에 포함하지 않습니다.
 
 ## 저장소 관리
 
@@ -202,3 +202,9 @@ PKG를 GitHub 정식 릴리스로 공개한 뒤 `gh api repos/Ezcho/always-awake
 ## 잠자기 방지 방법 비교 글
 
 [Mac에서 맥을 잠들지 않게 하는 방법](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)은 전원·클램쉘, caffeinate, pika를 비교합니다. `Scripts/keep_awake_locales.py`에서 15개 언어 원문을 관리하고 `Scripts/keep_awake_article.py`에서 생성합니다. 공개일은 2026-10-02이며 사이트맵·hreflang·Markdown·AI 문서 목록에 함께 포함됩니다. 검색엔진의 최종 색인과 순위는 발행만으로 보장되지 않습니다.
+
+### 저장소 이름 변경 (2026-10-05)
+
+저장소는 `Ezcho/no-sleep-pika`입니다. 기존 설치 앱의 엄격한 URL 검증을 위해 정적 업데이트 피드에는 이전 저장소의 다운로드 주소를 유지합니다. GitHub가 새 저장소로 리디렉션하므로 이전 이름으로 새 저장소를 만들지 마세요. 게시 도구는 새 저장소의 자산과 해시를 검증한 뒤 호환 피드를 생성합니다. 새 앱 소스는 두 공식 경로를 허용합니다. 이번 웹 배포에는 새 앱 릴리스가 포함되지 않습니다.
+
+새 글: [맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까?](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/) — 15개 언어, 참고 자료는 기본 접힘.

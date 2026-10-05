@@ -25,7 +25,8 @@ class FeedTests(unittest.TestCase):
             'size': self.package.stat().st_size}]}
 
     def test_published_matching_package(self):
-        feed.publish(self.release, self.package, self.output)
+        manifest = feed.publish(self.release, self.package, self.output)
+        self.assertTrue(manifest["assets"][0]["browser_download_url"].startswith(feed.LEGACY_REPO + "/"))
         self.assertEqual((self.output / 'latest.json').read_bytes(), (self.output / 'v1.0.12.json').read_bytes())
         feed.publish(self.release, self.package, self.output)  # identical is idempotent
 

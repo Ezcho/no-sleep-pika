@@ -25,7 +25,7 @@
       if (!anchor) return;
       const url = new URL(anchor.href, location.origin);
       if (url.hostname !== 'github.com' ||
-          !url.pathname.startsWith('/Ezcho/always-awake-mac/releases/download/') ||
+          !url.pathname.startsWith('/Ezcho/no-sleep-pika/releases/download/') ||
           !/\.(pkg|dmg|zip)$/i.test(url.pathname)) return;
       window.gtag('event', 'pika_download_click', {
         file_name: url.pathname.split('/').pop(),

@@ -29,7 +29,7 @@ PKG→
 
 pika→
 
-● ● ●**pika**Session Monitor 
+● ● ●**pika**Session Monitor
 
 ## pika 실행
 
@@ -39,7 +39,7 @@ PKG나 pika 실행 시 개발자를 확인하거나 앱을 검증할 수 없다�
 
 “컴퓨터를 손상시킵니다” 또는 “앱이 손상되었습니다”라는 경고는 다릅니다. 이 경우 진행하지 말고 다운로드를 확인하세요.
 
-[Apple 공식 앱 실행 안내 ↗](https://support.apple.com/ko-kr/102445) 
+[Apple 공식 앱 실행 안내 ↗](https://support.apple.com/ko-kr/102445)
 
 ## 앱은 열렸는데 Session이 시작되지 않나요?
 

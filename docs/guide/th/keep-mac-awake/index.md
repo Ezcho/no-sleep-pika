@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika รองรับ macOS 13 ขึ้นไป Apple Silicon และ Intel PKG ทางการแบบเต็มติดตั้งแอปและบริการช่วยเหลือระดับผู้ดูแล ยืนยันตัวตนและอนุญาตใน macOS ด้วยตนเอง เปิด /Applications/pika.app ตรวจสอบบริการ เปิด Session เลือก Monitor OFF หากต้องการแล้วปิดฝา ระบบเตรียมป้องกันพักก่อนปิดฝา และใช้การควบคุมหน้าจอหลังปิด ขณะเปิดฝา Monitor แค่บันทึกตัวเลือก Session OFF คืนค่าที่จัดการโดยไม่ดับหน้าจอทันที การปิดหน้าต่างไม่ใช่การออกจากแอป
 
-[ดาวน์โหลด pika · 1.0.13](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)
+[ดาวน์โหลด pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
@@ -75,7 +75,7 @@ man caffeinate
 
 การล็อกไม่ได้แปลว่าพักเสมอ ปัญหา Wi-Fi, VPN, ขีดจำกัด API, รออนุมัติหรือแอปผิดพลาดยังหยุดงานได้ pika ไม่สนทนา AI ต่อหรือซ่อมเครือข่าย วาง Mac ที่ทำงานบนพื้นแข็งอากาศถ่ายเท ไม่ใส่กระเป๋า การป้องกันแบตเตอรี่ ความร้อนหรือบริการขัดข้องอาจจบเซสชัน และไม่รับประกันป้องกันความร้อนหรือแบตหมดทุกกรณี
 
-## แหล่งข้อมูลและขอบเขต
+แหล่งข้อมูลและขอบเขต
 
 เขียนโดยผู้พัฒนา no-sleep-pika และรวมแอปของตนเอง อ้างอิง Apple คู่มือ macOS caffeinate(8) และเอกสารกับการทำงานของ pika 1.0.13 ไม่ใช่การรับรองจาก Apple หรือผู้ให้บริการ AI เปิดใช้งานเฉพาะช่วงที่จำเป็น
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[ล็อก Mac แล้ว Claude Code และ Codex ยังทำงานต่อหรือไม่? →](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/)
+
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)[คู่มือปิดฝา MacBook →](https://no-sleep-pika.online/guide/th/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[คู่มือปิดฝา MacBook →](https://no-sleep-pika.online/guide/th/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)

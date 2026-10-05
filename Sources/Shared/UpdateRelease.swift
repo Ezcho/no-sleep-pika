@@ -23,7 +23,8 @@ struct UpdateRelease: Equatable {
     let url: URL
     let sha256: String
     let size: Int
-    static let repository = "https://github.com/Ezcho/always-awake-mac"
+    static let repository = "https://github.com/Ezcho/no-sleep-pika"
+    static let legacyRepository = "https://github.com/Ezcho/always-awake-mac"
 
     private struct Manifest: Decodable {
         struct Asset: Decodable { let name: String; let browser_download_url: String; let digest: String?; let size: Int }
@@ -43,8 +44,9 @@ struct UpdateRelease: Equatable {
         guard UpdateVersion(version) != nil else { throw UpdateError("업데이트 버전을 확인하지 못했습니다.") }
         let filename = "pika-\(version).pkg"
         let expected = "\(repository)/releases/download/v\(version)/\(filename)"
+        let legacyExpected = "\(legacyRepository)/releases/download/v\(version)/\(filename)"
         let matches = release.assets.filter { $0.name == filename }
-        guard matches.count == 1, let asset = matches.first, asset.browser_download_url == expected,
+        guard matches.count == 1, let asset = matches.first, [expected, legacyExpected].contains(asset.browser_download_url),
               asset.size > 0, asset.size < 50_000_000,
               let digest = asset.digest, digest.hasPrefix("sha256:") else {
             throw UpdateError("공식 업데이트 파일을 확인하지 못했습니다.")

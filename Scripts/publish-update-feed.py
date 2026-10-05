@@ -2,7 +2,7 @@
 """Create static updater metadata only from a published release and verified local PKG.
 
 After publishing immutable assets:
-  gh api repos/Ezcho/always-awake-mac/releases/tags/vVERSION > .build/release.json
+  gh api repos/Ezcho/no-sleep-pika/releases/tags/vVERSION > .build/release.json
   python3 Scripts/publish-update-feed.py --release-json .build/release.json --package dist/pika-VERSION.pkg
 Then commit docs/updates and deploy GitHub Pages. Never put a GitHub token in the feed.
 """
@@ -12,7 +12,9 @@ import json
 from pathlib import Path
 import re
 
-REPO = 'https://github.com/Ezcho/always-awake-mac'
+REPO = 'https://github.com/Ezcho/no-sleep-pika'
+# Installed 1.0.13 validates this exact legacy path; GitHub redirects it.
+LEGACY_REPO = 'https://github.com/Ezcho/always-awake-mac'
 VERSION = re.compile(r'(0|[1-9][0-9]{0,5})\.(0|[1-9][0-9]{0,5})\.(0|[1-9][0-9]{0,5})')
 
 
@@ -34,7 +36,7 @@ def publish(release, package, output, latest=True):
     if asset.get('browser_download_url') != url or asset.get('digest') != digest or asset.get('size') != len(data) or not 0 < len(data) < 50_000_000:
         raise ValueError('Published asset URL, size and SHA256 must match the local PKG')
     manifest = {'tag_name': tag, 'draft': False, 'prerelease': False,
-                'assets': [{'name': name, 'browser_download_url': url, 'digest': digest, 'size': len(data)}]}
+                'assets': [{'name': name, 'browser_download_url': f'{LEGACY_REPO}/releases/download/{tag}/{name}', 'digest': digest, 'size': len(data)}]}
     serialized = json.dumps(manifest, indent=2) + '\n'
     pinned = output / f'{tag}.json'
     if pinned.exists() and json.loads(pinned.read_text()) != manifest:

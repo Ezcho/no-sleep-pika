@@ -55,7 +55,7 @@ caffeinate -i make
 
 يدعم pika نظام macOS 13 والأحدث وApple Silicon وIntel. ثبّت حزمة PKG الرسمية الكاملة التي تشمل التطبيق والخدمة المساعدة بصلاحيات المسؤول. أكمل المصادقة والموافقات بنفسك. افتح /Applications/pika.app وتحقق من الخدمة، ثم فعّل Session واختر Monitor OFF عند الحاجة وأغلق الغطاء. يُجهّز منع السكون مسبقًا وتُطبق سياسة الشاشة بعد الإغلاق. مع الغطاء المفتوح يُحفظ اختيار Monitor فقط. يعيد Session OFF الإعداد المُدار دون إطفاء الشاشة فورًا. إغلاق النافذة لا يُنهي التطبيق.
 
-[تنزيل pika · 1.0.13](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)
+[تنزيل pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
@@ -75,7 +75,7 @@ man caffeinate
 
 القفل وحده لا يعني السكون. قد توقف المهمة مشكلات Wi-Fi وVPN وحدود API وانتظار الموافقات وأخطاء التطبيق. لا يكمل pika محادثات الذكاء الاصطناعي ولا يصلح الشبكة. ضع Mac العامل على سطح صلب وجيد التهوية، لا داخل حقيبة. قد تنهي حماية البطارية والحرارة أو أعطال الخدمة الجلسة، ولا تضمن منع كل سخونة أو نفاد للطاقة.
 
-## المصادر والنطاق
+المصادر والنطاق
 
 كتب مطور no-sleep-pika هذه المقارنة التي تتضمن تطبيقه. تستند إلى Apple ودليل macOS caffeinate(8) ووثائق وتنفيذ pika 1.0.13. لا تعني توصية من Apple أو مزودي الذكاء الاصطناعي. أبقِ الجلسة فقط للوقت اللازم.
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[هل يواصل Claude Code وCodex العمل عند قفل Mac؟ →](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/)
+
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)[دليل MacBook بالغطاء المغلق →](https://no-sleep-pika.online/guide/ar/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[دليل MacBook بالغطاء المغلق →](https://no-sleep-pika.online/guide/ar/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)

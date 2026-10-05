@@ -3,7 +3,7 @@
   'use strict';
   const node = document.getElementById('download-count');
   if (!node) return;
-  const api = 'https://api.github.com/repos/Ezcho/always-awake-mac';
+  const api = 'https://api.github.com/repos/Ezcho/no-sleep-pika';
   const cacheKey = 'pika-downloads-v1';
   const valid = value => value && Number.isSafeInteger(value.total) && value.total >= 0 &&
     Number.isFinite(Date.parse(value.updatedAt));

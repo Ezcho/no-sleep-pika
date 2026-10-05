@@ -7,7 +7,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-API = 'https://api.github.com/repos/Ezcho/always-awake-mac'
+API = 'https://api.github.com/repos/Ezcho/no-sleep-pika'
 
 def get_pages(endpoint):
     items = []

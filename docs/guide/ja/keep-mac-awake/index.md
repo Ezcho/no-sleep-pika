@@ -55,7 +55,7 @@ caffeinate -i make
 
 pikaはmacOS 13以降のApple SiliconとIntelに対応します。公式サイトの統合PKGでアプリと管理者補助サービスをインストールし、macOSの認証や必要な承認を完了します。/Applications/pika.appを開き、補助サービス接続を確認。Session ON、必要ならMonitor OFFを選び、ふたを閉じます。スリープ防止は事前に準備され、画面制御は閉じてから適用されます。開いた状態でMonitorを変更しても即座に消灯しません。Session OFFで管理した設定を復元します。ウィンドウを閉じてもアプリは終了しません。
 
-[pikaをダウンロード · 1.0.13](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pikaをダウンロード · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
 
 [インストール案内](https://no-sleep-pika.online/install/)
 
@@ -75,7 +75,7 @@ man caffeinate
 
 ロックだけで処理停止とは判断できません。通信障害、VPN、API制限、承認待ち、アプリの停止は別問題で、pikaはAI会話や通信の復旧を代行しません。動作中は通気のよい硬い面に置き、バッグに入れないでください。電池・熱の保護や補助サービス障害でSessionが終了する場合があり、すべての過熱や放電を防げる保証はありません。
 
-## 参考資料と対象範囲
+参考資料と対象範囲
 
 no-sleep-pikaの開発者による自社製品を含む比較です。Appleの資料とMacに付属するcaffeinate(8)マニュアルを参考にし、pikaは公開版1.0.13の仕様を説明しています。AppleやAI提供企業による推薦ではありません。必要な時間だけ使い、終了後は通常の状態に戻しましょう。
 
@@ -87,6 +87,8 @@ no-sleep-pikaの開発者による自社製品を含む比較です。Appleの�
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[MacをロックしてもClaude Code・Codexは動き続ける？ →](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/)
+
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/always-awake-mac/releases/download/v1.0.13/pika-1.0.13.pkg)[ふたを閉じたMacBookのガイド →](https://no-sleep-pika.online/guide/ja/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ja/keep-mac-awake/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[ふたを閉じたMacBookのガイド →](https://no-sleep-pika.online/guide/ja/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ja/keep-mac-awake/index.md)
