@@ -59,6 +59,10 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
+
+[ดาวน์โหลดบน MacBook หยุด: ปิดจอ พักเครื่อง หรือปิดฝา? →](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/)
+
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
 [ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)

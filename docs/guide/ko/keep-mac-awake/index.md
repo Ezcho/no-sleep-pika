@@ -109,6 +109,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
+
+[맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기 →](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/)
+
 [맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까? →](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/)
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.

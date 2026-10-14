@@ -109,6 +109,10 @@ Use clamshell mode for an external-screen workstation, caffeinate for temporary 
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
+
+[MacBook downloads stop: screen off, sleep or a closed lid? →](https://no-sleep-pika.online/guide/macbook-downloads-stop/)
+
 [Mac locked: will Claude Code and Codex keep working? →](https://no-sleep-pika.online/guide/mac-locked-ai-running/)
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.

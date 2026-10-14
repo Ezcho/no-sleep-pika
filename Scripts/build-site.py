@@ -13,6 +13,9 @@ from keep_awake_article import build as build_keep_awake, UPDATED as KEEP_UPDATE
 
 from locked_ai_article import build as build_locked_ai, UPDATED as LOCK_UPDATED, PATHS as LOCK_PATHS, COPY as LOCK_COPY
 
+from energy_article import build as build_energy_article, UPDATED as ENERGY_UPDATED, PATHS as ENERGY_PATHS, COPY as ENERGY_COPY
+from download_article import build as build_download_article, UPDATED as DOWNLOAD_UPDATED, PATHS as DOWNLOAD_PATHS, COPY as DOWNLOAD_COPY
+
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'docs'
 BASE = 'https://no-sleep-pika.online'
@@ -940,6 +943,20 @@ def main():
     article_urls = build_article(OUT, BASE, REPO)
     keep_urls = build_keep_awake(OUT, BASE, REPO, RELEASE)
     lock_urls = build_locked_ai(OUT, BASE, REPO, RELEASE)
+    download_urls = build_download_article(OUT, BASE, REPO, RELEASE)
+    energy_urls = build_energy_article(OUT, BASE, REPO, RELEASE)
+    for collection in (KEEP_PATHS, LOCK_PATHS, DOWNLOAD_PATHS):
+        for locale, path in collection.items():
+            page = OUT / path.strip('/') / 'index.html'
+            content = page.read_text(encoding='utf-8')
+            related = f'<p><a href="{ENERGY_PATHS[locale]}">{html.escape(ENERGY_COPY[locale]["title"])} →</a></p>'
+            page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
+    for collection in (KEEP_PATHS, LOCK_PATHS):
+        for locale, path in collection.items():
+            page = OUT / path.strip("/") / "index.html"
+            content = page.read_text(encoding="utf-8")
+            related = f'<p><a href="{DOWNLOAD_PATHS[locale]}">{html.escape(DOWNLOAD_COPY[locale]["title"])} →</a></p>'
+            page.write_text(content.replace("</article>", related + "</article>"), encoding="utf-8")
     for locale, path in KEEP_PATHS.items():
         page = OUT / path.strip("/") / "index.html"
         content = page.read_text(encoding="utf-8")
@@ -952,12 +969,12 @@ def main():
         related = f'<p><a href="{KEEP_PATHS[locale]}">{html.escape(KEEP_COPY[locale]["title"])} →</a></p>'
         page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
     # Apply the same analytics loader to every generated language and guide.
-    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls:
+    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls + download_urls + energy_urls:
         page = OUT / url.removeprefix(BASE).lstrip('/') / 'index.html'
         content = page.read_text(encoding='utf-8')
         content = content.replace('</head>', '<script src="/ga.js" defer></script></head>')
         page.write_text(content, encoding='utf-8')
-    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS))):
+    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS)), (download_urls, DOWNLOAD_UPDATED, tuple(DOWNLOAD_PATHS)), (energy_urls, ENERGY_UPDATED, tuple(ENERGY_PATHS))):
         alternates = ''.join(f'<xhtml:link rel="alternate" hreflang="{language}" href="{url}"/>' for language, url in zip(languages, urls))
         alternates += f'<xhtml:link rel="alternate" hreflang="x-default" href="{urls[0]}"/>'
         entries += ''.join(f'<url><loc>{url}</loc><lastmod>{updated}</lastmod>{alternates}</url>' for url in urls)
@@ -969,7 +986,7 @@ def main():
             robots.write(f'\nUser-agent: {agent}\nAllow: /\n')
     build_ai_docs(OUT, BASE)
     (OUT / '.nojekyll').touch()
-    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 45 articles, sitemap.xml and robots.txt.')
+    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 75 articles, sitemap.xml and robots.txt.')
 
 if __name__ == '__main__':
     main()

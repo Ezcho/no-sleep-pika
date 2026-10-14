@@ -59,6 +59,10 @@ Monitor OFF 不會下令結束 AI 工作。tmux 不會防止系統睡眠；caffe
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[讓 AI 加班一整晚，電費誰來付？ →](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/)
+
+[MacBook 下載停止：關閉螢幕、睡眠與闔蓋有何不同？ →](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/)
+
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
 [下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)

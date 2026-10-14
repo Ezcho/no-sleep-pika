@@ -59,6 +59,10 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
+
+[توقف التنزيل على MacBook: الشاشة أم السكون أم الغطاء؟ →](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/)
+
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
 [تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)

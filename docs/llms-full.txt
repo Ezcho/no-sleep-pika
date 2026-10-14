@@ -2548,6 +2548,10 @@ Use clamshell mode for an external-screen workstation, caffeinate for temporary 
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
+
+[MacBook downloads stop: screen off, sleep or a closed lid? →](https://no-sleep-pika.online/guide/macbook-downloads-stop/)
+
 [Mac locked: will Claude Code and Codex keep working? →](https://no-sleep-pika.online/guide/mac-locked-ai-running/)
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
@@ -2668,6 +2672,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
+
+[맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기 →](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/)
+
 [맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까? →](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/)
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
@@ -2765,6 +2773,10 @@ man caffeinate
 - [Apple: Allow USB and other accessories](https://support.apple.com/en-us/102282)
 
 - `man caffeinate` · macOS System Manager’s Manual
+
+[让 AI 加班一整晚，电费谁来付？ →](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/)
+
+[MacBook 下载停止：关屏、睡眠和合盖有什么不同？ →](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/)
 
 [Mac 锁屏后，Claude Code 和 Codex 还会继续工作吗？ →](https://no-sleep-pika.online/guide/zh-CN/mac-locked-ai-running/)
 
@@ -2864,6 +2876,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[讓 AI 加班一整晚，電費誰來付？ →](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/)
+
+[MacBook 下載停止：關閉螢幕、睡眠與闔蓋有何不同？ →](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/)
+
 [Mac 鎖定螢幕後，Claude Code 與 Codex 還會繼續工作嗎？ →](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/)
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
@@ -2961,6 +2977,10 @@ no-sleep-pikaの開発者による自社製品を含む比較です。Appleの�
 - [Apple: Allow USB and other accessories](https://support.apple.com/en-us/102282)
 
 - `man caffeinate` · macOS System Manager’s Manual
+
+[AIに夜勤を頼むと、電気代は誰が払う？ →](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/)
+
+[MacBookのダウンロードが止まる原因：画面オフ・スリープ・ふたの違い →](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/)
 
 [MacをロックしてもClaude Code・Codexは動き続ける？ →](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/)
 
@@ -3060,6 +3080,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
+
+[MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन? →](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/)
+
 [Mac लॉक होने पर क्या Claude Code और Codex काम करते रहते हैं? →](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/)
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
@@ -3157,6 +3181,10 @@ Ditulis oleh pembuat no-sleep-pika dan mencakup aplikasi sendiri. Berdasarkan do
 - [Apple: Allow USB and other accessories](https://support.apple.com/en-us/102282)
 
 - `man caffeinate` · macOS System Manager’s Manual
+
+[Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
+
+[Unduhan MacBook berhenti: layar mati, tidur, atau penutup? →](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/)
 
 [Mac terkunci: apakah Claude Code dan Codex tetap bekerja? →](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/)
 
@@ -3256,6 +3284,10 @@ Comparación del creador de no-sleep-pika que incluye su propia app. Las fuentes
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Si la IA trabaja de noche, ¿quién paga la electricidad? →](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/)
+
+[Descargas detenidas en MacBook: pantalla, reposo y tapa →](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/)
+
 [Mac bloqueado: ¿siguen trabajando Claude Code y Codex? →](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/)
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
@@ -3353,6 +3385,10 @@ Comparaison rédigée par le créateur de no-sleep-pika, incluant sa propre app.
 - [Apple: Allow USB and other accessories](https://support.apple.com/en-us/102282)
 
 - `man caffeinate` · macOS System Manager’s Manual
+
+[Quand l’IA travaille la nuit, qui paie l’électricité ? →](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/)
+
+[Téléchargement arrêté sur MacBook : écran, veille et couvercle →](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/)
 
 [Mac verrouillé : Claude Code et Codex continuent-ils à travailler ? →](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/)
 
@@ -3452,6 +3488,10 @@ Vergleich vom Entwickler von no-sleep-pika mit eigener App. Grundlage sind Apple
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Wenn die KI nachts arbeitet: Wer zahlt den Strom? →](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/)
+
+[MacBook-Download stoppt: Display, Ruhezustand oder Deckel? →](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/)
+
 [Mac gesperrt: Arbeiten Claude Code und Codex weiter? →](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/)
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
@@ -3549,6 +3589,10 @@ Comparação escrita pelo criador de no-sleep-pika, incluindo seu próprio app. 
 - [Apple: Allow USB and other accessories](https://support.apple.com/en-us/102282)
 
 - `man caffeinate` · macOS System Manager’s Manual
+
+[Se a IA trabalha à noite, quem paga a eletricidade? →](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/)
+
+[Download parado no MacBook: tela, repouso ou tampa? →](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/)
 
 [Mac bloqueado: Claude Code e Codex continuam trabalhando? →](https://no-sleep-pika.online/guide/pt-BR/mac-locked-ai-running/)
 
@@ -3648,6 +3692,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Если ИИ работает ночью, кто платит за электричество? →](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/)
+
+[Загрузка на MacBook остановилась: экран, сон или крышка? →](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/)
+
 [Mac заблокирован: продолжат ли работу Claude Code и Codex? →](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/)
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
@@ -3745,6 +3793,10 @@ man caffeinate
 - [Apple: Allow USB and other accessories](https://support.apple.com/en-us/102282)
 
 - `man caffeinate` · macOS System Manager’s Manual
+
+[إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
+
+[توقف التنزيل على MacBook: الشاشة أم السكون أم الغطاء؟ →](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/)
 
 [هل يواصل Claude Code وCodex العمل عند قفل Mac؟ →](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/)
 
@@ -3844,6 +3896,10 @@ Bài so sánh do nhà phát triển no-sleep-pika viết, gồm ứng dụng c�
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
+
+[Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp? →](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/)
+
 [Mac đã khóa: Claude Code và Codex có tiếp tục chạy không? →](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/)
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
@@ -3942,6 +3998,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
+
+[ดาวน์โหลดบน MacBook หยุด: ปิดจอ พักเครื่อง หรือปิดฝา? →](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/)
+
 [ล็อก Mac แล้ว Claude Code และ Codex ยังทำงานต่อหรือไม่? →](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/)
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
@@ -4023,6 +4083,10 @@ Checked against official documentation and current pika source on October 5, 202
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
+
+[MacBook downloads stop: screen off, sleep or a closed lid? →](https://no-sleep-pika.online/guide/macbook-downloads-stop/)
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
@@ -4116,6 +4180,10 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
+
+[맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기 →](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/)
+
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
 [pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)
@@ -4183,6 +4251,10 @@ Monitor OFF 不是结束 AI 任务。tmux 不阻止系统睡眠；caffeinate 不
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[让 AI 加班一整晚，电费谁来付？ →](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/)
+
+[MacBook 下载停止：关屏、睡眠和合盖有什么不同？ →](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/)
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
@@ -4252,6 +4324,10 @@ Monitor OFF 不會下令結束 AI 工作。tmux 不會防止系統睡眠；caffe
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[讓 AI 加班一整晚，電費誰來付？ →](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/)
+
+[MacBook 下載停止：關閉螢幕、睡眠與闔蓋有何不同？ →](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/)
+
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
 [下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)
@@ -4319,6 +4395,10 @@ Monitor OFFはAIの停止ではありません。tmuxはシステムのスリー
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[AIに夜勤を頼むと、電気代は誰が払う？ →](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/)
+
+[MacBookのダウンロードが止まる原因：画面オフ・スリープ・ふたの違い →](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/)
 
 pika開発者による、自社アプリを含む比較です。
 
@@ -4388,6 +4468,10 @@ Monitor OFF AI समाप्त करने का आदेश नहीं 
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
+
+[MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन? →](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/)
+
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
 [pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)
@@ -4455,6 +4539,10 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
+
+[Unduhan MacBook berhenti: layar mati, tidur, atau penutup? →](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/)
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
@@ -4524,6 +4612,10 @@ Documentación oficial e implementación de pika revisadas el 5 de octubre de 20
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Si la IA trabaja de noche, ¿quién paga la electricidad? →](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/)
+
+[Descargas detenidas en MacBook: pantalla, reposo y tapa →](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/)
+
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
 [Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)
@@ -4591,6 +4683,10 @@ Sources officielles et code pika consultés le 5 octobre 2026. Guide rédigé pa
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[Quand l’IA travaille la nuit, qui paie l’électricité ? →](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/)
+
+[Téléchargement arrêté sur MacBook : écran, veille et couvercle →](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/)
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
@@ -4660,6 +4756,10 @@ Offizielle Quellen und pika-Code geprüft am 5. Oktober 2026. Vom pika-Entwickle
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Wenn die KI nachts arbeitet: Wer zahlt den Strom? →](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/)
+
+[MacBook-Download stoppt: Display, Ruhezustand oder Deckel? →](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/)
+
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
 [pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)
@@ -4727,6 +4827,10 @@ Fontes oficiais e implementação verificadas em 5 de outubro de 2026. Guia do c
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[Se a IA trabalha à noite, quem paga a eletricidade? →](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/)
+
+[Download parado no MacBook: tela, repouso ou tampa? →](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/)
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
@@ -4796,6 +4900,10 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Если ИИ работает ночью, кто платит за электричество? →](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/)
+
+[Загрузка на MacBook остановилась: экран, сон или крышка? →](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/)
+
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
 [Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)
@@ -4863,6 +4971,10 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 - [OpenAI · Codex Cloud](https://learn.chatgpt.com/docs/cloud)
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
+
+[إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
+
+[توقف التنزيل على MacBook: الشاشة أم السكون أم الغطاء؟ →](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/)
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
@@ -4932,6 +5044,10 @@ Nguồn và phạm vi
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
+
+[Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp? →](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/)
+
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
 [Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)
@@ -5000,6 +5116,1804 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
+
+[ดาวน์โหลดบน MacBook หยุด: ปิดจอ พักเครื่อง หรือปิดฝา? →](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/)
+
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
 [ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/macbook-downloads-stop/
+Language: en
+
+MAC GUIDE · 2026-10-15
+
+# MacBook downloads stop: screen off, sleep or a closed lid?
+
+Find out why a Mac download pauses, when caffeinate helps, and what to check before downloading with the lid closed.
+
+## Identify when the transfer stops
+
+Read the download app’s last message first: paused transfer, network error, storage shortage or sign-in required. If it fails while you are actively using the Mac, check Wi-Fi, VPN, the server and free space before changing power settings. Expiring links and a closed download app are separate problems.
+
+If the failure consistently follows locking or closing the lid, note the timing and check power behavior. A dark screen alone does not identify the cause.
+
+## Screen off is not system sleep
+
+A display can be off while the system continues working. Locking does not itself prove a transfer stopped, but automatic system sleep can follow later. On supported Macs, Apple provides an option to prevent automatic sleep on power while the display is off. Keep password protection enabled.
+
+Wake for network access is not a general promise to keep arbitrary downloads running overnight; Apple describes brief wakeups for shared services.
+
+## Use caffeinate with the lid open
+
+The command below requests prevention of idle system sleep for one hour. Keep that terminal open and download in your usual app. Stop early with Ctrl+C. The -t value is in seconds; the assertion ends after the timeout.
+
+-i concerns idle system sleep; -d concerns display sleep and is unnecessary just to allow the screen to turn off. caffeinate does not resume failed downloads, guarantee connectivity, or override every sleep condition. Consult man caffeinate on your own Mac.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Closing the lid changes the conditions
+
+An open-lid test does not establish closed-lid behavior. For an external-display setup, check the Mac’s supported display configuration, power, external keyboard and mouse. A charger alone does not establish that configuration.
+
+Without an external screen, test a short noncritical transfer separately. Compare bytes received before and after closing the lid; finding the app still open is not proof of continuous progress.
+
+## Use pika for closed-lid downloads
+
+Install pika and prepare its helper. Start the download, turn Session ON, leave Monitor OFF if display retention is unnecessary, then close the lid. Open-lid toggles do not immediately blank the display; the display policy applies after lid closure.
+
+Reopen after a short interval and inspect progress. Turn Session OFF when finished; this releases sleep prevention without immediately blanking the screen. Use power on a ventilated desk, not inside a closed bag. Protection thresholds or helper failures may stop the session. pika does not handle download errors or detect transfer completion for you.
+
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+
+## Check completion and common questions
+
+Check that the download app reports completion and the saved file has the expected size. Verify a checksum if the publisher supplies one. Resume through the app’s supported workflow; an expired link may require returning to the original download page.
+
+Screen state does not guarantee faster transfer. Preventing sleep does not guarantee Wi-Fi, VPN or server availability. Start with a short test; these steps are not a claim of uninterrupted operation across all hardware and apps.
+
+Sources
+
+Checked October 11, 2026 against Apple documentation, the local caffeinate(8) manual and pika source. Written by the pika maker. Sources are linked below.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
+
+Written by the maker of no-sleep-pika; this comparison includes our own app.
+
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/
+Language: ko
+
+MAC GUIDE · 2026-10-15
+
+# 맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기
+
+대용량 파일을 받다가 Mac 다운로드가 멈췄나요? 네트워크·저장 공간부터 확인하고, caffeinate와 pika로 작업을 유지하는 방법을 알아봅니다.
+
+## 다운로드가 멈춘 시점부터 확인하기
+
+대용량 파일을 받기 시작하고 자리를 비웠는데, 돌아와 보니 진행률이 그대로인 경우가 있습니다. 먼저 다운로드 앱에서 ‘일시 정지’, ‘네트워크 오류’, ‘저장 공간 부족’, ‘로그인 필요’ 같은 메시지를 확인하세요. 화면이 어두워졌다는 사실만으로 절전이 원인이라고 단정할 수는 없습니다.
+
+덮개를 열어 놓고 사용 중인데도 전송이 끊긴다면 Wi-Fi·VPN, 다운로드 서버, 남은 저장 공간부터 점검하는 편이 빠릅니다. 특히 시간이 지나면 만료되는 다운로드 링크는 Mac을 깨워 두어도 실패할 수 있습니다. 받던 앱을 종료했거나 다운로드를 취소한 경우도 절전 방지로 복구되지 않습니다.
+
+반대로 화면을 잠그거나 덮개를 닫은 직후에만 반복해서 멈춘다면 전원 상태를 함께 확인하세요. ‘어느 시점에, 어떤 오류와 함께 멈췄는가’를 기록하면 설정을 여러 개 바꾸지 않고도 원인을 좁힐 수 있습니다.
+
+## 화면을 꺼도 다운로드는 계속될까?
+
+화면 꺼짐은 디스플레이 상태이고 시스템 잠자기는 컴퓨터의 실행 상태입니다. 화면이 꺼져 있거나 잠겨 있어도 Mac이 깨어 있고 다운로드 앱과 연결이 정상이라면 전송을 계속할 수 있습니다. 하지만 잠근 뒤 나중에 시스템이 자동 잠자기에 들어갈 수도 있으므로, 검은 화면만으로 진행 여부를 알 수 없습니다.
+
+전원을 연결하고 덮개를 열어 사용하는 경우, 지원되는 Mac에서는 시스템 설정의 배터리 → 옵션에 있는 ‘전원 어댑터 사용 시 디스플레이가 꺼져 있을 때 자동으로 잠자지 않게 하기’ 항목을 확인할 수 있습니다. 위치와 제공 여부는 모델과 macOS에 따라 달라집니다. 잠금 암호를 끄거나 디스플레이를 계속 밝게 유지할 필요는 없습니다.
+
+‘네트워크 접근 시 깨우기’는 임의의 다운로드를 밤새 계속 실행하는 설정과 같지 않습니다. Apple은 이를 공유 서비스 접근 등을 위한 짧은 깨우기로 설명합니다. 다운로드 작업의 진행 여부는 직접 확인해야 합니다.
+
+## 덮개를 열어 둔다면 caffeinate
+
+일회성 다운로드라면 macOS 기본 명령어 caffeinate로 일정 시간 동안 유휴 잠자기를 막도록 요청할 수 있습니다. 아래 명령은 1시간 동안 유휴 시스템 잠자기 방지 요청을 유지합니다. 명령을 실행한 터미널을 열어 두고 별도의 브라우저나 다운로드 앱에서 전송을 진행하세요. 미리 끝내려면 해당 터미널에서 Ctrl+C를 누릅니다.
+
+화면까지 계속 켜 두려는 목적이 아니라면 -d 옵션을 덧붙일 필요는 없습니다. caffeinate의 -i는 유휴 시스템 잠자기, -d는 디스플레이 잠자기와 관련된 옵션입니다. -t의 시간 단위는 초입니다. 1시간이 지나면 요청이 끝나므로 다운로드 예상 시간보다 너무 짧게 잡지 마세요.
+
+이 명령은 네트워크 재시도나 전송 재개를 해주는 다운로드 관리자가 아닙니다. 수동 잠자기, 덮개 닫힘, 전원 부족 등 모든 상황의 연속 실행을 보장하지도 않습니다. 실제 옵션 설명은 자신의 Mac에서 man caffeinate로 확인할 수 있습니다.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## 덮개를 닫으면 조건이 달라진다
+
+덮개를 연 상태에서 성공했다고 닫은 상태에서도 같다고 생각하면 안 됩니다. 외장 디스플레이로 일하는 클램쉘 구성은 전원과 외장 키보드·마우스, 해당 Mac이 지원하는 디스플레이 조건을 확인해야 합니다. 충전기만 연결한 상태를 완성된 클램쉘 구성으로 볼 수는 없습니다.
+
+외장 화면 없이 덮고 백그라운드 전송만 유지하려는 경우는 별도로 확인해야 합니다. 먼저 중요하지 않은 짧은 전송으로 테스트하고, 덮기 전 파일 크기나 받은 용량을 기록한 뒤 다시 열었을 때 늘었는지 비교하세요. 앱 창이 그대로 남아 있다는 것만으로 덮여 있던 동안 전송이 진행됐다고 판단하지 마세요.
+
+## pika로 덮고 다운로드 유지하기
+
+pika를 설치하고 보조 서비스가 준비된 상태에서 다운로드를 시작합니다. Session을 ON으로 준비하고, 화면 유지가 필요 없다면 Monitor는 OFF로 둔 다음 덮개를 닫으세요. 현재 pika는 덮개를 연 채 Session이나 Monitor를 변경했다는 이유만으로 화면을 즉시 끄는 방식이 아니며 화면 정책은 덮개를 닫은 뒤 적용합니다.
+
+몇 분 후 다시 열어 다운로드 앱의 받은 용량과 상태를 확인하세요. 완료 후에는 Session을 OFF로 돌립니다. Session OFF는 잠자기 방지를 해제하고 Monitor 표시도 OFF로 바꾸지만, 그 순간 화면을 즉시 끄는 명령은 아닙니다. pika가 다운로드 앱의 오류를 대신 처리하거나 전송 완료를 판단해 주는 것은 아닙니다.
+
+장시간 전송은 전원을 연결하고 통풍되는 책상 위에서 먼저 확인하세요. 배터리·열 보호나 보조 서비스 문제로 세션이 중단될 수 있습니다. 밀폐된 가방에 넣고 계속 실행하는 용도로 생각하지 마세요.
+
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+
+## 완료 확인과 자주 묻는 질문
+
+진행률이 100%로 보이는 것과 파일이 정상적으로 저장됐다는 것은 구분해서 확인하는 편이 좋습니다. 다운로드 앱이 완료로 표시하는지, 파일 크기가 예상과 맞는지, 제공자가 체크섬을 공개했다면 무결성이 맞는지 확인하세요. 실패한 전송은 해당 앱이 지원하는 재개 기능을 사용하고, 링크가 만료됐다면 원래 배포 페이지에서 다시 받아야 할 수 있습니다.
+
+‘모니터를 끄면 더 빨라지나요?’ 화면 상태만으로 다운로드 속도가 빨라진다고 볼 근거는 없습니다. 속도는 네트워크·서버·저장 장치 등의 영향을 받습니다. ‘pika를 켜면 Wi-Fi도 유지되나요?’ 잠자기 방지와 공유기·VPN·서버 연결 보장은 다릅니다.
+
+‘밤새 받아도 되나요?’ 먼저 짧은 테스트로 전원과 전송 상태를 확인한 뒤 필요한 시간만 유지하세요. 이 글의 절차는 점검 방법이며, 모든 모델·다운로드 앱의 연속 동작을 검증했다는 뜻은 아닙니다.
+
+참고 자료
+
+2026년 10월 11일 Apple 공식 전원·외장 화면 안내, macOS caffeinate(8) 매뉴얼과 pika 구현을 확인했습니다. pika 제작자가 작성한 사용 안내이며, 출처와 관련 설정은 아래 링크에서 확인할 수 있습니다.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
+
+no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
+
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/
+Language: zh-CN
+
+MAC GUIDE · 2026-10-15
+
+# MacBook 下载停止：关屏、睡眠和合盖有什么不同？
+
+先排查网络和空间，再选择 caffeinate 或 pika 保持任务运行。
+
+## 先找出停止时点
+
+先看下载应用是否提示暂停、网络错误、空间不足或需要登录。使用中也会停止时，先查 Wi-Fi、VPN、服务器和剩余空间。防睡眠不能修复过期链接。
+
+## 关屏不等于睡眠
+
+屏幕关闭时，系统保持唤醒仍可能继续传输；锁屏后也可能随后自动睡眠。支持的 Mac 可检查接电时防止自动睡眠的选项。无需关闭密码保护。
+
+## 开盖使用 caffeinate
+
+下方命令请求一小时内防止空闲系统睡眠。保持终端打开，在原应用下载；提前结束按 Ctrl+C。-t 单位为秒，-i 针对空闲系统睡眠，-d 针对显示器。它不恢复网络，也不覆盖所有睡眠情况。
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## 合盖的条件不同
+
+外接显示器配置需检查电源、外接键鼠和机型支持条件。只有充电器不等于完整配置。不接外屏时，应单独进行短传输测试，比较合盖前后接收量。
+
+## 使用 pika 保持下载
+
+准备 pika 及辅助服务，开始下载后开启 Session；无需保留屏幕则 Monitor OFF，然后合盖。屏幕策略在合盖后应用。结束时关闭 Session。使用电源和通风桌面，不要在密闭包内运行。保护机制或服务故障可能停止会话。
+
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
+
+## 确认下载完成
+
+查看应用完成状态、文件大小，以及发布者提供的校验和。使用应用支持的恢复功能。pika 不代替网络恢复或检测下载完成，关闭屏幕也不保证加速。
+
+参考资料
+
+2026 年 10 月 11 日核对 Apple 文档、caffeinate(8) 和 pika 实现。本文由 pika 制作者撰写。
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[让 AI 加班一整晚，电费谁来付？ →](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/)
+
+由 no-sleep-pika 开发者撰写，包含自家应用的比较。
+
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/
+Language: zh-TW
+
+MAC GUIDE · 2026-10-15
+
+# MacBook 下載停止：關閉螢幕、睡眠與闔蓋有何不同？
+
+先檢查網路與空間，再選擇 caffeinate 或 pika 維持工作。
+
+## 先確認停止時點
+
+先看下載程式是否提示暫停、網路錯誤、空間不足或需要登入。使用中也停止時，先檢查 Wi-Fi、VPN、伺服器和剩餘空間。防睡眠不能修復過期連結。
+
+## 關螢幕不等於睡眠
+
+螢幕關閉而系統仍醒著時，傳輸可能繼續；鎖定後也可能自動睡眠。支援的 Mac 可檢查接電時防止自動睡眠的選項。不必取消密碼保護。
+
+## 開蓋使用 caffeinate
+
+下方命令要求一小時內防止閒置系統睡眠。保持終端機開啟，在原程式下載；提前結束按 Ctrl+C。-t 單位為秒，-i 針對閒置系統睡眠，-d 針對顯示器。它不修復網路，也不涵蓋所有睡眠情況。
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## 闔蓋的條件不同
+
+外接顯示器需確認電源、外接鍵鼠及機型支援條件。充電器本身不等於完整配置。不接外屏時，請另做短傳輸測試，比較闔蓋前後收到的資料量。
+
+## 使用 pika 維持下載
+
+準備 pika 與輔助服務，開始下載後開啟 Session；不需維持畫面則 Monitor OFF，再闔蓋。畫面政策在闔蓋後套用。完成後關閉 Session。使用電源及通風桌面，勿在密閉袋中執行。保護機制或服務錯誤可能中止工作階段。
+
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+
+## 確認下載完成
+
+確認程式完成狀態、檔案大小，以及發布者提供的校驗碼。透過程式支援的功能續傳。pika 不代替連線恢復或偵測下載完成，關閉螢幕也不保證加速。
+
+參考資料
+
+2026 年 10 月 11 日核對 Apple 文件、caffeinate(8) 與 pika 實作。本文由 pika 製作者撰寫。
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[讓 AI 加班一整晚，電費誰來付？ →](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/)
+
+由 no-sleep-pika 開發者撰寫，包含自家產品。
+
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/
+Language: ja
+
+MAC GUIDE · 2026-10-15
+
+# MacBookのダウンロードが止まる原因：画面オフ・スリープ・ふたの違い
+
+通信と電源を切り分け、caffeinateとpikaの使い方を確認します。
+
+## 停止した時点を確認
+
+まずダウンロードアプリの一時停止、通信エラー、容量不足、ログイン要求を確認します。使用中にも止まるならWi-Fi、VPN、サーバー、空き容量を先に調べます。期限切れリンクはスリープ防止では直りません。
+
+## 画面オフとスリープ
+
+画面が消えてもMacが起きていれば転送できる場合があります。ロック後に自動スリープへ移ることもあります。対応機種では電源接続時の自動スリープ防止設定を確認します。パスワード保護は維持してください。
+
+## 開いたままcaffeinateを使う
+
+下のコマンドは1時間、アイドル時のシステムスリープ防止を要求します。ターミナルを開いたまま通常のアプリでダウンロードし、早く終えるならCtrl+C。-tは秒、-iはシステム、-dは画面に関する指定です。通信復旧やすべてのスリープ防止を保証しません。
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## ふたを閉じる条件
+
+外部画面を使う場合は電源、外部キーボード・マウス、対応ディスプレイ構成を確認します。充電器だけでは十分とはいえません。外部画面なしで閉じる場合は別に短い転送を試し、受信量を比較してください。
+
+## pikaでダウンロードを維持
+
+pikaと補助サービスを準備し、転送開始後にSession ON、画面が不要ならMonitor OFFにして閉じます。画面ポリシーは閉じた後に適用されます。完了後はSession OFF。通風のよい机と電源を使い、閉じたバッグ内で動かさないでください。保護機能やサービス障害で停止する場合があります。
+
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+
+## 完了の確認
+
+アプリの完了表示、保存容量、提供されていればチェックサムを確認します。再開はアプリの対応機能を使います。pikaは通信復旧や完了検出を代行しません。画面を消すだけで高速になるわけではありません。
+
+参考資料
+
+2026年10月11日、Apple資料、caffeinate(8)、pika実装を確認。pika制作者による案内です。
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[AIに夜勤を頼むと、電気代は誰が払う？ →](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/)
+
+pika開発者による、自社アプリを含む比較です。
+
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/
+Language: hi
+
+MAC GUIDE · 2026-10-15
+
+# MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन?
+
+caffeinate या pika चुनने से पहले नेटवर्क और खाली जगह जाँचें।
+
+## रुकने का समय देखें
+
+ऐप में रुका हुआ डाउनलोड, नेटवर्क त्रुटि, जगह और लॉगिन देखें। इस्तेमाल करते समय भी रुकता है तो Wi-Fi, VPN और सर्वर जाँचें। स्लीप रोकने से समाप्त लिंक ठीक नहीं होता।
+
+## स्क्रीन और स्लीप
+
+स्क्रीन बंद होना सिस्टम स्लीप नहीं है। डाउनलोड चल सकता है, लेकिन लॉक के बाद स्वचालित स्लीप हो सकता है। उपलब्ध हो तो बिजली पर जागे रहने की सेटिंग देखें। पासवर्ड सुरक्षा रखें।
+
+## खुले ढक्कन में caffeinate
+
+नीचे का कमांड एक घंटे तक निष्क्रियता वाली सिस्टम स्लीप रोकने का अनुरोध करता है। टर्मिनल खुला रखें और सामान्य ऐप में डाउनलोड करें। Ctrl+C से पहले रोक सकते हैं; -t सेकंड, -i सिस्टम और -d स्क्रीन से संबंधित है। यह हर स्लीप या नेटवर्क समस्या नहीं रोकता।
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## ढक्कन बंद करने की शर्तें
+
+बाहरी स्क्रीन के लिए बिजली, कीबोर्ड, माउस और मॉडल समर्थन देखें। सिर्फ चार्जर पर्याप्त नहीं है। बिना बाहरी स्क्रीन छोटा डाउनलोड आजमाएँ और ढक्कन बंद करने से पहले व बाद के बाइट की तुलना करें।
+
+## pika से डाउनलोड
+
+pika और सहायक सेवा तैयार करें, डाउनलोड शुरू करें, Session ON और स्क्रीन न चाहिए तो Monitor OFF रखें, फिर ढक्कन बंद करें। स्क्रीन नीति इसके बाद लागू होती है। अंत में Session OFF करें। हवादार मेज और बिजली उपयोग करें, बंद बैग नहीं। सुरक्षा या त्रुटि सत्र रोक सकती है।
+
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+
+## परिणाम जाँचें
+
+समाप्ति, फ़ाइल आकार और उपलब्ध checksum जाँचें। ऐप की सुविधा से दोबारा शुरू करें। pika नेटवर्क नहीं सुधारता और समाप्ति नहीं पहचानता; स्क्रीन बंद करने से गति की गारंटी नहीं है।
+
+स्रोत
+
+11 अक्टूबर 2026 को Apple, caffeinate(8) और pika कोड से जाँच की गई। pika निर्माता की गाइड।
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
+
+no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
+
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/id/macbook-downloads-stop/
+Language: id
+
+MAC GUIDE · 2026-10-15
+
+# Unduhan MacBook berhenti: layar mati, tidur, atau penutup?
+
+Periksa jaringan dan penyimpanan sebelum memakai caffeinate atau pika.
+
+## Kapan berhenti
+
+Periksa jeda, kesalahan jaringan, ruang kosong, dan login aplikasi. Jika gagal saat digunakan, cek Wi-Fi, VPN, dan server. Pencegahan tidur tidak memperbaiki tautan kedaluwarsa.
+
+## Layar dan tidur
+
+Layar mati tidak berarti sistem tidur. Transfer bisa berlanjut, tetapi tidur otomatis dapat menyusul penguncian. Periksa opsi tetap terjaga saat tersambung daya jika tersedia. Tetap gunakan kata sandi.
+
+## caffeinate dengan penutup terbuka
+
+Perintah berikut meminta pencegahan tidur karena tidak aktif selama satu jam. Biarkan terminal terbuka dan unduh melalui aplikasi biasa. Ctrl+C mengakhiri lebih awal; -t dalam detik, -i untuk sistem, -d untuk layar. Ini tidak menjamin jaringan atau mencegah semua keadaan tidur.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Syarat menutup penutup
+
+Dengan monitor eksternal, periksa daya, keyboard, mouse, dan dukungan model. Pengisi daya saja belum cukup. Tanpa monitor, uji transfer singkat dan bandingkan jumlah byte sebelum dan setelah menutup.
+
+## Mengunduh dengan pika
+
+Siapkan pika dan layanan pendamping, mulai unduhan, aktifkan Session, pilih Monitor OFF jika layar tidak diperlukan, lalu tutup. Kebijakan layar berlaku setelah penutup ditutup. Akhiri dengan Session OFF. Gunakan daya dan meja berventilasi, bukan tas tertutup. Perlindungan atau gangguan dapat menghentikan sesi.
+
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+
+## Periksa hasil
+
+Periksa status selesai, ukuran, dan checksum jika disediakan. Lanjutkan lewat fitur aplikasi. pika tidak memulihkan jaringan atau mendeteksi selesai; mematikan layar tidak menjamin lebih cepat.
+
+Sumber
+
+Diperiksa 11 Oktober 2026 berdasarkan Apple, caffeinate(8), dan kode pika. Panduan pembuat pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
+
+Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
+
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/es/macbook-downloads-stop/
+Language: es
+
+MAC GUIDE · 2026-10-15
+
+# Descargas detenidas en MacBook: pantalla, reposo y tapa
+
+Revisa red y almacenamiento antes de elegir caffeinate o pika.
+
+## Cuándo se detiene
+
+Revisa pausa, error de red, espacio o inicio de sesión en la aplicación. Si falla mientras usas el Mac, comprueba Wi-Fi, VPN y servidor. Evitar el reposo no repara enlaces caducados.
+
+## Pantalla y reposo
+
+Una pantalla apagada no implica que el sistema duerma. Puede seguir transfiriendo, aunque el reposo automático llegue después del bloqueo. En equipos compatibles revisa la opción de evitar reposo con alimentación. Conserva la contraseña.
+
+## caffeinate con tapa abierta
+
+El comando siguiente solicita evitar reposo por inactividad durante una hora. Mantén la terminal abierta y descarga en tu aplicación. Ctrl+C termina antes; -t usa segundos, -i afecta al sistema y -d a la pantalla. No garantiza conectividad ni evita todo tipo de reposo.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Condiciones al cerrar
+
+Con pantalla externa revisa alimentación, teclado, ratón y compatibilidad del Mac. El cargador solo no completa la configuración. Sin monitor externo, prueba una transferencia corta y compara bytes antes y después de cerrar.
+
+## Descargar con pika
+
+Prepara pika y su servicio auxiliar, inicia la descarga, activa Session y deja Monitor OFF si no necesitas pantalla. Cierra la tapa para aplicar su política de pantalla. Al acabar, Session OFF. Usa una mesa ventilada y alimentación, nunca una bolsa cerrada. La protección o fallos pueden detener la sesión.
+
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+
+## Verificar el resultado
+
+Confirma finalización, tamaño del archivo y checksum si está disponible. Reanuda con las funciones de la aplicación. pika no recupera la red ni detecta el final; apagar la pantalla no garantiza más velocidad.
+
+Fuentes
+
+Revisado el 11 de octubre de 2026 con Apple, caffeinate(8) y código pika. Guía del creador de pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Si la IA trabaja de noche, ¿quién paga la electricidad? →](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/)
+
+Escrito por el creador de no-sleep-pika; incluye nuestra app.
+
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/
+Language: fr
+
+MAC GUIDE · 2026-10-15
+
+# Téléchargement arrêté sur MacBook : écran, veille et couvercle
+
+Vérifiez réseau et stockage avant de choisir caffeinate ou pika.
+
+## Identifier l’arrêt
+
+Vérifiez pause, erreur réseau, espace libre et connexion au compte dans l’application. Si le transfert échoue pendant l’utilisation, contrôlez Wi-Fi, VPN et serveur. Empêcher la veille ne répare pas un lien expiré.
+
+## Écran et veille
+
+Un écran éteint ne signifie pas que le système dort. Le transfert peut continuer, mais une veille automatique peut suivre le verrouillage. Vérifiez l’option de maintien éveillé sur secteur si disponible. Gardez le mot de passe.
+
+## caffeinate couvercle ouvert
+
+La commande suivante demande d’empêcher la veille inactive pendant une heure. Laissez le terminal ouvert et téléchargez dans votre application. Ctrl+C arrête la demande ; -t est en secondes, -i concerne le système, -d l’écran. Cela ne garantit ni réseau ni absence de toute veille.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Conditions de fermeture
+
+Avec un écran externe, vérifiez alimentation, clavier, souris et compatibilité. Le chargeur seul ne suffit pas à établir cette configuration. Sans écran externe, testez un petit transfert et comparez les octets avant et après fermeture.
+
+## Télécharger avec pika
+
+Préparez pika et son service, démarrez le transfert, activez Session et laissez Monitor OFF si l’écran est inutile. Fermez le couvercle pour appliquer la politique d’affichage. Terminez avec Session OFF. Utilisez un bureau ventilé et l’alimentation, jamais un sac fermé. Protection ou panne peuvent arrêter la session.
+
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+
+## Vérifier le résultat
+
+Vérifiez fin du transfert, taille et somme de contrôle fournie. Reprenez avec les fonctions de l’application. pika ne rétablit pas le réseau et ne détecte pas la fin ; éteindre l’écran ne garantit pas une accélération.
+
+Sources
+
+Vérifié le 11 octobre 2026 avec Apple, caffeinate(8) et le code pika. Guide du créateur de pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Quand l’IA travaille la nuit, qui paie l’électricité ? →](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/)
+
+Rédigé par le créateur de no-sleep-pika ; présente notre app.
+
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/de/macbook-downloads-stop/
+Language: de
+
+MAC GUIDE · 2026-10-15
+
+# MacBook-Download stoppt: Display, Ruhezustand oder Deckel?
+
+Prüfe Netzwerk und Speicher, bevor du caffeinate oder pika einsetzt.
+
+## Zeitpunkt prüfen
+
+Prüfe Pause, Netzwerkfehler, Speicherplatz und Anmeldung in der Download-App. Scheitert der Transfer auch während der Nutzung, prüfe WLAN, VPN und Server. Schlafverhinderung repariert keine abgelaufenen Links.
+
+## Display und Ruhezustand
+
+Ein dunkles Display bedeutet nicht automatisch Systemschlaf. Der Transfer kann weiterlaufen, später kann aber automatischer Schlaf folgen. Prüfe bei unterstützten Macs die Option zum Wachbleiben am Netzteil. Behalte den Passwortschutz.
+
+## caffeinate bei offenem Deckel
+
+Der folgende Befehl fordert eine Stunde Schutz vor Leerlaufschlaf an. Lass das Terminal offen und nutze deine Download-App. Ctrl+C beendet früher; -t zählt Sekunden, -i betrifft das System, -d das Display. Netzwerk und alle Schlafzustände sind damit nicht abgesichert.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Bedingungen beim Schließen
+
+Für externe Displays prüfe Netzteil, Tastatur, Maus und Modellunterstützung. Ein Ladegerät allein ist keine vollständige Konfiguration. Ohne externes Display teste einen kurzen Transfer und vergleiche empfangene Bytes vor und nach dem Schließen.
+
+## Mit pika herunterladen
+
+Bereite pika und Hilfsdienst vor, starte den Download, aktiviere Session und lasse Monitor OFF, falls kein Display nötig ist. Die Display-Richtlinie greift nach dem Schließen. Danach Session OFF. Nutze Strom und einen belüfteten Tisch, keine geschlossene Tasche. Schutzfunktionen oder Fehler können die Sitzung stoppen.
+
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+
+## Ergebnis prüfen
+
+Prüfe Abschluss, Dateigröße und angebotene Prüfsumme. Nutze die Fortsetzungsfunktion der App. pika repariert keine Verbindung und erkennt keinen Downloadabschluss. Ein ausgeschaltetes Display garantiert keinen Geschwindigkeitsgewinn.
+
+Quellen
+
+Geprüft am 11. Oktober 2026 anhand von Apple, caffeinate(8) und pika-Code. Anleitung des pika-Entwicklers.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Wenn die KI nachts arbeitet: Wer zahlt den Strom? →](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/)
+
+Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
+
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/
+Language: pt-BR
+
+MAC GUIDE · 2026-10-15
+
+# Download parado no MacBook: tela, repouso ou tampa?
+
+Confira rede e armazenamento antes de usar caffeinate ou pika.
+
+## Quando parou
+
+Veja pausa, erro de rede, espaço e login no aplicativo. Se falha durante o uso, confira Wi-Fi, VPN e servidor. Evitar repouso não recupera links expirados.
+
+## Tela e repouso
+
+Tela apagada não significa sistema dormindo. A transferência pode continuar, mas o repouso automático pode ocorrer depois do bloqueio. Confira a opção de manter acordado na tomada, se disponível. Mantenha a senha.
+
+## caffeinate com tampa aberta
+
+O comando abaixo solicita uma hora sem repouso por inatividade. Deixe o terminal aberto e baixe no aplicativo habitual. Ctrl+C encerra antes; -t usa segundos, -i é do sistema e -d da tela. Não garante rede nem impede todo tipo de repouso.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Condições ao fechar
+
+Com monitor externo, confira energia, teclado, mouse e suporte do modelo. Só o carregador não completa essa configuração. Sem monitor externo, teste uma transferência curta e compare bytes antes e depois de fechar.
+
+## Baixar com pika
+
+Prepare pika e o serviço auxiliar, inicie o download, ligue Session e deixe Monitor OFF se não precisar da tela. Feche a tampa para aplicar a política de tela. Termine com Session OFF. Use energia e mesa ventilada, nunca bolsa fechada. Proteção ou falhas podem parar a sessão.
+
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+
+## Verificar o resultado
+
+Confira conclusão, tamanho e checksum fornecido. Retome pelas funções do aplicativo. pika não recupera a rede nem detecta o fim; apagar a tela não garante mais velocidade.
+
+Fontes
+
+Verificado em 11 de outubro de 2026 com Apple, caffeinate(8) e código pika. Guia do criador de pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Se a IA trabalha à noite, quem paga a eletricidade? →](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/)
+
+Escrito pelo criador de no-sleep-pika; inclui nosso app.
+
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/
+Language: ru
+
+MAC GUIDE · 2026-10-15
+
+# Загрузка на MacBook остановилась: экран, сон или крышка?
+
+Проверьте сеть и место на диске, затем выберите caffeinate или pika.
+
+## Когда остановилось
+
+Проверьте паузу, ошибку сети, место и вход в приложение. Если сбой возникает при работе, начните с Wi-Fi, VPN и сервера. Запрет сна не исправит просроченную ссылку.
+
+## Экран и сон
+
+Тёмный экран не означает сон системы. Передача может продолжаться, но после блокировки возможен автоматический сон. На поддерживаемых Mac проверьте запрет автоматического сна при питании. Сохраните защиту паролем.
+
+## caffeinate с открытой крышкой
+
+Команда ниже запрашивает час без сна от бездействия. Оставьте терминал открытым и загружайте в приложении. Ctrl+C завершает раньше; -t задаёт секунды, -i относится к системе, -d к экрану. Это не гарантия связи и не блокировка всех видов сна.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Условия закрытой крышки
+
+Для внешнего экрана проверьте питание, клавиатуру, мышь и поддержку модели. Одного зарядного устройства недостаточно. Без внешнего экрана отдельно проверьте короткую передачу, сравнив объём до и после закрытия.
+
+## Загрузка с pika
+
+Подготовьте pika и службу, начните загрузку, включите Session и оставьте Monitor OFF, если экран не нужен. Политика экрана применяется после закрытия. По завершении Session OFF. Используйте питание и проветриваемый стол, не закрытую сумку. Защита или ошибки могут остановить сессию.
+
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+
+## Проверка результата
+
+Проверьте завершение, размер и контрольную сумму, если она опубликована. Возобновляйте средствами приложения. pika не восстанавливает сеть и не определяет окончание. Выключение экрана не гарантирует ускорение.
+
+Источники
+
+Проверено 11 октября 2026 года по Apple, caffeinate(8) и коду pika. Материал автора pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[Если ИИ работает ночью, кто платит за электричество? →](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/)
+
+Материал разработчика no-sleep-pika с описанием собственного приложения.
+
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/
+Language: ar
+
+MAC GUIDE · 2026-10-15
+
+# توقف التنزيل على MacBook: الشاشة أم السكون أم الغطاء؟
+
+افحص الشبكة والمساحة قبل اختيار caffeinate أو pika.
+
+## حدد وقت التوقف
+
+افحص رسائل الإيقاف المؤقت والشبكة والمساحة وتسجيل الدخول. إذا توقف أثناء الاستخدام، افحص Wi-Fi وVPN والخادم أولاً. منع السكون لا يصلح رابطاً منتهي الصلاحية.
+
+## الشاشة والسكون
+
+انطفاء الشاشة لا يعني سكون النظام. قد يستمر النقل لكن السكون التلقائي قد يأتي بعد القفل. افحص خيار البقاء مستيقظاً على الطاقة إن كان متاحاً. أبقِ حماية كلمة المرور.
+
+## caffeinate والغطاء مفتوح
+
+يطلب الأمر أدناه منع سكون الخمول لساعة. اترك الطرفية مفتوحة ونزّل بالتطبيق المعتاد. يوقفه Ctrl+C مبكراً؛ -t بالثواني، و-i للنظام و-d للشاشة. لا يضمن الشبكة ولا يمنع كل أنواع السكون.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## شروط إغلاق الغطاء
+
+مع شاشة خارجية افحص الطاقة ولوحة المفاتيح والفأرة ودعم الطراز. الشاحن وحده لا يكمل الإعداد. دون شاشة خارجية اختبر نقلاً قصيراً وقارن البايتات قبل الإغلاق وبعده.
+
+## التنزيل مع pika
+
+جهّز pika وخدمته، ابدأ التنزيل وفعّل Session واترك Monitor OFF إن لم تحتج الشاشة، ثم أغلق الغطاء. تطبق سياسة الشاشة بعد الإغلاق. عند الانتهاء استخدم Session OFF. استخدم الطاقة ومكتباً مهوّى لا حقيبة مغلقة. قد توقف الحماية أو الأخطاء الجلسة.
+
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+
+## تحقق من النتيجة
+
+تحقق من الاكتمال وحجم الملف وقيمة التحقق إن توفرت. استأنف عبر التطبيق. لا يصلح pika الشبكة ولا يكتشف انتهاء التنزيل؛ إطفاء الشاشة لا يضمن السرعة.
+
+المصادر
+
+رُوجع في 11 أكتوبر 2026 وفق Apple وcaffeinate(8) وكود pika. دليل من صانع pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
+
+مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
+
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/
+Language: vi
+
+MAC GUIDE · 2026-10-15
+
+# Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp?
+
+Kiểm tra mạng và dung lượng trước khi chọn caffeinate hoặc pika.
+
+## Xác định lúc dừng
+
+Xem trạng thái tạm dừng, lỗi mạng, dung lượng và đăng nhập. Nếu lỗi cả khi đang dùng máy, kiểm tra Wi-Fi, VPN và máy chủ. Ngăn ngủ không sửa liên kết hết hạn.
+
+## Màn hình và ngủ
+
+Màn hình tắt không có nghĩa hệ thống ngủ. Tải có thể tiếp tục, nhưng tự động ngủ có thể xảy ra sau khi khóa. Kiểm tra tùy chọn giữ thức khi cắm nguồn nếu được hỗ trợ. Giữ mật khẩu bảo vệ.
+
+## caffeinate khi mở nắp
+
+Lệnh dưới yêu cầu ngăn ngủ do nhàn rỗi trong một giờ. Giữ terminal mở và tải bằng ứng dụng thường dùng. Ctrl+C kết thúc sớm; -t tính bằng giây, -i cho hệ thống, -d cho màn hình. Không bảo đảm mạng hay ngăn mọi kiểu ngủ.
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## Điều kiện đóng nắp
+
+Với màn hình ngoài, kiểm tra nguồn, bàn phím, chuột và hỗ trợ của máy. Chỉ bộ sạc chưa đủ. Không có màn hình ngoài thì thử tải ngắn và so sánh lượng dữ liệu trước và sau đóng nắp.
+
+## Tải với pika
+
+Chuẩn bị pika và dịch vụ hỗ trợ, bắt đầu tải, bật Session, để Monitor OFF nếu không cần màn hình rồi đóng nắp. Chính sách màn hình áp dụng sau khi đóng. Xong thì Session OFF. Dùng nguồn và bàn thoáng, không để trong túi kín. Bảo vệ hoặc lỗi có thể dừng phiên.
+
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+
+## Kiểm tra kết quả
+
+Kiểm tra trạng thái hoàn tất, kích thước và checksum nếu có. Tiếp tục bằng chức năng của ứng dụng. pika không phục hồi mạng hay phát hiện tải xong; tắt màn hình không bảo đảm nhanh hơn.
+
+Nguồn
+
+Kiểm tra ngày 11 tháng 10 năm 2026 theo Apple, caffeinate(8) và mã pika. Hướng dẫn của nhà phát triển pika.
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
+
+Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
+
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/th/macbook-downloads-stop/
+Language: th
+
+MAC GUIDE · 2026-10-15
+
+# ดาวน์โหลดบน MacBook หยุด: ปิดจอ พักเครื่อง หรือปิดฝา?
+
+ตรวจเครือข่ายและพื้นที่ก่อนเลือกใช้ caffeinate หรือ pika
+
+## ดูว่าหยุดเมื่อใด
+
+ตรวจข้อความหยุดชั่วคราว เครือข่าย พื้นที่ และการเข้าสู่ระบบในแอป หากหยุดขณะใช้งานให้ตรวจ Wi-Fi VPN และเซิร์ฟเวอร์ก่อน การกันพักเครื่องไม่แก้ลิงก์หมดอายุ
+
+## จอกับการพักเครื่อง
+
+จอดับไม่ได้แปลว่าระบบพักเครื่อง การส่งข้อมูลอาจทำต่อแต่ระบบอาจพักภายหลังการล็อก ตรวจตัวเลือกไม่พักอัตโนมัติเมื่อเสียบไฟหากรองรับ คงรหัสผ่านไว้
+
+## ใช้ caffeinate เมื่อเปิดฝา
+
+คำสั่งด้านล่างขอกันพักเครื่องจากการไม่ใช้งานหนึ่งชั่วโมง เปิดเทอร์มินัลไว้และดาวน์โหลดในแอปเดิม หยุดก่อนด้วย Ctrl+C โดย -t เป็นวินาที -i สำหรับระบบและ -d สำหรับจอ ไม่รับประกันเครือข่ายหรือกันการพักทุกกรณี
+
+```
+caffeinate -i -t 3600
+```
+
+```
+man caffeinate
+```
+
+## เงื่อนไขเมื่อปิดฝา
+
+เมื่อใช้จอนอกให้ตรวจไฟเลี้ยง คีย์บอร์ด เมาส์ และรุ่นที่รองรับ มีเพียงที่ชาร์จยังไม่ครบ หากไม่มีจอนอกให้ลองดาวน์โหลดสั้น ๆ และเทียบปริมาณก่อนกับหลังปิดฝา
+
+## ดาวน์โหลดด้วย pika
+
+เตรียม pika และบริการช่วย เริ่มดาวน์โหลด เปิด Session และให้ Monitor OFF หากไม่ต้องใช้จอ แล้วปิดฝา นโยบายจอทำงานหลังปิดฝา เสร็จแล้ว Session OFF ใช้ไฟและโต๊ะระบายอากาศ ไม่ใช่กระเป๋าปิด ระบบป้องกันหรือข้อผิดพลาดอาจหยุดเซสชัน
+
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+
+## ตรวจผลลัพธ์
+
+ตรวจสถานะเสร็จ ขนาดไฟล์ และ checksum หากมี ใช้ฟังก์ชันของแอปเพื่อดาวน์โหลดต่อ pika ไม่แก้เครือข่ายหรือตรวจการเสร็จสิ้น และจอดับไม่รับประกันความเร็ว
+
+แหล่งข้อมูล
+
+ตรวจวันที่ 11 ตุลาคม 2026 จาก Apple, caffeinate(8) และโค้ด pika คู่มือโดยผู้สร้าง pika
+
+- [Apple · Sleep and wake settings](https://support.apple.com/guide/mac-help/set-sleep-and-wake-settings-mchle41a6ccd/mac)
+
+- [Apple · External displays](https://support.apple.com/en-us/102501)
+
+- `man caffeinate` · macOS System Manager’s Manual
+
+[ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
+
+เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
+
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/
+Language: en
+
+MAC GUIDE · 2026-10-15
+
+# Who pays the electricity bill when AI works overnight?
+
+Estimate an eight-hour Mac session, separate your electricity bill from AI service fees, and measure your own workload instead of guessing from charger wattage.
+
+## Two places incur costs
+
+You leave an AI task running and go to bed. Who supplies the energy for that overnight shift?
+
+For cloud AI, the provider’s servers perform the main model computation. Your Mac still uses power for local file operations, builds and tests. With a model running locally, the Mac also performs the model computation. These are different workloads, not fixed low-power and high-power categories.
+
+Your home electricity bill and the service subscription or API bill are separate. A meter at your outlet does not capture the data center’s energy use.
+
+## What could eight hours cost?
+
+Energy in kWh equals average watts multiplied by hours, divided by 1,000. Multiply that energy by your applicable price per kWh to estimate its cost.
+
+Consider eight hours per day for 30 days at hypothetical averages of 10, 30 and 60W. These are hypothetical inputs, not MacBook measurements or a local tariff quote. Assume USD 0.20/kWh.
+
+At 10W: 0.08kWh over eight hours, costing 1.6 US cents. Over 30 nights: 2.4kWh, costing USD 0.48.
+
+At 30W: 0.24kWh over eight hours, costing 4.8 US cents. Over 30 nights: 7.2kWh, costing USD 1.44.
+
+At 60W: 0.48kWh over eight hours, costing 9.6 US cents. Over 30 nights: 14.4kWh, costing USD 2.88.
+
+Taxes, tiers and contracts affect actual bills. The figures above are total session estimates, not extra cost relative to sleeping: measure and subtract the sleep baseline for that comparison.
+
+## Charger wattage is not consumption
+
+A 70W adapter does not mean a Mac continuously consumes 70W. Its output capacity is different from actual draw. Charging, displays and local builds change consumption; waiting for a response is not the same load as running code.
+
+Turning off a display can reduce display energy, but there is no universal saving for every Mac and workload.
+
+## Measure your actual workload
+
+If you have a plug-in meter that records cumulative kWh, follow its instructions and measure the charger during a representative task. Record battery levels and peripherals. A reading of 0.06kWh over two hours corresponds to an average of 30W.
+
+Extrapolating that to eight hours gives 0.24kWh only if the average load stays similar. Prefer measuring the whole task. Separately powered displays and docks are outside the charger measurement; match starting and ending battery levels when comparing runs.
+
+## Does pika save electricity?
+
+pika maintains work that system sleep could interrupt. It does not measure electricity or reduce AI service fees. Keeping a Mac awake can consume more energy than allowing it to sleep.
+
+For closed-lid work, check that the helper service is running, then turn Session ON. Leave Monitor OFF if you do not need to keep the display on. Briefly close and reopen the lid to check that your task keeps running. Turn Session OFF after finishing. An awake Mac cannot resolve an AI approval prompt or a network failure by itself; pika does not automatically decide when your task is complete.
+
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+
+## Three decisions before leaving
+
+First, define a result and stopping condition, then verify how the tool actually stops.
+
+Second, set usage limits or alerts where the service supports them. Compare real service charges and electricity usage; do not count an existing subscription twice as an additional expense.
+
+Third, connect your Mac to power and use a firm, ventilated desk. Do not run the Mac inside a bag or under bedding. Keep it awake for useful work and check the result afterward.
+
+Assumptions and sources
+
+Written by pika’s maker. The energy formula follows Virginia Cooperative Extension; placement guidance follows Apple. Wattages and USD 0.20/kWh are illustrative assumptions, not device benchmarks, local tariffs or service pricing comparisons.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Written by the maker of no-sleep-pika; this comparison includes our own app.
+
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/
+Language: ko
+
+MAC GUIDE · 2026-10-15
+
+# AI에게 야근시키면 전기요금은 누가 낼까?
+
+밤새 켜 둔 맥북의 전기요금은 얼마일까요? 8시간 작업을 가정해 계산하고, 클라우드 AI 사용료와 내 Mac의 전력 소비를 구분해 봅니다.
+
+## AI의 야근 비용은 두 곳에서 나온다
+
+“이 작업 끝내 놔.” AI에게 부탁하고 노트북을 덮는 순간, 작은 궁금증이 생깁니다. 내가 자는 동안 일하는 이 동료는 전기를 얼마나 쓸까요?
+
+내 Mac이 쓴 전기는 내 전기요금에 반영됩니다. 클라우드 AI 이용료는 별도입니다. 계산이 어디서 이루어지는지부터 나눠 볼까요? 클라우드 AI에 요청하면 모델의 주요 계산은 서비스 제공자의 서버에서 수행됩니다. 그래도 내 Mac에서 파일을 읽고, 코드를 실행하고, 테스트를 돌린다면 그 작업에는 내 전기가 듭니다. 반대로 모델 자체를 Mac에서 실행하는 로컬 AI는 모델 계산도 내 컴퓨터가 맡습니다.
+
+따라서 집의 전기요금과 AI 서비스 이용료는 별개의 비용입니다. 구독이나 API 사용료만 보고 전체 비용을 알 수 없고, 콘센트에서 잰 전력량만으로 데이터센터까지 포함한 AI의 총에너지를 알 수도 없습니다.
+
+## 8시간 켜 두면 얼마일까?
+
+계산은 간단합니다. 평균 소비전력(W)에 시간(h)을 곱하고 1,000으로 나누면 전력량(kWh)이 됩니다. 여기에 kWh당 단가를 곱하면 해당 사용량의 비용을 추정할 수 있습니다.
+
+아래는 하루 8시간, 30일을 켜 둔 가상 비교입니다. 평균 소비전력은 10·30·60W, 단가는 1kWh당 200원으로 가정했습니다. 특정 맥북의 측정값이나 한국의 실제 요금표가 아닙니다. 낮은 값이 클라우드, 높은 값이 로컬 AI를 뜻하지도 않습니다.
+
+평균 10W라면 하루 0.08kWh, 16원입니다. 30일이면 2.4kWh, 480원입니다.
+
+평균 30W라면 하루 0.24kWh, 48원입니다. 30일이면 7.2kWh, 1,440원입니다.
+
+평균 60W라면 하루 0.48kWh, 96원입니다. 30일이면 14.4kWh, 2,880원입니다.
+
+실제 청구액에는 지역·계약·누진 구간·세금 등이 영향을 줍니다. 이 숫자는 원래 잠들어 있었을 때와 비교한 추가 비용도 아닙니다. 추가 비용을 알고 싶다면 같은 시간 동안 잠자기 상태의 전력량도 재서 빼야 합니다.
+
+## 충전기에 적힌 W로 계산하면 안 되는 이유
+
+충전기에 70W라고 적혀 있어도 Mac이 밤새 70W를 일정하게 소비한다는 뜻은 아닙니다. 충전기의 출력 능력과 실제로 사용하는 전력은 다릅니다.
+
+배터리를 충전하는 중인지, 외장 화면을 연결했는지, 빌드와 테스트가 얼마나 무거운지에 따라 값이 달라집니다. AI가 응답을 기다리는 시간과 로컬 코드를 실행하는 시간도 같은 부하라고 볼 수 없습니다.
+
+화면을 끄면 디스플레이에 쓰는 전력을 줄일 수 있지만, 절감량을 모든 Mac에 같은 숫자로 적용할 수는 없습니다. Mac 기종만 보고 추정하기보다 실제 작업의 전력량을 재는 편이 유용합니다.
+
+## 내 작업의 전력량을 재는 방법
+
+누적 전력량(kWh)을 표시하는 콘센트형 전력계가 있다면, 설명서에 따라 충전기와 콘센트 사이에 연결하세요. 배터리 잔량과 주변기기 조건을 기록한 뒤 실제 작업을 일정 시간 실행하고 전력량을 읽습니다.
+
+예를 들어 2시간에 0.06kWh를 썼다면 그 구간의 평균은 30W입니다. 같은 부하가 8시간 이어진다고 가정할 때 0.24kWh로 추정할 수 있습니다. 잠깐 측정한 작업이 밤새 반복되지 않는다면 이 환산은 맞지 않을 수 있습니다.
+
+가능하면 작업 전체를 측정하세요. 외장 모니터와 독을 별도 콘센트에 꽂았다면 그 전력은 Mac 충전기 측정에 포함되지 않습니다. 비교할 때는 시작·종료 배터리 잔량도 비슷하게 맞춰 충전량 차이를 줄이는 편이 좋습니다.
+
+## pika는 전기요금 절약 앱일까?
+
+pika는 Mac이 잠들어 중단될 수 있는 작업을 유지하기 위한 앱입니다. 전력량을 측정하거나 AI 사용료를 줄이는 앱은 아닙니다. 원래 잠들었을 Mac을 계속 실행시키므로, 사용 방식에 따라 전력 사용이 늘 수 있습니다.
+
+덮개를 닫고 실행할 작업이 있다면 보조 서비스 상태를 확인하고 Session을 ON으로 준비하세요. 화면 유지가 필요 없다면 Monitor는 OFF로 두고, 짧게 덮었다 열어 실제 작업이 진행되는지 확인합니다. 끝난 뒤에는 Session을 OFF로 돌리세요.
+
+Mac이 깨어 있어도 AI가 승인 요청 앞에서 기다리거나 네트워크 오류로 멈출 수 있습니다. pika가 그 결정을 대신하거나 작업 완료를 자동으로 판정해 주지는 않습니다.
+
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+
+## 밤새 맡기기 전에 정할 세 가지
+
+첫째, 끝났다는 기준을 정하세요. “계속 개선해”보다 “이 테스트를 통과하면 결과를 저장하고 종료해”가 작업 범위를 판단하기 쉽습니다. 다만 지시만으로 자동 종료가 보장되지는 않으므로 사용하는 도구의 동작을 확인해야 합니다.
+
+둘째, 사용 중인 서비스에서 제공한다면 사용량 한도와 알림을 설정하세요. 전기요금과 AI 사용료 중 무엇이 더 큰지는 실제 사용 내역을 봐야 합니다. 구독료를 별도 추가 비용으로 중복 계산하지 않는 것도 중요합니다.
+
+셋째, 전원을 연결하고 통풍되는 단단한 책상 위에 두세요. 가방이나 이불 안에 넣고 실행하지 마세요. 밤새 켜 두는 습관보다, 할 일이 있는 시간만 유지하고 결과를 확인하는 습관이 더 유용합니다.
+
+계산 기준과 참고 자료
+
+이 글은 pika 제작자가 작성했습니다. 전력량 계산식은 Virginia Cooperative Extension의 안내를 참고했고, 설치 환경은 Apple의 온도 관리 안내를 참고했습니다. 표기한 소비전력과 200원/kWh는 계산을 설명하기 위한 가정입니다. 기기 실측, 특정 국가의 요금 견적 또는 AI 서비스별 비용 비교가 아닙니다.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
+
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/
+Language: zh-CN
+
+MAC GUIDE · 2026-10-15
+
+# 让 AI 加班一整晚，电费谁来付？
+
+用假设数据估算 Mac 运行八小时的费用，并区分家庭电费与 AI 服务费。
+
+## 两种不同的账单
+
+云端 AI 的模型计算主要由服务商的服务器完成，但 Mac 上的构建、测试和文件操作仍会耗电。本地模型则也在 Mac 上计算。家庭电费与订阅或 API 费用是两笔账；插座测量不包含数据中心的耗电。
+
+## 八小时要花多少？
+
+平均功率 W × 小时 ÷ 1,000 = kWh，再乘以电价。假设每天八小时、连续三十天、电价为0.20美元/kWh：10W每天0.08kWh、0.016美元，三十天2.4kWh、0.48美元；30W每天0.24kWh、0.048美元，三十天7.2kWh、1.44美元；60W每天0.48kWh、0.096美元，三十天14.4kWh、2.88美元。
+
+这些不是 MacBook 实测数据或当地电价。实际账单受税费、合同与阶梯电价影响。要算相对睡眠状态增加的费用，还需测量并减去同时间的睡眠耗电。
+
+## 充电器功率不是实际耗电
+
+70W充电器不代表电脑一直消耗70W。输出能力与实际耗电不同；充电、显示器和本地任务都会改变负载。关屏节省多少也没有统一数值。
+
+## 测量自己的任务
+
+按说明使用可记录累计kWh的插座电量计。两小时0.06kWh对应平均30W；只有负载相近时，才能推算八小时0.24kWh。尽量测完整任务，记录电池电量。独立供电的屏幕和扩展坞不在充电器读数内。
+
+## pika 能省电吗？
+
+pika用于维持可能因系统睡眠中断的任务，不是电量计或AI费用优化器。持续唤醒可能增加耗电。确认辅助服务，打开Session，不需维持显示时关闭Monitor，短暂合盖验证任务进度。完成后关闭Session；审批等待、网络错误和任务完成判断仍需另行处理。
+
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
+
+## 离开前做三个决定
+
+先定义完成条件和停止方法，再按服务支持情况设置用量上限或提醒。不要把已有订阅重复算作新增费用。接通电源，放在通风的硬质桌面上，不要在包内或被褥里运行。
+
+假设与来源
+
+由pika制作者撰写。公式参考Virginia Cooperative Extension，摆放建议参考Apple。功率与美元单价均为示例假设。
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+由 no-sleep-pika 开发者撰写，包含自家应用的比较。
+
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/
+Language: zh-TW
+
+MAC GUIDE · 2026-10-15
+
+# 讓 AI 加班一整晚，電費誰來付？
+
+用假設數據估算 Mac 運作八小時的費用，區分家中電費與 AI 服務費。
+
+## 兩種不同的帳單
+
+雲端AI的模型運算主要由服務商的伺服器完成，但Mac上的建置、測試和檔案操作仍會耗電。本機模型則也在Mac運算。家中電費與訂閱或API費用是兩筆帳；插座量測不包含資料中心的耗電。
+
+## 八小時要花多少？
+
+平均功率W × 小時 ÷ 1,000 = kWh，再乘以電價。假設每天八小時、三十天、0.20美元/kWh：10W每天0.08kWh、0.016美元，三十天2.4kWh、0.48美元；30W每天0.24kWh、0.048美元，三十天7.2kWh、1.44美元；60W每天0.48kWh、0.096美元，三十天14.4kWh、2.88美元。
+
+這不是MacBook實測值或臺灣電價。實際帳單受稅費、契約與級距影響。要比較睡眠時的額外費用，還須量測並減去同時間的睡眠耗電。
+
+## 充電器瓦數不是實際耗電
+
+70W充電器不表示電腦持續消耗70W。輸出能力與實際耗電不同，充電、螢幕和本機工作都會改變負載。關閉螢幕的節省量也不固定。
+
+## 量測自己的工作
+
+依說明使用可記錄累計kWh的插座電力計。兩小時0.06kWh相當於平均30W；只有負載相近才可推算八小時0.24kWh。最好量測完整工作並記錄電池電量。獨立供電的螢幕與擴充基座不在充電器讀數內。
+
+## pika 能省電嗎？
+
+pika維持可能被系統睡眠中斷的工作，不是電力計，也不會降低AI服務費。持續喚醒可能增加耗電。確認輔助服務，開啟Session，不需維持顯示時關閉Monitor，短暫闔蓋測試進度。完成後關閉Session；核准等待、網路錯誤與工作完成判斷仍需另外處理。
+
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+
+## 離開前的三個決定
+
+定義完成條件與停止方式，並在服務支援時設定用量上限或通知。別將既有訂閱重複計為新增費用。接上電源，放在通風的硬質桌面，不要在包包或寢具內運作。
+
+假設與來源
+
+pika製作者撰寫。公式參考Virginia Cooperative Extension，放置建議參考Apple。功率與美元單價皆為假設。
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+由 no-sleep-pika 開發者撰寫，包含自家產品。
+
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/
+Language: ja
+
+MAC GUIDE · 2026-10-15
+
+# AIに夜勤を頼むと、電気代は誰が払う？
+
+Macを一晩動かす費用を仮の数値で計算し、AIの利用料と家庭の電気代を分けて考えます。
+
+## 費用は二つに分かれる
+
+クラウドAIのモデル計算は主に提供元のサーバーで行われますが、Mac上のビルドやテストにも電力が必要です。ローカルモデルなら、その計算もMacが担当します。家庭の電気代と購読・API料金は別の費用です。コンセントの測定だけではデータセンターの電力まで分かりません。
+
+## 8時間の計算例
+
+平均W × 時間 ÷ 1,000でkWhを求め、単価を掛けます。1日8時間、30日、仮に0.20米ドル/kWhとすると、10Wは1日0.08kWh・0.016ドル、30日で2.4kWh・0.48ドル。30Wは0.24kWh・0.048ドル、30日で7.2kWh・1.44ドル。60Wは0.48kWh・0.096ドル、30日で14.4kWh・2.88ドルです。
+
+これはMacの実測値でも日本の料金表でもありません。税・契約・段階料金は含めていません。スリープ時との差額を知るには、同じ時間のスリープ時消費量を測って差し引きます。
+
+## 充電器のW数とは違う
+
+70Wの充電器でも常時70Wを使うわけではありません。出力能力と消費電力は別です。充電状態、画面、ビルド処理で負荷は変わり、画面を消した場合の削減量も一律ではありません。
+
+## 自分の作業を測る
+
+積算kWhを測れるコンセント型電力計を説明書どおりに使います。2時間で0.06kWhなら平均30W。同じ負荷なら8時間で0.24kWhですが、できれば作業全体を測りましょう。バッテリー残量を記録し、別電源の画面やドックは測定対象外であることも確認します。
+
+## pikaは節電アプリ？
+
+pikaはスリープによる作業中断を防ぐためのアプリで、電力計でもAI料金の節約機能でもありません。Macを起こし続ければ消費が増える場合があります。補助サービスを確認し、SessionをON、画面維持が不要ならMonitorをOFFにして短時間の閉蓋テストを行います。終了後はSessionをOFFに。承認待ちや通信エラーは別に対応が必要です。
+
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+
+## 離席前に決めること
+
+完了条件と停止方法を決め、サービスが対応していれば利用上限や通知を設定します。購読料を追加費用として二重計上しないようにしましょう。電源をつなぎ、通気のよい硬い机で使い、かばんや寝具の中で動かさないでください。
+
+前提と出典
+
+pika制作者による記事です。計算式はVirginia Cooperative Extension、設置環境はAppleを参照。W数とドル単価は説明用の仮定です。
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+pika開発者による、自社アプリを含む比較です。
+
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/
+Language: hi
+
+MAC GUIDE · 2026-10-15
+
+# AI रात भर काम करे तो बिजली का बिल कौन भरेगा?
+
+स्पष्ट मान्यताओं से Mac के आठ घंटे का खर्च निकालें और बिजली को AI सेवा शुल्क से अलग समझें।
+
+## दो अलग खर्च
+
+क्लाउड AI में मॉडल की मुख्य गणना प्रदाता के सर्वर पर होती है, लेकिन Mac पर स्थानीय बिल्ड और परीक्षण भी बिजली लेते हैं। स्थानीय मॉडल की गणना भी Mac करता है। घर की बिजली और सदस्यता या API शुल्क अलग खर्च हैं। सॉकेट पर मापने से डेटा सेंटर की ऊर्जा नहीं मापी जाती।
+
+## आठ घंटे का हिसाब
+
+औसत वाट × घंटे ÷ 1,000 से kWh मिलता है। इसे दर से गुणा करें। काल्पनिक उदाहरण: प्रतिदिन आठ घंटे, तीस दिन और 0.20 अमेरिकी डॉलर/kWh। 10W पर प्रति रात 0.08kWh और 0.016 डॉलर; तीस रातों में 2.4kWh और 0.48 डॉलर। 30W पर 0.24kWh और 0.048 डॉलर; तीस रातों में 7.2kWh और 1.44 डॉलर। 60W पर 0.48kWh और 0.096 डॉलर; तीस रातों में 14.4kWh और 2.88 डॉलर।
+
+ये MacBook के वास्तविक माप या भारतीय दरें नहीं हैं। कर और दरों के स्लैब बिल बदलते हैं। स्लीप की तुलना में अतिरिक्त खर्च जानने के लिए उतने ही समय की स्लीप खपत मापकर घटाएँ।
+
+## चार्जर की क्षमता और खपत
+
+70W चार्जर का अर्थ लगातार 70W खपत नहीं है। बैटरी चार्जिंग, स्क्रीन और स्थानीय काम से भार बदलता है। स्क्रीन बंद करने से उसकी ऊर्जा घट सकती है, लेकिन बचत का एक सार्वभौमिक आँकड़ा नहीं है।
+
+## अपना काम मापें
+
+कुल kWh दर्ज करने वाला प्लग-इन मीटर उसके निर्देशों के अनुसार इस्तेमाल करें। दो घंटे में 0.06kWh यानी औसतन 30W। आठ घंटे के लिए 0.24kWh का अनुमान तभी उचित है जब भार समान रहे। पूरा काम मापना बेहतर है; बैटरी स्तर भी लिखें। अलग बिजली वाले मॉनिटर चार्जर के माप में नहीं आते।
+
+## क्या pika बिजली बचाता है?
+
+pika स्लीप से रुकने वाले काम को जारी रखने के लिए है; यह ऊर्जा मीटर नहीं और AI शुल्क नहीं घटाता। Mac को जागृत रखने से खपत बढ़ सकती है। सहायक सेवा जाँचें, Session ON करें, स्क्रीन जरूरी न हो तो Monitor OFF रखें और ढक्कन थोड़ी देर बंद करके फिर खोलकर प्रगति जाँचें। काम के बाद Session OFF करें। अनुमति का इंतजार और नेटवर्क त्रुटियाँ अलग समस्याएँ हैं।
+
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+
+## जाने से पहले तीन फैसले
+
+काम का परिणाम और रुकने की शर्त तय करें। सेवा में उपलब्ध हों तो उपयोग सीमा या सूचना लगाएँ; मौजूदा सदस्यता को अतिरिक्त खर्च में दो बार न गिनें। बिजली से जोड़कर ठोस, हवादार मेज पर रखें; बैग या बिस्तर के अंदर न चलाएँ।
+
+मान्यताएँ और स्रोत
+
+pika निर्माता का लेख। सूत्र: Virginia Cooperative Extension। हवा के प्रवाह की सलाह: Apple। वाट और डॉलर दर केवल काल्पनिक उदाहरण हैं।
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
+
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/
+Language: id
+
+MAC GUIDE · 2026-10-15
+
+# Jika AI bekerja semalaman, siapa membayar listriknya?
+
+Hitung delapan jam penggunaan Mac dengan asumsi yang jelas, terpisah dari biaya layanan AI.
+
+## Dua biaya berbeda
+
+Pada AI cloud, server penyedia melakukan komputasi utama model, tetapi build dan pengujian lokal tetap memakai listrik Mac. Model lokal juga dihitung di Mac. Tagihan listrik dan langganan atau API adalah biaya terpisah; meter stopkontak tidak mencakup pusat data.
+
+## Biaya delapan jam
+
+Watt rata-rata × jam ÷ 1.000 menghasilkan kWh. Kalikan dengan tarif. Contoh hipotetis: delapan jam sehari, tiga puluh hari, USD 0,20/kWh. Pada 10W: 0,08kWh dan USD 0,016 per malam; 2,4kWh dan USD 0,48 untuk tiga puluh malam. Pada 30W: 0,24kWh dan USD 0,048; 7,2kWh dan USD 1,44. Pada 60W: 0,48kWh dan USD 0,096; 14,4kWh dan USD 2,88.
+
+Ini bukan pengukuran MacBook atau tarif Indonesia. Pajak dan golongan tarif memengaruhi tagihan. Untuk biaya tambahan dibanding tidur, ukur lalu kurangi konsumsi saat tidur selama durasi yang sama.
+
+## Daya pengisi bukan konsumsi nyata
+
+Pengisi 70W tidak berarti konsumsi terus-menerus 70W. Baterai, layar dan tugas lokal mengubah beban. Mematikan layar dapat mengurangi energi layar, tetapi tidak dengan angka penghematan universal.
+
+## Ukur tugas sendiri
+
+Gunakan meter stopkontak dengan kWh kumulatif sesuai petunjuk. 0,06kWh dalam dua jam berarti rata-rata 30W. Perkiraan 0,24kWh selama delapan jam hanya berlaku jika bebannya serupa. Sebaiknya ukur seluruh tugas dan catat baterai. Layar dengan daya terpisah tidak termasuk pembacaan pengisi.
+
+## Apakah pika menghemat listrik?
+
+pika menjaga tugas yang mungkin terhenti karena tidur sistem, bukan mengukur listrik atau menurunkan biaya AI. Menjaga Mac tetap aktif dapat menambah konsumsi. Periksa layanan pembantu, aktifkan Session, matikan Monitor jika layar tidak diperlukan, lalu uji dengan menutup dan membuka tutup sebentar. Matikan Session setelah selesai. Persetujuan tertunda dan gangguan jaringan perlu ditangani terpisah.
+
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+
+## Sebelum meninggalkan Mac
+
+Tentukan hasil dan cara berhenti. Atur batas atau pemberitahuan jika tersedia, tanpa menghitung langganan yang sudah ada dua kali sebagai biaya tambahan. Sambungkan daya dan gunakan meja kokoh berventilasi, bukan tas atau tempat tidur.
+
+Asumsi dan sumber
+
+Ditulis pembuat pika. Rumus: Virginia Cooperative Extension. Ventilasi: Apple. Daya dan tarif USD hanyalah asumsi.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
+
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/
+Language: es
+
+MAC GUIDE · 2026-10-15
+
+# Si la IA trabaja de noche, ¿quién paga la electricidad?
+
+Calculamos ocho horas de trabajo con supuestos explícitos y separamos la factura eléctrica del coste del servicio de IA.
+
+## Dos costes distintos
+
+En la IA en la nube, el proveedor realiza el cálculo principal del modelo, pero las compilaciones y pruebas locales siguen consumiendo energía en tu Mac. Un modelo local también se ejecuta en el Mac. La electricidad doméstica y la suscripción o API son costes separados; un medidor doméstico no incluye el centro de datos.
+
+## Un ejemplo de ocho horas
+
+Energía: vatios medios × horas ÷ 1.000. Multiplica los kWh por tu tarifa. Ejemplo ficticio: ocho horas diarias durante treinta días, a 0,20 USD/kWh. A 10W: 0,08kWh y 0,016 USD por noche; 2,4kWh y 0,48 USD en treinta noches. A 30W: 0,24kWh y 0,048 USD; 7,2kWh y 1,44 USD. A 60W: 0,48kWh y 0,096 USD; 14,4kWh y 2,88 USD.
+
+No son mediciones de un MacBook ni tarifas locales. Los impuestos y tramos modifican la factura. Para calcular el coste adicional frente al reposo, mide y resta el consumo en reposo durante el mismo tiempo.
+
+## El cargador no indica el consumo real
+
+Un cargador de 70W no implica consumir 70W continuamente. La carga de batería, las pantallas y las tareas cambian la demanda. Apagar la pantalla puede reducir su consumo, sin una cifra universal de ahorro.
+
+## Mide tu trabajo
+
+Usa un medidor de enchufe con kWh acumulados siguiendo sus instrucciones. 0,06kWh en dos horas equivale a 30W medios. Extrapolar a ocho horas da 0,24kWh solo si la carga es similar. Mide preferiblemente todo el trabajo y registra la batería; las pantallas con alimentación independiente quedan fuera de esa medición.
+
+## ¿pika ahorra energía?
+
+pika mantiene tareas que el reposo podría interrumpir; no mide energía ni reduce tarifas de IA. Mantener el Mac despierto puede aumentar el consumo. Comprueba el servicio auxiliar, activa Session, deja Monitor apagado si no necesitas mantener la pantalla y prueba brevemente con la tapa cerrada. Desactiva Session al terminar. Las aprobaciones pendientes y los fallos de red requieren atención aparte.
+
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+
+## Antes de ausentarte
+
+Define el resultado y cómo detener el trabajo. Configura límites o avisos cuando el servicio los permita y evita contar dos veces una suscripción existente como gasto adicional. Conecta la alimentación y utiliza una mesa firme y ventilada, nunca una bolsa ni ropa de cama.
+
+Supuestos y fuentes
+
+Artículo del creador de pika. Fórmula: Virginia Cooperative Extension. Ventilación: Apple. Potencias y precio en USD son supuestos ilustrativos.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Escrito por el creador de no-sleep-pika; incluye nuestra app.
+
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/
+Language: fr
+
+MAC GUIDE · 2026-10-15
+
+# Quand l’IA travaille la nuit, qui paie l’électricité ?
+
+Estimons huit heures de travail avec des hypothèses explicites, en séparant électricité domestique et frais du service d’IA.
+
+## Deux dépenses distinctes
+
+Avec l’IA dans le cloud, le fournisseur effectue le calcul principal du modèle. Votre Mac consomme encore pour les compilations et tests locaux. Avec un modèle local, il effectue aussi le calcul du modèle. Abonnement ou API et électricité sont deux dépenses différentes ; une mesure à la prise ne comprend pas le centre de données.
+
+## Le coût de huit heures
+
+Énergie : puissance moyenne en W × heures ÷ 1 000. Multipliez les kWh par votre tarif. Exemple hypothétique : huit heures par jour, trente jours, 0,20 USD/kWh. À 10W : 0,08kWh et 0,016 USD par nuit, puis 2,4kWh et 0,48 USD sur trente nuits. À 30W : 0,24kWh et 0,048 USD, puis 7,2kWh et 1,44 USD. À 60W : 0,48kWh et 0,096 USD, puis 14,4kWh et 2,88 USD.
+
+Ce ne sont ni des mesures de MacBook ni un tarif local. Taxes et tranches peuvent modifier la facture. Pour le surcoût par rapport à la veille, mesurez puis soustrayez la consommation en veille sur la même durée.
+
+## La puissance du chargeur ne suffit pas
+
+Un chargeur de 70W ne signifie pas une consommation constante de 70W. Batterie, écrans et tâches locales modifient la demande. Éteindre l’écran peut réduire son énergie, sans économie identique pour tous les Mac.
+
+## Mesurer sa propre tâche
+
+Utilisez un wattmètre de prise mesurant les kWh cumulés, selon sa notice. 0,06kWh en deux heures correspond à 30W moyens. Cela donne 0,24kWh sur huit heures uniquement à charge comparable. Mesurez de préférence toute la tâche, notez les niveaux de batterie et excluez explicitement les écrans alimentés séparément.
+
+## pika économise-t-il l’énergie ?
+
+pika maintient les tâches que la veille pourrait interrompre. Il ne mesure pas l’électricité et ne réduit pas les frais d’IA. Garder le Mac éveillé peut augmenter sa consommation. Vérifiez le service auxiliaire, activez Session, laissez Monitor désactivé si l’écran n’est pas nécessaire, puis testez brièvement le couvercle fermé. Désactivez Session à la fin. Les demandes d’autorisation et erreurs réseau restent à traiter séparément.
+
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+
+## Avant de partir
+
+Définissez le résultat attendu et la manière d’arrêter. Configurez limites ou alertes si disponibles ; ne comptez pas deux fois un abonnement existant comme dépense supplémentaire. Branchez le Mac sur une table ferme et ventilée, jamais dans un sac ou sous la literie.
+
+Hypothèses et sources
+
+Article du créateur de pika. Calcul : Virginia Cooperative Extension. Ventilation : Apple. Puissances et tarif en USD sont hypothétiques.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Rédigé par le créateur de no-sleep-pika ; présente notre app.
+
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/
+Language: de
+
+MAC GUIDE · 2026-10-15
+
+# Wenn die KI nachts arbeitet: Wer zahlt den Strom?
+
+Acht Stunden Mac-Betrieb als Rechenbeispiel – getrennt von Abonnement- und API-Kosten.
+
+## Zwei getrennte Kosten
+
+Bei Cloud-KI übernimmt der Anbieter die eigentliche Modellberechnung. Lokale Builds und Tests verbrauchen trotzdem Strom auf deinem Mac. Ein lokales Modell wird ebenfalls dort berechnet. Haushaltsstrom und KI-Gebühren sind getrennte Kosten; eine Steckdosenmessung erfasst nicht das Rechenzentrum.
+
+## Was kosten acht Stunden?
+
+Mittlere Watt × Stunden ÷ 1.000 ergibt kWh. Multipliziere mit deinem Tarif. Fiktives Beispiel: acht Stunden täglich, dreißig Tage, 0,20 USD/kWh. Bei 10W: 0,08kWh und 0,016 USD pro Nacht; 2,4kWh und 0,48 USD für dreißig Nächte. Bei 30W: 0,24kWh und 0,048 USD; 7,2kWh und 1,44 USD. Bei 60W: 0,48kWh und 0,096 USD; 14,4kWh und 2,88 USD.
+
+Das sind keine MacBook-Messwerte oder örtlichen Tarife. Steuern und Tarifstaffeln verändern die Rechnung. Für Mehrkosten gegenüber dem Ruhezustand dessen Verbrauch über dieselbe Zeit messen und abziehen.
+
+## Netzteilleistung ist nicht Verbrauch
+
+Ein 70W-Netzteil bedeutet keinen dauerhaften Verbrauch von 70W. Akkuladung, Displays und lokale Aufgaben verändern die Last. Ein ausgeschaltetes Display kann Strom sparen, aber nicht bei jedem Gerät denselben Betrag.
+
+## Die eigene Arbeit messen
+
+Ein Steckdosenmessgerät mit kumulierten kWh nach Anleitung verwenden. 0,06kWh in zwei Stunden entsprechen durchschnittlich 30W. Acht Stunden ergeben nur bei ähnlicher Last 0,24kWh. Möglichst die ganze Aufgabe messen, Akkustände notieren und separat versorgte Displays berücksichtigen: Sie fehlen in der Netzteilmessung.
+
+## Spart pika Strom?
+
+pika hält Aufgaben am Laufen, die der Ruhezustand unterbrechen könnte. Es misst keinen Strom und senkt keine KI-Gebühren. Wachhalten kann mehr Strom verbrauchen. Hilfsdienst prüfen, Session einschalten, Monitor bei unnötiger Anzeige ausschalten und kurz mit geschlossenem Deckel testen. Danach Session ausschalten. Freigaben, Netzwerkfehler und die Erkennung des Aufgabenendes bleiben separate Themen.
+
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+
+## Vor dem Weggehen
+
+Ergebnis und Abbruchbedingung festlegen. Falls angeboten, Nutzungsgrenzen oder Warnungen einstellen; ein bestehendes Abo nicht doppelt als Zusatzkosten zählen. Netzstrom und eine feste, gut belüftete Tischfläche nutzen, keine Tasche oder Bettdecke.
+
+Annahmen und Quellen
+
+Vom pika-Entwickler verfasst. Formel: Virginia Cooperative Extension. Belüftung: Apple. Wattwerte und USD-Tarif sind Annahmen.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
+
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/
+Language: pt-BR
+
+MAC GUIDE · 2026-10-15
+
+# Se a IA trabalha à noite, quem paga a eletricidade?
+
+Uma estimativa de oito horas de uso do Mac, separando energia doméstica e cobrança do serviço de IA.
+
+## Dois custos diferentes
+
+Na IA em nuvem, o provedor faz o cálculo principal do modelo, mas compilações e testes locais ainda usam energia no Mac. Um modelo local também roda nele. Assinatura ou API e eletricidade são contas diferentes; medir a tomada não mede o centro de dados.
+
+## Quanto custam oito horas?
+
+Potência média em W × horas ÷ 1.000 = kWh. Multiplique pela tarifa. Exemplo fictício: oito horas por dia, trinta dias, US$ 0,20/kWh. Com 10W: 0,08kWh e US$ 0,016 por noite; 2,4kWh e US$ 0,48 em trinta noites. Com 30W: 0,24kWh e US$ 0,048; 7,2kWh e US$ 1,44. Com 60W: 0,48kWh e US$ 0,096; 14,4kWh e US$ 2,88.
+
+Não são medições de MacBook nem tarifas brasileiras. Impostos e faixas mudam a conta. Para calcular o adicional em relação ao repouso, meça e subtraia o consumo em repouso no mesmo período.
+
+## Potência do carregador não é consumo
+
+Um carregador de 70W não significa consumo contínuo de 70W. Bateria, monitores e tarefas mudam a demanda. Desligar a tela pode reduzir seu consumo, sem uma economia universal.
+
+## Meça sua tarefa
+
+Use um medidor de tomada com kWh acumulados conforme o manual. 0,06kWh em duas horas equivale a 30W médios. Projetar 0,24kWh para oito horas só funciona com carga semelhante. Prefira medir toda a tarefa e registrar a bateria. Monitores alimentados separadamente ficam fora da medição do carregador.
+
+## pika economiza energia?
+
+pika mantém tarefas que o repouso poderia interromper; não mede energia nem reduz tarifas de IA. Manter o Mac acordado pode aumentar o consumo. Verifique o serviço auxiliar, ative Session, deixe Monitor desligado quando dispensável e teste brevemente com a tampa fechada. Desative Session ao terminar. Aprovações pendentes e erros de rede precisam de atenção separada.
+
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+
+## Antes de sair
+
+Defina o resultado e como parar. Configure limites ou alertas se disponíveis, sem contar uma assinatura existente duas vezes como gasto extra. Use energia conectada e uma mesa firme e ventilada, nunca uma bolsa ou roupa de cama.
+
+Premissas e fontes
+
+Texto do criador de pika. Fórmula: Virginia Cooperative Extension. Ventilação: Apple. Potências e preço em dólar são hipóteses.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Escrito pelo criador de no-sleep-pika; inclui nosso app.
+
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/
+Language: ru
+
+MAC GUIDE · 2026-10-15
+
+# Если ИИ работает ночью, кто платит за электричество?
+
+Считаем восемь часов работы Mac на условных данных и отделяем электричество от оплаты ИИ-сервиса.
+
+## Два разных расхода
+
+В облачном ИИ основные вычисления модели выполняет сервер провайдера, но локальные сборки и тесты расходуют энергию Mac. Локальная модель вычисляется на самом Mac. Электричество и подписка или API оплачиваются отдельно; прибор у розетки не измеряет энергию дата-центра.
+
+## Цена восьми часов
+
+Средние ватты × часы ÷ 1 000 дают кВт·ч. Умножьте на свой тариф. Условный пример: восемь часов в день, тридцать дней, 0,20 доллара США/кВт·ч. При 10Вт: 0,08кВт·ч и 0,016 доллара за ночь; 2,4кВт·ч и 0,48 доллара за тридцать ночей. При 30Вт: 0,24кВт·ч и 0,048 доллара; 7,2кВт·ч и 1,44 доллара. При 60Вт: 0,48кВт·ч и 0,096 доллара; 14,4кВт·ч и 2,88 доллара.
+
+Это не измерения MacBook и не местный тариф. Налоги и тарифные ступени меняют счёт. Для сравнения со сном измерьте и вычтите потребление спящего Mac за то же время.
+
+## Мощность зарядки — не потребление
+
+Зарядка на 70Вт не означает постоянный расход 70Вт. Заряд аккумулятора, экраны и локальные задачи меняют нагрузку. Выключение экрана может уменьшить его потребление, но универсальной величины экономии нет.
+
+## Измерьте свою задачу
+
+Используйте розеточный измеритель накопленных кВт·ч по инструкции. 0,06кВт·ч за два часа — в среднем 30Вт. Прогноз 0,24кВт·ч за восемь часов верен только при сходной нагрузке. Лучше измерить задачу целиком и записать заряд батареи. Отдельно питающиеся мониторы не входят в показания зарядки.
+
+## Экономит ли pika энергию?
+
+pika сохраняет работу, которую может прервать сон, но не измеряет энергию и не снижает тарифы ИИ. Бодрствующий Mac может расходовать больше. Проверьте вспомогательную службу, включите Session, выключите Monitor, если экран не нужен, и ненадолго закройте и откройте крышку для проверки. После работы выключите Session. Ожидание разрешения и ошибки сети требуют отдельного внимания.
+
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+
+## Перед уходом
+
+Определите результат и условие остановки. Настройте лимиты или уведомления, если сервис их поддерживает; не учитывайте существующую подписку дважды как дополнительную трату. Подключите питание и поставьте Mac на твёрдый проветриваемый стол, не в сумку или постель.
+
+Допущения и источники
+
+Статья автора pika. Формула: Virginia Cooperative Extension. Вентиляция: Apple. Мощности и долларовый тариф — допущения.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Материал разработчика no-sleep-pika с описанием собственного приложения.
+
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/
+Language: ar
+
+MAC GUIDE · 2026-10-15
+
+# إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟
+
+نحسب ثماني ساعات من تشغيل Mac بافتراضات واضحة، ونفصل كهرباء المنزل عن رسوم خدمة الذكاء الاصطناعي.
+
+## تكلفتان منفصلتان
+
+في الذكاء الاصطناعي السحابي يجري خادم المزود الحساب الرئيسي للنموذج، لكن البناء والاختبارات المحلية تستهلك كهرباء Mac أيضاً. أما النموذج المحلي فيُحسب على Mac. الكهرباء والاشتراك أو API تكاليف منفصلة؛ قياس المقبس لا يشمل مركز البيانات.
+
+## كم تكلف ثماني ساعات؟
+
+متوسط الواط × الساعات ÷ 1,000 يعطي kWh، ثم نضربه بسعر الوحدة. مثال افتراضي: ثماني ساعات يومياً لثلاثين يوماً بسعر 0.20 دولار أمريكي/kWh. عند 10W: ‏0.08kWh و0.016 دولار لليلة؛ و2.4kWh و0.48 دولار لثلاثين ليلة. عند 30W: ‏0.24kWh و0.048 دولار؛ و7.2kWh و1.44 دولار. عند 60W: ‏0.48kWh و0.096 دولار؛ و14.4kWh و2.88 دولار.
+
+هذه ليست قياسات MacBook ولا تعرفة محلية. الضرائب وشرائح الأسعار تؤثر في الفاتورة. لحساب الزيادة مقارنة بالسكون، قس استهلاك السكون خلال المدة نفسها واطرحه.
+
+## قدرة الشاحن ليست الاستهلاك
+
+شاحن 70W لا يعني استهلاك 70W باستمرار. شحن البطارية والشاشات والمهام المحلية تغير الحمل. إطفاء الشاشة قد يقلل طاقتها، لكن لا توجد قيمة توفير موحدة.
+
+## قس عملك الفعلي
+
+استخدم مقياس مقبس يسجل kWh التراكمية وفق تعليماته. استهلاك 0.06kWh خلال ساعتين يعني متوسط 30W. تقدير 0.24kWh لثماني ساعات صحيح فقط إذا كان الحمل مشابهاً. يفضل قياس المهمة كاملة وتسجيل شحن البطارية. الشاشات ذات الطاقة المنفصلة لا تدخل في قراءة الشاحن.
+
+## هل يوفر pika الكهرباء؟
+
+pika يحافظ على المهام التي قد يقطعها السكون؛ ليس مقياس طاقة ولا يخفض رسوم الذكاء الاصطناعي. إبقاء Mac مستيقظاً قد يزيد الاستهلاك. تحقق من الخدمة المساعدة، شغّل Session وأوقف Monitor إن لم تحتج الشاشة، ثم أغلق الغطاء وافتحه بعد فترة قصيرة للتحقق. أوقف Session بعد الانتهاء. انتظار الموافقات وأخطاء الشبكة يحتاجان معالجة منفصلة.
+
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+
+## قبل مغادرة الجهاز
+
+حدد النتيجة وطريقة التوقف. اضبط حدود الاستخدام أو التنبيهات إذا كانت مدعومة، ولا تحسب الاشتراك الموجود مرتين كتكلفة إضافية. وصّل الطاقة واستخدم طاولة صلبة جيدة التهوية، لا حقيبة أو فراشاً.
+
+الافتراضات والمصادر
+
+كتبه مطور pika. المعادلة من Virginia Cooperative Extension وإرشادات التهوية من Apple. القدرة وسعر الدولار افتراضات توضيحية.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
+
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/
+Language: vi
+
+MAC GUIDE · 2026-10-15
+
+# AI làm việc suốt đêm thì ai trả tiền điện?
+
+Ước tính tám giờ chạy Mac bằng giả định rõ ràng, tách tiền điện khỏi phí dịch vụ AI.
+
+## Hai khoản chi khác nhau
+
+Với AI đám mây, máy chủ của nhà cung cấp xử lý phần tính toán chính của mô hình, nhưng việc biên dịch và kiểm thử trên Mac vẫn dùng điện. Mô hình cục bộ cũng tính toán trên Mac. Tiền điện và phí thuê bao hoặc API là hai khoản riêng; đo tại ổ cắm không bao gồm trung tâm dữ liệu.
+
+## Tám giờ tốn bao nhiêu?
+
+Công suất trung bình W × giờ ÷ 1.000 = kWh. Nhân với đơn giá. Ví dụ giả định: tám giờ mỗi ngày, ba mươi ngày, 0,20 USD/kWh. 10W: 0,08kWh và 0,016 USD mỗi đêm; 2,4kWh và 0,48 USD cho ba mươi đêm. 30W: 0,24kWh và 0,048 USD; 7,2kWh và 1,44 USD. 60W: 0,48kWh và 0,096 USD; 14,4kWh và 2,88 USD.
+
+Đây không phải số đo MacBook hay biểu giá Việt Nam. Thuế và bậc giá ảnh hưởng hóa đơn. Muốn tính phần tăng thêm so với chế độ ngủ, hãy đo rồi trừ điện năng lúc ngủ trong cùng thời gian.
+
+## Công suất sạc không phải điện tiêu thụ
+
+Sạc 70W không có nghĩa máy luôn dùng 70W. Sạc pin, màn hình và công việc cục bộ làm tải thay đổi. Tắt màn hình có thể giảm điện cho màn hình nhưng không có mức tiết kiệm chung.
+
+## Đo tác vụ của bạn
+
+Dùng thiết bị đo ổ cắm ghi kWh tích lũy theo hướng dẫn. 0,06kWh trong hai giờ tương đương trung bình 30W. Chỉ khi tải tương tự mới suy ra 0,24kWh cho tám giờ. Nên đo trọn tác vụ và ghi mức pin. Màn hình dùng nguồn riêng không nằm trong số đo của bộ sạc.
+
+## pika có tiết kiệm điện không?
+
+pika duy trì công việc có thể bị chế độ ngủ ngắt, không đo điện hay giảm phí AI. Giữ Mac thức có thể tăng tiêu thụ. Kiểm tra dịch vụ hỗ trợ, bật Session, tắt Monitor nếu không cần giữ màn hình, rồi đóng và mở nắp trong thời gian ngắn để thử. Tắt Session khi xong. Chờ phê duyệt và lỗi mạng cần xử lý riêng.
+
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+
+## Trước khi rời máy
+
+Xác định kết quả và cách dừng. Đặt giới hạn hoặc thông báo nếu dịch vụ hỗ trợ; đừng tính thuê bao hiện có hai lần thành chi phí mới. Cắm nguồn và đặt máy trên bàn cứng thông thoáng, không để trong túi hay chăn đệm.
+
+Giả định và nguồn
+
+Bài của người tạo pika. Công thức: Virginia Cooperative Extension. Thông gió: Apple. Công suất và giá USD là giả định.
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
+
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/index.md)
+
+
+---
+
+Source: https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/
+Language: th
+
+MAC GUIDE · 2026-10-15
+
+# ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ?
+
+ลองคำนวณการเปิด Mac แปดชั่วโมงด้วยสมมติฐานที่ชัดเจน และแยกค่าไฟออกจากค่าบริการ AI
+
+## ค่าใช้จ่ายสองส่วน
+
+AI บนคลาวด์ใช้เซิร์ฟเวอร์ของผู้ให้บริการคำนวณโมเดลเป็นหลัก แต่การบิลด์และทดสอบบน Mac ยังใช้ไฟของคุณ โมเดลภายในเครื่องก็คำนวณบน Mac เช่นกัน ค่าไฟกับค่าสมาชิกหรือ API เป็นคนละส่วน การวัดที่ปลั๊กไม่รวมพลังงานของศูนย์ข้อมูล
+
+## แปดชั่วโมงคิดเป็นเท่าไร?
+
+กำลังเฉลี่ย W × ชั่วโมง ÷ 1,000 ได้ kWh แล้วคูณราคาต่อหน่วย ตัวอย่างสมมติ: วันละแปดชั่วโมง สามสิบวัน ราคา 0.20 ดอลลาร์สหรัฐ/kWh ที่ 10W ใช้คืนละ 0.08kWh ราคา 0.016 ดอลลาร์ รวมสามสิบคืน 2.4kWh ราคา 0.48 ดอลลาร์ ที่ 30W ใช้ 0.24kWh ราคา 0.048 ดอลลาร์ รวม 7.2kWh ราคา 1.44 ดอลลาร์ ที่ 60W ใช้ 0.48kWh ราคา 0.096 ดอลลาร์ รวม 14.4kWh ราคา 2.88 ดอลลาร์
+
+นี่ไม่ใช่ผลวัด MacBook หรืออัตราค่าไฟไทย ภาษีและขั้นอัตรามีผลต่อบิล หากต้องการค่าใช้จ่ายที่เพิ่มจากการพักเครื่อง ให้หักพลังงานที่วัดขณะพักในเวลาเท่ากัน
+
+## กำลังชาร์จไม่ใช่ไฟที่ใช้จริง
+
+ที่ชาร์จ 70W ไม่ได้หมายความว่าใช้ 70W ตลอดเวลา การชาร์จแบตเตอรี่ จอภาพ และงานในเครื่องทำให้โหลดเปลี่ยน การปิดจออาจลดไฟของจอ แต่ไม่มีตัวเลขประหยัดที่ใช้ได้กับทุกเครื่อง
+
+## วัดงานของคุณเอง
+
+ใช้มิเตอร์แบบเสียบปลั๊กที่บันทึก kWh สะสมตามคู่มือ หากสองชั่วโมงใช้ 0.06kWh จะเฉลี่ย 30W การคาดว่าแปดชั่วโมงใช้ 0.24kWh ใช้ได้เมื่อโหลดใกล้เคียงกัน ควรวัดทั้งงานและบันทึกระดับแบตเตอรี่ จอที่ใช้ไฟแยกไม่รวมในค่าของที่ชาร์จ
+
+## pika ช่วยประหยัดไฟไหม?
+
+pika รักษางานที่อาจหยุดเพราะเครื่องพัก ไม่ได้วัดไฟหรือลดค่าบริการ AI การให้ Mac ตื่นต่ออาจใช้ไฟเพิ่ม ตรวจบริการช่วยเหลือ เปิด Session ปิด Monitor ถ้าไม่ต้องคงจอไว้ แล้วปิดและเปิดฝาสั้น ๆ เพื่อตรวจงาน เมื่อเสร็จให้ปิด Session การรออนุมัติและปัญหาเครือข่ายต้องจัดการแยก
+
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+
+## ก่อนออกไปทำอย่างอื่น
+
+กำหนดผลลัพธ์และวิธีหยุด ตั้งขีดจำกัดหรือการแจ้งเตือนหากบริการรองรับ และอย่านับค่าสมาชิกเดิมซ้ำเป็นค่าใช้จ่ายเพิ่ม ต่อไฟและวางบนโต๊ะแข็งที่ระบายอากาศดี ไม่ใช่ในกระเป๋าหรือเครื่องนอน
+
+สมมติฐานและแหล่งข้อมูล
+
+เขียนโดยผู้สร้าง pika สูตรจาก Virginia Cooperative Extension และคำแนะนำการระบายอากาศจาก Apple กำลังไฟและราคาเป็นสมมติฐานเท่านั้น
+
+- [Virginia Cooperative Extension · Estimating appliance energy use](https://ext.vt.edu/content/pubs_ext_vt_edu/en/2901/2901-9014/2901-9014.html)
+
+- [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
+
+เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
+
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/index.md)

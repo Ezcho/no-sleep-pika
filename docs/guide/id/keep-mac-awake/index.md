@@ -87,6 +87,10 @@ Ditulis oleh pembuat no-sleep-pika dan mencakup aplikasi sendiri. Berdasarkan do
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
+
+[Unduhan MacBook berhenti: layar mati, tidur, atau penutup? →](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/)
+
 [Mac terkunci: apakah Claude Code dan Codex tetap bekerja? →](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/)
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.

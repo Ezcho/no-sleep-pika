@@ -87,6 +87,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
+
+[MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन? →](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/)
+
 [Mac लॉक होने पर क्या Claude Code और Codex काम करते रहते हैं? →](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/)
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।

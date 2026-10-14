@@ -83,6 +83,10 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
+
+[맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기 →](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/)
+
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
 [pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)

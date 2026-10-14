@@ -59,6 +59,10 @@ Monitor OFF AI समाप्त करने का आदेश नहीं 
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
+
+[MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन? →](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/)
+
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
 [pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)

@@ -87,6 +87,10 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[讓 AI 加班一整晚，電費誰來付？ →](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/)
+
+[MacBook 下載停止：關閉螢幕、睡眠與闔蓋有何不同？ →](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/)
+
 [Mac 鎖定螢幕後，Claude Code 與 Codex 還會繼續工作嗎？ →](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/)
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。

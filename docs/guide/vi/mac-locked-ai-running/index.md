@@ -59,6 +59,10 @@ Nguồn và phạm vi
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
+
+[Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp? →](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/)
+
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
 [Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)

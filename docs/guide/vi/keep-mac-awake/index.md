@@ -87,6 +87,10 @@ Bài so sánh do nhà phát triển no-sleep-pika viết, gồm ứng dụng c�
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
+
+[Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp? →](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/)
+
 [Mac đã khóa: Claude Code và Codex có tiếp tục chạy không? →](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/)
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.

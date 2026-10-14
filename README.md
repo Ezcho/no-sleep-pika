@@ -173,7 +173,7 @@ command = "/Applications/pika.app/Contents/MacOS/pika-mcp"
 ## 홈페이지 방문 집계와 애니메이션
 
 - 홈페이지는 `Scripts/pika_motion.py`에서 같은 원본을 공유하는 16방향 시선·상체 자세를 만듭니다. 마우스가 움직이는 동안 손을 쉬고, 방향 전환은 최대 12Hz로 중간 자세를 순서대로 거칩니다. 350ms 동안 마우스 움직임이 없으면 약 83ms의 중간 복귀 자세를 거쳐 타이핑을 재개합니다. 고개·상체는 작은 범위로 기울며 노트북과 발 위치는 변형 가중치를 0으로 유지합니다. 유휴 폴링은 없고, 동작 줄이기·터치 입력에서는 시선을 추적하지 않으며 숨긴 탭에서는 타이핑도 멈춥니다. 원본 래스터 그림은 변경하지 않았습니다.
-- Google Analytics 4로 방문·신규 사용자·유입 경로를 집계합니다. 측정 ID는 `docs/analytics.json`의 `measurementId`에 저장하며, `docs/ga.js`를 모든 64개 페이지에 공통으로 삽입합니다. 로컬 미리보기, GPC 활성 브라우저, 언어 자동 이동 직전의 중간 페이지는 제외합니다.
+- Google Analytics 4로 방문·신규 사용자·유입 경로를 집계합니다. 측정 ID는 `docs/analytics.json`의 `measurementId`에 저장하며, `docs/ga.js`를 모든 94개 페이지에 공통으로 삽입합니다. 로컬 미리보기, GPC 활성 브라우저, 언어 자동 이동 직전의 중간 페이지는 제외합니다.
 - GitHub 설치 파일 링크 클릭은 `pika_download_click` 이벤트로 기록합니다. 이는 다운로드 완료나 설치 사용자 수가 아니며 GitHub 릴리스 다운로드 횟수와 별개입니다. Google signals 및 광고 개인화 신호는 사용하지 않습니다.
 - 통계는 소유자의 GA 대시보드에서 확인합니다. GA는 사이트에 공개할 누적 카운터 API를 제공하지 않으므로 기존 눈 아이콘은 `—`로 유지합니다. GoatCounter는 연결하지 않았으며 요청을 보내지 않습니다. GA 비밀키나 계정 인증 정보를 홈페이지에 넣지 않습니다.
 - 집계는 태그 배포 이후부터 시작하며 과거 방문을 복원하지 않습니다. 광고 차단·사용자 설정 등에 따라 실제 방문과 차이가 날 수 있습니다.
@@ -208,3 +208,7 @@ PKG를 GitHub 정식 릴리스로 공개한 뒤 `gh api repos/Ezcho/no-sleep-pik
 저장소는 `Ezcho/no-sleep-pika`입니다. 기존 설치 앱의 엄격한 URL 검증을 위해 정적 업데이트 피드에는 이전 저장소의 다운로드 주소를 유지합니다. GitHub가 새 저장소로 리디렉션하므로 이전 이름으로 새 저장소를 만들지 마세요. 게시 도구는 새 저장소의 자산과 해시를 검증한 뒤 호환 피드를 생성합니다. 새 앱 소스는 두 공식 경로를 허용합니다. 이번 웹 배포에는 새 앱 릴리스가 포함되지 않습니다.
 
 새 글: [맥북 화면은 잠겼는데 Claude Code·Codex 작업은 계속될까?](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/) — 15개 언어, 참고 자료는 기본 접힘.
+
+새 글 (2026-10-11): [맥북 다운로드가 멈출 때](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/) — 15개 언어로 제공.
+
+- [AI에게 야근시키면 전기요금은 누가 낼까?](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/) — 15개 언어, 가정에 따른 전력량 계산.

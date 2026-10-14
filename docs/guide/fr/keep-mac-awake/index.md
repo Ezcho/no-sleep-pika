@@ -87,6 +87,10 @@ Comparaison rédigée par le créateur de no-sleep-pika, incluant sa propre app.
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Quand l’IA travaille la nuit, qui paie l’électricité ? →](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/)
+
+[Téléchargement arrêté sur MacBook : écran, veille et couvercle →](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/)
+
 [Mac verrouillé : Claude Code et Codex continuent-ils à travailler ? →](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/)
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.

@@ -59,6 +59,10 @@ Monitor OFFはAIの停止ではありません。tmuxはシステムのスリー
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AIに夜勤を頼むと、電気代は誰が払う？ →](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/)
+
+[MacBookのダウンロードが止まる原因：画面オフ・スリープ・ふたの違い →](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/)
+
 pika開発者による、自社アプリを含む比較です。
 
 [pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/index.md)

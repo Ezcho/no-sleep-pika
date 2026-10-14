@@ -87,6 +87,10 @@ Comparación del creador de no-sleep-pika que incluye su propia app. Las fuentes
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Si la IA trabaja de noche, ¿quién paga la electricidad? →](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/)
+
+[Descargas detenidas en MacBook: pantalla, reposo y tapa →](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/)
+
 [Mac bloqueado: ¿siguen trabajando Claude Code y Codex? →](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/)
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.

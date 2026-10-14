@@ -87,6 +87,10 @@ no-sleep-pikaの開発者による自社製品を含む比較です。Appleの�
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[AIに夜勤を頼むと、電気代は誰が払う？ →](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/)
+
+[MacBookのダウンロードが止まる原因：画面オフ・スリープ・ふたの違い →](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/)
+
 [MacをロックしてもClaude Code・Codexは動き続ける？ →](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/)
 
 pika開発者による、自社アプリを含む比較です。

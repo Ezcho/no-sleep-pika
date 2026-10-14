@@ -59,6 +59,10 @@ Offizielle Quellen und pika-Code geprüft am 5. Oktober 2026. Vom pika-Entwickle
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Wenn die KI nachts arbeitet: Wer zahlt den Strom? →](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/)
+
+[MacBook-Download stoppt: Display, Ruhezustand oder Deckel? →](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/)
+
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
 [pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)

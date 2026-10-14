@@ -59,6 +59,10 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Если ИИ работает ночью, кто платит за электричество? →](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/)
+
+[Загрузка на MacBook остановилась: экран, сон или крышка? →](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/)
+
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
 [Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)

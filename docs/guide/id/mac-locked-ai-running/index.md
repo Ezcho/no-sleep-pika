@@ -59,6 +59,10 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
+
+[Unduhan MacBook berhenti: layar mati, tidur, atau penutup? →](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/)
+
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
 [Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)

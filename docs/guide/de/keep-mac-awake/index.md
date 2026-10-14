@@ -87,6 +87,10 @@ Vergleich vom Entwickler von no-sleep-pika mit eigener App. Grundlage sind Apple
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Wenn die KI nachts arbeitet: Wer zahlt den Strom? →](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/)
+
+[MacBook-Download stoppt: Display, Ruhezustand oder Deckel? →](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/)
+
 [Mac gesperrt: Arbeiten Claude Code und Codex weiter? →](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/)
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.

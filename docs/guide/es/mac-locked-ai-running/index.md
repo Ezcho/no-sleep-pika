@@ -59,6 +59,10 @@ Documentación oficial e implementación de pika revisadas el 5 de octubre de 20
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Si la IA trabaja de noche, ¿quién paga la electricidad? →](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/)
+
+[Descargas detenidas en MacBook: pantalla, reposo y tapa →](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/)
+
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
 [Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)
