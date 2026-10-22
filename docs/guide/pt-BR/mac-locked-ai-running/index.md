@@ -59,6 +59,8 @@ Fontes oficiais e implementação verificadas em 5 de outubro de 2026. Guia do c
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude Code é IA local? Entenda Llama, Qwen e IA no dispositivo →](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/)
+
 [Se a IA trabalha à noite, quem paga a eletricidade? →](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/)
 
 [Download parado no MacBook: tela, repouso ou tampa? →](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/)

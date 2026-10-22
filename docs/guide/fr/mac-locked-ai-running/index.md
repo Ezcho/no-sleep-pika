@@ -59,6 +59,8 @@ Sources officielles et code pika consultés le 5 octobre 2026. Guide rédigé pa
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude Code est-il une IA locale ? Comprendre Llama, Qwen et l’IA sur appareil →](https://no-sleep-pika.online/guide/fr/local-on-device-ai/)
+
 [Quand l’IA travaille la nuit, qui paie l’électricité ? →](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/)
 
 [Téléchargement arrêté sur MacBook : écran, veille et couvercle →](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/)

@@ -43,6 +43,8 @@ Texto do criador de pika. Fórmula: Virginia Cooperative Extension. Ventilação
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code é IA local? Entenda Llama, Qwen e IA no dispositivo →](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/)
+
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
 [Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/index.md)

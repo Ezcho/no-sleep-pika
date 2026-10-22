@@ -43,6 +43,8 @@ pika製作者撰寫。公式參考Virginia Cooperative Extension，放置建議�
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code 也是本機 AI 嗎？用 Llama、Qwen 理解裝置端 AI →](https://no-sleep-pika.online/guide/zh-TW/local-on-device-ai/)
+
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
 [下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/index.md)

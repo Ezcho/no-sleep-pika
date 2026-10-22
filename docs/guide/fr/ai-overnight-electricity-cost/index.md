@@ -43,6 +43,8 @@ Article du créateur de pika. Calcul : Virginia Cooperative Extension. Ventilati
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code est-il une IA locale ? Comprendre Llama, Qwen et l’IA sur appareil →](https://no-sleep-pika.online/guide/fr/local-on-device-ai/)
+
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
 [Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/index.md)

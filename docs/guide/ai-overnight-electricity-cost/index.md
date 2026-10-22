@@ -65,6 +65,8 @@ Written by pika’s maker. The energy formula follows Virginia Cooperative Exten
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Is Claude Code local AI? On-device AI explained with Llama and Qwen →](https://no-sleep-pika.online/guide/local-on-device-ai/)
+
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
 [Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/index.md)

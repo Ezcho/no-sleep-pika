@@ -71,6 +71,8 @@ Mac이 깨어 있어도 AI가 승인 요청 앞에서 기다리거나 네트워�
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code도 로컬 AI일까? Llama·Qwen으로 이해하는 온디바이스 AI →](https://no-sleep-pika.online/guide/ko/local-on-device-ai/)
+
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
 [pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/index.md)

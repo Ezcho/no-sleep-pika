@@ -43,6 +43,8 @@ pika用于维持可能因系统睡眠中断的任务，不是电量计或AI费�
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code 也是本地 AI 吗？用 Llama、Qwen 理解端侧 AI →](https://no-sleep-pika.online/guide/zh-CN/local-on-device-ai/)
+
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
 [下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/index.md)

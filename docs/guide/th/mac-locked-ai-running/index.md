@@ -59,6 +59,8 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude Code เป็น AI ในเครื่องไหม? เข้าใจ Llama, Qwen และ On-device AI →](https://no-sleep-pika.online/guide/th/local-on-device-ai/)
+
 [ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
 
 [ดาวน์โหลดบน MacBook หยุด: ปิดจอ พักเครื่อง หรือปิดฝา? →](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/)

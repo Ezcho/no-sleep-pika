@@ -71,6 +71,8 @@ Checked against official documentation and current pika source on October 5, 202
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Is Claude Code local AI? On-device AI explained with Llama and Qwen →](https://no-sleep-pika.online/guide/local-on-device-ai/)
+
 [Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
 
 [MacBook downloads stop: screen off, sleep or a closed lid? →](https://no-sleep-pika.online/guide/macbook-downloads-stop/)

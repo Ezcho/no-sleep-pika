@@ -43,6 +43,8 @@ pika निर्माता का लेख। सूत्र: Virginia Coop
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[क्या Claude Code लोकल AI है? Llama, Qwen और ऑन-डिवाइस AI समझें →](https://no-sleep-pika.online/guide/hi/local-on-device-ai/)
+
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
 [pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/index.md)

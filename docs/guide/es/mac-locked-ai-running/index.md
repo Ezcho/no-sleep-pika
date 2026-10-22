@@ -59,6 +59,8 @@ Documentación oficial e implementación de pika revisadas el 5 de octubre de 20
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[¿Claude Code es IA local? Entender Llama, Qwen y la IA en el dispositivo →](https://no-sleep-pika.online/guide/es/local-on-device-ai/)
+
 [Si la IA trabaja de noche, ¿quién paga la electricidad? →](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/)
 
 [Descargas detenidas en MacBook: pantalla, reposo y tapa →](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/)

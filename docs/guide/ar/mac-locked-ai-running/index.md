@@ -59,6 +59,8 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[هل Claude Code ذكاء اصطناعي محلي؟ فهم Llama وQwen والذكاء على الجهاز →](https://no-sleep-pika.online/guide/ar/local-on-device-ai/)
+
 [إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
 
 [توقف التنزيل على MacBook: الشاشة أم السكون أم الغطاء؟ →](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/)

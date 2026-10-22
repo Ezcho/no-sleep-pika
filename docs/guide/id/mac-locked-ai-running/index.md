@@ -59,6 +59,8 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Apakah Claude Code AI lokal? Memahami Llama, Qwen dan AI di perangkat →](https://no-sleep-pika.online/guide/id/local-on-device-ai/)
+
 [Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
 
 [Unduhan MacBook berhenti: layar mati, tidur, atau penutup? →](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/)

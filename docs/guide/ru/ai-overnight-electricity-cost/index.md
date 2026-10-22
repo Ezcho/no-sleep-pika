@@ -43,6 +43,8 @@ pika сохраняет работу, которую может прервать
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code — локальный ИИ? Объясняем Llama, Qwen и ИИ на устройстве →](https://no-sleep-pika.online/guide/ru/local-on-device-ai/)
+
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
 [Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/index.md)

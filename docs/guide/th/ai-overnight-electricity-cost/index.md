@@ -43,6 +43,8 @@ pika รักษางานที่อาจหยุดเพราะเค
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code เป็น AI ในเครื่องไหม? เข้าใจ Llama, Qwen และ On-device AI →](https://no-sleep-pika.online/guide/th/local-on-device-ai/)
+
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
 [ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/index.md)

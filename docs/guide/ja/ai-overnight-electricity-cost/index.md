@@ -43,6 +43,8 @@ pika制作者による記事です。計算式はVirginia Cooperative Extension�
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude CodeもローカルAI？Llama・Qwenで学ぶオンデバイスAI →](https://no-sleep-pika.online/guide/ja/local-on-device-ai/)
+
 pika開発者による、自社アプリを含む比較です。
 
 [pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/index.md)

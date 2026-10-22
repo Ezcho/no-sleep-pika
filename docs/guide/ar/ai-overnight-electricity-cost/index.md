@@ -43,6 +43,8 @@ pika يحافظ على المهام التي قد يقطعها السكون؛ ل
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[هل Claude Code ذكاء اصطناعي محلي؟ فهم Llama وQwen والذكاء على الجهاز →](https://no-sleep-pika.online/guide/ar/local-on-device-ai/)
+
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
 [تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/index.md)

@@ -43,6 +43,8 @@ Bài của người tạo pika. Công thức: Virginia Cooperative Extension. Th
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Claude Code có phải AI cục bộ? Hiểu Llama, Qwen và AI trên thiết bị →](https://no-sleep-pika.online/guide/vi/local-on-device-ai/)
+
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
 [Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/index.md)

@@ -59,6 +59,8 @@ Monitor OFF 不是结束 AI 任务。tmux 不阻止系统睡眠；caffeinate 不
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude Code 也是本地 AI 吗？用 Llama、Qwen 理解端侧 AI →](https://no-sleep-pika.online/guide/zh-CN/local-on-device-ai/)
+
 [让 AI 加班一整晚，电费谁来付？ →](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/)
 
 [MacBook 下载停止：关屏、睡眠和合盖有什么不同？ →](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/)

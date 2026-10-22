@@ -83,6 +83,8 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude Code도 로컬 AI일까? Llama·Qwen으로 이해하는 온디바이스 AI →](https://no-sleep-pika.online/guide/ko/local-on-device-ai/)
+
 [AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
 
 [맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기 →](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/)

@@ -59,6 +59,8 @@ Nguồn và phạm vi
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude Code có phải AI cục bộ? Hiểu Llama, Qwen và AI trên thiết bị →](https://no-sleep-pika.online/guide/vi/local-on-device-ai/)
+
 [AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
 
 [Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp? →](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/)

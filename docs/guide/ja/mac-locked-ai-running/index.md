@@ -59,6 +59,8 @@ Monitor OFFはAIの停止ではありません。tmuxはシステムのスリー
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Claude CodeもローカルAI？Llama・Qwenで学ぶオンデバイスAI →](https://no-sleep-pika.online/guide/ja/local-on-device-ai/)
+
 [AIに夜勤を頼むと、電気代は誰が払う？ →](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/)
 
 [MacBookのダウンロードが止まる原因：画面オフ・スリープ・ふたの違い →](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/)

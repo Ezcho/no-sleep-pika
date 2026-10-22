@@ -43,6 +43,8 @@ Ditulis pembuat pika. Rumus: Virginia Cooperative Extension. Ventilasi: Apple. D
 
 - [Apple · Mac operating temperatures](https://support.apple.com/en-us/102336)
 
+[Apakah Claude Code AI lokal? Memahami Llama, Qwen dan AI di perangkat →](https://no-sleep-pika.online/guide/id/local-on-device-ai/)
+
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
 [Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/index.md)

@@ -59,6 +59,8 @@ Monitor OFF AI समाप्त करने का आदेश नहीं 
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[क्या Claude Code लोकल AI है? Llama, Qwen और ऑन-डिवाइस AI समझें →](https://no-sleep-pika.online/guide/hi/local-on-device-ai/)
+
 [AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
 
 [MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन? →](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/)
