@@ -17,3 +17,6 @@ xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Sha
 .build/AppDiagnosticsTests
 xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/App/PikaStatusIcon.swift Tests/StatusIcon/main.swift -o .build/PikaStatusIconTests
 .build/PikaStatusIconTests
+
+xcrun swiftc -swift-version 5 -parse-as-library -module-cache-path .build/module-cache Sources/Control/LocalControl.swift Sources/App/RemotePairing.swift Tests/RemoteQR/main.swift -o .build/RemoteQRTests
+.build/RemoteQRTests

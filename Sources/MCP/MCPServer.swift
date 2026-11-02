@@ -7,10 +7,18 @@ final class MCPServer {
     init(control: @escaping ([String: Any]) -> [String: Any] = ControlWire.call) { self.control = control }
 
     static let tools: [[String: Any]] = [
+        noArgumentTool("pika_remote_pair", "Create a one-use QR for read-only phone monitoring. QR expires in 5 minutes; connection lasts at most 24 hours. Does not enable Session. Display qrText in a code block first; if scanning fails, show qrPreviewPath HTML or the PNG. Treat the QR as a secret. Requires a configured gateway.", readOnly: false),
+        noArgumentTool("pika_remote_revoke", "Revoke phone monitoring. Does not change the local Session. Inspect ok and report unconfirmed revocation.", readOnly: false),
         tool("pika_status", "Read pika session, requested monitor policy, helper registration, battery and thermal status. Registration does not prove helper connectivity.", readOnly: true),
         tool("pika_set_session", "Set Session ON/OFF in the running pika menu-bar app. Safety checks remain active. OFF releases sleep prevention and resets Monitor to OFF without immediately sleeping the display. Closed-lid operation requires a ready privileged helper; there is no open-lid fallback. ON does not blank or wake the screen. In closed-lid mode display policy waits for lid closure; inspect waitingForLid and lidEngaged as well as sessionMode and lidClosedSupported.", readOnly: false),
         tool("pika_set_monitor", "Set the monitor policy while Session is ON. In closed-lid mode this only saves a preference while waitingForLid; closing the lid applies it. Once applied, true keeps/wakes the display; false requests display sleep after 3 seconds. Reports the requested policy, not physical screen state.", readOnly: false)
     ]
+
+    private static func noArgumentTool(_ name: String, _ description: String, readOnly: Bool) -> [String: Any] {
+        var value = tool(name, description, readOnly: true)
+        value["annotations"] = ["readOnlyHint": readOnly, "destructiveHint": false, "idempotentHint": name == "pika_remote_revoke", "openWorldHint": true]
+        return value
+    }
 
     private static func tool(_ name: String, _ description: String, readOnly: Bool) -> [String: Any] {
         ["name": name, "description": description,
@@ -53,9 +61,9 @@ final class MCPServer {
         if let raw = params["arguments"], !(raw is [String: Any]) { return error(id, -32602, "Arguments must be an object") }
         let arguments = params["arguments"] as? [String: Any] ?? [:]
         var request: [String: Any]
-        if name == "pika_status" {
+        if ["pika_status", "pika_remote_pair", "pika_remote_revoke"].contains(name) {
             guard arguments.isEmpty else { return error(id, -32602, "Status takes no arguments") }
-            request = ["operation": "status"]
+            request = ["operation": name == "pika_status" ? "status" : (name == "pika_remote_pair" ? "remote_pair" : "remote_revoke")]
         } else {
             guard arguments.count == 1, let enabled = arguments["enabled"] as? NSNumber,
                   CFGetTypeID(enabled) == CFBooleanGetTypeID() else {
@@ -63,9 +71,12 @@ final class MCPServer {
             }
             request = ["operation": name == "pika_set_session" ? "set_session" : "set_monitor", "enabled": enabled.boolValue]
         }
-        let reply = control(request)
+        var reply = control(request)
+        let png = reply.removeValue(forKey: "qrPNG") as? String
         let text = String(data: (try? JSONSerialization.data(withJSONObject: reply, options: [.sortedKeys])) ?? Data(), encoding: .utf8) ?? "{}"
-        return result(id, ["content": [["type": "text", "text": text]], "structuredContent": reply, "isError": !(reply["ok"] as? Bool ?? false)])
+        var content: [[String: Any]] = [["type": "text", "text": text]]
+        if let png { content.append(["type": "image", "mimeType": "image/png", "data": png]) }
+        return result(id, ["content": content, "structuredContent": reply, "isError": !(reply["ok"] as? Bool ?? false)])
     }
 
     private func result(_ id: Any, _ result: [String: Any]) -> [String: Any] { ["jsonrpc": "2.0", "id": id, "result": result] }

@@ -23,7 +23,7 @@ let initialized = rpc("initialize", ["protocolVersion": "2025-11-25", "capabilit
 check(initialized["id"] as? String == "init", "preserve string request ID")
 check((initialized["result"] as? [String: Any])?["protocolVersion"] as? String == "2025-11-25", "negotiate MCP protocol")
 let listed = rpc("tools/list")["result"] as! [String: Any]
-check((listed["tools"] as! [[String: Any]]).count == 3, "expose three tools")
+check((listed["tools"] as! [[String: Any]]).count == 5, "expose local and remote pairing tools")
 check(code(rpc("does_not_exist")) == -32601, "unknown method is a JSON-RPC error")
 check(code(rpc("tools/call", ["name": "unknown"])) == -32602, "unknown tool rejected")
 for invalid: Any in [1, 0, "true", NSNull()] {
@@ -46,3 +46,9 @@ check(code(server.handle(Data("[]".utf8))!) == -32600, "batches rejected")
 check(code(rpc("tools/call", ["name": "pika_status", "arguments": ["extra": true]])) == -32602, "status rejects extra arguments")
 check(code(rpc("tools/call", ["name": "pika_set_monitor", "arguments": ["enabled": true, "extra": 1]])) == -32602, "mutation rejects extra arguments")
 print("\(count) MCP protocol checks passed")
+
+_ = rpc("tools/call", ["name":"pika_remote_pair"])
+check(calls.last?["operation"] as? String == "remote_pair", "QR creation routes to app-owned bridge")
+_ = rpc("tools/call", ["name":"pika_remote_revoke"])
+check(calls.last?["operation"] as? String == "remote_revoke", "remote revoke is separate from session stop")
+check(code(rpc("tools/call", ["name":"pika_remote_pair", "arguments":["gateway":"https://evil.example"]])) == -32602, "MCP cannot override trusted gateway")

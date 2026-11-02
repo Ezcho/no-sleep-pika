@@ -6,9 +6,10 @@
     <key>CFBundleDisplayName</key><string>pika</string>
     <key>CFBundleExecutable</key><string>pika</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>1.0.13</string>
-    <key>CFBundleVersion</key><string>16</string>
+    <key>CFBundleShortVersionString</key><string>1.1.0</string>
+    <key>CFBundleVersion</key><string>17</string>
     <key>CFBundleIconFile</key><string>AppIcon</string>
+    <key>PikaRemoteGateway</key><string>https://pika-remote.always-wakeup.workers.dev</string>
     <key>LSMinimumSystemVersion</key><string>13.0</string>
     <key>LSUIElement</key><true/>
     <key>LSFileQuarantineEnabled</key><true/>

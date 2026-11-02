@@ -18,6 +18,19 @@ cleanup() {
 trap cleanup EXIT
 mkdir -p "$BUILD/module-cache" "$APP/Contents/MacOS" "$APP/Contents/Resources" "$APP/Contents/Library/HelperTools" "$APP/Contents/Library/LaunchDaemons"
 cp Resources/Info.plist "$APP/Contents/Info.plist"
+# Pin the deployment-controlled endpoint at build time; MCP cannot choose it.
+if [[ -n "${PIKA_REMOTE_GATEWAY:-}" ]]; then
+    python3 - "$APP/Contents/Info.plist" "$PIKA_REMOTE_GATEWAY" <<'PYREMOTE'
+import plistlib, sys
+from urllib.parse import urlparse
+u = urlparse(sys.argv[2])
+if u.scheme != 'https' or not u.hostname or u.username or u.password or u.query or u.fragment or u.path not in ('', '/'):
+    raise SystemExit('PIKA_REMOTE_GATEWAY must be an HTTPS origin')
+with open(sys.argv[1], 'rb') as f: info = plistlib.load(f)
+info['PikaRemoteGateway'] = sys.argv[2].rstrip('/')
+with open(sys.argv[1], 'wb') as f: plistlib.dump(info, f)
+PYREMOTE
+fi
 cp Resources/com.alwaysawake.mac.helper.plist "$APP/Contents/Library/LaunchDaemons/"
 cp Resources/Guide.html "$APP/Contents/Resources/Guide.html"
 

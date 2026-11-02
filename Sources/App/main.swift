@@ -6,6 +6,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
     private let logger = Logger(subsystem: AppIdentity.bundleID, category: "Lifecycle")
     let model = AppModel()
     private let controlServer = LocalControlServer()
+    private let remotePairing = RemotePairing()
     private var statusItem: NSStatusItem!
     private var statusIcon: PikaStatusIcon?
     private let menu = NSMenu()
@@ -105,13 +106,18 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
         updater.onChange = { [weak self] in self?.updateItem.title = self?.updater.menuTitle ?? "업데이트 확인…" }
         updateItem.target = self
         menu.insertItem(updateItem, at: menu.numberOfItems - 1)
+        let remoteItem = NSMenuItem(title: "휴대폰 연결 해제", action: #selector(revokeRemote), keyEquivalent: "")
+        remoteItem.target = self
+        menu.insertItem(remoteItem, at: menu.numberOfItems - 1)
         model.onChange = { [weak self] in self?.updateMenu() }
         model.onSetupRequested = { [weak self] in self?.showSetupWindow() }
         do {
             try controlServer.start { [weak self] request, reply in
                 MainActor.assumeIsolated {
                     guard let self else { reply(ControlWire.failure("app_closed", "pika is closing")); return }
-                    self.model.handleAutomation(request, completion: reply)
+                    if let operation = request["operation"] as? String, ["remote_pair", "remote_revoke"].contains(operation) {
+                        self.remotePairing.handle(request, status: { [weak self] in self?.model.automationStatus() ?? ["ok": false] }, completion: reply)
+                    } else { self.model.handleAutomation(request, completion: reply) }
                 }
             }
         } catch { logger.error("MCP local control unavailable: \(error.localizedDescription)") }
@@ -279,10 +285,19 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
         NSApp.activate(ignoringOtherApps: true)
         alert.runModal()
     }
+    @objc private func revokeRemote() {
+        Task {
+            let result = await remotePairing.revoke()
+            let alert = NSAlert()
+            alert.messageText = result["ok"] as? Bool == true ? "휴대폰 연결이 해제되었습니다" : "서버 연결 해제 확인 필요"
+            alert.informativeText = result["message"] as? String ?? "Mac의 Session 설정은 유지됩니다."
+            alert.runModal()
+        }
+    }
     @objc private func quitApp() { menu.cancelTracking(); NSApp.terminate(nil) }
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool { showControlWindow(); return true }
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { false }
-    func applicationWillTerminate(_ notification: Notification) { statusIcon?.invalidate() }
+    func applicationWillTerminate(_ notification: Notification) { remotePairing.stopConnection(); statusIcon?.invalidate() }
 
     func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
         if updateHandoff && !model.active && !model.recoveryRequired { model.client.invalidate(); return .terminateNow }
