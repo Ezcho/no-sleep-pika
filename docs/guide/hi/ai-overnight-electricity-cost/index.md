@@ -29,7 +29,7 @@ MAC GUIDE · 2026-10-15
 
 pika स्लीप से रुकने वाले काम को जारी रखने के लिए है; यह ऊर्जा मीटर नहीं और AI शुल्क नहीं घटाता। Mac को जागृत रखने से खपत बढ़ सकती है। सहायक सेवा जाँचें, Session ON करें, स्क्रीन जरूरी न हो तो Monitor OFF रखें और ढक्कन थोड़ी देर बंद करके फिर खोलकर प्रगति जाँचें। काम के बाद Session OFF करें। अनुमति का इंतजार और नेटवर्क त्रुटियाँ अलग समस्याएँ हैं।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 ## जाने से पहले तीन फैसले
 
@@ -47,4 +47,4 @@ pika निर्माता का लेख। सूत्र: Virginia Coop
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/index.md)

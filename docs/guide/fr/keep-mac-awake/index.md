@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika prend en charge macOS 13 et versions ultérieures, Apple Silicon et Intel. Son PKG officiel complet installe l’app et le service auxiliaire administrateur. Effectuez vous-même l’authentification et les autorisations nécessaires. Ouvrez /Applications/pika.app, vérifiez le service, activez Session, choisissez Monitor OFF si nécessaire, puis fermez le capot. La prévention est préparée avant ; la politique d’affichage est appliquée après fermeture. Capot ouvert, Monitor enregistre seulement le choix. Session OFF restaure le réglage géré sans éteindre immédiatement l’écran. Fermer la fenêtre ne quitte pas l’app.
 
-[Télécharger pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Télécharger pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Aide à l’installation](https://no-sleep-pika.online/install/)
 
@@ -95,4 +95,4 @@ Comparaison rédigée par le créateur de no-sleep-pika, incluant sa propre app.
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Guide du MacBook fermé →](https://no-sleep-pika.online/guide/fr/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/fr/keep-mac-awake/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Guide du MacBook fermé →](https://no-sleep-pika.online/guide/fr/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/fr/keep-mac-awake/index.md)

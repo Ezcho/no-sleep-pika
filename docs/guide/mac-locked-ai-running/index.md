@@ -51,7 +51,7 @@ Install pika and its helper, prepare Session ON, leave Monitor OFF if display re
 
 Session OFF releases sleep prevention and shows Monitor OFF without immediately blanking the screen. Battery or thermal protection and helper failures can stop a session. Start with power connected on a ventilated desk, never rely on operation inside a closed bag, and turn Session OFF when finished. pika cannot guarantee connectivity or task completion.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Common questions
 
@@ -79,4 +79,4 @@ Checked against official documentation and current pika source on October 5, 202
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)

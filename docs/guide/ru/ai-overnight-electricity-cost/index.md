@@ -29,7 +29,7 @@ MAC GUIDE · 2026-10-15
 
 pika сохраняет работу, которую может прервать сон, но не измеряет энергию и не снижает тарифы ИИ. Бодрствующий Mac может расходовать больше. Проверьте вспомогательную службу, включите Session, выключите Monitor, если экран не нужен, и ненадолго закройте и откройте крышку для проверки. После работы выключите Session. Ожидание разрешения и ошибки сети требуют отдельного внимания.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 ## Перед уходом
 
@@ -47,4 +47,4 @@ pika сохраняет работу, которую может прервать
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/index.md)

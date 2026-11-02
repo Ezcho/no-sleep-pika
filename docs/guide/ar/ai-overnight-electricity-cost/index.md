@@ -29,7 +29,7 @@ MAC GUIDE · 2026-10-15
 
 pika يحافظ على المهام التي قد يقطعها السكون؛ ليس مقياس طاقة ولا يخفض رسوم الذكاء الاصطناعي. إبقاء Mac مستيقظاً قد يزيد الاستهلاك. تحقق من الخدمة المساعدة، شغّل Session وأوقف Monitor إن لم تحتج الشاشة، ثم أغلق الغطاء وافتحه بعد فترة قصيرة للتحقق. أوقف Session بعد الانتهاء. انتظار الموافقات وأخطاء الشبكة يحتاجان معالجة منفصلة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## قبل مغادرة الجهاز
 
@@ -47,4 +47,4 @@ pika يحافظ على المهام التي قد يقطعها السكون؛ ل
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/index.md)

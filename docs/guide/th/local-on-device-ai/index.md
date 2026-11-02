@@ -47,7 +47,7 @@ Claude Code เป็นเครื่องมือจัดการไฟ�
 
 การพักเครื่องอาจหยุดหรือชะลองานใน Mac ต่างจากงานเซิร์ฟเวอร์อิสระ pika ไม่รันโมเดลหรือเปลี่ยนคลาวด์เป็น local แต่ช่วยให้ Mac ตื่น ตรวจบริการช่วยเหลือ เปิด Session และทดลองปิดเปิดฝาสั้น ๆ ต่อไฟและวางบนโต๊ะระบายอากาศดี เสร็จแล้วปิด Session
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 แหล่งข้อมูลและขอบเขต
 
@@ -65,4 +65,4 @@ Claude Code เป็นเครื่องมือจัดการไฟ�
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/local-on-device-ai/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/local-on-device-ai/index.md)

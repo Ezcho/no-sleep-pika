@@ -29,7 +29,7 @@ Macを一晩動かす費用を仮の数値で計算し、AIの利用料と家庭
 
 pikaはスリープによる作業中断を防ぐためのアプリで、電力計でもAI料金の節約機能でもありません。Macを起こし続ければ消費が増える場合があります。補助サービスを確認し、SessionをON、画面維持が不要ならMonitorをOFFにして短時間の閉蓋テストを行います。終了後はSessionをOFFに。承認待ちや通信エラーは別に対応が必要です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 ## 離席前に決めること
 
@@ -47,4 +47,4 @@ pika制作者による記事です。計算式はVirginia Cooperative Extension�
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/index.md)

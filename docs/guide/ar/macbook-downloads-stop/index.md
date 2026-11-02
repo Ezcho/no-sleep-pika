@@ -35,7 +35,7 @@ man caffeinate
 
 جهّز pika وخدمته، ابدأ التنزيل وفعّل Session واترك Monitor OFF إن لم تحتج الشاشة، ثم أغلق الغطاء. تطبق سياسة الشاشة بعد الإغلاق. عند الانتهاء استخدم Session OFF. استخدم الطاقة ومكتباً مهوّى لا حقيبة مغلقة. قد توقف الحماية أو الأخطاء الجلسة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## تحقق من النتيجة
 
@@ -55,4 +55,4 @@ man caffeinate
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/index.md)

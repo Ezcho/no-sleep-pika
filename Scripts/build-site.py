@@ -22,7 +22,7 @@ OUT = ROOT / 'docs'
 BASE = 'https://no-sleep-pika.online'
 REPO = 'https://github.com/Ezcho/no-sleep-pika'
 # Keep this aligned with the published release, not the unreleased source version.
-RELEASE = 'v1.0.13'
+RELEASE = 'v1.1.0'
 DOWNLOAD = f'{REPO}/releases/download/{RELEASE}/pika-{RELEASE[1:]}.pkg'
 # Content dates are intentional, not the time the generator happened to run.
 HOME_UPDATED = '2026-10-01'
@@ -46,7 +46,7 @@ A SMALL APP FOR LONGER SESSIONS
 A little pika.<br>A longer session.
 Session and display controls, right in your Mac’s menu bar. A quiet companion for work that takes a little longer.
 View source
-Public release 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Public release 1.1.0 · macOS 13+ · Apple Silicon & Intel
 Check installation requirements
 Meet your night-shift companion
 One session switch.
@@ -99,7 +99,7 @@ Mac용 다운로드
 작은 피카.<br>조금 더 긴 작업.
 Mac 메뉴 막대에서 세션과 화면을 간편하게 제어하세요. 시간이 더 필요한 작업 곁에 조용히 머뭅니다.
 소스코드 보기
-공개 버전 1.0.13 · macOS 13+ · Apple Silicon 및 Intel
+공개 버전 1.1.0 · macOS 13+ · Apple Silicon 및 Intel
 설치 요구사항 확인
 야근을 함께할 작은 친구
 세션은 스위치 하나로.
@@ -152,7 +152,7 @@ no-sleep-pika 是轻量级 macOS 菜单栏应用，提供会话与显示控制�
 小小鼠兔。<br>陪你多做一会儿。
 在 Mac 菜单栏轻松控制会话和屏幕。为需要更多时间的工作，留一个安静的伙伴。
 查看源代码
-公开版本 1.0.13 · macOS 13+ · Apple Silicon 与 Intel
+公开版本 1.1.0 · macOS 13+ · Apple Silicon 与 Intel
 查看安装要求
 认识你的夜班伙伴
 一个开关，管理会话。
@@ -205,7 +205,7 @@ no-sleep-pika 是輕量 macOS 選單列應用程式，提供工作階段與螢�
 小小鼠兔。<br>陪你多做一會兒。
 在 Mac 選單列輕鬆控制工作階段與螢幕。為需要更多時間的工作，留一位安靜的夥伴。
 查看原始碼
-公開版本 1.0.13 · macOS 13+ · Apple Silicon 與 Intel
+公開版本 1.1.0 · macOS 13+ · Apple Silicon 與 Intel
 查看安裝需求
 認識你的夜班夥伴
 一個開關，管理工作階段。
@@ -258,7 +258,7 @@ Mac 版をダウンロード
 小さなナキウサギ。<br>もう少し、作業のそばに。
 Mac のメニューバーからセッションと画面を操作。時間のかかる作業に、静かな相棒を。
 ソースを見る
-公開版 1.0.13 · macOS 13+ · Apple Silicon / Intel
+公開版 1.1.0 · macOS 13+ · Apple Silicon / Intel
 インストール要件を見る
 夜の作業の小さな相棒
 セッションはスイッチひとつ。
@@ -311,7 +311,7 @@ Mac के लिए डाउनलोड
 नन्हा पिका।<br>काम के लिए थोड़ा और समय।
 Mac के मेनू बार से सेशन और स्क्रीन नियंत्रित करें। समय लेने वाले काम के लिए एक शांत साथी।
 सोर्स कोड देखें
-सार्वजनिक संस्करण 1.0.13 · macOS 13+ · Apple Silicon और Intel
+सार्वजनिक संस्करण 1.1.0 · macOS 13+ · Apple Silicon और Intel
 इंस्टॉल करने की ज़रूरतें देखें
 रात के काम का छोटा साथी
 सेशन के लिए एक स्विच।
@@ -364,7 +364,7 @@ APLIKASI KECIL, SESI LEBIH PANJANG
 Pika kecil.<br>Waktu kerja lebih panjang.
 Kontrol sesi dan layar langsung dari bilah menu Mac. Teman tenang untuk pekerjaan yang butuh sedikit waktu lagi.
 Lihat kode sumber
-Rilis publik 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Rilis publik 1.1.0 · macOS 13+ · Apple Silicon & Intel
 Lihat persyaratan instalasi
 Kenali teman kerja malam Anda
 Satu sakelar untuk sesi.
@@ -417,7 +417,7 @@ UNA PEQUEÑA APP PARA SESIONES MÁS LARGAS
 Una pequeña pika.<br>Un poco más de tiempo.
 Controla las sesiones y la pantalla desde la barra de menús del Mac. Una compañía discreta para el trabajo que necesita un poco más de tiempo.
 Ver código fuente
-Versión pública 1.0.13 · macOS 13+ · Apple Silicon e Intel
+Versión pública 1.1.0 · macOS 13+ · Apple Silicon e Intel
 Consultar requisitos de instalación
 Tu compañía para el turno de noche
 Un interruptor para la sesión.
@@ -470,7 +470,7 @@ UNE PETITE APP POUR PRENDRE SON TEMPS
 Un petit pika.<br>Un peu plus de temps.
 Contrôlez les sessions et l’écran depuis la barre des menus du Mac. Un compagnon discret pour les tâches qui demandent un peu plus de temps.
 Voir le code source
-Version publique 1.0.13 · macOS 13+ · Apple Silicon et Intel
+Version publique 1.1.0 · macOS 13+ · Apple Silicon et Intel
 Consulter les prérequis
 Votre compagnon de nuit
 Un seul interrupteur pour la session.
@@ -523,7 +523,7 @@ KLEINE APP, LÄNGERE SITZUNGEN
 Ein kleiner Pfeifhase.<br>Ein bisschen mehr Zeit.
 Sitzungen und Display direkt über die Menüleiste steuern. Ein stiller Begleiter für Arbeit, die etwas länger dauert.
 Quellcode ansehen
-Öffentliche Version 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Öffentliche Version 1.1.0 · macOS 13+ · Apple Silicon & Intel
 Installationsvoraussetzungen
 Dein Begleiter für die Nachtschicht
 Ein Schalter für die Sitzung.
@@ -576,7 +576,7 @@ UM APP PEQUENO PARA SESSÕES MAIS LONGAS
 Uma pequena pika.<br>Um pouco mais de tempo.
 Controle a sessão e a tela direto da barra de menus do Mac. Uma companhia discreta para o trabalho que precisa de mais um tempinho.
 Ver código-fonte
-Versão pública 1.0.13 · macOS 13+ · Apple Silicon e Intel
+Versão pública 1.1.0 · macOS 13+ · Apple Silicon e Intel
 Conferir requisitos de instalação
 Sua companhia no turno da noite
 Um interruptor para a sessão.
@@ -629,7 +629,7 @@ no-sleep-pika — лёгкое приложение для строки меню
 Маленькая пищуха.<br>Чуть больше времени.
 Управляйте сеансом и экраном из строки меню Mac. Тихий спутник для работы, которой нужно немного больше времени.
 Исходный код
-Публичная версия 1.0.13 · macOS 13+ · Apple Silicon и Intel
+Публичная версия 1.1.0 · macOS 13+ · Apple Silicon и Intel
 Требования к установке
 Ваш спутник в ночную смену
 Один переключатель сеанса.
@@ -682,7 +682,7 @@ no-sleep-pika تطبيق خفيف لشريط قوائم macOS للتحكم في 
 بيكا صغير.<br>وقت أطول للعمل.
 تحكّم في الجلسة والشاشة مباشرة من شريط قوائم Mac. رفيق هادئ للعمل الذي يحتاج إلى مزيد من الوقت.
 عرض الشيفرة المصدرية
-الإصدار العام 1.0.13 · macOS 13+ · Apple Silicon وIntel
+الإصدار العام 1.1.0 · macOS 13+ · Apple Silicon وIntel
 متطلبات التثبيت
 تعرّف إلى رفيق العمل الليلي
 مفتاح واحد للجلسة.
@@ -735,7 +735,7 @@ Tải cho Mac
 Pika bé nhỏ.<br>Thêm thời gian làm việc.
 Điều khiển phiên và màn hình ngay trên thanh menu Mac. Người bạn yên lặng cho những công việc cần thêm chút thời gian.
 Xem mã nguồn
-Bản công khai 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Bản công khai 1.1.0 · macOS 13+ · Apple Silicon & Intel
 Xem yêu cầu cài đặt
 Người bạn đồng hành ca đêm
 Một công tắc cho phiên.
@@ -788,7 +788,7 @@ no-sleep-pika เป็นแอปแถบเมนู macOS ขนาดเ�
 พิกาตัวน้อย<br>เพิ่มเวลาทำงานอีกนิด
 ควบคุมเซสชันและหน้าจอจากแถบเมนู Mac เพื่อนเงียบ ๆ สำหรับงานที่ต้องการเวลาเพิ่มอีกหน่อย
 ดูซอร์สโค้ด
-รุ่นสาธารณะ 1.0.13 · macOS 13+ · Apple Silicon และ Intel
+รุ่นสาธารณะ 1.1.0 · macOS 13+ · Apple Silicon และ Intel
 ดูข้อกำหนดการติดตั้ง
 เพื่อนร่วมงานยามค่ำคืน
 สวิตช์เดียวสำหรับเซสชัน
@@ -858,7 +858,9 @@ for _locale, _tagline in TAGLINES.items():
     TEXT[_locale]['tagline'] = _tagline
 
 MCP_NOTES = {'en': 'Install and open pika, then connect using the command below.', 'ko': 'pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요.', 'zh-CN': '安装并打开 pika，然后使用下方命令连接。', 'zh-TW': '安裝並開啟 pika，再使用下方指令連接。', 'ja': 'pika をインストールして開き、下のコマンドで接続。', 'hi': 'pika इंस्टॉल करके खोलें, फिर नीचे दिए कमांड से कनेक्ट करें।', 'id': 'Instal dan buka pika, lalu hubungkan dengan perintah di bawah.', 'es': 'Instala y abre pika; conecta con el comando de abajo.', 'fr': 'Installez et ouvrez pika, puis connectez-le avec la commande ci-dessous.', 'de': 'Installiere und öffne pika und verbinde es mit dem Befehl unten.', 'pt-BR': 'Instale e abra o pika, depois conecte com o comando abaixo.', 'ru': 'Установите и откройте pika, затем подключите командой ниже.', 'ar': 'ثبّت pika وافتحه، ثم اتصل باستخدام الأمر أدناه.', 'vi': 'Cài đặt và mở pika, rồi kết nối bằng lệnh bên dưới.', 'th': 'ติดตั้งและเปิด pika แล้วเชื่อมต่อด้วยคำสั่งด้านล่าง'}
+REMOTE_NOTES = {'en': 'New: scan a QR to view Mac status on your phone.', 'ko': '새 기능: QR을 스캔해 휴대폰에서 Mac 상태를 확인하세요.', 'ja': '新機能：QRを読み取り、スマートフォンでMacの状態を確認。', 'zh-CN': '新功能：扫描二维码，在手机上查看 Mac 状态。', 'zh-TW': '新功能：掃描 QR 碼，在手機上查看 Mac 狀態。', 'es': 'Nuevo: escanea un QR para ver el estado del Mac en tu móvil.', 'fr': 'Nouveau : scannez un QR pour consulter votre Mac sur mobile.', 'de': 'Neu: Mac-Status per QR-Code auf dem Handy ansehen.', 'pt-BR': 'Novo: leia o QR para ver o estado do Mac no celular.', 'ru': 'Новое: сканируйте QR, чтобы смотреть состояние Mac на телефоне.', 'id': 'Baru: pindai QR untuk melihat status Mac di ponsel.', 'vi': 'Mới: quét QR để xem trạng thái Mac trên điện thoại.', 'hi': 'नया: फ़ोन पर Mac की स्थिति देखने के लिए QR स्कैन करें।', 'ar': 'جديد: امسح رمز QR لعرض حالة Mac على هاتفك.', 'th': 'ใหม่: สแกน QR เพื่อดูสถานะ Mac บนมือถือ'}
 for _locale, _note in MCP_NOTES.items():
+    _note += " " + REMOTE_NOTES[_locale]
     TEXT[_locale]["mcpnote"] = _note
 
 

@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Pasang pika dan layanan pendamping, aktifkan Session, pilih Monitor OFF bila layar tidak diperlukan, lalu tutup penutup. Kebijakan layar berlaku setelah penutup ditutup. Session OFF melepas pencegahan tidur tanpa langsung mematikan layar. Gunakan daya dan meja berventilasi, bukan tas tertutup. Perlindungan atau gangguan layanan dapat menghentikan sesi.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Pertanyaan umum
 
@@ -67,4 +67,4 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)

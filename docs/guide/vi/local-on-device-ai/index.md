@@ -47,7 +47,7 @@ Cuối cùng, đọc cài đặt và tài liệu. Chế độ cục bộ Ollama 
 
 Chế độ ngủ có thể ngắt hoặc làm chậm việc tại máy, khác với tác vụ máy chủ độc lập. pika không chạy mô hình hay biến đám mây thành cục bộ; nó giữ Mac thức. Kiểm tra dịch vụ hỗ trợ, bật Session và thử đóng rồi mở nắp trong thời gian ngắn. Cắm nguồn, đặt trên bàn thông thoáng, xong thì tắt Session.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 Nguồn và phạm vi
 
@@ -65,4 +65,4 @@ Hướng dẫn của người tạo pika, kiểm tra nguồn chính thức ngày
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/local-on-device-ai/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/local-on-device-ai/index.md)

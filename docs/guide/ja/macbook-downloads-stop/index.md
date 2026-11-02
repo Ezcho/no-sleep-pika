@@ -35,7 +35,7 @@ man caffeinate
 
 pikaと補助サービスを準備し、転送開始後にSession ON、画面が不要ならMonitor OFFにして閉じます。画面ポリシーは閉じた後に適用されます。完了後はSession OFF。通風のよい机と電源を使い、閉じたバッグ内で動かさないでください。保護機能やサービス障害で停止する場合があります。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 ## 完了の確認
 
@@ -55,4 +55,4 @@ pikaと補助サービスを準備し、転送開始後にSession ON、画面が
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/index.md)

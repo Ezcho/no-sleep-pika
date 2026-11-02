@@ -3,17 +3,17 @@ Language: ko
 
 # 맥을 덮어도 작업을 유지하세요
 
-[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 다운로드
+58 다운로드
 
-공개 버전 1.0.13 · macOS 13+ · Apple Silicon 및 Intel
+공개 버전 1.1.0 · macOS 13+ · Apple Silicon 및 Intel
 
 ## MCP 연결
 
 STDIO
 
-pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요. [소스코드 보기 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요. 새 기능: QR을 스캔해 휴대폰에서 Mac 상태를 확인하세요. [소스코드 보기 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -66,6 +66,10 @@ pika_status 도구가 상태를 정상 반환하면 앱 연결이 확인된 것�
 Session ON은 준비 상태입니다. 덮개를 닫아야 화면 설정이 적용되고, 덮개가 열려 있을 때 Monitor 변경은 선택만 저장합니다.
 
 Agent를 종료해도 pika 세션은 유지됩니다. 종료할 때는 앱에서 Session을 끄거나 Agent에게 꺼 달라고 요청하세요.
+
+휴대폰에서 상태 확인 · pika 1.1.0 이상
+
+업데이트 후 MCP를 재연결하고 “pika QR 만들어줘”라고 요청하세요. pika_remote_pair가 텍스트 QR과 PNG·HTML 대안을 반환합니다. 휴대폰 카메라로 스캔하고 연결을 누르세요. QR은 5분·1회용이며 상태 조회 연결은 최대 24시간 유지됩니다. QR 생성만으로 Session이 켜지지는 않습니다. pika_remote_revoke 또는 Mac 메뉴에서 연결을 해제할 수 있습니다. QR을 다른 사람과 공유하지 마세요.
 
 연결이 안 될 때
 

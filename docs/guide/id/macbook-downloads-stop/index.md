@@ -35,7 +35,7 @@ Dengan monitor eksternal, periksa daya, keyboard, mouse, dan dukungan model. Pen
 
 Siapkan pika dan layanan pendamping, mulai unduhan, aktifkan Session, pilih Monitor OFF jika layar tidak diperlukan, lalu tutup. Kebijakan layar berlaku setelah penutup ditutup. Akhiri dengan Session OFF. Gunakan daya dan meja berventilasi, bukan tas tertutup. Perlindungan atau gangguan dapat menghentikan sesi.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Periksa hasil
 
@@ -55,4 +55,4 @@ Diperiksa 11 Oktober 2026 berdasarkan Apple, caffeinate(8), dan kode pika. Pandu
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/index.md)

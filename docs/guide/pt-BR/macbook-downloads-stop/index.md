@@ -35,7 +35,7 @@ Com monitor externo, confira energia, teclado, mouse e suporte do modelo. Só o 
 
 Prepare pika e o serviço auxiliar, inicie o download, ligue Session e deixe Monitor OFF se não precisar da tela. Feche a tampa para aplicar a política de tela. Termine com Session OFF. Use energia e mesa ventilada, nunca bolsa fechada. Proteção ou falhas podem parar a sessão.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 ## Verificar o resultado
 
@@ -55,4 +55,4 @@ Verificado em 11 de outubro de 2026 com Apple, caffeinate(8) e código pika. Gui
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/index.md)

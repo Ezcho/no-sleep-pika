@@ -103,5 +103,5 @@ PROD gateway deployed and HTTPS/WSS smoke-tested with disposable synthetic statu
 Local workerd integration: 12 checks, including opened-socket expiry. Native QR
 round-trip and two create/revoke races tested. Security reviewer findings addressed.
 Universal pika 1.1.0 (build 17) PKG prepared locally with existing ad-hoc signing.
-Installed-app / physical-phone acceptance and public app release are still pending;
-no automatic update feed or GitHub Release was changed.
+Physical-phone acceptance remains pending. Public app release and update feed are
+maintained by the repository release pipeline; see the main README for the current release.

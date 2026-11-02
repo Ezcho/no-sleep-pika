@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 pikaと補助サービスを準備し、Session ON、画面維持が不要ならMonitor OFFにしてふたを閉じます。画面ポリシーはふたを閉じた後に適用されます。Session OFFはスリープ防止を解除し、直ちに画面を消す操作ではありません。電源と通風を確保し、閉じたバッグ内では使わないでください。保護機能や接続障害で停止する場合があります。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 ## よくある質問
 
@@ -67,4 +67,4 @@ Monitor OFFはAIの停止ではありません。tmuxはシステムのスリー
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/index.md)

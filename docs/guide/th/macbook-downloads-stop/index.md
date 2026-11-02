@@ -35,7 +35,7 @@ man caffeinate
 
 เตรียม pika และบริการช่วย เริ่มดาวน์โหลด เปิด Session และให้ Monitor OFF หากไม่ต้องใช้จอ แล้วปิดฝา นโยบายจอทำงานหลังปิดฝา เสร็จแล้ว Session OFF ใช้ไฟและโต๊ะระบายอากาศ ไม่ใช่กระเป๋าปิด ระบบป้องกันหรือข้อผิดพลาดอาจหยุดเซสชัน
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## ตรวจผลลัพธ์
 
@@ -55,4 +55,4 @@ man caffeinate
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/index.md)

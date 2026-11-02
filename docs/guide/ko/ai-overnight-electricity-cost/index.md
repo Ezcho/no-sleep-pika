@@ -53,7 +53,7 @@ pika는 Mac이 잠들어 중단될 수 있는 작업을 유지하기 위한 앱�
 
 Mac이 깨어 있어도 AI가 승인 요청 앞에서 기다리거나 네트워크 오류로 멈출 수 있습니다. pika가 그 결정을 대신하거나 작업 완료를 자동으로 판정해 주지는 않습니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 ## 밤새 맡기기 전에 정할 세 가지
 
@@ -75,4 +75,4 @@ Mac이 깨어 있어도 AI가 승인 요청 앞에서 기다리거나 네트워�
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/index.md)

@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Installiere pika samt Hilfsdienst, aktiviere Session und lasse Monitor OFF, falls kein Display nötig ist. Schließe dann den Deckel; erst dann greift die Display-Richtlinie. Session OFF gibt den Ruhezustand wieder frei, ohne das Display sofort auszuschalten. Nutze Stromversorgung und einen belüfteten Tisch, keine geschlossene Tasche. Schutzfunktionen oder Dienstfehler können die Sitzung stoppen.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 ## Häufige Fragen
 
@@ -67,4 +67,4 @@ Offizielle Quellen und pika-Code geprüft am 5. Oktober 2026. Vom pika-Entwickle
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)

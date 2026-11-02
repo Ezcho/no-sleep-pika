@@ -2,13 +2,15 @@
 
 **Keep your Mac awake from the menu bar.** Session and display controls, battery and thermal monitoring, with a native MCP interface. macOS 13+, Apple Silicon and Intel.
 
-macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입니다. Swift / AppKit으로 만들었으며 외부 패키지나 서버 없이 실행됩니다.
+macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입니다. Swift / AppKit으로 만들었으며 기본 잠자기 방지 기능은 외부 서버 없이 실행됩니다. 선택 기능인 QR 휴대폰 조회는 Cloudflare 중계 서버를 사용합니다.
 
-[다운로드 페이지](https://no-sleep-pika.online/) · [공개 릴리스](https://github.com/Ezcho/no-sleep-pika/releases/tag/v1.0.13)
+[다운로드 페이지](https://no-sleep-pika.online/) · [공개 릴리스](https://github.com/Ezcho/no-sleep-pika/releases/tag/v1.1.0)
 
 웹페이지의 다운로드 수는 공개 GitHub Release의 DMG·ZIP·설치 PKG 다운로드 합계입니다. 제거 패키지와 체크섬 파일은 제외합니다. 고유 사용자 수나 설치 성공 횟수는 아닙니다. 브라우저는 공개 API에서 갱신하고 1시간 캐시합니다. API 연결 실패 시 마지막 집계값을 유지하며, 표시값에 마우스를 올리면 집계 시각을 볼 수 있습니다. 배포용 기본 집계는 `python3 Scripts/update-downloads.py` 후 `python3 Scripts/build-site.py`로 갱신합니다.
 
-> **공개 다운로드: 1.0.13 (build 16).** 통합 PKG에 앱·보조 서비스와 MCP와 덮개 대기 동작이 포함됩니다. 덮개 기능에는 관리자 보조 서비스가 필요하며, 보조 서비스가 없거나 서명이 맞지 않으면 설치를 안내합니다. 새 빌드의 실제 덮개 동작은 사용자 검증 대상입니다. 현재 빌드는 Developer ID 서명·Apple 공증 전입니다.
+> **공개 다운로드: 1.1.0 (build 17).** 통합 PKG에 앱·보조 서비스와 MCP와 덮개 대기 동작이 포함됩니다. 덮개 기능에는 관리자 보조 서비스가 필요하며, 보조 서비스가 없거나 서명이 맞지 않으면 설치를 안내합니다. 새 빌드의 실제 덮개 동작은 사용자 검증 대상입니다. 현재 빌드는 Developer ID 서명·Apple 공증 전입니다.
+
+1.1.0에서는 `pika_remote_pair`로 QR을 생성해 휴대폰에서 상태를 읽을 수 있습니다. QR은 5분·1회용, 연결은 최대 24시간이며 `pika_remote_revoke` 또는 Mac 메뉴에서 해제합니다. 업데이트 후 MCP 클라이언트를 재연결하세요. [원격 연결 구성](Remote/README.md)
 
 1.0.13에서는 별도 `pika-updater` 실행 파일을 제거하고 앱에서 검증한 PKG를 macOS 기본 설치 프로그램으로 엽니다. 보안 차단 뒤에도 PKG를 보존합니다. 업데이트 정보는 공식 홈페이지 정적 feed를 우선 사용하고 GitHub API를 예비 경로로 둡니다.
 
@@ -17,7 +19,7 @@ macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입
 ## 사용
 
 1. 기존 pika에서 **Session OFF → 메뉴 막대 pika → 종료**를 선택합니다. 창의 ×는 종료가 아닙니다.
-2. 홈페이지의 **pika PKG**를 열고 관리자 승인을 거쳐 앱과 보조 서비스를 함께 설치합니다. 드래그 설치나 별도 helper 설치가 필요 없습니다. 응용 프로그램에서 pika를 열고 제어창의 **pika · 1.0.13**을 확인하세요.
+2. 홈페이지의 **pika PKG**를 열고 관리자 승인을 거쳐 앱과 보조 서비스를 함께 설치합니다. 드래그 설치나 별도 helper 설치가 필요 없습니다. 응용 프로그램에서 pika를 열고 제어창의 **pika · 1.1.0**을 확인하세요.
 3. 덮개 모드에서는 **Session ON → 대기 → 덮개 닫기** 순서로 동작합니다. ON을 누르거나 대기 중 Monitor를 바꿔도 현재 화면을 끄거나 깨우지 않습니다.
 
 메뉴 막대 아이콘 **클릭**으로 Session·Monitor 스위치를 엽니다. **Option+클릭**은 Session을 바로 전환합니다. 실행하면 작은 제어창이 표시됩니다. 창의 X를 눌러 닫아도 Session과 메뉴 막대는 유지됩니다. 앱을 다시 실행하거나 메뉴의 **제어창 열기**로 창을 다시 엽니다. Dock 아이콘은 없습니다. 종료는 메뉴의 **종료**를 사용합니다.
@@ -31,7 +33,7 @@ macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입
 
 ## 앱 내 업데이트
 
-메뉴 막대의 **업데이트 확인…** 또는 제어창의 **업데이트…**에서 최신 공개 버전을 확인하고 **업데이트 설치…**를 누릅니다. 1.0.10~1.0.12에서 별도 도우미가 차단된 경우 **1.0.13 PKG를 한 번 직접 설치**하세요. 기존 앱의 실행 경로를 원격으로 바꿀 수는 없습니다.
+메뉴 막대의 **업데이트 확인…** 또는 제어창의 **업데이트…**에서 최신 공개 버전을 확인하고 **업데이트 설치…**를 누릅니다. 1.0.10~1.0.12에서 별도 도우미가 차단된 경우 **최신 PKG를 한 번 직접 설치**하세요. 기존 앱의 실행 경로를 원격으로 바꿀 수는 없습니다.
 
 - 마지막 성공 확인으로부터 24시간이 지났으면 앱 시작/활성화 시 새 버전을 확인합니다. 실패 후 자동 재조회는 15분 간격으로 제한하며 수동 재시도는 유지합니다.
 - 사용자가 업데이트를 승인하면 Session을 종료하고 잠자기 설정을 복구합니다. PKG 다운로드·검증 후 고정된 Apple Installer.app으로 엽니다. 설치 프로그램이 열리면 pika가 종료됩니다. 설치를 마친 후 응용 프로그램에서 pika를 다시 여세요. Session은 OFF로 유지합니다.

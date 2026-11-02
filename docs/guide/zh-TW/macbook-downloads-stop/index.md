@@ -35,7 +35,7 @@ man caffeinate
 
 準備 pika 與輔助服務，開始下載後開啟 Session；不需維持畫面則 Monitor OFF，再闔蓋。畫面政策在闔蓋後套用。完成後關閉 Session。使用電源及通風桌面，勿在密閉袋中執行。保護機制或服務錯誤可能中止工作階段。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 ## 確認下載完成
 
@@ -55,4 +55,4 @@ man caffeinate
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/index.md)

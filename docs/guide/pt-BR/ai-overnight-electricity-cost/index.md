@@ -29,7 +29,7 @@ Use um medidor de tomada com kWh acumulados conforme o manual. 0,06kWh em duas h
 
 pika mantém tarefas que o repouso poderia interromper; não mede energia nem reduz tarifas de IA. Manter o Mac acordado pode aumentar o consumo. Verifique o serviço auxiliar, ative Session, deixe Monitor desligado quando dispensável e teste brevemente com a tampa fechada. Desative Session ao terminar. Aprovações pendentes e erros de rede precisam de atenção separada.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 ## Antes de sair
 
@@ -47,4 +47,4 @@ Texto do criador de pika. Fórmula: Virginia Cooperative Extension. Ventilação
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/index.md)

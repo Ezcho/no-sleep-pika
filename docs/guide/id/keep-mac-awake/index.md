@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika mendukung macOS 13 ke atas, Apple Silicon dan Intel. PKG resmi lengkap memasang aplikasi dan layanan pembantu administrator. Selesaikan autentikasi dan persetujuan macOS sendiri. Buka /Applications/pika.app, periksa layanan, aktifkan Session, pilih Monitor OFF jika perlu, lalu tutup layar. Pencegahan tidur disiapkan sebelumnya; kebijakan layar diterapkan setelah ditutup. Saat terbuka, Monitor hanya menyimpan pilihan. Session OFF memulihkan pengaturan tanpa langsung mematikan layar. Menutup jendela tidak keluar dari aplikasi.
 
-[Unduh pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Unduh pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
@@ -95,4 +95,4 @@ Ditulis oleh pembuat no-sleep-pika dan mencakup aplikasi sendiri. Berdasarkan do
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Panduan MacBook tertutup →](https://no-sleep-pika.online/guide/id/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/id/keep-mac-awake/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Panduan MacBook tertutup →](https://no-sleep-pika.online/guide/id/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/id/keep-mac-awake/index.md)

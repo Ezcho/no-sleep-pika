@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 ثبّت pika وخدمته المساعدة، وفعّل Session واترك Monitor OFF إن لم تحتج الشاشة، ثم أغلق الغطاء. تطبق سياسة الشاشة بعد الإغلاق. يحرر Session OFF منع السكون دون إطفاء الشاشة فوراً. استخدم الطاقة ومكتباً جيد التهوية، لا حقيبة مغلقة. قد توقف الحماية أو أخطاء الخدمة الجلسة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## أسئلة شائعة
 
@@ -67,4 +67,4 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)

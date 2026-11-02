@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika 支援 macOS 13 以上、Apple Silicon 與 Intel。從官方下載完整 PKG，安裝應用程式和管理員輔助服務，由使用者完成 macOS 認證與必要批准。開啟 /Applications/pika.app，確認服務連線，開啟 Session、按需關閉 Monitor，再闔蓋。睡眠防止先準備，畫面策略於闔蓋後套用。開蓋時改 Monitor 只儲存選擇。Session OFF 恢復管理的設定，不會立刻關閉螢幕；關閉視窗不等於結束程式。
 
-[下載 pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下載 pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [安裝說明](https://no-sleep-pika.online/install/)
 
@@ -95,4 +95,4 @@ man caffeinate
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook 闔蓋指南 →](https://no-sleep-pika.online/guide/zh-TW/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[MacBook 闔蓋指南 →](https://no-sleep-pika.online/guide/zh-TW/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/index.md)

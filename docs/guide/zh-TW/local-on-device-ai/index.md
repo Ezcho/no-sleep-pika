@@ -47,7 +47,7 @@ Claude Code 是處理檔案與指令的工作工具。Llama、Qwen 是不同大�
 
 Mac 本機工作可能因睡眠中斷或延遲，獨立遠端工作則不同。pika 不執行模型，也不把雲端 AI 變成本機 AI，而是在需要時保持 Mac 喚醒。確認輔助服務、開啟 Session 並短暫闔蓋測試，接上電源，放在通風桌面，完成後關閉 Session。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 來源與範圍
 
@@ -65,4 +65,4 @@ pika 製作者於2026年10月22日核對官方資料撰寫。本文是入門說�
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/local-on-device-ai/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/local-on-device-ai/index.md)

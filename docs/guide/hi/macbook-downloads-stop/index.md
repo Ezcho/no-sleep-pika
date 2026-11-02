@@ -35,7 +35,7 @@ man caffeinate
 
 pika और सहायक सेवा तैयार करें, डाउनलोड शुरू करें, Session ON और स्क्रीन न चाहिए तो Monitor OFF रखें, फिर ढक्कन बंद करें। स्क्रीन नीति इसके बाद लागू होती है। अंत में Session OFF करें। हवादार मेज और बिजली उपयोग करें, बंद बैग नहीं। सुरक्षा या त्रुटि सत्र रोक सकती है।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 ## परिणाम जाँचें
 
@@ -55,4 +55,4 @@ pika और सहायक सेवा तैयार करें, डाउ
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/index.md)

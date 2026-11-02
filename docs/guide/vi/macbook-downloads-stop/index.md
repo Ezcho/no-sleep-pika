@@ -35,7 +35,7 @@ Với màn hình ngoài, kiểm tra nguồn, bàn phím, chuột và hỗ trợ 
 
 Chuẩn bị pika và dịch vụ hỗ trợ, bắt đầu tải, bật Session, để Monitor OFF nếu không cần màn hình rồi đóng nắp. Chính sách màn hình áp dụng sau khi đóng. Xong thì Session OFF. Dùng nguồn và bàn thoáng, không để trong túi kín. Bảo vệ hoặc lỗi có thể dừng phiên.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 ## Kiểm tra kết quả
 
@@ -55,4 +55,4 @@ Kiểm tra ngày 11 tháng 10 năm 2026 theo Apple, caffeinate(8) và mã pika. 
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/index.md)

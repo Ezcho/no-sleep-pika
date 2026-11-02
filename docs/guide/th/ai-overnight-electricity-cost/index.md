@@ -29,7 +29,7 @@ AI บนคลาวด์ใช้เซิร์ฟเวอร์ของ�
 
 pika รักษางานที่อาจหยุดเพราะเครื่องพัก ไม่ได้วัดไฟหรือลดค่าบริการ AI การให้ Mac ตื่นต่ออาจใช้ไฟเพิ่ม ตรวจบริการช่วยเหลือ เปิด Session ปิด Monitor ถ้าไม่ต้องคงจอไว้ แล้วปิดและเปิดฝาสั้น ๆ เพื่อตรวจงาน เมื่อเสร็จให้ปิด Session การรออนุมัติและปัญหาเครือข่ายต้องจัดการแยก
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## ก่อนออกไปทำอย่างอื่น
 
@@ -47,4 +47,4 @@ pika รักษางานที่อาจหยุดเพราะเค
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/index.md)

@@ -29,7 +29,7 @@ Dùng thiết bị đo ổ cắm ghi kWh tích lũy theo hướng dẫn. 0,06kWh
 
 pika duy trì công việc có thể bị chế độ ngủ ngắt, không đo điện hay giảm phí AI. Giữ Mac thức có thể tăng tiêu thụ. Kiểm tra dịch vụ hỗ trợ, bật Session, tắt Monitor nếu không cần giữ màn hình, rồi đóng và mở nắp trong thời gian ngắn để thử. Tắt Session khi xong. Chờ phê duyệt và lỗi mạng cần xử lý riêng.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 ## Trước khi rời máy
 
@@ -47,4 +47,4 @@ Bài của người tạo pika. Công thức: Virginia Cooperative Extension. Th
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/index.md)

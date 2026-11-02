@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 pika और सहायक सेवा स्थापित करें, Session ON करें, स्क्रीन आवश्यक न हो तो Monitor OFF रखें और ढक्कन बंद करें। स्क्रीन नीति ढक्कन बंद होने के बाद लागू होती है। Session OFF स्लीप रोकना हटाता है, तुरंत स्क्रीन बंद नहीं करता। बिजली और हवादार मेज का उपयोग करें, बंद बैग का नहीं। सुरक्षा या सेवा त्रुटि सत्र रोक सकती है।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 ## आम सवाल
 
@@ -67,4 +67,4 @@ Monitor OFF AI समाप्त करने का आदेश नहीं 
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)

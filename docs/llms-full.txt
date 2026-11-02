@@ -14,17 +14,17 @@ Language: en
 
 # Keep working with your Mac closed.
 
-[Download for Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Download for Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Downloads
+58 Downloads
 
-Public release 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Public release 1.1.0 · macOS 13+ · Apple Silicon & Intel
 
 ## Connect MCP
 
 STDIO
 
-Install and open pika, then connect using the command below. [View source ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Install and open pika, then connect using the command below. New: scan a QR to view Mac status on your phone. [View source ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -78,6 +78,10 @@ Session ON prepares pika. Display policy applies only after the lid closes. With
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
 
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
+
 Connection not working?
 
 No tools: confirm the command path and restart the client. App connection error: open pika on the same Mac and user account. Helper error: quit pika, reinstall the latest full PKG, and reopen pika. If Terminal says codex was not found, use the configuration-file option above.
@@ -90,17 +94,17 @@ Language: ko
 
 # 맥을 덮어도 작업을 유지하세요
 
-[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 다운로드
+58 다운로드
 
-공개 버전 1.0.13 · macOS 13+ · Apple Silicon 및 Intel
+공개 버전 1.1.0 · macOS 13+ · Apple Silicon 및 Intel
 
 ## MCP 연결
 
 STDIO
 
-pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요. [소스코드 보기 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+pika를 설치하고 실행한 뒤 아래 명령어로 연결하세요. 새 기능: QR을 스캔해 휴대폰에서 Mac 상태를 확인하세요. [소스코드 보기 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -154,6 +158,10 @@ Session ON은 준비 상태입니다. 덮개를 닫아야 화면 설정이 적�
 
 Agent를 종료해도 pika 세션은 유지됩니다. 종료할 때는 앱에서 Session을 끄거나 Agent에게 꺼 달라고 요청하세요.
 
+휴대폰에서 상태 확인 · pika 1.1.0 이상
+
+업데이트 후 MCP를 재연결하고 “pika QR 만들어줘”라고 요청하세요. pika_remote_pair가 텍스트 QR과 PNG·HTML 대안을 반환합니다. 휴대폰 카메라로 스캔하고 연결을 누르세요. QR은 5분·1회용이며 상태 조회 연결은 최대 24시간 유지됩니다. QR 생성만으로 Session이 켜지지는 않습니다. pika_remote_revoke 또는 Mac 메뉴에서 연결을 해제할 수 있습니다. QR을 다른 사람과 공유하지 마세요.
+
 연결이 안 될 때
 
 도구가 안 보이면 실행 경로를 확인하고 클라이언트를 재시작하세요. 앱 연결 오류라면 같은 Mac·사용자 계정에서 pika를 실행하세요. 보조 서비스 오류라면 pika를 종료하고 최신 통합 PKG를 다시 설치한 뒤 여세요. 터미널에서 codex 명령을 찾지 못하면 위의 설정 파일 방식을 사용하세요.
@@ -166,17 +174,17 @@ Language: zh-CN
 
 # 合上 Mac，工作继续。
 
-[下载 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下载 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 下载次数
+58 下载次数
 
-公开版本 1.0.13 · macOS 13+ · Apple Silicon 与 Intel
+公开版本 1.1.0 · macOS 13+ · Apple Silicon 与 Intel
 
 ## 连接 MCP
 
 STDIO
 
-安装并打开 pika，然后使用下方命令连接。 [查看源代码 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+安装并打开 pika，然后使用下方命令连接。 新功能：扫描二维码，在手机上查看 Mac 状态。 [查看源代码 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -229,6 +237,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -242,17 +254,17 @@ Language: zh-TW
 
 # 闔上 Mac，工作繼續。
 
-[下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 下載次數
+58 下載次數
 
-公開版本 1.0.13 · macOS 13+ · Apple Silicon 與 Intel
+公開版本 1.1.0 · macOS 13+ · Apple Silicon 與 Intel
 
 ## 連接 MCP
 
 STDIO
 
-安裝並開啟 pika，再使用下方指令連接。 [查看原始碼 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+安裝並開啟 pika，再使用下方指令連接。 新功能：掃描 QR 碼，在手機上查看 Mac 狀態。 [查看原始碼 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -305,6 +317,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -318,17 +334,17 @@ Language: ja
 
 # Macを閉じても、作業を続けよう。
 
-[Mac 版をダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Mac 版をダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 ダウンロード数
+58 ダウンロード数
 
-公開版 1.0.13 · macOS 13+ · Apple Silicon / Intel
+公開版 1.1.0 · macOS 13+ · Apple Silicon / Intel
 
 ## MCP 接続
 
 STDIO
 
-pika をインストールして開き、下のコマンドで接続。 [ソースを見る ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+pika をインストールして開き、下のコマンドで接続。 新機能：QRを読み取り、スマートフォンでMacの状態を確認。 [ソースを見る ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -381,6 +397,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -394,17 +414,17 @@ Language: hi
 
 # Mac बंद करने पर भी काम जारी रखें।
 
-[Mac के लिए डाउनलोड](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Mac के लिए डाउनलोड](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 डाउनलोड
+58 डाउनलोड
 
-सार्वजनिक संस्करण 1.0.13 · macOS 13+ · Apple Silicon और Intel
+सार्वजनिक संस्करण 1.1.0 · macOS 13+ · Apple Silicon और Intel
 
 ## MCP जोड़ें
 
 STDIO
 
-pika इंस्टॉल करके खोलें, फिर नीचे दिए कमांड से कनेक्ट करें। [सोर्स कोड देखें ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+pika इंस्टॉल करके खोलें, फिर नीचे दिए कमांड से कनेक्ट करें। नया: फ़ोन पर Mac की स्थिति देखने के लिए QR स्कैन करें। [सोर्स कोड देखें ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -457,6 +477,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -470,17 +494,17 @@ Language: id
 
 # Tutup Mac, pekerjaan tetap berjalan.
 
-[Unduh untuk Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Unduh untuk Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Unduhan
+58 Unduhan
 
-Rilis publik 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Rilis publik 1.1.0 · macOS 13+ · Apple Silicon & Intel
 
 ## Hubungkan MCP
 
 STDIO
 
-Instal dan buka pika, lalu hubungkan dengan perintah di bawah. [Lihat kode sumber ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Instal dan buka pika, lalu hubungkan dengan perintah di bawah. Baru: pindai QR untuk melihat status Mac di ponsel. [Lihat kode sumber ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -533,6 +557,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -546,17 +574,17 @@ Language: es
 
 # Cierra tu Mac y mantén tus tareas en marcha.
 
-[Descargar para Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Descargar para Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Descargas
+58 Descargas
 
-Versión pública 1.0.13 · macOS 13+ · Apple Silicon e Intel
+Versión pública 1.1.0 · macOS 13+ · Apple Silicon e Intel
 
 ## Conectar MCP
 
 STDIO
 
-Instala y abre pika; conecta con el comando de abajo. [Ver código fuente ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Instala y abre pika; conecta con el comando de abajo. Nuevo: escanea un QR para ver el estado del Mac en tu móvil. [Ver código fuente ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -609,6 +637,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -622,17 +654,17 @@ Language: fr
 
 # Fermez votre Mac, vos tâches continuent.
 
-[Télécharger pour Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Télécharger pour Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Téléchargements
+58 Téléchargements
 
-Version publique 1.0.13 · macOS 13+ · Apple Silicon et Intel
+Version publique 1.1.0 · macOS 13+ · Apple Silicon et Intel
 
 ## Connecter MCP
 
 STDIO
 
-Installez et ouvrez pika, puis connectez-le avec la commande ci-dessous. [Voir le code source ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Installez et ouvrez pika, puis connectez-le avec la commande ci-dessous. Nouveau : scannez un QR pour consulter votre Mac sur mobile. [Voir le code source ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -685,6 +717,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -698,17 +734,17 @@ Language: de
 
 # Mac zuklappen. Aufgaben laufen weiter.
 
-[Für Mac laden](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Für Mac laden](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Downloads
+58 Downloads
 
-Öffentliche Version 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Öffentliche Version 1.1.0 · macOS 13+ · Apple Silicon & Intel
 
 ## MCP verbinden
 
 STDIO
 
-Installiere und öffne pika und verbinde es mit dem Befehl unten. [Quellcode ansehen ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Installiere und öffne pika und verbinde es mit dem Befehl unten. Neu: Mac-Status per QR-Code auf dem Handy ansehen. [Quellcode ansehen ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -761,6 +797,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -774,17 +814,17 @@ Language: pt-BR
 
 # Feche o Mac e mantenha suas tarefas rodando.
 
-[Baixar para Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Baixar para Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Downloads
+58 Downloads
 
-Versão pública 1.0.13 · macOS 13+ · Apple Silicon e Intel
+Versão pública 1.1.0 · macOS 13+ · Apple Silicon e Intel
 
 ## Conectar MCP
 
 STDIO
 
-Instale e abra o pika, depois conecte com o comando abaixo. [Ver código-fonte ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Instale e abra o pika, depois conecte com o comando abaixo. Novo: leia o QR para ver o estado do Mac no celular. [Ver código-fonte ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -837,6 +877,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -850,17 +894,17 @@ Language: ru
 
 # Закройте Mac — работа продолжится.
 
-[Скачать для Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Скачать для Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Загрузки
+58 Загрузки
 
-Публичная версия 1.0.13 · macOS 13+ · Apple Silicon и Intel
+Публичная версия 1.1.0 · macOS 13+ · Apple Silicon и Intel
 
 ## Подключить MCP
 
 STDIO
 
-Установите и откройте pika, затем подключите командой ниже. [Исходный код ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Установите и откройте pika, затем подключите командой ниже. Новое: сканируйте QR, чтобы смотреть состояние Mac на телефоне. [Исходный код ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -913,6 +957,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -926,17 +974,17 @@ Language: ar
 
 # أغلق غطاء Mac ودع مهامك تستمر.
 
-[تنزيل لنظام Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[تنزيل لنظام Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 التنزيلات
+58 التنزيلات
 
-الإصدار العام 1.0.13 · macOS 13+ · Apple Silicon وIntel
+الإصدار العام 1.1.0 · macOS 13+ · Apple Silicon وIntel
 
 ## ربط MCP
 
 STDIO
 
-ثبّت pika وافتحه، ثم اتصل باستخدام الأمر أدناه. [عرض الشيفرة المصدرية ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+ثبّت pika وافتحه، ثم اتصل باستخدام الأمر أدناه. جديد: امسح رمز QR لعرض حالة Mac على هاتفك. [عرض الشيفرة المصدرية ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -989,6 +1037,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -1002,17 +1054,17 @@ Language: vi
 
 # Gập Mac lại, công việc vẫn tiếp tục.
 
-[Tải cho Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Tải cho Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 Lượt tải
+58 Lượt tải
 
-Bản công khai 1.0.13 · macOS 13+ · Apple Silicon & Intel
+Bản công khai 1.1.0 · macOS 13+ · Apple Silicon & Intel
 
 ## Kết nối MCP
 
 STDIO
 
-Cài đặt và mở pika, rồi kết nối bằng lệnh bên dưới. [Xem mã nguồn ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+Cài đặt và mở pika, rồi kết nối bằng lệnh bên dưới. Mới: quét QR để xem trạng thái Mac trên điện thoại. [Xem mã nguồn ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -1065,6 +1117,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -1078,17 +1134,17 @@ Language: th
 
 # พับฝา Mac แล้วให้งานทำต่อไป
 
-[ดาวน์โหลดสำหรับ Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[ดาวน์โหลดสำหรับ Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 ดาวน์โหลด
+58 ดาวน์โหลด
 
-รุ่นสาธารณะ 1.0.13 · macOS 13+ · Apple Silicon และ Intel
+รุ่นสาธารณะ 1.1.0 · macOS 13+ · Apple Silicon และ Intel
 
 ## เชื่อมต่อ MCP
 
 STDIO
 
-ติดตั้งและเปิด pika แล้วเชื่อมต่อด้วยคำสั่งด้านล่าง [ดูซอร์สโค้ด ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+ติดตั้งและเปิด pika แล้วเชื่อมต่อด้วยคำสั่งด้านล่าง ใหม่: สแกน QR เพื่อดูสถานะ Mac บนมือถือ [ดูซอร์สโค้ด ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -1141,6 +1197,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 
@@ -2510,7 +2570,7 @@ Open /Applications/pika.app and confirm helper connectivity. Turn Session ON, ch
 
 Reopening the lid returns display control to waiting. Session OFF restores pika’s managed sleep setting and shows Monitor OFF without immediately blanking the screen. Closing the window leaves the menu-bar app running. Use Session OFF or Quit to finish. A helper error means the operation has not succeeded and must be resolved first.
 
-[Download pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Download pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Installation help](https://no-sleep-pika.online/install/)
 
@@ -2556,7 +2616,7 @@ Use clamshell mode for an external-screen workstation, caffeinate for temporary 
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Closed-lid MacBook guide →](https://no-sleep-pika.online/guide/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/keep-mac-awake/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Closed-lid MacBook guide →](https://no-sleep-pika.online/guide/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/keep-mac-awake/index.md)
 
 
 ---
@@ -2634,7 +2694,7 @@ pika는 Session과 Monitor를 메뉴 막대에서 제어하는 macOS 13 이상�
 
 덮개를 다시 열면 화면 제어가 대기 상태로 돌아갑니다. Session OFF를 누르면 pika가 관리한 잠자기 설정을 복구하며 Monitor도 OFF로 표시되지만 화면을 즉시 끄지는 않습니다. 창의 X 버튼은 앱 종료가 아니며 메뉴 막대에 남습니다. 완전히 끝낼 때는 Session OFF 또는 앱의 종료 메뉴를 사용하세요. 보조 서비스 오류가 보이면 정상 실행으로 간주하지 말고 설치·연결 문제부터 해결해야 합니다.
 
-[pika 다운로드 · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pika 다운로드 · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
@@ -2680,7 +2740,7 @@ man caffeinate
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[맥북 덮개 닫기 가이드 →](https://no-sleep-pika.online/guide/ko/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[맥북 덮개 닫기 가이드 →](https://no-sleep-pika.online/guide/ko/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)
 
 
 ---
@@ -2742,7 +2802,7 @@ caffeinate -i make
 
 pika 支持 macOS 13 及以上、Apple Silicon 和 Intel。下载官方完整 PKG，安装应用和管理员辅助服务，并由用户完成 macOS 身份认证与必要的安全批准。打开 /Applications/pika.app，确认服务连接，开启 Session，按需关闭 Monitor，然后合盖。系统防睡眠会提前准备，屏幕策略在合盖后应用。开盖时切换 Monitor 只保存选择。关闭 Session 会恢复 pika 管理的设置，但不会立即熄屏；关闭窗口也不会退出应用。
 
-[下载 pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下载 pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [安装帮助](https://no-sleep-pika.online/install/)
 
@@ -2782,7 +2842,7 @@ man caffeinate
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook 合盖指南 →](https://no-sleep-pika.online/guide/zh-CN/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/index.md)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[MacBook 合盖指南 →](https://no-sleep-pika.online/guide/zh-CN/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/index.md)
 
 
 ---
@@ -2844,7 +2904,7 @@ caffeinate -i make
 
 pika 支援 macOS 13 以上、Apple Silicon 與 Intel。從官方下載完整 PKG，安裝應用程式和管理員輔助服務，由使用者完成 macOS 認證與必要批准。開啟 /Applications/pika.app，確認服務連線，開啟 Session、按需關閉 Monitor，再闔蓋。睡眠防止先準備，畫面策略於闔蓋後套用。開蓋時改 Monitor 只儲存選擇。Session OFF 恢復管理的設定，不會立刻關閉螢幕；關閉視窗不等於結束程式。
 
-[下載 pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下載 pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [安裝說明](https://no-sleep-pika.online/install/)
 
@@ -2884,7 +2944,7 @@ man caffeinate
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook 闔蓋指南 →](https://no-sleep-pika.online/guide/zh-TW/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[MacBook 闔蓋指南 →](https://no-sleep-pika.online/guide/zh-TW/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/index.md)
 
 
 ---
@@ -2946,7 +3006,7 @@ caffeinate -i make
 
 pikaはmacOS 13以降のApple SiliconとIntelに対応します。公式サイトの統合PKGでアプリと管理者補助サービスをインストールし、macOSの認証や必要な承認を完了します。/Applications/pika.appを開き、補助サービス接続を確認。Session ON、必要ならMonitor OFFを選び、ふたを閉じます。スリープ防止は事前に準備され、画面制御は閉じてから適用されます。開いた状態でMonitorを変更しても即座に消灯しません。Session OFFで管理した設定を復元します。ウィンドウを閉じてもアプリは終了しません。
 
-[pikaをダウンロード · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pikaをダウンロード · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [インストール案内](https://no-sleep-pika.online/install/)
 
@@ -2986,7 +3046,7 @@ no-sleep-pikaの開発者による自社製品を含む比較です。Appleの�
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[ふたを閉じたMacBookのガイド →](https://no-sleep-pika.online/guide/ja/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ja/keep-mac-awake/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[ふたを閉じたMacBookのガイド →](https://no-sleep-pika.online/guide/ja/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ja/keep-mac-awake/index.md)
 
 
 ---
@@ -3048,7 +3108,7 @@ caffeinate -i make
 
 pika macOS 13 या नया, Apple Silicon और Intel पर काम करता है। आधिकारिक पूर्ण PKG ऐप और एडमिन सहायक सेवा इंस्टॉल करता है। macOS प्रमाणीकरण और आवश्यक अनुमति खुद पूरी करें। /Applications/pika.app खोलें, सेवा कनेक्शन जाँचें, Session ON करें, जरूरत हो तो Monitor OFF चुनें और ढक्कन बंद करें। स्लीप रोकने की तैयारी पहले होती है; स्क्रीन नीति बंद होने के बाद लागू होती है। खुले ढक्कन में Monitor सिर्फ चयन बचाता है। Session OFF प्रबंधित सेटिंग वापस करता है, स्क्रीन तुरंत बंद नहीं करता। विंडो बंद करने से ऐप बंद नहीं होता।
 
-[pika डाउनलोड करें · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pika डाउनलोड करें · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
@@ -3088,7 +3148,7 @@ man caffeinate
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[बंद MacBook की गाइड →](https://no-sleep-pika.online/guide/hi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/hi/keep-mac-awake/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[बंद MacBook की गाइड →](https://no-sleep-pika.online/guide/hi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/hi/keep-mac-awake/index.md)
 
 
 ---
@@ -3150,7 +3210,7 @@ caffeinate -i make
 
 pika mendukung macOS 13 ke atas, Apple Silicon dan Intel. PKG resmi lengkap memasang aplikasi dan layanan pembantu administrator. Selesaikan autentikasi dan persetujuan macOS sendiri. Buka /Applications/pika.app, periksa layanan, aktifkan Session, pilih Monitor OFF jika perlu, lalu tutup layar. Pencegahan tidur disiapkan sebelumnya; kebijakan layar diterapkan setelah ditutup. Saat terbuka, Monitor hanya menyimpan pilihan. Session OFF memulihkan pengaturan tanpa langsung mematikan layar. Menutup jendela tidak keluar dari aplikasi.
 
-[Unduh pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Unduh pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
@@ -3190,7 +3250,7 @@ Ditulis oleh pembuat no-sleep-pika dan mencakup aplikasi sendiri. Berdasarkan do
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Panduan MacBook tertutup →](https://no-sleep-pika.online/guide/id/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/id/keep-mac-awake/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Panduan MacBook tertutup →](https://no-sleep-pika.online/guide/id/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/id/keep-mac-awake/index.md)
 
 
 ---
@@ -3252,7 +3312,7 @@ caffeinate -i make
 
 pika admite macOS 13 o posterior, Apple Silicon e Intel. Instala el PKG completo de la web oficial: contiene la app y el servicio auxiliar con privilegios. Completa personalmente la autenticación y aprobación necesarias en macOS. Abre /Applications/pika.app, confirma la conexión del servicio, activa Session, elige Monitor OFF si procede y cierra la tapa. La prevención se prepara antes; la política de pantalla se aplica después de cerrarla. Cambiar Monitor con la tapa abierta guarda la elección. Session OFF restaura el ajuste gestionado sin apagar inmediatamente la pantalla; cerrar la ventana no cierra la app.
 
-[Descargar pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Descargar pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
@@ -3292,7 +3352,7 @@ Comparación del creador de no-sleep-pika que incluye su propia app. Las fuentes
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Guía de MacBook cerrado →](https://no-sleep-pika.online/guide/es/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/es/keep-mac-awake/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Guía de MacBook cerrado →](https://no-sleep-pika.online/guide/es/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/es/keep-mac-awake/index.md)
 
 
 ---
@@ -3354,7 +3414,7 @@ caffeinate -i make
 
 pika prend en charge macOS 13 et versions ultérieures, Apple Silicon et Intel. Son PKG officiel complet installe l’app et le service auxiliaire administrateur. Effectuez vous-même l’authentification et les autorisations nécessaires. Ouvrez /Applications/pika.app, vérifiez le service, activez Session, choisissez Monitor OFF si nécessaire, puis fermez le capot. La prévention est préparée avant ; la politique d’affichage est appliquée après fermeture. Capot ouvert, Monitor enregistre seulement le choix. Session OFF restaure le réglage géré sans éteindre immédiatement l’écran. Fermer la fenêtre ne quitte pas l’app.
 
-[Télécharger pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Télécharger pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Aide à l’installation](https://no-sleep-pika.online/install/)
 
@@ -3394,7 +3454,7 @@ Comparaison rédigée par le créateur de no-sleep-pika, incluant sa propre app.
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Guide du MacBook fermé →](https://no-sleep-pika.online/guide/fr/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/fr/keep-mac-awake/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Guide du MacBook fermé →](https://no-sleep-pika.online/guide/fr/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/fr/keep-mac-awake/index.md)
 
 
 ---
@@ -3456,7 +3516,7 @@ caffeinate -i make
 
 pika unterstützt macOS 13 oder neuer, Apple Silicon und Intel. Das vollständige offizielle PKG installiert App und Administrator-Hilfsdienst. macOS-Authentifizierung und erforderliche Freigaben selbst abschließen. /Applications/pika.app öffnen, Dienstverbindung prüfen, Session einschalten, bei Bedarf Monitor OFF wählen und Deckel schließen. Schlafverhinderung wird vorher vorbereitet, Displaysteuerung danach angewendet. Bei offenem Deckel speichert Monitor nur die Wahl. Session OFF stellt die verwaltete Einstellung wieder her, ohne sofort das Display auszuschalten. Das Schließen des Fensters beendet die App nicht.
 
-[pika herunterladen · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pika herunterladen · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Installationshilfe](https://no-sleep-pika.online/install/)
 
@@ -3496,7 +3556,7 @@ Vergleich vom Entwickler von no-sleep-pika mit eigener App. Grundlage sind Apple
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook mit geschlossenem Deckel →](https://no-sleep-pika.online/guide/de/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/de/keep-mac-awake/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[MacBook mit geschlossenem Deckel →](https://no-sleep-pika.online/guide/de/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/de/keep-mac-awake/index.md)
 
 
 ---
@@ -3558,7 +3618,7 @@ caffeinate -i make
 
 pika funciona no macOS 13 ou posterior, Apple Silicon e Intel. O PKG oficial completo instala app e serviço auxiliar administrador. Faça a autenticação e as aprovações do macOS pessoalmente. Abra /Applications/pika.app, confirme o serviço, ligue Session, escolha Monitor OFF se necessário e feche a tampa. A prevenção é preparada antes; a política de tela entra após fechar. Com a tampa aberta, Monitor só salva a preferência. Session OFF restaura o ajuste sem apagar imediatamente a tela. Fechar a janela não encerra o app.
 
-[Baixar pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Baixar pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
@@ -3598,7 +3658,7 @@ Comparação escrita pelo criador de no-sleep-pika, incluindo seu próprio app. 
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Guia do MacBook fechado →](https://no-sleep-pika.online/guide/pt-BR/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Guia do MacBook fechado →](https://no-sleep-pika.online/guide/pt-BR/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/index.md)
 
 
 ---
@@ -3660,7 +3720,7 @@ caffeinate -i make
 
 pika поддерживает macOS 13 и новее, Apple Silicon и Intel. Полный официальный PKG устанавливает приложение и административную вспомогательную службу. Подтверждения macOS выполните самостоятельно. Откройте /Applications/pika.app, проверьте соединение службы, включите Session, при необходимости выберите Monitor OFF и закройте крышку. Предотвращение сна готовится заранее, управление экраном применяется после закрытия. При открытой крышке Monitor только сохраняет выбор. Session OFF восстанавливает управляемую настройку без немедленного выключения экрана. Закрытие окна не завершает приложение.
 
-[Скачать pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Скачать pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Помощь с установкой](https://no-sleep-pika.online/install/)
 
@@ -3700,7 +3760,7 @@ man caffeinate
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[MacBook с закрытой крышкой →](https://no-sleep-pika.online/guide/ru/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ru/keep-mac-awake/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[MacBook с закрытой крышкой →](https://no-sleep-pika.online/guide/ru/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ru/keep-mac-awake/index.md)
 
 
 ---
@@ -3762,7 +3822,7 @@ caffeinate -i make
 
 يدعم pika نظام macOS 13 والأحدث وApple Silicon وIntel. ثبّت حزمة PKG الرسمية الكاملة التي تشمل التطبيق والخدمة المساعدة بصلاحيات المسؤول. أكمل المصادقة والموافقات بنفسك. افتح /Applications/pika.app وتحقق من الخدمة، ثم فعّل Session واختر Monitor OFF عند الحاجة وأغلق الغطاء. يُجهّز منع السكون مسبقًا وتُطبق سياسة الشاشة بعد الإغلاق. مع الغطاء المفتوح يُحفظ اختيار Monitor فقط. يعيد Session OFF الإعداد المُدار دون إطفاء الشاشة فورًا. إغلاق النافذة لا يُنهي التطبيق.
 
-[تنزيل pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[تنزيل pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
@@ -3802,7 +3862,7 @@ man caffeinate
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[دليل MacBook بالغطاء المغلق →](https://no-sleep-pika.online/guide/ar/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[دليل MacBook بالغطاء المغلق →](https://no-sleep-pika.online/guide/ar/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)
 
 
 ---
@@ -3864,7 +3924,7 @@ caffeinate -i make
 
 pika hỗ trợ macOS 13 trở lên, Apple Silicon và Intel. PKG chính thức đầy đủ cài ứng dụng và dịch vụ trợ giúp quản trị. Tự hoàn tất xác thực và phê duyệt macOS. Mở /Applications/pika.app, kiểm tra kết nối dịch vụ, bật Session, chọn Monitor OFF nếu cần rồi gập nắp. Ngăn ngủ được chuẩn bị trước, chính sách màn hình áp dụng sau khi gập. Khi mở nắp, Monitor chỉ lưu lựa chọn. Session OFF khôi phục cài đặt đã quản lý mà không tắt màn hình ngay. Đóng cửa sổ không thoát ứng dụng.
 
-[Tải pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[Tải pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
@@ -3904,7 +3964,7 @@ Bài so sánh do nhà phát triển no-sleep-pika viết, gồm ứng dụng c�
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Hướng dẫn gập MacBook →](https://no-sleep-pika.online/guide/vi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/vi/keep-mac-awake/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Hướng dẫn gập MacBook →](https://no-sleep-pika.online/guide/vi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/vi/keep-mac-awake/index.md)
 
 
 ---
@@ -3966,7 +4026,7 @@ caffeinate -i make
 
 pika รองรับ macOS 13 ขึ้นไป Apple Silicon และ Intel PKG ทางการแบบเต็มติดตั้งแอปและบริการช่วยเหลือระดับผู้ดูแล ยืนยันตัวตนและอนุญาตใน macOS ด้วยตนเอง เปิด /Applications/pika.app ตรวจสอบบริการ เปิด Session เลือก Monitor OFF หากต้องการแล้วปิดฝา ระบบเตรียมป้องกันพักก่อนปิดฝา และใช้การควบคุมหน้าจอหลังปิด ขณะเปิดฝา Monitor แค่บันทึกตัวเลือก Session OFF คืนค่าที่จัดการโดยไม่ดับหน้าจอทันที การปิดหน้าต่างไม่ใช่การออกจากแอป
 
-[ดาวน์โหลด pika · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[ดาวน์โหลด pika · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
@@ -4006,7 +4066,7 @@ man caffeinate
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[คู่มือปิดฝา MacBook →](https://no-sleep-pika.online/guide/th/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[คู่มือปิดฝา MacBook →](https://no-sleep-pika.online/guide/th/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)
 
 
 ---
@@ -4064,7 +4124,7 @@ Install pika and its helper, prepare Session ON, leave Monitor OFF if display re
 
 Session OFF releases sleep prevention and shows Monitor OFF without immediately blanking the screen. Battery or thermal protection and helper failures can stop a session. Start with power connected on a ventilated desk, never rely on operation inside a closed bag, and turn Session OFF when finished. pika cannot guarantee connectivity or task completion.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Common questions
 
@@ -4092,7 +4152,7 @@ Checked against official documentation and current pika source on October 5, 202
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4160,7 +4220,7 @@ Session은 잠자기 방지를 준비하는 제어이고 Monitor는 화면 유�
 
 pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결에 문제가 생기면 세션이 중단될 수 있습니다. 장시간 작업은 전원을 연결하고 통풍되는 책상 위에서 먼저 확인하세요. 닫힌 가방 안에 실행 중인 Mac을 넣어 두는 사용법을 권장하지 않습니다. 작업이 끝나면 Session을 OFF로 돌립니다. pika는 승인 응답, AI 오류 복구, 네트워크 연결이나 작업 완료까지 보장하지 않습니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 ## 자주 묻는 질문
 
@@ -4190,7 +4250,7 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4238,7 +4298,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 安装 pika 及辅助服务后开启 Session；不需保持屏幕时关闭 Monitor，再合盖。屏幕策略在合盖后应用。关闭 Session 会释放防睡眠并显示 Monitor OFF，不会立即关闭屏幕。接通电源、保持通风，不要放入封闭包内运行。电池、温度保护或辅助服务故障可能中止会话。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
 
 ## 常见问题
 
@@ -4264,7 +4324,7 @@ Monitor OFF 不是结束 AI 任务。tmux 不阻止系统睡眠；caffeinate 不
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/mac-locked-ai-running/index.md)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4312,7 +4372,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 安裝 pika 與輔助服務，開啟 Session；不需維持畫面時將 Monitor 關閉，再闔蓋。畫面策略在闔蓋後套用。Session OFF 解除防睡眠並顯示 Monitor OFF，不會立即關閉畫面。接上電源、保持通風，勿放在密閉包內執行。保護機制或服務故障可能停止工作階段。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 ## 常見問題
 
@@ -4338,7 +4398,7 @@ Monitor OFF 不會下令結束 AI 工作。tmux 不會防止系統睡眠；caffe
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4386,7 +4446,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 pikaと補助サービスを準備し、Session ON、画面維持が不要ならMonitor OFFにしてふたを閉じます。画面ポリシーはふたを閉じた後に適用されます。Session OFFはスリープ防止を解除し、直ちに画面を消す操作ではありません。電源と通風を確保し、閉じたバッグ内では使わないでください。保護機能や接続障害で停止する場合があります。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 ## よくある質問
 
@@ -4412,7 +4472,7 @@ Monitor OFFはAIの停止ではありません。tmuxはシステムのスリー
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4460,7 +4520,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 pika और सहायक सेवा स्थापित करें, Session ON करें, स्क्रीन आवश्यक न हो तो Monitor OFF रखें और ढक्कन बंद करें। स्क्रीन नीति ढक्कन बंद होने के बाद लागू होती है। Session OFF स्लीप रोकना हटाता है, तुरंत स्क्रीन बंद नहीं करता। बिजली और हवादार मेज का उपयोग करें, बंद बैग का नहीं। सुरक्षा या सेवा त्रुटि सत्र रोक सकती है।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 ## आम सवाल
 
@@ -4486,7 +4546,7 @@ Monitor OFF AI समाप्त करने का आदेश नहीं 
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4534,7 +4594,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Pasang pika dan layanan pendamping, aktifkan Session, pilih Monitor OFF bila layar tidak diperlukan, lalu tutup penutup. Kebijakan layar berlaku setelah penutup ditutup. Session OFF melepas pencegahan tidur tanpa langsung mematikan layar. Gunakan daya dan meja berventilasi, bukan tas tertutup. Perlindungan atau gangguan layanan dapat menghentikan sesi.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Pertanyaan umum
 
@@ -4560,7 +4620,7 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4608,7 +4668,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Instala pika y su servicio auxiliar. Activa Session, deja Monitor OFF si no necesitas la pantalla y cierra la tapa. La política de pantalla se aplica al cerrarla. Session OFF libera la prevención del reposo sin apagar inmediatamente la pantalla. Usa alimentación y una mesa ventilada, nunca una bolsa cerrada. La protección o fallos del servicio pueden detener la sesión.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 ## Preguntas frecuentes
 
@@ -4634,7 +4694,7 @@ Documentación oficial e implementación de pika revisadas el 5 de octubre de 20
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4682,7 +4742,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Installez pika et son service auxiliaire. Activez Session, laissez Monitor OFF si l’écran est inutile et fermez le couvercle. La politique d’affichage s’applique alors. Session OFF libère la prévention de veille sans éteindre immédiatement l’écran. Utilisez une alimentation et un bureau ventilé, jamais un sac fermé. Protection ou panne du service peuvent arrêter la session.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 ## Questions courantes
 
@@ -4708,7 +4768,7 @@ Sources officielles et code pika consultés le 5 octobre 2026. Guide rédigé pa
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4756,7 +4816,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Installiere pika samt Hilfsdienst, aktiviere Session und lasse Monitor OFF, falls kein Display nötig ist. Schließe dann den Deckel; erst dann greift die Display-Richtlinie. Session OFF gibt den Ruhezustand wieder frei, ohne das Display sofort auszuschalten. Nutze Stromversorgung und einen belüfteten Tisch, keine geschlossene Tasche. Schutzfunktionen oder Dienstfehler können die Sitzung stoppen.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 ## Häufige Fragen
 
@@ -4782,7 +4842,7 @@ Offizielle Quellen und pika-Code geprüft am 5. Oktober 2026. Vom pika-Entwickle
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4830,7 +4890,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Instale pika e o serviço auxiliar, ligue Session, mantenha Monitor OFF se não precisar da tela e feche a tampa. A política de tela é aplicada ao fechar. Session OFF libera o repouso sem apagar imediatamente a tela. Use energia e mesa ventilada, nunca bolsa fechada. Proteções ou falhas do serviço podem parar a sessão.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 ## Perguntas comuns
 
@@ -4856,7 +4916,7 @@ Fontes oficiais e implementação verificadas em 5 de outubro de 2026. Guia do c
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/mac-locked-ai-running/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4904,7 +4964,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Установите pika и вспомогательную службу, включите Session, оставьте Monitor OFF, если экран не нужен, и закройте крышку. Политика экрана применяется после закрытия. Session OFF снимает запрет сна без немедленного выключения экрана. Используйте питание и проветриваемый стол, не закрытую сумку. Защита или сбой службы могут остановить сессию.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 ## Частые вопросы
 
@@ -4930,7 +4990,7 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)
 
 
 ---
@@ -4978,7 +5038,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 ثبّت pika وخدمته المساعدة، وفعّل Session واترك Monitor OFF إن لم تحتج الشاشة، ثم أغلق الغطاء. تطبق سياسة الشاشة بعد الإغلاق. يحرر Session OFF منع السكون دون إطفاء الشاشة فوراً. استخدم الطاقة ومكتباً جيد التهوية، لا حقيبة مغلقة. قد توقف الحماية أو أخطاء الخدمة الجلسة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## أسئلة شائعة
 
@@ -5004,7 +5064,7 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)
 
 
 ---
@@ -5052,7 +5112,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Cài pika và dịch vụ hỗ trợ, bật Session, để Monitor OFF nếu không cần màn hình, rồi đóng nắp. Chính sách màn hình áp dụng sau khi đóng. Session OFF bỏ ngăn ngủ mà không tắt ngay màn hình. Dùng nguồn điện và bàn thoáng, không đặt trong túi kín. Bảo vệ hoặc lỗi dịch vụ có thể dừng phiên.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 ## Câu hỏi thường gặp
 
@@ -5078,7 +5138,7 @@ Nguồn và phạm vi
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)
 
 
 ---
@@ -5126,7 +5186,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 ติดตั้ง pika และบริการช่วย เปิด Session และให้ Monitor OFF หากไม่ต้องใช้จอ แล้วปิดฝา นโยบายจอใช้หลังปิดฝา Session OFF ยกเลิกการป้องกันพักเครื่องโดยไม่ดับจอทันที ใช้ไฟเลี้ยงและโต๊ะระบายอากาศ ไม่ใช้ในกระเป๋าปิด ระบบป้องกันหรือบริการผิดพลาดอาจหยุดเซสชัน
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## คำถามทั่วไป
 
@@ -5152,7 +5212,7 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)
 
 
 ---
@@ -5204,7 +5264,7 @@ Install pika and prepare its helper. Start the download, turn Session ON, leave 
 
 Reopen after a short interval and inspect progress. Turn Session OFF when finished; this releases sleep prevention without immediately blanking the screen. Use power on a ventilated desk, not inside a closed bag. Protection thresholds or helper failures may stop the session. pika does not handle download errors or detect transfer completion for you.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Check completion and common questions
 
@@ -5226,7 +5286,7 @@ Checked October 11, 2026 against Apple documentation, the local caffeinate(8) ma
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/macbook-downloads-stop/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5286,7 +5346,7 @@ pika를 설치하고 보조 서비스가 준비된 상태에서 다운로드를 
 
 장시간 전송은 전원을 연결하고 통풍되는 책상 위에서 먼저 확인하세요. 배터리·열 보호나 보조 서비스 문제로 세션이 중단될 수 있습니다. 밀폐된 가방에 넣고 계속 실행하는 용도로 생각하지 마세요.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 ## 완료 확인과 자주 묻는 질문
 
@@ -5310,7 +5370,7 @@ pika를 설치하고 보조 서비스가 준비된 상태에서 다운로드를 
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5352,7 +5412,7 @@ man caffeinate
 
 准备 pika 及辅助服务，开始下载后开启 Session；无需保留屏幕则 Monitor OFF，然后合盖。屏幕策略在合盖后应用。结束时关闭 Session。使用电源和通风桌面，不要在密闭包内运行。保护机制或服务故障可能停止会话。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
 
 ## 确认下载完成
 
@@ -5372,7 +5432,7 @@ man caffeinate
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/index.md)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5414,7 +5474,7 @@ man caffeinate
 
 準備 pika 與輔助服務，開始下載後開啟 Session；不需維持畫面則 Monitor OFF，再闔蓋。畫面政策在闔蓋後套用。完成後關閉 Session。使用電源及通風桌面，勿在密閉袋中執行。保護機制或服務錯誤可能中止工作階段。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 ## 確認下載完成
 
@@ -5434,7 +5494,7 @@ man caffeinate
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5476,7 +5536,7 @@ man caffeinate
 
 pikaと補助サービスを準備し、転送開始後にSession ON、画面が不要ならMonitor OFFにして閉じます。画面ポリシーは閉じた後に適用されます。完了後はSession OFF。通風のよい机と電源を使い、閉じたバッグ内で動かさないでください。保護機能やサービス障害で停止する場合があります。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 ## 完了の確認
 
@@ -5496,7 +5556,7 @@ pikaと補助サービスを準備し、転送開始後にSession ON、画面が
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5538,7 +5598,7 @@ man caffeinate
 
 pika और सहायक सेवा तैयार करें, डाउनलोड शुरू करें, Session ON और स्क्रीन न चाहिए तो Monitor OFF रखें, फिर ढक्कन बंद करें। स्क्रीन नीति इसके बाद लागू होती है। अंत में Session OFF करें। हवादार मेज और बिजली उपयोग करें, बंद बैग नहीं। सुरक्षा या त्रुटि सत्र रोक सकती है।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 ## परिणाम जाँचें
 
@@ -5558,7 +5618,7 @@ pika और सहायक सेवा तैयार करें, डाउ
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5600,7 +5660,7 @@ Dengan monitor eksternal, periksa daya, keyboard, mouse, dan dukungan model. Pen
 
 Siapkan pika dan layanan pendamping, mulai unduhan, aktifkan Session, pilih Monitor OFF jika layar tidak diperlukan, lalu tutup. Kebijakan layar berlaku setelah penutup ditutup. Akhiri dengan Session OFF. Gunakan daya dan meja berventilasi, bukan tas tertutup. Perlindungan atau gangguan dapat menghentikan sesi.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Periksa hasil
 
@@ -5620,7 +5680,7 @@ Diperiksa 11 Oktober 2026 berdasarkan Apple, caffeinate(8), dan kode pika. Pandu
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5662,7 +5722,7 @@ Con pantalla externa revisa alimentación, teclado, ratón y compatibilidad del 
 
 Prepara pika y su servicio auxiliar, inicia la descarga, activa Session y deja Monitor OFF si no necesitas pantalla. Cierra la tapa para aplicar su política de pantalla. Al acabar, Session OFF. Usa una mesa ventilada y alimentación, nunca una bolsa cerrada. La protección o fallos pueden detener la sesión.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 ## Verificar el resultado
 
@@ -5682,7 +5742,7 @@ Revisado el 11 de octubre de 2026 con Apple, caffeinate(8) y código pika. Guía
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5724,7 +5784,7 @@ Avec un écran externe, vérifiez alimentation, clavier, souris et compatibilit�
 
 Préparez pika et son service, démarrez le transfert, activez Session et laissez Monitor OFF si l’écran est inutile. Fermez le couvercle pour appliquer la politique d’affichage. Terminez avec Session OFF. Utilisez un bureau ventilé et l’alimentation, jamais un sac fermé. Protection ou panne peuvent arrêter la session.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 ## Vérifier le résultat
 
@@ -5744,7 +5804,7 @@ Vérifié le 11 octobre 2026 avec Apple, caffeinate(8) et le code pika. Guide du
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5786,7 +5846,7 @@ Für externe Displays prüfe Netzteil, Tastatur, Maus und Modellunterstützung. 
 
 Bereite pika und Hilfsdienst vor, starte den Download, aktiviere Session und lasse Monitor OFF, falls kein Display nötig ist. Die Display-Richtlinie greift nach dem Schließen. Danach Session OFF. Nutze Strom und einen belüfteten Tisch, keine geschlossene Tasche. Schutzfunktionen oder Fehler können die Sitzung stoppen.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 ## Ergebnis prüfen
 
@@ -5806,7 +5866,7 @@ Geprüft am 11. Oktober 2026 anhand von Apple, caffeinate(8) und pika-Code. Anle
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5848,7 +5908,7 @@ Com monitor externo, confira energia, teclado, mouse e suporte do modelo. Só o 
 
 Prepare pika e o serviço auxiliar, inicie o download, ligue Session e deixe Monitor OFF se não precisar da tela. Feche a tampa para aplicar a política de tela. Termine com Session OFF. Use energia e mesa ventilada, nunca bolsa fechada. Proteção ou falhas podem parar a sessão.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 ## Verificar o resultado
 
@@ -5868,7 +5928,7 @@ Verificado em 11 de outubro de 2026 com Apple, caffeinate(8) e código pika. Gui
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5910,7 +5970,7 @@ man caffeinate
 
 Подготовьте pika и службу, начните загрузку, включите Session и оставьте Monitor OFF, если экран не нужен. Политика экрана применяется после закрытия. По завершении Session OFF. Используйте питание и проветриваемый стол, не закрытую сумку. Защита или ошибки могут остановить сессию.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 ## Проверка результата
 
@@ -5930,7 +5990,7 @@ man caffeinate
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/index.md)
 
 
 ---
@@ -5972,7 +6032,7 @@ man caffeinate
 
 جهّز pika وخدمته، ابدأ التنزيل وفعّل Session واترك Monitor OFF إن لم تحتج الشاشة، ثم أغلق الغطاء. تطبق سياسة الشاشة بعد الإغلاق. عند الانتهاء استخدم Session OFF. استخدم الطاقة ومكتباً مهوّى لا حقيبة مغلقة. قد توقف الحماية أو الأخطاء الجلسة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## تحقق من النتيجة
 
@@ -5992,7 +6052,7 @@ man caffeinate
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/index.md)
 
 
 ---
@@ -6034,7 +6094,7 @@ Với màn hình ngoài, kiểm tra nguồn, bàn phím, chuột và hỗ trợ 
 
 Chuẩn bị pika và dịch vụ hỗ trợ, bắt đầu tải, bật Session, để Monitor OFF nếu không cần màn hình rồi đóng nắp. Chính sách màn hình áp dụng sau khi đóng. Xong thì Session OFF. Dùng nguồn và bàn thoáng, không để trong túi kín. Bảo vệ hoặc lỗi có thể dừng phiên.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 ## Kiểm tra kết quả
 
@@ -6054,7 +6114,7 @@ Kiểm tra ngày 11 tháng 10 năm 2026 theo Apple, caffeinate(8) và mã pika. 
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/index.md)
 
 
 ---
@@ -6096,7 +6156,7 @@ man caffeinate
 
 เตรียม pika และบริการช่วย เริ่มดาวน์โหลด เปิด Session และให้ Monitor OFF หากไม่ต้องใช้จอ แล้วปิดฝา นโยบายจอทำงานหลังปิดฝา เสร็จแล้ว Session OFF ใช้ไฟและโต๊ะระบายอากาศ ไม่ใช่กระเป๋าปิด ระบบป้องกันหรือข้อผิดพลาดอาจหยุดเซสชัน
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## ตรวจผลลัพธ์
 
@@ -6116,7 +6176,7 @@ man caffeinate
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/index.md)
 
 
 ---
@@ -6170,7 +6230,7 @@ pika maintains work that system sleep could interrupt. It does not measure elect
 
 For closed-lid work, check that the helper service is running, then turn Session ON. Leave Monitor OFF if you do not need to keep the display on. Briefly close and reopen the lid to check that your task keeps running. Turn Session OFF after finishing. An awake Mac cannot resolve an AI approval prompt or a network failure by itself; pika does not automatically decide when your task is complete.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Three decisions before leaving
 
@@ -6192,7 +6252,7 @@ Written by pika’s maker. The energy formula follows Virginia Cooperative Exten
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6252,7 +6312,7 @@ pika는 Mac이 잠들어 중단될 수 있는 작업을 유지하기 위한 앱�
 
 Mac이 깨어 있어도 AI가 승인 요청 앞에서 기다리거나 네트워크 오류로 멈출 수 있습니다. pika가 그 결정을 대신하거나 작업 완료를 자동으로 판정해 주지는 않습니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 ## 밤새 맡기기 전에 정할 세 가지
 
@@ -6274,7 +6334,7 @@ Mac이 깨어 있어도 AI가 승인 요청 앞에서 기다리거나 네트워�
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6310,7 +6370,7 @@ MAC GUIDE · 2026-10-15
 
 pika用于维持可能因系统睡眠中断的任务，不是电量计或AI费用优化器。持续唤醒可能增加耗电。确认辅助服务，打开Session，不需维持显示时关闭Monitor，短暂合盖验证任务进度。完成后关闭Session；审批等待、网络错误和任务完成判断仍需另行处理。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
 
 ## 离开前做三个决定
 
@@ -6328,7 +6388,7 @@ pika用于维持可能因系统睡眠中断的任务，不是电量计或AI费�
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/index.md)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6364,7 +6424,7 @@ MAC GUIDE · 2026-10-15
 
 pika維持可能被系統睡眠中斷的工作，不是電力計，也不會降低AI服務費。持續喚醒可能增加耗電。確認輔助服務，開啟Session，不需維持顯示時關閉Monitor，短暫闔蓋測試進度。完成後關閉Session；核准等待、網路錯誤與工作完成判斷仍需另外處理。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 ## 離開前的三個決定
 
@@ -6382,7 +6442,7 @@ pika製作者撰寫。公式參考Virginia Cooperative Extension，放置建議�
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6418,7 +6478,7 @@ Macを一晩動かす費用を仮の数値で計算し、AIの利用料と家庭
 
 pikaはスリープによる作業中断を防ぐためのアプリで、電力計でもAI料金の節約機能でもありません。Macを起こし続ければ消費が増える場合があります。補助サービスを確認し、SessionをON、画面維持が不要ならMonitorをOFFにして短時間の閉蓋テストを行います。終了後はSessionをOFFに。承認待ちや通信エラーは別に対応が必要です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 ## 離席前に決めること
 
@@ -6436,7 +6496,7 @@ pika制作者による記事です。計算式はVirginia Cooperative Extension�
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6472,7 +6532,7 @@ MAC GUIDE · 2026-10-15
 
 pika स्लीप से रुकने वाले काम को जारी रखने के लिए है; यह ऊर्जा मीटर नहीं और AI शुल्क नहीं घटाता। Mac को जागृत रखने से खपत बढ़ सकती है। सहायक सेवा जाँचें, Session ON करें, स्क्रीन जरूरी न हो तो Monitor OFF रखें और ढक्कन थोड़ी देर बंद करके फिर खोलकर प्रगति जाँचें। काम के बाद Session OFF करें। अनुमति का इंतजार और नेटवर्क त्रुटियाँ अलग समस्याएँ हैं।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 ## जाने से पहले तीन फैसले
 
@@ -6490,7 +6550,7 @@ pika निर्माता का लेख। सूत्र: Virginia Coop
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6526,7 +6586,7 @@ Gunakan meter stopkontak dengan kWh kumulatif sesuai petunjuk. 0,06kWh dalam dua
 
 pika menjaga tugas yang mungkin terhenti karena tidur sistem, bukan mengukur listrik atau menurunkan biaya AI. Menjaga Mac tetap aktif dapat menambah konsumsi. Periksa layanan pembantu, aktifkan Session, matikan Monitor jika layar tidak diperlukan, lalu uji dengan menutup dan membuka tutup sebentar. Matikan Session setelah selesai. Persetujuan tertunda dan gangguan jaringan perlu ditangani terpisah.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Sebelum meninggalkan Mac
 
@@ -6544,7 +6604,7 @@ Ditulis pembuat pika. Rumus: Virginia Cooperative Extension. Ventilasi: Apple. D
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6580,7 +6640,7 @@ Usa un medidor de enchufe con kWh acumulados siguiendo sus instrucciones. 0,06kW
 
 pika mantiene tareas que el reposo podría interrumpir; no mide energía ni reduce tarifas de IA. Mantener el Mac despierto puede aumentar el consumo. Comprueba el servicio auxiliar, activa Session, deja Monitor apagado si no necesitas mantener la pantalla y prueba brevemente con la tapa cerrada. Desactiva Session al terminar. Las aprobaciones pendientes y los fallos de red requieren atención aparte.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 ## Antes de ausentarte
 
@@ -6598,7 +6658,7 @@ Artículo del creador de pika. Fórmula: Virginia Cooperative Extension. Ventila
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6634,7 +6694,7 @@ Utilisez un wattmètre de prise mesurant les kWh cumulés, selon sa notice. 0,06
 
 pika maintient les tâches que la veille pourrait interrompre. Il ne mesure pas l’électricité et ne réduit pas les frais d’IA. Garder le Mac éveillé peut augmenter sa consommation. Vérifiez le service auxiliaire, activez Session, laissez Monitor désactivé si l’écran n’est pas nécessaire, puis testez brièvement le couvercle fermé. Désactivez Session à la fin. Les demandes d’autorisation et erreurs réseau restent à traiter séparément.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 ## Avant de partir
 
@@ -6652,7 +6712,7 @@ Article du créateur de pika. Calcul : Virginia Cooperative Extension. Ventilati
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6688,7 +6748,7 @@ Ein Steckdosenmessgerät mit kumulierten kWh nach Anleitung verwenden. 0,06kWh i
 
 pika hält Aufgaben am Laufen, die der Ruhezustand unterbrechen könnte. Es misst keinen Strom und senkt keine KI-Gebühren. Wachhalten kann mehr Strom verbrauchen. Hilfsdienst prüfen, Session einschalten, Monitor bei unnötiger Anzeige ausschalten und kurz mit geschlossenem Deckel testen. Danach Session ausschalten. Freigaben, Netzwerkfehler und die Erkennung des Aufgabenendes bleiben separate Themen.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 ## Vor dem Weggehen
 
@@ -6706,7 +6766,7 @@ Vom pika-Entwickler verfasst. Formel: Virginia Cooperative Extension. Belüftung
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6742,7 +6802,7 @@ Use um medidor de tomada com kWh acumulados conforme o manual. 0,06kWh em duas h
 
 pika mantém tarefas que o repouso poderia interromper; não mede energia nem reduz tarifas de IA. Manter o Mac acordado pode aumentar o consumo. Verifique o serviço auxiliar, ative Session, deixe Monitor desligado quando dispensável e teste brevemente com a tampa fechada. Desative Session ao terminar. Aprovações pendentes e erros de rede precisam de atenção separada.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 ## Antes de sair
 
@@ -6760,7 +6820,7 @@ Texto do criador de pika. Fórmula: Virginia Cooperative Extension. Ventilação
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6796,7 +6856,7 @@ MAC GUIDE · 2026-10-15
 
 pika сохраняет работу, которую может прервать сон, но не измеряет энергию и не снижает тарифы ИИ. Бодрствующий Mac может расходовать больше. Проверьте вспомогательную службу, включите Session, выключите Monitor, если экран не нужен, и ненадолго закройте и откройте крышку для проверки. После работы выключите Session. Ожидание разрешения и ошибки сети требуют отдельного внимания.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 ## Перед уходом
 
@@ -6814,7 +6874,7 @@ pika сохраняет работу, которую может прервать
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6850,7 +6910,7 @@ MAC GUIDE · 2026-10-15
 
 pika يحافظ على المهام التي قد يقطعها السكون؛ ليس مقياس طاقة ولا يخفض رسوم الذكاء الاصطناعي. إبقاء Mac مستيقظاً قد يزيد الاستهلاك. تحقق من الخدمة المساعدة، شغّل Session وأوقف Monitor إن لم تحتج الشاشة، ثم أغلق الغطاء وافتحه بعد فترة قصيرة للتحقق. أوقف Session بعد الانتهاء. انتظار الموافقات وأخطاء الشبكة يحتاجان معالجة منفصلة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## قبل مغادرة الجهاز
 
@@ -6868,7 +6928,7 @@ pika يحافظ على المهام التي قد يقطعها السكون؛ ل
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6904,7 +6964,7 @@ Dùng thiết bị đo ổ cắm ghi kWh tích lũy theo hướng dẫn. 0,06kWh
 
 pika duy trì công việc có thể bị chế độ ngủ ngắt, không đo điện hay giảm phí AI. Giữ Mac thức có thể tăng tiêu thụ. Kiểm tra dịch vụ hỗ trợ, bật Session, tắt Monitor nếu không cần giữ màn hình, rồi đóng và mở nắp trong thời gian ngắn để thử. Tắt Session khi xong. Chờ phê duyệt và lỗi mạng cần xử lý riêng.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 ## Trước khi rời máy
 
@@ -6922,7 +6982,7 @@ Bài của người tạo pika. Công thức: Virginia Cooperative Extension. Th
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -6958,7 +7018,7 @@ AI บนคลาวด์ใช้เซิร์ฟเวอร์ของ�
 
 pika รักษางานที่อาจหยุดเพราะเครื่องพัก ไม่ได้วัดไฟหรือลดค่าบริการ AI การให้ Mac ตื่นต่ออาจใช้ไฟเพิ่ม ตรวจบริการช่วยเหลือ เปิด Session ปิด Monitor ถ้าไม่ต้องคงจอไว้ แล้วปิดและเปิดฝาสั้น ๆ เพื่อตรวจงาน เมื่อเสร็จให้ปิด Session การรออนุมัติและปัญหาเครือข่ายต้องจัดการแยก
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## ก่อนออกไปทำอย่างอื่น
 
@@ -6976,7 +7036,7 @@ pika รักษางานที่อาจหยุดเพราะเค
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/index.md)
 
 
 ---
@@ -7046,7 +7106,7 @@ pika does not run models or convert cloud AI into local AI. It keeps a Mac awake
 
 Ask which model is selected, where it computes and whether your Mac must remain awake. Those answers describe your setup more accurately than a local AI label alone.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 Sources and scope
 
@@ -7064,7 +7124,7 @@ Official documentation checked on October 22, 2026. Written by pika’s maker as
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/local-on-device-ai/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/local-on-device-ai/index.md)
 
 
 ---
@@ -7140,7 +7200,7 @@ pika는 AI 모델을 실행하거나 클라우드 AI를 로컬 AI로 바꾸는 �
 
 어떤 모델인지, 어디서 계산하는지, 내 Mac이 계속 켜져 있어야 하는지. 이 세 질문에 답할 수 있다면 ‘로컬 AI’라는 이름보다 훨씬 정확하게 자신의 환경을 이해한 것입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 참고 자료와 글의 범위
 
@@ -7158,7 +7218,7 @@ pika는 AI 모델을 실행하거나 클라우드 AI를 로컬 AI로 바꾸는 �
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/local-on-device-ai/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/local-on-device-ai/index.md)
 
 
 ---
@@ -7212,7 +7272,7 @@ Claude Code 是处理文件与命令的工作工具。Llama、Qwen 是包含不�
 
 Mac 本地工作可能因睡眠中断或延迟，独立运行的远程任务则不同。pika 不运行模型，也不会把云端 AI 变成本地 AI，而是在需要时保持 Mac 唤醒。确认辅助服务、打开 Session 并短暂合盖测试，连接电源，放在通风桌面，完成后关闭 Session。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安装帮助](https://no-sleep-pika.online/install/)
 
 来源与范围
 
@@ -7230,7 +7290,7 @@ pika 制作者于2026年10月22日核对官方资料撰写。这是入门说明�
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/local-on-device-ai/index.md)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/local-on-device-ai/index.md)
 
 
 ---
@@ -7284,7 +7344,7 @@ Claude Code 是處理檔案與指令的工作工具。Llama、Qwen 是不同大�
 
 Mac 本機工作可能因睡眠中斷或延遲，獨立遠端工作則不同。pika 不執行模型，也不把雲端 AI 變成本機 AI，而是在需要時保持 Mac 喚醒。確認輔助服務、開啟 Session 並短暫闔蓋測試，接上電源，放在通風桌面，完成後關閉 Session。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 來源與範圍
 
@@ -7302,7 +7362,7 @@ pika 製作者於2026年10月22日核對官方資料撰寫。本文是入門說�
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/local-on-device-ai/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/local-on-device-ai/index.md)
 
 
 ---
@@ -7356,7 +7416,7 @@ Claude Codeはファイルやコマンドを扱う作業ツール。LlamaとQwen
 
 Macが処理する仕事はスリープで止まったり遅れたりします。独立したリモート処理とは区別が必要です。pikaはモデルを動かすアプリではなく、必要な作業中にMacを起こしておく役割です。補助サービスを確認しSessionをON、短時間の閉蓋テストを行い、電源と通気のよい机を使い、終了後はOFFにします。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [インストール案内](https://no-sleep-pika.online/install/)
 
 出典と範囲
 
@@ -7374,7 +7434,7 @@ Macが処理する仕事はスリープで止まったり遅れたりします�
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/local-on-device-ai/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/local-on-device-ai/index.md)
 
 
 ---
@@ -7428,7 +7488,7 @@ Claude Code फ़ाइल और कमांड का काम करता
 
 स्लीप स्थानीय काम रोक या धीमा कर सकती है; स्वतंत्र सर्वर काम अलग है। pika मॉडल नहीं चलाता और क्लाउड को लोकल नहीं बनाता, बल्कि Mac को जागृत रखता है। सहायक सेवा जाँचें, Session ON करें और ढक्कन थोड़ी देर बंद करके खोलकर देखें। बिजली जोड़ें, हवादार मेज पर रखें और बाद में Session OFF करें।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 स्रोत और दायरा
 
@@ -7446,7 +7506,7 @@ pika निर्माता की शुरुआती गाइड; आध�
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/local-on-device-ai/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/local-on-device-ai/index.md)
 
 
 ---
@@ -7500,7 +7560,7 @@ Ketiga, baca pengaturan dan dokumentasi. Mode lokal Ollama menonaktifkan model c
 
 Tidur sistem dapat mengganggu atau menunda kerja lokal, berbeda dari tugas server mandiri. pika tidak menjalankan model atau mengubah cloud menjadi lokal, tetapi menjaga Mac aktif. Cek layanan pembantu, aktifkan Session dan uji dengan menutup serta membuka tutup sebentar. Gunakan daya dan meja berventilasi, lalu matikan Session.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 Sumber dan cakupan
 
@@ -7518,7 +7578,7 @@ Panduan pembuat pika, sumber resmi diperiksa 22 Oktober 2026. Bukan pengujian se
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/local-on-device-ai/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/local-on-device-ai/index.md)
 
 
 ---
@@ -7572,7 +7632,7 @@ Tercero, consulta ajustes y documentos. El modo local de Ollama desactiva sus mo
 
 El reposo puede interrumpir o retrasar trabajo local, a diferencia de una tarea remota independiente. pika no ejecuta modelos ni convierte nube en local: mantiene el Mac despierto. Comprueba el servicio auxiliar, activa Session y prueba brevemente con la tapa cerrada. Usa alimentación y una mesa ventilada; desactiva Session al terminar.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 Fuentes y alcance
 
@@ -7590,7 +7650,7 @@ Guía del creador de pika basada en documentos oficiales revisados el 22 de octu
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/local-on-device-ai/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/local-on-device-ai/index.md)
 
 
 ---
@@ -7644,7 +7704,7 @@ Enfin, consultez réglages et documents. Le mode local d’Ollama désactive ses
 
 La veille peut interrompre ou retarder une tâche locale, contrairement à un travail distant indépendant. pika n’exécute pas de modèle et ne transforme pas le cloud en local : il garde le Mac éveillé. Vérifiez le service auxiliaire, activez Session et testez brièvement couvercle fermé. Utilisez alimentation et bureau ventilé ; désactivez Session ensuite.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 Sources et portée
 
@@ -7662,7 +7722,7 @@ Guide du créateur de pika, documents officiels vérifiés le 22 octobre 2026. C
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/local-on-device-ai/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/local-on-device-ai/index.md)
 
 
 ---
@@ -7716,7 +7776,7 @@ Lies schließlich Einstellungen und Dokumentation. Ollamas lokaler Modus deaktiv
 
 Ruhezustand kann lokale Arbeit unterbrechen oder verzögern; eigenständige Serverjobs sind etwas anderes. pika betreibt keine Modelle und macht Cloud-KI nicht lokal, sondern hält den Mac wach. Hilfsdienst prüfen, Session einschalten und kurz mit geschlossenem Deckel testen. Netzstrom und belüfteten Tisch nutzen, danach Session ausschalten.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 Quellen und Umfang
 
@@ -7734,7 +7794,7 @@ Einführung vom pika-Entwickler; offizielle Quellen am 22. Oktober 2026 geprüft
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/local-on-device-ai/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/local-on-device-ai/index.md)
 
 
 ---
@@ -7788,7 +7848,7 @@ Terceiro, consulte configurações e documentos. O modo local do Ollama desativa
 
 O repouso pode interromper ou atrasar trabalho local, diferente de tarefas remotas independentes. pika não executa modelos nem transforma cloud em local: mantém o Mac acordado. Confira o serviço auxiliar, ative Session e teste fechando e abrindo a tampa brevemente. Use energia e mesa ventilada; desative Session ao terminar.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 Fontes e escopo
 
@@ -7806,7 +7866,7 @@ Guia do criador de pika; fontes oficiais verificadas em 22 de outubro de 2026. N
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/index.md)
 
 
 ---
@@ -7860,7 +7920,7 @@ Claude Code работает с файлами и командами. Llama и Q
 
 Сон может прервать или задержать местную работу, в отличие от самостоятельной серверной задачи. pika не запускает модели и не превращает облако в локальный ИИ, а поддерживает бодрствование Mac. Проверьте службу, включите Session и ненадолго закройте и откройте крышку. Используйте питание и проветриваемый стол, затем выключите Session.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 Источники и рамки
 
@@ -7878,7 +7938,7 @@ Claude Code работает с файлами и командами. Llama и Q
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/local-on-device-ai/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/local-on-device-ai/index.md)
 
 
 ---
@@ -7932,7 +7992,7 @@ Claude Code أداة للملفات والأوامر. Llama وQwen عائلتا�
 
 قد يقطع السكون العمل المحلي أو يؤخره، بخلاف مهمة خادم مستقلة. pika لا يشغّل النماذج ولا يحول السحابي إلى محلي؛ يبقي Mac مستيقظاً. تحقق من الخدمة المساعدة وشغّل Session واختبر إغلاق الغطاء وفتحه لفترة قصيرة. وصّل الطاقة واستخدم مكتباً جيد التهوية ثم أوقف Session.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 المصادر والنطاق
 
@@ -7950,7 +8010,7 @@ Claude Code أداة للملفات والأوامر. Llama وQwen عائلتا�
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/local-on-device-ai/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/local-on-device-ai/index.md)
 
 
 ---
@@ -8004,7 +8064,7 @@ Cuối cùng, đọc cài đặt và tài liệu. Chế độ cục bộ Ollama 
 
 Chế độ ngủ có thể ngắt hoặc làm chậm việc tại máy, khác với tác vụ máy chủ độc lập. pika không chạy mô hình hay biến đám mây thành cục bộ; nó giữ Mac thức. Kiểm tra dịch vụ hỗ trợ, bật Session và thử đóng rồi mở nắp trong thời gian ngắn. Cắm nguồn, đặt trên bàn thông thoáng, xong thì tắt Session.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 Nguồn và phạm vi
 
@@ -8022,7 +8082,7 @@ Hướng dẫn của người tạo pika, kiểm tra nguồn chính thức ngày
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/local-on-device-ai/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/local-on-device-ai/index.md)
 
 
 ---
@@ -8076,7 +8136,7 @@ Claude Code เป็นเครื่องมือจัดการไฟ�
 
 การพักเครื่องอาจหยุดหรือชะลองานใน Mac ต่างจากงานเซิร์ฟเวอร์อิสระ pika ไม่รันโมเดลหรือเปลี่ยนคลาวด์เป็น local แต่ช่วยให้ Mac ตื่น ตรวจบริการช่วยเหลือ เปิด Session และทดลองปิดเปิดฝาสั้น ๆ ต่อไฟและวางบนโต๊ะระบายอากาศดี เสร็จแล้วปิด Session
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 แหล่งข้อมูลและขอบเขต
 
@@ -8094,4 +8154,4 @@ Claude Code เป็นเครื่องมือจัดการไฟ�
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/local-on-device-ai/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/local-on-device-ai/index.md)

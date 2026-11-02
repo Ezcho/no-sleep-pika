@@ -45,7 +45,7 @@ Install pika and prepare its helper. Start the download, turn Session ON, leave 
 
 Reopen after a short interval and inspect progress. Turn Session OFF when finished; this releases sleep prevention without immediately blanking the screen. Use power on a ventilated desk, not inside a closed bag. Protection thresholds or helper failures may stop the session. pika does not handle download errors or detect transfer completion for you.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Check completion and common questions
 
@@ -67,4 +67,4 @@ Checked October 11, 2026 against Apple documentation, the local caffeinate(8) ma
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/macbook-downloads-stop/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/macbook-downloads-stop/index.md)

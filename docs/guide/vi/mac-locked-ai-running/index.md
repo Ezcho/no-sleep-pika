@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Cài pika và dịch vụ hỗ trợ, bật Session, để Monitor OFF nếu không cần màn hình, rồi đóng nắp. Chính sách màn hình áp dụng sau khi đóng. Session OFF bỏ ngăn ngủ mà không tắt ngay màn hình. Dùng nguồn điện và bàn thoáng, không đặt trong túi kín. Bảo vệ hoặc lỗi dịch vụ có thể dừng phiên.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
 ## Câu hỏi thường gặp
 
@@ -67,4 +67,4 @@ Nguồn và phạm vi
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/mac-locked-ai-running/index.md)

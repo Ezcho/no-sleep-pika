@@ -47,7 +47,7 @@ Terceiro, consulte configurações e documentos. O modo local do Ollama desativa
 
 O repouso pode interromper ou atrasar trabalho local, diferente de tarefas remotas independentes. pika não executa modelos nem transforma cloud em local: mantém o Mac acordado. Confira o serviço auxiliar, ative Session e teste fechando e abrindo a tampa brevemente. Use energia e mesa ventilada; desative Session ao terminar.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 Fontes e escopo
 
@@ -65,4 +65,4 @@ Guia do criador de pika; fontes oficiais verificadas em 22 de outubro de 2026. N
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/index.md)

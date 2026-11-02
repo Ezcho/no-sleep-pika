@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 ติดตั้ง pika และบริการช่วย เปิด Session และให้ Monitor OFF หากไม่ต้องใช้จอ แล้วปิดฝา นโยบายจอใช้หลังปิดฝา Session OFF ยกเลิกการป้องกันพักเครื่องโดยไม่ดับจอทันที ใช้ไฟเลี้ยงและโต๊ะระบายอากาศ ไม่ใช้ในกระเป๋าปิด ระบบป้องกันหรือบริการผิดพลาดอาจหยุดเซสชัน
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## คำถามทั่วไป
 
@@ -67,4 +67,4 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)

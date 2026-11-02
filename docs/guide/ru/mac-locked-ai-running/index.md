@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Установите pika и вспомогательную службу, включите Session, оставьте Monitor OFF, если экран не нужен, и закройте крышку. Политика экрана применяется после закрытия. Session OFF снимает запрет сна без немедленного выключения экрана. Используйте питание и проветриваемый стол, не закрытую сумку. Защита или сбой службы могут остановить сессию.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 ## Частые вопросы
 
@@ -67,4 +67,4 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)

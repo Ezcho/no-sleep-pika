@@ -47,7 +47,7 @@ Claude Code फ़ाइल और कमांड का काम करता
 
 स्लीप स्थानीय काम रोक या धीमा कर सकती है; स्वतंत्र सर्वर काम अलग है। pika मॉडल नहीं चलाता और क्लाउड को लोकल नहीं बनाता, बल्कि Mac को जागृत रखता है। सहायक सेवा जाँचें, Session ON करें और ढक्कन थोड़ी देर बंद करके खोलकर देखें। बिजली जोड़ें, हवादार मेज पर रखें और बाद में Session OFF करें।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
 स्रोत और दायरा
 
@@ -65,4 +65,4 @@ pika निर्माता की शुरुआती गाइड; आध�
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/local-on-device-ai/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/local-on-device-ai/index.md)

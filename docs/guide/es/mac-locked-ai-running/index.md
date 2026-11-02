@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Instala pika y su servicio auxiliar. Activa Session, deja Monitor OFF si no necesitas la pantalla y cierra la tapa. La política de pantalla se aplica al cerrarla. Session OFF libera la prevención del reposo sin apagar inmediatamente la pantalla. Usa alimentación y una mesa ventilada, nunca una bolsa cerrada. La protección o fallos del servicio pueden detener la sesión.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 ## Preguntas frecuentes
 
@@ -67,4 +67,4 @@ Documentación oficial e implementación de pika revisadas el 5 de octubre de 20
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/mac-locked-ai-running/index.md)

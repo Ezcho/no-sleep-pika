@@ -34,6 +34,8 @@ TEXT = {
     'troublebody': 'No tools: confirm the command path and restart the client. App connection error: open pika on the same Mac and user account. Helper error: quit pika, reinstall the latest full PKG, and reopen pika. If Terminal says codex was not found, use the configuration-file option above.',
     'local': 'This is a local STDIO connection. The website address is not an MCP endpoint, and a cloud-only URL connector cannot run this Mac executable.',
     'official': 'Codex official documentation',
+    'remote': 'Phone monitoring · pika 1.1.0+',
+    'remotebody': 'After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.',
 },
 'ko': {
     'title': 'AI Agent에 pika 연결하기', 'close': '닫기',
@@ -58,6 +60,8 @@ TEXT = {
     'troublebody': '도구가 안 보이면 실행 경로를 확인하고 클라이언트를 재시작하세요. 앱 연결 오류라면 같은 Mac·사용자 계정에서 pika를 실행하세요. 보조 서비스 오류라면 pika를 종료하고 최신 통합 PKG를 다시 설치한 뒤 여세요. 터미널에서 codex 명령을 찾지 못하면 위의 설정 파일 방식을 사용하세요.',
     'local': '이 연결은 Mac 내부의 STDIO 방식입니다. 홈페이지 주소는 MCP 서버 주소가 아니며, URL만 받는 클라우드 연결에는 이 실행 파일을 등록할 수 없습니다.',
     'official': 'Codex 공식 문서',
+    'remote': '휴대폰에서 상태 확인 · pika 1.1.0 이상',
+    'remotebody': '업데이트 후 MCP를 재연결하고 “pika QR 만들어줘”라고 요청하세요. pika_remote_pair가 텍스트 QR과 PNG·HTML 대안을 반환합니다. 휴대폰 카메라로 스캔하고 연결을 누르세요. QR은 5분·1회용이며 상태 조회 연결은 최대 24시간 유지됩니다. QR 생성만으로 Session이 켜지지는 않습니다. pika_remote_revoke 또는 Mac 메뉴에서 연결을 해제할 수 있습니다. QR을 다른 사람과 공유하지 마세요.',
 }}
 
 
@@ -79,5 +83,6 @@ def render(locale, copy, copied, copyfail):
 </section>
 <section class="guide-verify"><h3><span>3</span>{h('verify')}</h3><p>{h('verifybody')}</p>{block('mcp-status-prompt', t['prompt'])}<p class="guide-hint">{h('success')}</p></section>
 <section class="guide-tools"><h3>{h('tools')}</h3><p><code>pika_set_session</code> — {h('session')}<br><code>pika_set_monitor</code> — {h('monitor')}</p><p>{h('lid')}</p><p>{h('stop')}</p></section></div>
+<details class="guide-trouble"><summary>{h('remote')}</summary><p>{h('remotebody')}</p></details>
 <details class="guide-trouble"><summary>{h('trouble')}</summary><p>{h('troublebody')}</p></details>
 </dialog>'''

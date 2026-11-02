@@ -47,7 +47,7 @@ Claude Code أداة للملفات والأوامر. Llama وQwen عائلتا�
 
 قد يقطع السكون العمل المحلي أو يؤخره، بخلاف مهمة خادم مستقلة. pika لا يشغّل النماذج ولا يحول السحابي إلى محلي؛ يبقي Mac مستيقظاً. تحقق من الخدمة المساعدة وشغّل Session واختبر إغلاق الغطاء وفتحه لفترة قصيرة. وصّل الطاقة واستخدم مكتباً جيد التهوية ثم أوقف Session.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 المصادر والنطاق
 
@@ -65,4 +65,4 @@ Claude Code أداة للملفات والأوامر. Llama وQwen عائلتا�
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/local-on-device-ai/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/local-on-device-ai/index.md)

@@ -53,7 +53,7 @@ pika를 설치하고 보조 서비스가 준비된 상태에서 다운로드를 
 
 장시간 전송은 전원을 연결하고 통풍되는 책상 위에서 먼저 확인하세요. 배터리·열 보호나 보조 서비스 문제로 세션이 중단될 수 있습니다. 밀폐된 가방에 넣고 계속 실행하는 용도로 생각하지 마세요.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 ## 완료 확인과 자주 묻는 질문
 
@@ -77,4 +77,4 @@ pika를 설치하고 보조 서비스가 준비된 상태에서 다운로드를 
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/index.md)

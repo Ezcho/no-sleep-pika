@@ -29,7 +29,7 @@ Ein Steckdosenmessgerät mit kumulierten kWh nach Anleitung verwenden. 0,06kWh i
 
 pika hält Aufgaben am Laufen, die der Ruhezustand unterbrechen könnte. Es misst keinen Strom und senkt keine KI-Gebühren. Wachhalten kann mehr Strom verbrauchen. Hilfsdienst prüfen, Session einschalten, Monitor bei unnötiger Anzeige ausschalten und kurz mit geschlossenem Deckel testen. Danach Session ausschalten. Freigaben, Netzwerkfehler und die Erkennung des Aufgabenendes bleiben separate Themen.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 ## Vor dem Weggehen
 
@@ -47,4 +47,4 @@ Vom pika-Entwickler verfasst. Formel: Virginia Cooperative Extension. Belüftung
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/ai-overnight-electricity-cost/index.md)

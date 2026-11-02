@@ -29,7 +29,7 @@ Utilisez un wattmètre de prise mesurant les kWh cumulés, selon sa notice. 0,06
 
 pika maintient les tâches que la veille pourrait interrompre. Il ne mesure pas l’électricité et ne réduit pas les frais d’IA. Garder le Mac éveillé peut augmenter sa consommation. Vérifiez le service auxiliaire, activez Session, laissez Monitor désactivé si l’écran n’est pas nécessaire, puis testez brièvement le couvercle fermé. Désactivez Session à la fin. Les demandes d’autorisation et erreurs réseau restent à traiter séparément.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 ## Avant de partir
 
@@ -47,4 +47,4 @@ Article du créateur de pika. Calcul : Virginia Cooperative Extension. Ventilati
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/index.md)

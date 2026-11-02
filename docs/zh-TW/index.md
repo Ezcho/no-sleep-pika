@@ -3,17 +3,17 @@ Language: zh-TW
 
 # 闔上 Mac，工作繼續。
 
-[下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
-36 下載次數
+58 下載次數
 
-公開版本 1.0.13 · macOS 13+ · Apple Silicon 與 Intel
+公開版本 1.1.0 · macOS 13+ · Apple Silicon 與 Intel
 
 ## 連接 MCP
 
 STDIO
 
-安裝並開啟 pika，再使用下方指令連接。 [查看原始碼 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
+安裝並開啟 pika，再使用下方指令連接。 新功能：掃描 QR 碼，在手機上查看 Mac 狀態。 [查看原始碼 ↗](https://github.com/Ezcho/no-sleep-pika#mcp)
 
 `/Applications/pika.app/Contents/MacOS/pika-mcp`
 
@@ -66,6 +66,10 @@ A successful pika_status tool result confirms the connection to the app. Session
 Session ON prepares pika. Display policy applies only after the lid closes. With the lid open, Monitor changes only save your preference.
 
 Closing the agent does not end a pika session. Turn Session OFF in pika or ask your agent to do so.
+
+Phone monitoring · pika 1.1.0+
+
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 

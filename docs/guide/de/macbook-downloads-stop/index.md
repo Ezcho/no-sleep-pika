@@ -35,7 +35,7 @@ Für externe Displays prüfe Netzteil, Tastatur, Maus und Modellunterstützung. 
 
 Bereite pika und Hilfsdienst vor, starte den Download, aktiviere Session und lasse Monitor OFF, falls kein Display nötig ist. Die Display-Richtlinie greift nach dem Schließen. Danach Session OFF. Nutze Strom und einen belüfteten Tisch, keine geschlossene Tasche. Schutzfunktionen oder Fehler können die Sitzung stoppen.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 ## Ergebnis prüfen
 
@@ -55,4 +55,4 @@ Geprüft am 11. Oktober 2026 anhand von Apple, caffeinate(8) und pika-Code. Anle
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/macbook-downloads-stop/index.md)

@@ -35,7 +35,7 @@ Con pantalla externa revisa alimentación, teclado, ratón y compatibilidad del 
 
 Prepara pika y su servicio auxiliar, inicia la descarga, activa Session y deja Monitor OFF si no necesitas pantalla. Cierra la tapa para aplicar su política de pantalla. Al acabar, Session OFF. Usa una mesa ventilada y alimentación, nunca una bolsa cerrada. La protección o fallos pueden detener la sesión.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 ## Verificar el resultado
 
@@ -55,4 +55,4 @@ Revisado el 11 de octubre de 2026 con Apple, caffeinate(8) y código pika. Guía
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/macbook-downloads-stop/index.md)

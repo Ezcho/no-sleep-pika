@@ -29,7 +29,7 @@ MAC GUIDE · 2026-10-15
 
 pika維持可能被系統睡眠中斷的工作，不是電力計，也不會降低AI服務費。持續喚醒可能增加耗電。確認輔助服務，開啟Session，不需維持顯示時關閉Monitor，短暫闔蓋測試進度。完成後關閉Session；核准等待、網路錯誤與工作完成判斷仍需另外處理。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 ## 離開前的三個決定
 
@@ -47,4 +47,4 @@ pika製作者撰寫。公式參考Virginia Cooperative Extension，放置建議�
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/index.md)

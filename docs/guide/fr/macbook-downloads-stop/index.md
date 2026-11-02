@@ -35,7 +35,7 @@ Avec un écran externe, vérifiez alimentation, clavier, souris et compatibilit�
 
 Préparez pika et son service, démarrez le transfert, activez Session et laissez Monitor OFF si l’écran est inutile. Fermez le couvercle pour appliquer la politique d’affichage. Terminez avec Session OFF. Utilisez un bureau ventilé et l’alimentation, jamais un sac fermé. Protection ou panne peuvent arrêter la session.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 ## Vérifier le résultat
 
@@ -55,4 +55,4 @@ Vérifié le 11 octobre 2026 avec Apple, caffeinate(8) et le code pika. Guide du
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/index.md)

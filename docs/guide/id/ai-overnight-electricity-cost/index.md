@@ -29,7 +29,7 @@ Gunakan meter stopkontak dengan kWh kumulatif sesuai petunjuk. 0,06kWh dalam dua
 
 pika menjaga tugas yang mungkin terhenti karena tidur sistem, bukan mengukur listrik atau menurunkan biaya AI. Menjaga Mac tetap aktif dapat menambah konsumsi. Periksa layanan pembantu, aktifkan Session, matikan Monitor jika layar tidak diperlukan, lalu uji dengan menutup dan membuka tutup sebentar. Matikan Session setelah selesai. Persetujuan tertunda dan gangguan jaringan perlu ditangani terpisah.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Sebelum meninggalkan Mac
 
@@ -47,4 +47,4 @@ Ditulis pembuat pika. Rumus: Virginia Cooperative Extension. Ventilasi: Apple. D
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/index.md)

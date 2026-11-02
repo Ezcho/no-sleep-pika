@@ -55,7 +55,7 @@ caffeinate -i make
 
 pikaはmacOS 13以降のApple SiliconとIntelに対応します。公式サイトの統合PKGでアプリと管理者補助サービスをインストールし、macOSの認証や必要な承認を完了します。/Applications/pika.appを開き、補助サービス接続を確認。Session ON、必要ならMonitor OFFを選び、ふたを閉じます。スリープ防止は事前に準備され、画面制御は閉じてから適用されます。開いた状態でMonitorを変更しても即座に消灯しません。Session OFFで管理した設定を復元します。ウィンドウを閉じてもアプリは終了しません。
 
-[pikaをダウンロード · 1.0.13](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)
+[pikaをダウンロード · 1.1.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
 
 [インストール案内](https://no-sleep-pika.online/install/)
 
@@ -95,4 +95,4 @@ no-sleep-pikaの開発者による自社製品を含む比較です。Appleの�
 
 pika開発者による、自社アプリを含む比較です。
 
-[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[ふたを閉じたMacBookのガイド →](https://no-sleep-pika.online/guide/ja/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ja/keep-mac-awake/index.md)
+[pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[ふたを閉じたMacBookのガイド →](https://no-sleep-pika.online/guide/ja/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ja/keep-mac-awake/index.md)

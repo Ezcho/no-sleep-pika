@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Installez pika et son service auxiliaire. Activez Session, laissez Monitor OFF si l’écran est inutile et fermez le couvercle. La politique d’affichage s’applique alors. Session OFF libère la prévention de veille sans éteindre immédiatement l’écran. Utilisez une alimentation et un bureau ventilé, jamais un sac fermé. Protection ou panne du service peuvent arrêter la session.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 ## Questions courantes
 
@@ -67,4 +67,4 @@ Sources officielles et code pika consultés le 5 octobre 2026. Guide rédigé pa
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/mac-locked-ai-running/index.md)

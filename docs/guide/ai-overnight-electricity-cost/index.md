@@ -47,7 +47,7 @@ pika maintains work that system sleep could interrupt. It does not measure elect
 
 For closed-lid work, check that the helper service is running, then turn Session ON. Leave Monitor OFF if you do not need to keep the display on. Briefly close and reopen the lid to check that your task keeps running. Turn Session OFF after finishing. An awake Mac cannot resolve an AI approval prompt or a network failure by itself; pika does not automatically decide when your task is complete.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Three decisions before leaving
 
@@ -69,4 +69,4 @@ Written by pika’s maker. The energy formula follows Virginia Cooperative Exten
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.0.13/pika-1.0.13.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/index.md)
