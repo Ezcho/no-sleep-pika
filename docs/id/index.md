@@ -5,7 +5,7 @@ Language: id
 
 [Unduh untuk Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Unduhan
+93 Unduhan
 
 Rilis publik 1.3.0 · macOS 13+ · Apple Silicon & Intel
 

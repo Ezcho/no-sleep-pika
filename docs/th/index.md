@@ -5,7 +5,7 @@ Language: th
 
 [ดาวน์โหลดสำหรับ Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 ดาวน์โหลด
+93 ดาวน์โหลด
 
 รุ่นสาธารณะ 1.3.0 · macOS 13+ · Apple Silicon และ Intel
 

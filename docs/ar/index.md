@@ -5,7 +5,7 @@ Language: ar
 
 [تنزيل لنظام Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 التنزيلات
+93 التنزيلات
 
 الإصدار العام 1.3.0 · macOS 13+ · Apple Silicon وIntel
 

@@ -5,7 +5,7 @@ Language: de
 
 [Für Mac laden](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Downloads
+93 Downloads
 
 Öffentliche Version 1.3.0 · macOS 13+ · Apple Silicon & Intel
 

@@ -5,7 +5,7 @@ Language: zh-CN
 
 [下载 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 下载次数
+93 下载次数
 
 公开版本 1.3.0 · macOS 13+ · Apple Silicon 与 Intel
 

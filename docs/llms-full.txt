@@ -16,7 +16,7 @@ Language: en
 
 [Download for Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Downloads
+93 Downloads
 
 Public release 1.3.0 · macOS 13+ · Apple Silicon & Intel
 
@@ -96,7 +96,7 @@ Language: ko
 
 [Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 다운로드
+93 다운로드
 
 공개 버전 1.3.0 · macOS 13+ · Apple Silicon 및 Intel
 
@@ -176,7 +176,7 @@ Language: zh-CN
 
 [下载 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 下载次数
+93 下载次数
 
 公开版本 1.3.0 · macOS 13+ · Apple Silicon 与 Intel
 
@@ -256,7 +256,7 @@ Language: zh-TW
 
 [下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 下載次數
+93 下載次數
 
 公開版本 1.3.0 · macOS 13+ · Apple Silicon 與 Intel
 
@@ -336,7 +336,7 @@ Language: ja
 
 [Mac 版をダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 ダウンロード数
+93 ダウンロード数
 
 公開版 1.3.0 · macOS 13+ · Apple Silicon / Intel
 
@@ -416,7 +416,7 @@ Language: hi
 
 [Mac के लिए डाउनलोड](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 डाउनलोड
+93 डाउनलोड
 
 सार्वजनिक संस्करण 1.3.0 · macOS 13+ · Apple Silicon और Intel
 
@@ -496,7 +496,7 @@ Language: id
 
 [Unduh untuk Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Unduhan
+93 Unduhan
 
 Rilis publik 1.3.0 · macOS 13+ · Apple Silicon & Intel
 
@@ -576,7 +576,7 @@ Language: es
 
 [Descargar para Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Descargas
+93 Descargas
 
 Versión pública 1.3.0 · macOS 13+ · Apple Silicon e Intel
 
@@ -656,7 +656,7 @@ Language: fr
 
 [Télécharger pour Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Téléchargements
+93 Téléchargements
 
 Version publique 1.3.0 · macOS 13+ · Apple Silicon et Intel
 
@@ -736,7 +736,7 @@ Language: de
 
 [Für Mac laden](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Downloads
+93 Downloads
 
 Öffentliche Version 1.3.0 · macOS 13+ · Apple Silicon & Intel
 
@@ -816,7 +816,7 @@ Language: pt-BR
 
 [Baixar para Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Downloads
+93 Downloads
 
 Versão pública 1.3.0 · macOS 13+ · Apple Silicon e Intel
 
@@ -896,7 +896,7 @@ Language: ru
 
 [Скачать для Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Загрузки
+93 Загрузки
 
 Публичная версия 1.3.0 · macOS 13+ · Apple Silicon и Intel
 
@@ -976,7 +976,7 @@ Language: ar
 
 [تنزيل لنظام Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 التنزيلات
+93 التنزيلات
 
 الإصدار العام 1.3.0 · macOS 13+ · Apple Silicon وIntel
 
@@ -1056,7 +1056,7 @@ Language: vi
 
 [Tải cho Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 Lượt tải
+93 Lượt tải
 
 Bản công khai 1.3.0 · macOS 13+ · Apple Silicon & Intel
 
@@ -1136,7 +1136,7 @@ Language: th
 
 [ดาวน์โหลดสำหรับ Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
-90 ดาวน์โหลด
+93 ดาวน์โหลด
 
 รุ่นสาธารณะ 1.3.0 · macOS 13+ · Apple Silicon และ Intel
 
