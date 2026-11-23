@@ -77,7 +77,7 @@ def main():
             assert reply.get("id") == number and "error" not in reply, reply
             if method == "tools/list":
                 names = {tool["name"] for tool in reply["result"]["tools"]}
-                assert names == {"pika_status", "pika_set_session", "pika_set_monitor"}, names
+                assert names == {"pika_status", "pika_set_session", "pika_set_monitor", "pika_remote_pair", "pika_remote_revoke"}, names
 
         def sample(number):
             usage = RUsageInfoV0()

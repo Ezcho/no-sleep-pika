@@ -22,7 +22,7 @@ def call(name,arguments={}):return request('tools/call',{'name':name,'arguments'
 try:
  request('initialize',{'protocolVersion':'2025-11-25','capabilities':{},'clientInfo':{'name':'pika-live-test','version':'1'}})
  p.stdin.write(json.dumps({'jsonrpc':'2.0','method':'notifications/initialized'})+'\n');p.stdin.flush()
- assert len(request('tools/list')['tools'])==3
+ assert len(request('tools/list')['tools'])==5
  print('PASS MCP initialization and tool discovery')
  result=call('pika_status');status=result['structuredContent']
  assert not result['isError'],result
