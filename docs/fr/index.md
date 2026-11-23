@@ -3,11 +3,11 @@ Language: fr
 
 # Fermez votre Mac, vos tâches continuent.
 
-[Télécharger pour Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[Télécharger pour Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 Téléchargements
+90 Téléchargements
 
-Version publique 1.1.0 · macOS 13+ · Apple Silicon et Intel
+Version publique 1.2.0 · macOS 13+ · Apple Silicon et Intel
 
 ## Connecter MCP
 

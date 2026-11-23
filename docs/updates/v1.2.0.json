@@ -1,0 +1,13 @@
+{
+  "tag_name": "v1.2.0",
+  "draft": false,
+  "prerelease": false,
+  "assets": [
+    {
+      "name": "pika-1.2.0.pkg",
+      "browser_download_url": "https://github.com/Ezcho/always-awake-mac/releases/download/v1.2.0/pika-1.2.0.pkg",
+      "digest": "sha256:2a7b20829c601e0d517d97ebe8694472471d75fce1620728b0dbc880d9ac6915",
+      "size": 2371774
+    }
+  ]
+}

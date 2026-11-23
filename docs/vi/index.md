@@ -3,11 +3,11 @@ Language: vi
 
 # Gập Mac lại, công việc vẫn tiếp tục.
 
-[Tải cho Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[Tải cho Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 Lượt tải
+90 Lượt tải
 
-Bản công khai 1.1.0 · macOS 13+ · Apple Silicon & Intel
+Bản công khai 1.2.0 · macOS 13+ · Apple Silicon & Intel
 
 ## Kết nối MCP
 

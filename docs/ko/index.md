@@ -3,11 +3,11 @@ Language: ko
 
 # 맥을 덮어도 작업을 유지하세요
 
-[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[Mac용 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 다운로드
+90 다운로드
 
-공개 버전 1.1.0 · macOS 13+ · Apple Silicon 및 Intel
+공개 버전 1.2.0 · macOS 13+ · Apple Silicon 및 Intel
 
 ## MCP 연결
 

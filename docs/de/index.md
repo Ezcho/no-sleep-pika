@@ -3,11 +3,11 @@ Language: de
 
 # Mac zuklappen. Aufgaben laufen weiter.
 
-[Für Mac laden](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[Für Mac laden](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 Downloads
+90 Downloads
 
-Öffentliche Version 1.1.0 · macOS 13+ · Apple Silicon & Intel
+Öffentliche Version 1.2.0 · macOS 13+ · Apple Silicon & Intel
 
 ## MCP verbinden
 

@@ -3,11 +3,11 @@ Language: ru
 
 # Закройте Mac — работа продолжится.
 
-[Скачать для Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[Скачать для Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 Загрузки
+90 Загрузки
 
-Публичная версия 1.1.0 · macOS 13+ · Apple Silicon и Intel
+Публичная версия 1.2.0 · macOS 13+ · Apple Silicon и Intel
 
 ## Подключить MCP
 

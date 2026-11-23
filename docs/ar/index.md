@@ -3,11 +3,11 @@ Language: ar
 
 # أغلق غطاء Mac ودع مهامك تستمر.
 
-[تنزيل لنظام Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[تنزيل لنظام Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 التنزيلات
+90 التنزيلات
 
-الإصدار العام 1.1.0 · macOS 13+ · Apple Silicon وIntel
+الإصدار العام 1.2.0 · macOS 13+ · Apple Silicon وIntel
 
 ## ربط MCP
 

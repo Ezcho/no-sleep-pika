@@ -3,11 +3,11 @@ Language: zh-TW
 
 # 闔上 Mac，工作繼續。
 
-[下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[下載 Mac 版](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 下載次數
+90 下載次數
 
-公開版本 1.1.0 · macOS 13+ · Apple Silicon 與 Intel
+公開版本 1.2.0 · macOS 13+ · Apple Silicon 與 Intel
 
 ## 連接 MCP
 

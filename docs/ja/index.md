@@ -3,11 +3,11 @@ Language: ja
 
 # Macを閉じても、作業を続けよう。
 
-[Mac 版をダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.1.0/pika-1.1.0.pkg)
+[Mac 版をダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
 
-58 ダウンロード数
+90 ダウンロード数
 
-公開版 1.1.0 · macOS 13+ · Apple Silicon / Intel
+公開版 1.2.0 · macOS 13+ · Apple Silicon / Intel
 
 ## MCP 接続
 

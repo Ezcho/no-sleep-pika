@@ -1,123 +1,131 @@
 {
-  "total": 58,
-  "updatedAt": "2026-11-02T15:45:14.697924+00:00",
+  "total": 90,
+  "updatedAt": "2026-11-23T09:28:31.908025+00:00",
   "source": "GitHub release assets",
   "assets": [
     {
-      "name": "pika-1.1.0.pkg",
+      "name": "pika-1.2.0.pkg",
       "downloads": 0
+    },
+    {
+      "name": "pika-helper-1.2.0.pkg",
+      "downloads": 0
+    },
+    {
+      "name": "pika-1.1.0.pkg",
+      "downloads": 4
     },
     {
       "name": "pika-helper-1.1.0.pkg",
-      "downloads": 0
+      "downloads": 1
     },
     {
       "name": "pika-1.0.13.pkg",
-      "downloads": 17
+      "downloads": 18
     },
     {
       "name": "pika-helper-1.0.13.pkg",
-      "downloads": 0
+      "downloads": 1
     },
     {
       "name": "pika-1.0.12.pkg",
-      "downloads": 2
+      "downloads": 3
     },
     {
       "name": "pika-helper-1.0.12.pkg",
-      "downloads": 0
+      "downloads": 1
     },
     {
       "name": "pika-1.0.11.pkg",
-      "downloads": 2
+      "downloads": 3
     },
     {
       "name": "pika-helper-1.0.11.pkg",
-      "downloads": 1
+      "downloads": 2
     },
     {
       "name": "pika-1.0.10.pkg",
-      "downloads": 3
+      "downloads": 4
     },
     {
       "name": "pika-1.0.9.pkg",
-      "downloads": 3
+      "downloads": 4
     },
     {
       "name": "pika-1.0.8.pkg",
-      "downloads": 3
+      "downloads": 4
     },
     {
       "name": "pika-1.0.7.pkg",
-      "downloads": 1
+      "downloads": 2
     },
     {
       "name": "pika-1.0.6.pkg",
-      "downloads": 5
+      "downloads": 6
     },
     {
       "name": "pika-1.0.5.dmg",
-      "downloads": 3
+      "downloads": 4
     },
     {
       "name": "pika-1.0.5.pkg",
-      "downloads": 0
+      "downloads": 1
     },
     {
       "name": "pika-1.0.5.zip",
-      "downloads": 0
+      "downloads": 1
     },
     {
       "name": "pika-helper-1.0.5.pkg",
-      "downloads": 2
-    },
-    {
-      "name": "pika-1.0.4.dmg",
-      "downloads": 2
-    },
-    {
-      "name": "pika-1.0.4.pkg",
-      "downloads": 0
-    },
-    {
-      "name": "pika-1.0.4.zip",
-      "downloads": 0
-    },
-    {
-      "name": "Always-Awake-1.0.3.dmg",
-      "downloads": 7
-    },
-    {
-      "name": "Always-Awake-1.0.3.zip",
-      "downloads": 0
-    },
-    {
-      "name": "pika-1.0.3.dmg",
       "downloads": 3
     },
     {
-      "name": "Always-Awake-1.0.2.dmg",
+      "name": "pika-1.0.4.dmg",
+      "downloads": 3
+    },
+    {
+      "name": "pika-1.0.4.pkg",
       "downloads": 1
     },
     {
-      "name": "Always-Awake-1.0.2.zip",
-      "downloads": 0
+      "name": "pika-1.0.4.zip",
+      "downloads": 1
     },
     {
-      "name": "Always-Awake-1.0.1.dmg",
+      "name": "Always-Awake-1.0.3.dmg",
+      "downloads": 8
+    },
+    {
+      "name": "Always-Awake-1.0.3.zip",
+      "downloads": 1
+    },
+    {
+      "name": "pika-1.0.3.dmg",
+      "downloads": 4
+    },
+    {
+      "name": "Always-Awake-1.0.2.dmg",
       "downloads": 2
     },
     {
-      "name": "Always-Awake-1.0.1.zip",
-      "downloads": 0
-    },
-    {
-      "name": "Always-Awake-1.0.0.dmg",
+      "name": "Always-Awake-1.0.2.zip",
       "downloads": 1
     },
     {
+      "name": "Always-Awake-1.0.1.dmg",
+      "downloads": 3
+    },
+    {
+      "name": "Always-Awake-1.0.1.zip",
+      "downloads": 1
+    },
+    {
+      "name": "Always-Awake-1.0.0.dmg",
+      "downloads": 2
+    },
+    {
       "name": "Always-Awake-1.0.0.zip",
-      "downloads": 0
+      "downloads": 1
     }
   ]
 }
