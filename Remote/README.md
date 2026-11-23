@@ -43,10 +43,7 @@ From the repository root:
 
 ```sh
 bash Scripts/test.sh
-xcrun swiftc -swift-version 5 -parse-as-library -module-cache-path .build/module-cache \
- Sources/Control/LocalControl.swift Sources/App/RemotePairing.swift \
- Tests/RemoteQR/main.swift -o .build/RemoteQRTests
-.build/RemoteQRTests
+
 ```
 
 ## Production rollout

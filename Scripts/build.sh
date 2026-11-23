@@ -33,13 +33,16 @@ PYREMOTE
 fi
 cp Resources/com.alwaysawake.mac.helper.plist "$APP/Contents/Library/LaunchDaemons/"
 cp Resources/Guide.html "$APP/Contents/Resources/Guide.html"
+cp Sources/QR/LICENSE "$APP/Contents/Resources/ThirdPartyLicenses.txt"
 
 SDK="$(xcrun --sdk macosx --show-sdk-path)"
 SHARED=(Sources/Shared/SleepSetting.swift Sources/Shared/Protocol.swift Sources/Shared/SessionEngine.swift Sources/Shared/Signature.swift Sources/Shared/InstalledHelper.swift Sources/Shared/SafetyPolicy.swift Sources/Shared/HardwareReading.swift)
 for ARCH in arm64 x86_64; do
     FLAGS=(-O -swift-version 5 -sdk "$SDK" -target "${ARCH}-apple-macosx13.0" -module-cache-path "$BUILD/module-cache")
     xcrun swiftc "${FLAGS[@]}" "${SHARED[@]}" Sources/Helper/*.swift -o "$BUILD/AlwaysAwakeHelper-$ARCH"
-    xcrun swiftc "${FLAGS[@]}" "${SHARED[@]}" Sources/Control/*.swift Sources/Shared/UpdateRelease.swift Sources/App/*.swift -o "$BUILD/pika-$ARCH"
+    xcrun clang -O2 -isysroot "$SDK" -target "${ARCH}-apple-macosx13.0" -c Sources/QR/qrcodegen.c -o "$BUILD/qrcodegen-$ARCH.o"
+    xcrun clang -O2 -isysroot "$SDK" -target "${ARCH}-apple-macosx13.0" -c Sources/QR/pika_qr.c -o "$BUILD/pika-qr-$ARCH.o"
+    xcrun swiftc "${FLAGS[@]}" -import-objc-header Sources/QR/pika_qr.h "$BUILD/qrcodegen-$ARCH.o" "$BUILD/pika-qr-$ARCH.o" "${SHARED[@]}" Sources/Control/*.swift Sources/Shared/UpdateRelease.swift Sources/App/*.swift -o "$BUILD/pika-$ARCH"
     xcrun swiftc "${FLAGS[@]}" Sources/Shared/Protocol.swift Sources/Control/*.swift Sources/MCP/*.swift -o "$BUILD/pika-mcp-$ARCH"
 done
 xcrun lipo -create "$BUILD/pika-arm64" "$BUILD/pika-x86_64" -output "$APP/Contents/MacOS/pika"

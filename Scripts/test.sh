@@ -20,5 +20,7 @@ xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Sha
 xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/App/PikaStatusIcon.swift Tests/StatusIcon/main.swift -o .build/PikaStatusIconTests
 .build/PikaStatusIconTests
 
-xcrun swiftc -swift-version 5 -parse-as-library -module-cache-path .build/module-cache Sources/Control/LocalControl.swift Sources/App/RemotePairing.swift Tests/RemoteQR/main.swift -o .build/RemoteQRTests
+xcrun clang -O2 -c Sources/QR/qrcodegen.c -o .build/qrcodegen-test.o
+xcrun clang -O2 -c Sources/QR/pika_qr.c -o .build/pika-qr-test.o
+xcrun swiftc -swift-version 5 -parse-as-library -import-objc-header Sources/QR/pika_qr.h .build/qrcodegen-test.o .build/pika-qr-test.o -module-cache-path .build/module-cache Sources/Control/LocalControl.swift Sources/App/RemotePairing.swift Tests/RemoteQR/main.swift -o .build/RemoteQRTests
 .build/RemoteQRTests

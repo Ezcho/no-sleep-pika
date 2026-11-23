@@ -1,5 +1,4 @@
 import AppKit
-import CoreImage
 
 /// App-owned read-only bridge. No shell, raw IPC or remote power operations.
 @MainActor
@@ -167,13 +166,18 @@ final class RemotePairing {
     }
     private func send(_ value:[String:Any]) { guard let d=try? JSONSerialization.data(withJSONObject:value),let s=String(data:d,encoding:.utf8),let socket else{return};Task {try? await socket.send(.string(s))} }
     static func qr(_ text:String) throws -> (text:String,png:String) {
-        let filter=CIFilter(name:"CIQRCodeGenerator")!;filter.setValue(Data(text.utf8),forKey:"inputMessage");filter.setValue("M",forKey:"inputCorrectionLevel")
-        guard let output=filter.outputImage else{throw URLError(.cannotDecodeContentData)}
-        let n=Int(output.extent.width),size=n+8
-        var pixels=[UInt8](repeating:255,count:n*n*4)
-        CIContext(options: [.useSoftwareRenderer: true]).render(output,toBitmap:&pixels,rowBytes:n*4,bounds:output.extent,format:.RGBA8,colorSpace:CGColorSpaceCreateDeviceRGB())
-        guard stride(from: 0, to: pixels.count, by: 4).contains(where: { pixels[$0] < 128 }) else { throw URLError(.cannotDecodeContentData) }
-        func black(_ x:Int,_ y:Int)->Bool {x>=4 && y>=4 && x<n+4 && y<n+4 && pixels[((y-4)*n+x-4)*4]<128}
+        // CPU-only module generation works without a GPU or WindowServer renderer.
+        let input = Array(text.utf8)
+        guard !input.isEmpty, input.count <= 2048 else { throw URLError(.cannotDecodeContentData) }
+        var modules = [UInt8](repeating: 0, count: 177 * 177)
+        let n = Int(input.withUnsafeBufferPointer { bytes in
+            modules.withUnsafeMutableBufferPointer { output in
+                pika_qr_modules(bytes.baseAddress, Int32(bytes.count), output.baseAddress, Int32(output.count))
+            }
+        })
+        guard n > 0 else { throw URLError(.cannotDecodeContentData) }
+        let size = n + 8
+        func black(_ x:Int,_ y:Int)->Bool {x>=4 && y>=4 && x<n+4 && y<n+4 && modules[(y-4)*n+x-4] != 0}
         var lines=[String]()
         for y in 0..<size { var line=""; for x in 0..<size {line += black(x,y) ? "██" : "  "};lines.append(line) }
         let scale=6,bitmap=NSBitmapImageRep(bitmapDataPlanes:nil,pixelsWide:size*scale,pixelsHigh:size*scale,bitsPerSample:8,samplesPerPixel:1,hasAlpha:false,isPlanar:false,colorSpaceName:.deviceWhite,bytesPerRow:size*scale,bitsPerPixel:8)!
