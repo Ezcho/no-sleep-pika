@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika prend en charge macOS 13 et versions ultérieures, Apple Silicon et Intel. Son PKG officiel complet installe l’app et le service auxiliaire administrateur. Effectuez vous-même l’authentification et les autorisations nécessaires. Ouvrez /Applications/pika.app, vérifiez le service, activez Session, choisissez Monitor OFF si nécessaire, puis fermez le capot. La prévention est préparée avant ; la politique d’affichage est appliquée après fermeture. Capot ouvert, Monitor enregistre seulement le choix. Session OFF restaure le réglage géré sans éteindre immédiatement l’écran. Fermer la fenêtre ne quitte pas l’app.
 
-[Télécharger pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Télécharger pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [Aide à l’installation](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ Comparaison rédigée par le créateur de no-sleep-pika, incluant sa propre app.
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Contrôlez votre Mac avec un QR : sessions, minuteurs et extinction depuis le téléphone →](https://no-sleep-pika.online/guide/fr/control-mac-from-phone-qr/)
+
 [Quand l’IA travaille la nuit, qui paie l’électricité ? →](https://no-sleep-pika.online/guide/fr/ai-overnight-electricity-cost/)
 
 [Téléchargement arrêté sur MacBook : écran, veille et couvercle →](https://no-sleep-pika.online/guide/fr/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ Comparaison rédigée par le créateur de no-sleep-pika, incluant sa propre app.
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Guide du MacBook fermé →](https://no-sleep-pika.online/guide/fr/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/fr/keep-mac-awake/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Guide du MacBook fermé →](https://no-sleep-pika.online/guide/fr/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/fr/keep-mac-awake/index.md)

@@ -47,7 +47,7 @@ Enfin, consultez réglages et documents. Le mode local d’Ollama désactive ses
 
 La veille peut interrompre ou retarder une tâche locale, contrairement à un travail distant indépendant. pika n’exécute pas de modèle et ne transforme pas le cloud en local : il garde le Mac éveillé. Vérifiez le service auxiliaire, activez Session et testez brièvement couvercle fermé. Utilisez alimentation et bureau ventilé ; désactivez Session ensuite.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Aide à l’installation](https://no-sleep-pika.online/install/)
 
 Sources et portée
 
@@ -63,6 +63,8 @@ Guide du créateur de pika, documents officiels vérifiés le 22 octobre 2026. C
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Contrôlez votre Mac avec un QR : sessions, minuteurs et extinction depuis le téléphone →](https://no-sleep-pika.online/guide/fr/control-mac-from-phone-qr/)
+
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
-[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/local-on-device-ai/index.md)
+[Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/local-on-device-ai/index.md)

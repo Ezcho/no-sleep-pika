@@ -71,7 +71,7 @@ pika는 Session과 Monitor를 메뉴 막대에서 제어하는 macOS 13 이상�
 
 덮개를 다시 열면 화면 제어가 대기 상태로 돌아갑니다. Session OFF를 누르면 pika가 관리한 잠자기 설정을 복구하며 Monitor도 OFF로 표시되지만 화면을 즉시 끄지는 않습니다. 창의 X 버튼은 앱 종료가 아니며 메뉴 막대에 남습니다. 완전히 끝낼 때는 Session OFF 또는 앱의 종료 메뉴를 사용하세요. 보조 서비스 오류가 보이면 정상 실행으로 간주하지 말고 설치·연결 문제부터 해결해야 합니다.
 
-[pika 다운로드 · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[pika 다운로드 · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
@@ -109,6 +109,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[QR 하나로 Mac을 제어하세요: 휴대폰에서 세션·타이머·종료까지 →](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/)
+
 [AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
 
 [맥북 다운로드가 멈출 때: 화면 끄기·잠자기·덮개 닫힘 구분하기 →](https://no-sleep-pika.online/guide/ko/macbook-downloads-stop/)
@@ -117,4 +119,4 @@ man caffeinate
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[맥북 덮개 닫기 가이드 →](https://no-sleep-pika.online/guide/ko/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[맥북 덮개 닫기 가이드 →](https://no-sleep-pika.online/guide/ko/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ko/keep-mac-awake/index.md)

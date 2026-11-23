@@ -49,6 +49,8 @@ MacBook 合盖通常会进入睡眠，而不是完全关机。重新打开后应
 
 [更多安装、连接和排障步骤 · English →](https://no-sleep-pika.online/guide/)
 
+[用一个二维码控制 Mac：手机管理会话、定时与关机 →](https://no-sleep-pika.online/guide/zh-CN/control-mac-from-phone-qr/)
+
 [让 Mac 不进入睡眠的方法：合盖模式、caffeinate 与 pika →](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/)
 
 ## 如何让 MacBook 合上盖子后继续运行

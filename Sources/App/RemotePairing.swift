@@ -1,8 +1,17 @@
 import AppKit
 
-/// App-owned read-only bridge. No shell, raw IPC or remote power operations.
+/// App-owned bridge. Control requires explicit, connection-bound local approval.
 @MainActor
 final class RemotePairing {
+    var requestApproval: ((@escaping (Bool) -> Void) -> Void)?
+    var executeCommand: ((RemoteCommand, @escaping (Bool, String) -> Void) -> Void)?
+    var onControlReset: (() -> Void)?
+    var onPermissionChange: ((Bool) -> Void)?
+    private var authorization = RemoteAuthorization()
+    private var approvalPending = false
+    private var approvalIntent = UUID()
+    private var lastApprovalRequest = Date.distantPast
+    private var lastReceived = Date.distantPast
     private var socket: URLSessionWebSocketTask?
     private var timer: Timer?
     private var heartbeat: Timer?
@@ -81,13 +90,14 @@ final class RemotePairing {
                 let dir = FileManager.default.temporaryDirectory.appendingPathComponent("pika-qr-\(UUID().uuidString)", isDirectory: true)
                 try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: false, attributes: [.posixPermissions: 0o700])
                 let html = dir.appendingPathComponent("pair.html")
-                let markup = "<!doctype html><meta charset=utf-8><meta name=referrer content=no-referrer><title>pika QR</title><body style='background:white;color:black;text-align:center;font-family:system-ui'><h1>pika · 읽기 전용 연결</h1><img width=360 height=360 alt='pika 연결 QR' src='data:image/png;base64,\(qr.png)'><p>휴대폰 카메라로 스캔하세요. 5분 · 1회 사용</p><p>공유하지 마세요. 연결은 최대 24시간 유지됩니다.</p>"
+                let markup = "<!doctype html><meta charset=utf-8><meta name=referrer content=no-referrer><title>pika QR</title><body style='background:white;color:black;text-align:center;font-family:system-ui'><h1>pika · 휴대폰 연결</h1><img width=360 height=360 alt='pika 연결 QR' src='data:image/png;base64,\(qr.png)'><p>휴대폰 카메라로 스캔하세요. 5분 · 1회 사용</p><p>공유하지 마세요. 연결은 최대 24시간 유지됩니다.</p>"
                 try Data(markup.utf8).write(to: html, options: .atomic)
                 try FileManager.default.setAttributes([.posixPermissions: 0o600], ofItemAtPath: html.path)
                 preview = html
                 connect()
-                timer = Timer.scheduledTimer(withTimeInterval: 5, repeats: true) { [weak self] _ in Task { @MainActor in self?.tick() } }
-                completion(["ok":true,"readOnly":true,"pairUntil":until,"expiresAt":expiry,"url":link,"qrText":qr.text,"qrPreviewPath":html.path,"qrPNG":qr.png,
+                let clock = Timer(timeInterval: 5, repeats: true) { [weak self] _ in Task { @MainActor in self?.tick() } }
+                RunLoop.main.add(clock, forMode: .common); timer = clock
+                completion(["ok":true,"readOnly":true,"controlRequiresMacApproval":true,"pairUntil":until,"expiresAt":expiry,"url":link,"qrText":qr.text,"qrPreviewPath":html.path,"qrPNG":qr.png,
                             "message":"Text QR may not scan in proportional fonts. Open qrPreviewPath for a black-on-white QR. Revoking remote access does not stop the local Session."])
             } catch {
                 _ = await revoke()
@@ -111,7 +121,53 @@ final class RemotePairing {
             return ControlWire.failure("remote_revoke_pending", "Local connection stopped; server revocation could not be confirmed. Retry revoke. Server access expires within 24 hours.")
         }
     }
+    func revokeControl() {
+        if let viewerID = authorization.viewer { send(["type":"control_permission","viewerID":viewerID,"enabled":false]) }
+        authorization.revoke(); approvalPending = false; approvalIntent = UUID()
+        onControlReset?(); onPermissionChange?(false)
+    }
+    private func resetControl() {
+        authorization.connect(nil); authorization.revoke(); approvalPending = false; approvalIntent = UUID()
+        onControlReset?(); onPermissionChange?(false)
+    }
+    private func controlFrame(_ m: [String: Any], generation g: UUID) {
+        if m["type"] as? String == "control_request" {
+            if let id = m["viewerID"] as? String, authorization.approved == id {
+                send(["type":"control_permission","viewerID":id,"enabled":true,"grantID":authorization.grant as Any? ?? NSNull()]); return
+            }
+            guard let id = m["viewerID"] as? String, id == authorization.viewer,
+                  !approvalPending, Date().timeIntervalSince(lastApprovalRequest) >= 30,
+                  let requestApproval else { return }
+            approvalPending = true; lastApprovalRequest = Date(); approvalIntent = UUID()
+            let requestedApproval = approvalIntent
+            requestApproval { [weak self] allow in
+                guard let self, self.generation == g, self.authorization.viewer == id, self.approvalPending, self.approvalIntent == requestedApproval,
+                      let c = self.credentials, c.expires > Date() else { return }
+                self.approvalPending = false
+                let approved = allow && self.authorization.approve(id)
+                if !approved { self.authorization.revoke(); self.onControlReset?() }
+                self.send(["type":"control_permission","viewerID":id,"enabled":approved,"grantID":self.authorization.grant as Any? ?? NSNull()])
+                self.onPermissionChange?(approved)
+                self.publish(force:true)
+            }
+        }
+        if m["type"] as? String == "command" {
+            guard let id = m["id"] as? String, UUID(uuidString: id) != nil,
+                  let viewerID = m["viewerID"] as? String, let grantID = m["grantID"] as? String,
+                  let expiry = m["expiresAt"] as? Double,
+                  let action = m["action"] as? String, let args = m["args"] as? [String:Any] else { return }
+            let reply: (Bool,String) -> Void = { [weak self] ok, code in
+                guard let self, self.generation == g, self.authorization.approved == viewerID, self.authorization.grant == grantID.lowercased() else { return }
+                self.send(["type":"command_result","id":id,"ok":ok,"code":code]); self.publish(force:true)
+            }
+            guard let credential = credentials, credential.expires > Date() else { reply(false,"denied"); return }
+            guard authorization.accept(id:id,viewer:viewerID,expires:expiry,cancel:action == "cancel_timer",now:Date().timeIntervalSince1970*1000,grantID:grantID) else { reply(false,"denied"); return }
+            guard let command = RemoteCommand.parse(action,args), let executeCommand else { reply(false,"invalid"); return }
+            executeCommand(command,reply)
+        }
+    }
     func stopConnection() {
+        resetControl()
         generation=UUID(); timer?.invalidate();timer=nil;heartbeat?.invalidate();heartbeat=nil
         socket?.cancel(with:.goingAway,reason:nil);socket=nil;viewer=false;lastStatus=nil;lastSent = .distantPast;pendingForce=false
         if let preview { try? FileManager.default.removeItem(at:preview.deletingLastPathComponent()) }; preview=nil
@@ -121,7 +177,7 @@ final class RemotePairing {
         let g=generation
         var components=URLComponents(url:c.base.appendingPathComponent("api/room/\(c.id)/socket"),resolvingAgainstBaseURL:false)!
         components.scheme="wss"
-        let task=session.webSocketTask(with:components.url!);task.maximumMessageSize=16384;socket=task;task.resume()
+        let task=session.webSocketTask(with:components.url!);task.maximumMessageSize=16384;socket=task;lastReceived=Date();task.resume()
         send(["type":"auth","role":"host","token":c.host]); receive(task,g)
     }
     private func receive(_ task: URLSessionWebSocketTask,_ g: UUID) {
@@ -129,18 +185,28 @@ final class RemotePairing {
             do {
                 let frame=try await task.receive()
                 guard let self, self.generation==g, self.socket===task else { return }
+                self.lastReceived = Date()
                 if case let .string(text)=frame, let data=text.data(using:.utf8), let m=(try? JSONSerialization.jsonObject(with:data)) as? [String:Any] {
-                    if m["type"] as? String == "presence" { self.viewer=m["viewer"] as? Bool ?? false; self.hasPaired = self.hasPaired || self.viewer; self.publish(force:true) }
+                    if m["type"] as? String == "presence" {
+                        self.viewer=m["viewer"] as? Bool ?? false
+                        let id = m["viewerID"] as? String
+                        if id != self.authorization.viewer { self.resetControl(); self.authorization.connect(id) }
+                        self.hasPaired = self.hasPaired || self.viewer; self.publish(force:true)
+                    }
+                    self.controlFrame(m,generation:g)
                     if m["type"] as? String == "refresh" { self.publish(force:true) }
                     if m["type"] as? String == "ready" {
                         self.hasPaired = self.hasPaired || (m["paired"] as? Bool ?? false)
                         self.heartbeat?.invalidate()
-                        self.heartbeat=Timer.scheduledTimer(withTimeInterval:45,repeats:true) { [weak self] _ in Task { @MainActor in try? await self?.socket?.send(.string("ping")) } }
+                        if self.executeCommand != nil { self.send(["type":"capabilities","control":true]) }
+                        let beat=Timer(timeInterval:10,repeats:true) { [weak self] _ in Task { @MainActor in try? await self?.socket?.send(.string("ping")) } }
+                        RunLoop.main.add(beat,forMode:.common); self.heartbeat=beat
                     }
                 }
                 self.receive(task,g)
             } catch {
                 guard let self,self.generation==g,self.socket===task else { return }
+                self.resetControl()
                 self.viewer=false;self.heartbeat?.invalidate();self.heartbeat=nil
                 if [4001,4003].contains(task.closeCode.rawValue) || task.closeCode == .policyViolation { self.stopConnection();return }
                 try? await Task.sleep(nanoseconds:5_000_000_000)
@@ -150,6 +216,9 @@ final class RemotePairing {
     }
     private func tick() {
         guard let c=credentials else{return}
+        if socket != nil && Date().timeIntervalSince(lastReceived) > 25 {
+            resetControl(); socket?.cancel(with:.goingAway,reason:nil)
+        }
         if Date()>=c.expires || (!hasPaired && Date()>=(pairUntil ?? c.expires)) { Task { _ = await revoke() }; return }
         if let preview, Date()>=(pairUntil ?? c.expires) { try? FileManager.default.removeItem(at:preview.deletingLastPathComponent());self.preview=nil }
         publish(force:false)
@@ -162,6 +231,7 @@ final class RemotePairing {
         var safe:[String:Any]=[:]
         for key in ["ok","sessionOn","monitorOn","busy","recoveryRequired","waitingForLid","lidEngaged","serviceRegistered"] { safe[key]=value[key] }
         if let safety=value["safety"] as? [String:Any] { var filtered:[String:Any]=[:];for key in ["batteryPercent","onAC","lidClosed","hasExternalDisplay","thermalState"] { filtered[key]=safety[key] };safe["safety"]=filtered }
+        if let power=value["power"] as? [String:Any] { safe["power"]=power }
         send(["type":"status","status":safe])
     }
     private func send(_ value:[String:Any]) { guard let d=try? JSONSerialization.data(withJSONObject:value),let s=String(data:d,encoding:.utf8),let socket else{return};Task {try? await socket.send(.string(s))} }

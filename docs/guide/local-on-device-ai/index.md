@@ -63,7 +63,7 @@ pika does not run models or convert cloud AI into local AI. It keeps a Mac awake
 
 Ask which model is selected, where it computes and whether your Mac must remain awake. Those answers describe your setup more accurately than a local AI label alone.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 Sources and scope
 
@@ -79,6 +79,8 @@ Official documentation checked on October 22, 2026. Written by pika’s maker as
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Control your Mac with a QR code: sessions, timers and shutdown from your phone →](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/)
+
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/local-on-device-ai/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/local-on-device-ai/index.md)

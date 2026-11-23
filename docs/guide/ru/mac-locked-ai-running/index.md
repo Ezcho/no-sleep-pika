@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Установите pika и вспомогательную службу, включите Session, оставьте Monitor OFF, если экран не нужен, и закройте крышку. Политика экрана применяется после закрытия. Session OFF снимает запрет сна без немедленного выключения экрана. Используйте питание и проветриваемый стол, не закрытую сумку. Защита или сбой службы могут остановить сессию.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 ## Частые вопросы
 
@@ -59,6 +59,8 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Управляйте Mac по QR: сеансы, таймеры и выключение с телефона →](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/)
+
 [Claude Code — локальный ИИ? Объясняем Llama, Qwen и ИИ на устройстве →](https://no-sleep-pika.online/guide/ru/local-on-device-ai/)
 
 [Если ИИ работает ночью, кто платит за электричество? →](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/)
@@ -67,4 +69,4 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/mac-locked-ai-running/index.md)

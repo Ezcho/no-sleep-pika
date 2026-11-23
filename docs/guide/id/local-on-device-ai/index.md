@@ -47,7 +47,7 @@ Ketiga, baca pengaturan dan dokumentasi. Mode lokal Ollama menonaktifkan model c
 
 Tidur sistem dapat mengganggu atau menunda kerja lokal, berbeda dari tugas server mandiri. pika tidak menjalankan model atau mengubah cloud menjadi lokal, tetapi menjaga Mac aktif. Cek layanan pembantu, aktifkan Session dan uji dengan menutup serta membuka tutup sebentar. Gunakan daya dan meja berventilasi, lalu matikan Session.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 Sumber dan cakupan
 
@@ -63,6 +63,8 @@ Panduan pembuat pika, sumber resmi diperiksa 22 Oktober 2026. Bukan pengujian se
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Kendalikan Mac dengan QR: sesi, timer, dan matikan dari ponsel →](https://no-sleep-pika.online/guide/id/control-mac-from-phone-qr/)
+
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/local-on-device-ai/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/local-on-device-ai/index.md)

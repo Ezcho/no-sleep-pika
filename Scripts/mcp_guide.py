@@ -35,7 +35,7 @@ TEXT = {
     'local': 'This is a local STDIO connection. The website address is not an MCP endpoint, and a cloud-only URL connector cannot run this Mac executable.',
     'official': 'Codex official documentation',
     'remote': 'Phone monitoring · pika 1.1.0+',
-    'remotebody': 'After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.',
+    'remotebody': 'After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; the connection lasts up to 24 hours. It starts read-only. With pika 1.3.0, tap Request control and approve on the Mac to enable Session, timers and power controls. Reconnecting requires approval again. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.',
 },
 'ko': {
     'title': 'AI Agent에 pika 연결하기', 'close': '닫기',
@@ -61,7 +61,7 @@ TEXT = {
     'local': '이 연결은 Mac 내부의 STDIO 방식입니다. 홈페이지 주소는 MCP 서버 주소가 아니며, URL만 받는 클라우드 연결에는 이 실행 파일을 등록할 수 없습니다.',
     'official': 'Codex 공식 문서',
     'remote': '휴대폰에서 상태 확인 · pika 1.1.0 이상',
-    'remotebody': '업데이트 후 MCP를 재연결하고 “pika QR 만들어줘”라고 요청하세요. pika_remote_pair가 텍스트 QR과 PNG·HTML 대안을 반환합니다. 휴대폰 카메라로 스캔하고 연결을 누르세요. QR은 5분·1회용이며 상태 조회 연결은 최대 24시간 유지됩니다. QR 생성만으로 Session이 켜지지는 않습니다. pika_remote_revoke 또는 Mac 메뉴에서 연결을 해제할 수 있습니다. QR을 다른 사람과 공유하지 마세요.',
+    'remotebody': '업데이트 후 MCP를 재연결하고 “pika QR 만들어줘”라고 요청하세요. pika_remote_pair가 텍스트 QR과 PNG·HTML 대안을 반환합니다. 휴대폰 카메라로 스캔하고 연결을 누르세요. QR은 5분·1회용이며 연결은 최대 24시간 유지됩니다. 처음에는 조회 전용입니다. pika 1.3.0에서 ‘Mac에 제어 허용 요청’을 누르고 Mac에서 승인하면 세션·타이머·전원을 제어할 수 있습니다. 재연결 시 다시 승인해야 합니다. QR 생성만으로 Session이 켜지지는 않습니다. pika_remote_revoke 또는 Mac 메뉴에서 연결을 해제할 수 있습니다. QR을 다른 사람과 공유하지 마세요.',
 }}
 
 

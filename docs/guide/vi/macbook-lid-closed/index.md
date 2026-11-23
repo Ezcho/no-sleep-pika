@@ -49,6 +49,8 @@ pika có thể kết thúc phiên khi pin hoặc trạng thái nhiệt macOS ch�
 
 [Chi tiết cài đặt, kết nối và xử lý sự cố · English →](https://no-sleep-pika.online/guide/)
 
+[Điều khiển Mac bằng QR: phiên, hẹn giờ và tắt máy từ điện thoại →](https://no-sleep-pika.online/guide/vi/control-mac-from-phone-qr/)
+
 [Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)
 
 ## Cách giữ MacBook chạy khi gập màn hình

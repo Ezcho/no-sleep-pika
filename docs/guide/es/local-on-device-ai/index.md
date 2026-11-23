@@ -47,7 +47,7 @@ Tercero, consulta ajustes y documentos. El modo local de Ollama desactiva sus mo
 
 El reposo puede interrumpir o retrasar trabajo local, a diferencia de una tarea remota independiente. pika no ejecuta modelos ni convierte nube en local: mantiene el Mac despierto. Comprueba el servicio auxiliar, activa Session y prueba brevemente con la tapa cerrada. Usa alimentación y una mesa ventilada; desactiva Session al terminar.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Ayuda de instalación](https://no-sleep-pika.online/install/)
 
 Fuentes y alcance
 
@@ -63,6 +63,8 @@ Guía del creador de pika basada en documentos oficiales revisados el 22 de octu
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Controla tu Mac con un QR: sesiones, temporizadores y apagado desde el móvil →](https://no-sleep-pika.online/guide/es/control-mac-from-phone-qr/)
+
 Escrito por el creador de no-sleep-pika; incluye nuestra app.
 
-[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/local-on-device-ai/index.md)
+[Descargar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/es/local-on-device-ai/index.md)

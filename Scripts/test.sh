@@ -6,7 +6,11 @@ xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Sha
 .build/AlwaysAwakeTests
 plutil -lint Resources/Info.plist Resources/com.alwaysawake.mac.helper.plist
 xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Shared/SafetyPolicy.swift Sources/App/PowerPolicy.swift Sources/App/PowerController.swift Tests/Power/main.swift -o .build/PowerTests
+xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Shared/SafetyPolicy.swift Sources/App/PowerPolicy.swift Sources/App/RemoteCommand.swift Tests/RemoteControl/main.swift -o .build/RemoteControlTests
+.build/RemoteControlTests
 .build/PowerTests
+xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Shared/SafetyPolicy.swift Sources/App/PowerPolicy.swift Sources/App/RemoteCommand.swift Tests/RemoteControl/main.swift -o .build/RemoteControlTests
+.build/RemoteControlTests
 xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Shared/Protocol.swift Sources/Control/LocalControl.swift Sources/MCP/MCPServer.swift Tests/MCP/main.swift -o .build/MCPTests
 .build/MCPTests
 xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/Shared/Protocol.swift Sources/Shared/SafetyPolicy.swift Sources/Control/LocalControl.swift Sources/App/AutomationControl.swift Tests/Automation/main.swift -o .build/AutomationTests
@@ -22,5 +26,5 @@ xcrun swiftc -swift-version 5 -module-cache-path .build/module-cache Sources/App
 
 xcrun clang -O2 -c Sources/QR/qrcodegen.c -o .build/qrcodegen-test.o
 xcrun clang -O2 -c Sources/QR/pika_qr.c -o .build/pika-qr-test.o
-xcrun swiftc -swift-version 5 -parse-as-library -import-objc-header Sources/QR/pika_qr.h .build/qrcodegen-test.o .build/pika-qr-test.o -module-cache-path .build/module-cache Sources/Control/LocalControl.swift Sources/App/RemotePairing.swift Tests/RemoteQR/main.swift -o .build/RemoteQRTests
+xcrun swiftc -swift-version 5 -parse-as-library -import-objc-header Sources/QR/pika_qr.h .build/qrcodegen-test.o .build/pika-qr-test.o -module-cache-path .build/module-cache Sources/Control/LocalControl.swift Sources/Shared/SafetyPolicy.swift Sources/App/PowerPolicy.swift Sources/App/RemoteCommand.swift Sources/App/RemotePairing.swift Tests/RemoteQR/main.swift -o .build/RemoteQRTests
 .build/RemoteQRTests

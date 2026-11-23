@@ -8,6 +8,7 @@ final class PowerController {
     private var timer: Timer?
     private var sleepObserver: NSObjectProtocol?
     private var intent = UUID()
+    private var remoteOperation = false
     private var previousAC: Bool?
     private var wasActive = false
     private(set) var executing = false
@@ -66,14 +67,38 @@ final class PowerController {
     }
     var timerText: String {
         guard let schedule else { return "예약 없음" }
+        if schedule.countdown {
+            return "원격 \(schedule.action.title) · \(max(0, Int(ceil(schedule.deadline.timeIntervalSinceNow))))초 후"
+        }
         let minutes = max(0, Int(ceil(schedule.deadline.timeIntervalSinceNow / 60)))
         return "\(schedule.action.title) · 약 \(minutes)분 후"
     }
-    func arm(minutes: Int, action: PowerAction) {
+    func arm(minutes: Int, action: PowerAction, remote: Bool = false) {
         guard !executing, !model.busy, [15,30,60,180,360].contains(minutes) else { return }
-        schedule = PowerSchedule(deadline: Date().addingTimeInterval(Double(minutes * 60)), action: action)
+        schedule = PowerSchedule(deadline: Date().addingTimeInterval(Double(minutes * 60)), action: action, remote: remote)
         message = "예약은 pika 종료 시 취소됩니다. 잠든 Mac을 깨우지는 않습니다."
         onChange?()
+    }
+    func armRemotePower(_ action: PowerAction) {
+        guard !executing, !model.busy, action == .shutdown || action == .restart else { return }
+        schedule = PowerSchedule(deadline: Date().addingTimeInterval(60), action: action, remote: true, countdown: true)
+        message = "휴대폰 요청 · 60초 후 \(action.title). ‘예약 취소’로 중단할 수 있습니다."
+        onChange?()
+    }
+    func cancelRemoteActions() {
+        guard schedule?.remote == true || remoteOperation else { return }
+        cancel()
+        message = "원격 제어 연결이 해제되어 원격 예약을 취소했습니다."
+        onChange?()
+    }
+    var remoteStatus: [String: Any] {
+        let pending = schedule?.countdown == true
+        return ["acOnly": conditions.acOnly, "stopOnDisconnect": conditions.stopOnDisconnect,
+                "batteryFloor": conditions.batteryFloor,
+                "timerAction": pending ? "none" : schedule?.action.rawValue ?? "none",
+                "timerDeadline": (!pending ? schedule?.deadline : nil).map { Int64($0.timeIntervalSince1970 * 1000) } as Any? ?? NSNull(),
+                "pendingAction": pending ? schedule?.action.rawValue ?? "none" : "none",
+                "pendingDeadline": (pending ? schedule?.deadline : nil).map { Int64($0.timeIntervalSince1970 * 1000) } as Any? ?? NSNull()]
     }
     func cancel() {
         intent = UUID()
@@ -100,18 +125,19 @@ final class PowerController {
                 message = "예약 시간이 지나 취소했습니다. 잠자기 후 자동 실행하지 않습니다."
                 return
             }
-            perform(scheduled.action, reason: "예약 시간이 되었습니다.")
+            perform(scheduled.action, reason: "예약 시간이 되었습니다.", remote: scheduled.remote)
         }
     }
-    func perform(_ action: PowerAction, reason: String = "") {
+    func perform(_ action: PowerAction, reason: String = "", remote: Bool = false) {
         guard !executing, !model.busy else { return }
         schedule = nil
         executing = true
+        remoteOperation = remote
         intent = UUID()
         let requestedIntent = intent
         let finish: (Bool) -> Void = { [weak self] success in
             guard let self else { return }
-            defer { self.executing = false; self.onChange?() }
+            defer { self.executing = false; self.remoteOperation = false; self.onChange?() }
             guard self.intent == requestedIntent else { return }
             guard success, !self.model.active, !self.model.recoveryRequired else {
                 self.message = "잠자기 설정 복구 실패 · 전원 동작을 취소했습니다."

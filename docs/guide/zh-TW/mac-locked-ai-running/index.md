@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 安裝 pika 與輔助服務，開啟 Session；不需維持畫面時將 Monitor 關閉，再闔蓋。畫面策略在闔蓋後套用。Session OFF 解除防睡眠並顯示 Monitor OFF，不會立即關閉畫面。接上電源、保持通風，勿放在密閉包內執行。保護機制或服務故障可能停止工作階段。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [安裝說明](https://no-sleep-pika.online/install/)
 
 ## 常見問題
 
@@ -59,6 +59,8 @@ Monitor OFF 不會下令結束 AI 工作。tmux 不會防止系統睡眠；caffe
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[用一個 QR Code 控制 Mac：手機管理工作階段、計時與關機 →](https://no-sleep-pika.online/guide/zh-TW/control-mac-from-phone-qr/)
+
 [Claude Code 也是本機 AI 嗎？用 Llama、Qwen 理解裝置端 AI →](https://no-sleep-pika.online/guide/zh-TW/local-on-device-ai/)
 
 [讓 AI 加班一整晚，電費誰來付？ →](https://no-sleep-pika.online/guide/zh-TW/ai-overnight-electricity-cost/)
@@ -67,4 +69,4 @@ Monitor OFF 不會下令結束 AI 工作。tmux 不會防止系統睡眠；caffe
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
-[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)
+[下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/mac-locked-ai-running/index.md)

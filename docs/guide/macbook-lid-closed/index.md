@@ -83,6 +83,8 @@ A local MCP client on the same Mac can query status and control Session and Moni
 
 For connection issues and missing menu bar icons, continue to the [full pika user guide](https://no-sleep-pika.online/guide/).
 
+[Control your Mac with a QR code: sessions, timers and shutdown from your phone →](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/)
+
 [How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)
 
 ## Close your Mac. Keep work running.

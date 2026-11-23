@@ -49,6 +49,8 @@ pika может завершить сеанс при достижении защ
 
 [Подробнее об установке, подключении и устранении неполадок · English →](https://no-sleep-pika.online/guide/)
 
+[Управляйте Mac по QR: сеансы, таймеры и выключение с телефона →](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/)
+
 [Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)
 
 ## Как оставить MacBook работающим с закрытой крышкой

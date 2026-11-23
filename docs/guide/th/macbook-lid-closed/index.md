@@ -49,6 +49,8 @@ pika อาจจบเซสชันเมื่อแบตเตอรี่
 
 [รายละเอียดการติดตั้ง การเชื่อมต่อ และแก้ปัญหา · English →](https://no-sleep-pika.online/guide/)
 
+[ควบคุม Mac ด้วย QR: เซสชัน ตัวตั้งเวลา และปิดเครื่องผ่านมือถือ →](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/)
+
 [วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)
 
 ## วิธีให้ MacBook ทำงานต่อแม้พับฝาเครื่อง

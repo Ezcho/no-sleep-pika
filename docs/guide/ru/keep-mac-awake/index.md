@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika поддерживает macOS 13 и новее, Apple Silicon и Intel. Полный официальный PKG устанавливает приложение и административную вспомогательную службу. Подтверждения macOS выполните самостоятельно. Откройте /Applications/pika.app, проверьте соединение службы, включите Session, при необходимости выберите Monitor OFF и закройте крышку. Предотвращение сна готовится заранее, управление экраном применяется после закрытия. При открытой крышке Monitor только сохраняет выбор. Session OFF восстанавливает управляемую настройку без немедленного выключения экрана. Закрытие окна не завершает приложение.
 
-[Скачать pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Скачать pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [Помощь с установкой](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Управляйте Mac по QR: сеансы, таймеры и выключение с телефона →](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/)
+
 [Если ИИ работает ночью, кто платит за электричество? →](https://no-sleep-pika.online/guide/ru/ai-overnight-electricity-cost/)
 
 [Загрузка на MacBook остановилась: экран, сон или крышка? →](https://no-sleep-pika.online/guide/ru/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ man caffeinate
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[MacBook с закрытой крышкой →](https://no-sleep-pika.online/guide/ru/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ru/keep-mac-awake/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[MacBook с закрытой крышкой →](https://no-sleep-pika.online/guide/ru/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ru/keep-mac-awake/index.md)

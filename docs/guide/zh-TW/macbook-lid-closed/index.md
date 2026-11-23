@@ -49,6 +49,8 @@ MacBook 闔蓋通常會進入睡眠，而不是完全關機。重新打開後 Ap
 
 [更多安裝、連線與疑難排解步驟 · English →](https://no-sleep-pika.online/guide/)
 
+[用一個 QR Code 控制 Mac：手機管理工作階段、計時與關機 →](https://no-sleep-pika.online/guide/zh-TW/control-mac-from-phone-qr/)
+
 [讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)
 
 ## 如何讓 MacBook 闔上蓋子後繼續執行

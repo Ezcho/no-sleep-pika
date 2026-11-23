@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 ติดตั้ง pika และบริการช่วย เปิด Session และให้ Monitor OFF หากไม่ต้องใช้จอ แล้วปิดฝา นโยบายจอใช้หลังปิดฝา Session OFF ยกเลิกการป้องกันพักเครื่องโดยไม่ดับจอทันที ใช้ไฟเลี้ยงและโต๊ะระบายอากาศ ไม่ใช้ในกระเป๋าปิด ระบบป้องกันหรือบริการผิดพลาดอาจหยุดเซสชัน
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
 ## คำถามทั่วไป
 
@@ -59,6 +59,8 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[ควบคุม Mac ด้วย QR: เซสชัน ตัวตั้งเวลา และปิดเครื่องผ่านมือถือ →](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/)
+
 [Claude Code เป็น AI ในเครื่องไหม? เข้าใจ Llama, Qwen และ On-device AI →](https://no-sleep-pika.online/guide/th/local-on-device-ai/)
 
 [ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
@@ -67,4 +69,4 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/mac-locked-ai-running/index.md)

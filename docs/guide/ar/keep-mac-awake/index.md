@@ -55,7 +55,7 @@ caffeinate -i make
 
 يدعم pika نظام macOS 13 والأحدث وApple Silicon وIntel. ثبّت حزمة PKG الرسمية الكاملة التي تشمل التطبيق والخدمة المساعدة بصلاحيات المسؤول. أكمل المصادقة والموافقات بنفسك. افتح /Applications/pika.app وتحقق من الخدمة، ثم فعّل Session واختر Monitor OFF عند الحاجة وأغلق الغطاء. يُجهّز منع السكون مسبقًا وتُطبق سياسة الشاشة بعد الإغلاق. مع الغطاء المفتوح يُحفظ اختيار Monitor فقط. يعيد Session OFF الإعداد المُدار دون إطفاء الشاشة فورًا. إغلاق النافذة لا يُنهي التطبيق.
 
-[تنزيل pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[تنزيل pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[تحكّم في Mac برمز QR: الجلسات والمؤقتات والإيقاف من هاتفك →](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/)
+
 [إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
 
 [توقف التنزيل على MacBook: الشاشة أم السكون أم الغطاء؟ →](https://no-sleep-pika.online/guide/ar/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ man caffeinate
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[دليل MacBook بالغطاء المغلق →](https://no-sleep-pika.online/guide/ar/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[دليل MacBook بالغطاء المغلق →](https://no-sleep-pika.online/guide/ar/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/ar/keep-mac-awake/index.md)

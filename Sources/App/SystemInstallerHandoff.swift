@@ -22,7 +22,7 @@ enum SystemInstallerHandoff {
             logger.notice("System Installer opened for pika \(release.version, privacy: .public); installation not yet confirmed")
         } catch {
             logger.error("System Installer open failed; code \((error as NSError).code). Verified package retained.")
-            throw UpdateError("macOS 설치 프로그램을 열지 못했습니다. ‘설치 파일 보기’에서 PKG를 다시 여세요. 보안 경고가 있으면 해당 파일을 허용한 뒤 재시도하세요.")
+            throw UpdateError("macOS 설치 프로그램을 열지 못했습니다. ‘설치 파일 보기’에서 PKG를 다시 여세요. 개발자를 확인할 수 없다는 경고라면, 파일 출처를 신뢰할 때만 개인정보 보호 및 보안에서 해당 PKG의 ‘그래도 열기’를 확인하세요. 손상·악성 소프트웨어 경고는 우회하지 마세요.")
         }
     }
     private static func launchInstaller(_ package: URL, _ installer: URL) async throws {

@@ -49,6 +49,8 @@ no-sleep-pika · 2026-10-01
 
 [مزيد من تفاصيل التثبيت والاتصال وحل المشكلات · English →](https://no-sleep-pika.online/guide/)
 
+[تحكّم في Mac برمز QR: الجلسات والمؤقتات والإيقاف من هاتفك →](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/)
+
 [كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)
 
 ## كيف تُبقي MacBook يعمل والغطاء مغلق

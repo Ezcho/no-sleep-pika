@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika funciona no macOS 13 ou posterior, Apple Silicon e Intel. O PKG oficial completo instala app e serviço auxiliar administrador. Faça a autenticação e as aprovações do macOS pessoalmente. Abra /Applications/pika.app, confirme o serviço, ligue Session, escolha Monitor OFF se necessário e feche a tampa. A prevenção é preparada antes; a política de tela entra após fechar. Com a tampa aberta, Monitor só salva a preferência. Session OFF restaura o ajuste sem apagar imediatamente a tela. Fechar a janela não encerra o app.
 
-[Baixar pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Baixar pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ Comparação escrita pelo criador de no-sleep-pika, incluindo seu próprio app. 
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Controle o Mac por QR: sessões, temporizadores e desligamento pelo celular →](https://no-sleep-pika.online/guide/pt-BR/control-mac-from-phone-qr/)
+
 [Se a IA trabalha à noite, quem paga a eletricidade? →](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/)
 
 [Download parado no MacBook: tela, repouso ou tampa? →](https://no-sleep-pika.online/guide/pt-BR/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ Comparação escrita pelo criador de no-sleep-pika, incluindo seu próprio app. 
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Guia do MacBook fechado →](https://no-sleep-pika.online/guide/pt-BR/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Guia do MacBook fechado →](https://no-sleep-pika.online/guide/pt-BR/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/index.md)

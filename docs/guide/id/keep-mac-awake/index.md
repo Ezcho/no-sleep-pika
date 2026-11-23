@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika mendukung macOS 13 ke atas, Apple Silicon dan Intel. PKG resmi lengkap memasang aplikasi dan layanan pembantu administrator. Selesaikan autentikasi dan persetujuan macOS sendiri. Buka /Applications/pika.app, periksa layanan, aktifkan Session, pilih Monitor OFF jika perlu, lalu tutup layar. Pencegahan tidur disiapkan sebelumnya; kebijakan layar diterapkan setelah ditutup. Saat terbuka, Monitor hanya menyimpan pilihan. Session OFF memulihkan pengaturan tanpa langsung mematikan layar. Menutup jendela tidak keluar dari aplikasi.
 
-[Unduh pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Unduh pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ Ditulis oleh pembuat no-sleep-pika dan mencakup aplikasi sendiri. Berdasarkan do
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Kendalikan Mac dengan QR: sesi, timer, dan matikan dari ponsel →](https://no-sleep-pika.online/guide/id/control-mac-from-phone-qr/)
+
 [Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
 
 [Unduhan MacBook berhenti: layar mati, tidur, atau penutup? →](https://no-sleep-pika.online/guide/id/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ Ditulis oleh pembuat no-sleep-pika dan mencakup aplikasi sendiri. Berdasarkan do
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Panduan MacBook tertutup →](https://no-sleep-pika.online/guide/id/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/id/keep-mac-awake/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Panduan MacBook tertutup →](https://no-sleep-pika.online/guide/id/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/id/keep-mac-awake/index.md)

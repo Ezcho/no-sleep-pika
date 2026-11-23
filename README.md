@@ -4,13 +4,13 @@
 
 macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입니다. Swift / AppKit으로 만들었으며 기본 잠자기 방지 기능은 외부 서버 없이 실행됩니다. 선택 기능인 QR 휴대폰 조회는 Cloudflare 중계 서버를 사용합니다.
 
-[다운로드 페이지](https://no-sleep-pika.online/) · [공개 릴리스](https://github.com/Ezcho/no-sleep-pika/releases/tag/v1.2.0)
+[다운로드 페이지](https://no-sleep-pika.online/) · [공개 릴리스](https://github.com/Ezcho/no-sleep-pika/releases/tag/v1.3.0)
 
 웹페이지의 다운로드 수는 공개 GitHub Release의 DMG·ZIP·설치 PKG 다운로드 합계입니다. 제거 패키지와 체크섬 파일은 제외합니다. 고유 사용자 수나 설치 성공 횟수는 아닙니다. 브라우저는 공개 API에서 갱신하고 1시간 캐시합니다. API 연결 실패 시 마지막 집계값을 유지하며, 표시값에 마우스를 올리면 집계 시각을 볼 수 있습니다. 배포용 기본 집계는 `python3 Scripts/update-downloads.py` 후 `python3 Scripts/build-site.py`로 갱신합니다.
 
-> **공개 다운로드: 1.2.0 (build 17).** 통합 PKG에 앱·보조 서비스와 MCP와 덮개 대기 동작이 포함됩니다. 덮개 기능에는 관리자 보조 서비스가 필요하며, 보조 서비스가 없거나 서명이 맞지 않으면 설치를 안내합니다. 새 빌드의 실제 덮개 동작은 사용자 검증 대상입니다. 현재 빌드는 Developer ID 서명·Apple 공증 전입니다.
+> **공개 다운로드: 1.3.0 (build 17).** 통합 PKG에 앱·보조 서비스와 MCP와 덮개 대기 동작이 포함됩니다. 덮개 기능에는 관리자 보조 서비스가 필요하며, 보조 서비스가 없거나 서명이 맞지 않으면 설치를 안내합니다. 새 빌드의 실제 덮개 동작은 사용자 검증 대상입니다. 현재 빌드는 Developer ID 서명·Apple 공증 전입니다.
 
-1.2.0에서는 `pika_remote_pair`로 QR을 생성해 휴대폰에서 상태를 읽을 수 있습니다. QR은 5분·1회용, 연결은 최대 24시간이며 `pika_remote_revoke` 또는 Mac 메뉴에서 해제합니다. 업데이트 후 MCP 클라이언트를 재연결하세요. [원격 연결 구성](Remote/README.md)
+1.3.0에서는 `pika_remote_pair`로 QR을 생성해 휴대폰에서 상태를 읽을 수 있습니다. QR은 5분·1회용, 연결은 최대 24시간이며 `pika_remote_revoke` 또는 Mac 메뉴에서 해제합니다. 업데이트 후 MCP 클라이언트를 재연결하세요. [원격 연결 구성](Remote/README.md)
 
 1.0.13에서는 별도 `pika-updater` 실행 파일을 제거하고 앱에서 검증한 PKG를 macOS 기본 설치 프로그램으로 엽니다. 보안 차단 뒤에도 PKG를 보존합니다. 업데이트 정보는 공식 홈페이지 정적 feed를 우선 사용하고 GitHub API를 예비 경로로 둡니다.
 
@@ -19,7 +19,7 @@ macOS 메뉴 막대에서 Session과 Monitor를 제어하는 네이티브 앱입
 ## 사용
 
 1. 기존 pika에서 **Session OFF → 메뉴 막대 pika → 종료**를 선택합니다. 창의 ×는 종료가 아닙니다.
-2. 홈페이지의 **pika PKG**를 열고 관리자 승인을 거쳐 앱과 보조 서비스를 함께 설치합니다. 드래그 설치나 별도 helper 설치가 필요 없습니다. 응용 프로그램에서 pika를 열고 제어창의 **pika · 1.2.0**을 확인하세요.
+2. 홈페이지의 **pika PKG**를 열고 관리자 승인을 거쳐 앱과 보조 서비스를 함께 설치합니다. 드래그 설치나 별도 helper 설치가 필요 없습니다. 응용 프로그램에서 pika를 열고 제어창의 **pika · 1.3.0**을 확인하세요.
 3. 덮개 모드에서는 **Session ON → 대기 → 덮개 닫기** 순서로 동작합니다. ON을 누르거나 대기 중 Monitor를 바꿔도 현재 화면을 끄거나 깨우지 않습니다.
 
 메뉴 막대 아이콘 **클릭**으로 Session·Monitor 스위치를 엽니다. **Option+클릭**은 Session을 바로 전환합니다. 실행하면 작은 제어창이 표시됩니다. 창의 X를 눌러 닫아도 Session과 메뉴 막대는 유지됩니다. 앱을 다시 실행하거나 메뉴의 **제어창 열기**로 창을 다시 엽니다. Dock 아이콘은 없습니다. 종료는 메뉴의 **종료**를 사용합니다.
@@ -217,8 +217,16 @@ PKG를 GitHub 정식 릴리스로 공개한 뒤 `gh api repos/Ezcho/no-sleep-pik
 
 - [Claude Code도 로컬 AI일까? Llama·Qwen으로 이해하는 온디바이스 AI](https://no-sleep-pika.online/guide/ko/local-on-device-ai/) — 15개 언어, 역할 비교표와 개념 그림.
 
-## Power controls (1.2.0)
+## Power controls (1.3.0)
 
 Open **전원 및 타이머…** from the menu bar or control window. View battery, power source and macOS thermal level (not Celsius). Confirm a normal Mac shutdown/restart, or schedule Session release, sleep, shutdown or restart after 15 minutes to 6 hours. Saved-document prompts may delay or cancel shutdown; pika never force-quits apps. Session restoration must succeed before a power request is sent.
 
-Timers only run while pika is open, are canceled on system sleep or app exit, and do not wake a sleeping Mac. Power conditions can require external power, release Session when the charger is disconnected, or stop at 30/40/50% battery. Existing battery and thermal protection still takes precedence. QR remains read-only and additionally displays thermal state; shutdown/restart are local-only.
+Timers only run while pika is open, are canceled on system sleep or app exit, and do not wake a sleeping Mac. Power conditions can require external power, release Session when the charger is disconnected, or stop at 30/40/50% battery. Existing battery and thermal protection still takes precedence. QR initially allows only status viewing, including thermal state. In 1.3.0, connection-specific Mac approval enables the phone controls described below.
+
+## Approved phone control (1.3.0)
+
+Scan the QR, connect, then request control from the phone. Approve **이 연결에 허용** on the Mac. The grant is connection-specific and expires on disconnect/reconnect/revocation. The Mac menu can revoke control while leaving monitoring connected.
+
+The phone can change Session/Monitor, power conditions, and timers. Immediate shutdown/restart requires browser confirmation and then a cancelable 60-second Mac-side countdown. Loss of the control connection cancels remote schedules and pending power actions; local timers are independent. A silent viewer loses its lease after 25 seconds. All commands are allowlisted, time-limited and replay-checked; no shell, AI conversations, screen sharing or keyboard access is exposed. Native power actions still restore Session settings and use normal macOS shutdown, which can be canceled by unsaved-document prompts.
+
+Installer/update guidance is shown on the website and in the app. Ad-hoc builds still require the macOS user to explicitly approve opening; the app never disables Gatekeeper or removes quarantine.

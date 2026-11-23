@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika hỗ trợ macOS 13 trở lên, Apple Silicon và Intel. PKG chính thức đầy đủ cài ứng dụng và dịch vụ trợ giúp quản trị. Tự hoàn tất xác thực và phê duyệt macOS. Mở /Applications/pika.app, kiểm tra kết nối dịch vụ, bật Session, chọn Monitor OFF nếu cần rồi gập nắp. Ngăn ngủ được chuẩn bị trước, chính sách màn hình áp dụng sau khi gập. Khi mở nắp, Monitor chỉ lưu lựa chọn. Session OFF khôi phục cài đặt đã quản lý mà không tắt màn hình ngay. Đóng cửa sổ không thoát ứng dụng.
 
-[Tải pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Tải pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [Trợ giúp cài đặt](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ Bài so sánh do nhà phát triển no-sleep-pika viết, gồm ứng dụng c�
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Điều khiển Mac bằng QR: phiên, hẹn giờ và tắt máy từ điện thoại →](https://no-sleep-pika.online/guide/vi/control-mac-from-phone-qr/)
+
 [AI làm việc suốt đêm thì ai trả tiền điện? →](https://no-sleep-pika.online/guide/vi/ai-overnight-electricity-cost/)
 
 [Tải xuống trên MacBook bị dừng: tắt màn hình, ngủ hay đóng nắp? →](https://no-sleep-pika.online/guide/vi/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ Bài so sánh do nhà phát triển no-sleep-pika viết, gồm ứng dụng c�
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
-[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Hướng dẫn gập MacBook →](https://no-sleep-pika.online/guide/vi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/vi/keep-mac-awake/index.md)
+[Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Hướng dẫn gập MacBook →](https://no-sleep-pika.online/guide/vi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/vi/keep-mac-awake/index.md)

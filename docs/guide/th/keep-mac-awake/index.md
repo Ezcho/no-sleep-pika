@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika รองรับ macOS 13 ขึ้นไป Apple Silicon และ Intel PKG ทางการแบบเต็มติดตั้งแอปและบริการช่วยเหลือระดับผู้ดูแล ยืนยันตัวตนและอนุญาตใน macOS ด้วยตนเอง เปิด /Applications/pika.app ตรวจสอบบริการ เปิด Session เลือก Monitor OFF หากต้องการแล้วปิดฝา ระบบเตรียมป้องกันพักก่อนปิดฝา และใช้การควบคุมหน้าจอหลังปิด ขณะเปิดฝา Monitor แค่บันทึกตัวเลือก Session OFF คืนค่าที่จัดการโดยไม่ดับหน้าจอทันที การปิดหน้าต่างไม่ใช่การออกจากแอป
 
-[ดาวน์โหลด pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[ดาวน์โหลด pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [ช่วยเหลือติดตั้ง](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[ควบคุม Mac ด้วย QR: เซสชัน ตัวตั้งเวลา และปิดเครื่องผ่านมือถือ →](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/)
+
 [ให้ AI ทำงานทั้งคืน ใครจ่ายค่าไฟ? →](https://no-sleep-pika.online/guide/th/ai-overnight-electricity-cost/)
 
 [ดาวน์โหลดบน MacBook หยุด: ปิดจอ พักเครื่อง หรือปิดฝา? →](https://no-sleep-pika.online/guide/th/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ man caffeinate
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
-[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[คู่มือปิดฝา MacBook →](https://no-sleep-pika.online/guide/th/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)
+[ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[คู่มือปิดฝา MacBook →](https://no-sleep-pika.online/guide/th/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/th/keep-mac-awake/index.md)

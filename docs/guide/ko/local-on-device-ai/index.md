@@ -69,7 +69,7 @@ pika는 AI 모델을 실행하거나 클라우드 AI를 로컬 AI로 바꾸는 �
 
 어떤 모델인지, 어디서 계산하는지, 내 Mac이 계속 켜져 있어야 하는지. 이 세 질문에 답할 수 있다면 ‘로컬 AI’라는 이름보다 훨씬 정확하게 자신의 환경을 이해한 것입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 참고 자료와 글의 범위
 
@@ -85,6 +85,8 @@ pika는 AI 모델을 실행하거나 클라우드 AI를 로컬 AI로 바꾸는 �
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[QR 하나로 Mac을 제어하세요: 휴대폰에서 세션·타이머·종료까지 →](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/)
+
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/local-on-device-ai/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/local-on-device-ai/index.md)

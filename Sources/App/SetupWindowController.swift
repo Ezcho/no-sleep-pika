@@ -23,7 +23,7 @@ final class SetupWindowController: NSWindowController {
         self.onQuit = onQuit
         self.onOpenPrivacySettings = onOpenPrivacySettings
         self.onContinue = onContinue
-        let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 500, height: 548),
+        let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 500, height: 604),
                               styleMask: [.titled, .closable, .miniaturizable],
                               backing: .buffered, defer: false)
         window.title = "pika · 시작하기"
@@ -105,8 +105,8 @@ final class SetupWindowController: NSWindowController {
         security.orientation = .vertical
         security.alignment = .leading
         security.spacing = 5
-        security.addArrangedSubview(label("앱이 열리지 않을 때만", size: 12, weight: .semibold))
-        let securityText = label("시스템 설정 → 개인정보 보호 및 보안 → ‘그래도 열기’\n표시된 앱이 pika인지 확인한 뒤 직접 승인해 주세요.", size: 11)
+        security.addArrangedSubview(label("업데이트 후 다시 차단됐나요?", size: 12, weight: .semibold))
+        let securityText = label("① 차단된 PKG 또는 pika를 먼저 한 번 여세요.\n② 개인정보 보호 및 보안의 아래쪽에서 파일 이름을 확인하세요.\n③ 출처를 신뢰할 때만 ‘그래도 열기’ → 인증 → ‘열기’.\n손상·악성 소프트웨어·인증 취소 경고는 우회하지 마세요.", size: 11)
         addFullWidth(securityText, to: security)
         let privacy = NSButton(title: "개인정보 보호 및 보안 열기", target: self, action: #selector(openPrivacySettings))
         let apple = NSButton(title: "Apple 안내 ↗", target: self, action: #selector(openAppleGuide))
