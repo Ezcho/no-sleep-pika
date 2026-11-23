@@ -25,6 +25,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
     private var setupWindow: SetupWindowController?
     private var power: PowerController!
     private var powerWindow: PowerWindowController?
+    private var remoteApproval: NSAlert?
+    private let remoteControlItem = NSMenuItem(title: "원격 제어 허용 안 됨", action: #selector(revokeRemoteControl), keyEquivalent: "")
     private let powerStatusItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
     private let powerTimerItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
     private let windowSessionRow = MenuSwitchRow(title: "Session")
@@ -124,6 +126,22 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
         menu.insertItem(powerStatusItem, at: 3)
         menu.insertItem(powerTimerItem, at: 4)
         power.refresh()
+        remoteControlItem.target = self
+        remoteControlItem.isEnabled = false
+        menu.insertItem(remoteControlItem, at: menu.numberOfItems - 1)
+        remotePairing.requestApproval = { [weak self] completion in self?.askRemoteApproval(completion) }
+        remotePairing.executeCommand = { [weak self] command, completion in
+            guard let self else { completion(false,"failed"); return }
+            self.executeRemote(command,completion:completion)
+        }
+        remotePairing.onControlReset = { [weak self] in
+            self?.power.cancelRemoteActions()
+            if let alert = self?.remoteApproval { NSApp.endSheet(alert.window,returnCode:NSApplication.ModalResponse.abort.rawValue); alert.window.orderOut(nil); self?.remoteApproval=nil }
+        }
+        remotePairing.onPermissionChange = { [weak self] enabled in
+            self?.remoteControlItem.title = enabled ? "원격 제어 허용됨 · 해제" : "원격 제어 허용 안 됨"
+            self?.remoteControlItem.isEnabled = enabled
+        }
         model.onChange = { [weak self] in self?.updateMenu() }
         model.onSetupRequested = { [weak self] in self?.showSetupWindow() }
         do {
@@ -131,7 +149,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
                 MainActor.assumeIsolated {
                     guard let self else { reply(ControlWire.failure("app_closed", "pika is closing")); return }
                     if let operation = request["operation"] as? String, ["remote_pair", "remote_revoke"].contains(operation) {
-                        self.remotePairing.handle(request, status: { [weak self] in self?.model.automationStatus() ?? ["ok": false] }, completion: reply)
+                        self.remotePairing.handle(request, status: { [weak self] in self?.remoteStatus() ?? ["ok": false] }, completion: reply)
                     } else { self.model.handleAutomation(request, completion: reply) }
                 }
             }
@@ -288,6 +306,49 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
                     }
                 }
             }
+        }
+    }
+    private func remoteStatus() -> [String:Any] {
+        var status = model.automationStatus()
+        status["power"] = power.remoteStatus
+        return status
+    }
+    private func askRemoteApproval(_ completion: @escaping (Bool) -> Void) {
+        guard remoteApproval == nil, !model.busy, !power.executing else { completion(false); return }
+        showControlWindow()
+        guard let window = controlWindow, window.attachedSheet == nil else { completion(false); return }
+        let alert = NSAlert()
+        alert.messageText = "연결된 휴대폰의 Mac 제어를 허용할까요?"
+        alert.informativeText = "QR을 스캔한 기기에서 Session·Monitor, 타이머, 전원 조건, Mac 종료·재시동을 제어할 수 있습니다. 본인이 요청한 경우만 허용하세요. 종료·재시동은 60초 카운트다운 후 요청되며 취소할 수 있습니다. 재연결하면 다시 승인해야 합니다."
+        alert.addButton(withTitle: "허용 안 함")
+        alert.addButton(withTitle: "이 연결에 허용")
+        remoteApproval = alert
+        alert.beginSheetModal(for:window) { [weak self, weak alert] response in
+            guard let self, self.remoteApproval === alert else { completion(false); return }
+            self.remoteApproval = nil
+            completion(response == .alertSecondButtonReturn)
+        }
+    }
+    @objc private func revokeRemoteControl() { remotePairing.revokeControl() }
+    private func executeRemote(_ command: RemoteCommand, completion: @escaping (Bool,String) -> Void) {
+        if case .cancel = command {
+            guard power.schedule != nil || power.executing else { completion(false,"failed"); return }
+            power.cancel(); completion(true,"cancelled"); return
+        }
+        guard !model.busy, !power.executing else { completion(false,"busy"); return }
+        switch command {
+        case .session(let enabled), .monitor(let enabled):
+            let operation: String
+            if case .session = command { operation = "set_session" } else { operation = "set_monitor" }
+            model.handleAutomation(["operation":operation,"enabled":enabled]) { result in
+                let ok = result["ok"] as? Bool == true
+                completion(ok, ok ? "accepted" : "failed")
+            }
+        case .conditions(let conditions): power.conditions = conditions; completion(true,"accepted")
+        case .schedule(let minutes, let action): power.arm(minutes:minutes,action:action,remote:true); completion(true,"accepted")
+        case .shutdown: power.armRemotePower(.shutdown); showPowerWindow(); completion(true,"accepted")
+        case .restart: power.armRemotePower(.restart); showPowerWindow(); completion(true,"accepted")
+        case .cancel: break
         }
     }
     private func updatePowerUI() {

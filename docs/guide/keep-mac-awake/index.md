@@ -71,7 +71,7 @@ Open /Applications/pika.app and confirm helper connectivity. Turn Session ON, ch
 
 Reopening the lid returns display control to waiting. Session OFF restores pika’s managed sleep setting and shows Monitor OFF without immediately blanking the screen. Closing the window leaves the menu-bar app running. Use Session OFF or Quit to finish. A helper error means the operation has not succeeded and must be resolved first.
 
-[Download pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Download pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [Installation help](https://no-sleep-pika.online/install/)
 
@@ -109,6 +109,8 @@ Use clamshell mode for an external-screen workstation, caffeinate for temporary 
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[Control your Mac with a QR code: sessions, timers and shutdown from your phone →](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/)
+
 [Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
 
 [MacBook downloads stop: screen off, sleep or a closed lid? →](https://no-sleep-pika.online/guide/macbook-downloads-stop/)
@@ -117,4 +119,4 @@ Use clamshell mode for an external-screen workstation, caffeinate for temporary 
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Closed-lid MacBook guide →](https://no-sleep-pika.online/guide/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/keep-mac-awake/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Closed-lid MacBook guide →](https://no-sleep-pika.online/guide/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/keep-mac-awake/index.md)

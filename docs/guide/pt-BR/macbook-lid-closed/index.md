@@ -49,6 +49,8 @@ pika pode encerrar a sessão quando a bateria ou o estado térmico do macOS atin
 
 [Mais ajuda para instalação, conexão e diagnóstico · English →](https://no-sleep-pika.online/guide/)
 
+[Controle o Mac por QR: sessões, temporizadores e desligamento pelo celular →](https://no-sleep-pika.online/guide/pt-BR/control-mac-from-phone-qr/)
+
 [Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)
 
 ## Como manter o MacBook funcionando com a tampa fechada

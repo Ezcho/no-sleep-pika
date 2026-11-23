@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Pasang pika dan layanan pendamping, aktifkan Session, pilih Monitor OFF bila layar tidak diperlukan, lalu tutup penutup. Kebijakan layar berlaku setelah penutup ditutup. Session OFF melepas pencegahan tidur tanpa langsung mematikan layar. Gunakan daya dan meja berventilasi, bukan tas tertutup. Perlindungan atau gangguan layanan dapat menghentikan sesi.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Bantuan instalasi](https://no-sleep-pika.online/install/)
 
 ## Pertanyaan umum
 
@@ -59,6 +59,8 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Kendalikan Mac dengan QR: sesi, timer, dan matikan dari ponsel →](https://no-sleep-pika.online/guide/id/control-mac-from-phone-qr/)
+
 [Apakah Claude Code AI lokal? Memahami Llama, Qwen dan AI di perangkat →](https://no-sleep-pika.online/guide/id/local-on-device-ai/)
 
 [Jika AI bekerja semalaman, siapa membayar listriknya? →](https://no-sleep-pika.online/guide/id/ai-overnight-electricity-cost/)
@@ -67,4 +69,4 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
-[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)
+[Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/mac-locked-ai-running/index.md)

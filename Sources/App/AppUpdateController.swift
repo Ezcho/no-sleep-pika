@@ -33,14 +33,14 @@ final class AppUpdateController: NSObject {
 
     func present() {
         if window == nil {
-            let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 360, height: 192),
+            let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 440, height: 292),
                                   styleMask: [.titled, .closable], backing: .buffered, defer: false)
             window.title = "pika 업데이트 · \(AppIdentity.version)"
             window.isReleasedWhenClosed = false
             window.center()
-            label.frame = NSRect(x: 24, y: 73, width: 312, height: 94)
+            label.frame = NSRect(x: 24, y: 173, width: 392, height: 94)
             label.font = .systemFont(ofSize: 13)
-            button.frame = NSRect(x: 152, y: 22, width: 184, height: 32)
+            button.frame = NSRect(x: 232, y: 22, width: 184, height: 32)
             button.bezelStyle = .rounded
             button.target = self
             button.action = #selector(action)
@@ -51,7 +51,14 @@ final class AppUpdateController: NSObject {
             downloadLink.bezelStyle = .rounded
             downloadLink.target = self
             downloadLink.action = #selector(openDownloadPage)
-            for view in [label, button, progress, downloadLink] { window.contentView?.addSubview(view) }
+            let securityHint = NSTextField(wrappingLabelWithString: "개발자 확인 경고가 뜨면, 먼저 PKG를 한 번 연 뒤 아래 설정에서 파일 이름과 ‘그래도 열기’를 확인하세요. 출처를 신뢰할 때만 승인하세요. 손상·악성 소프트웨어 경고는 우회하지 마세요.")
+            securityHint.frame = NSRect(x: 24, y: 103, width: 392, height: 62)
+            securityHint.font = .systemFont(ofSize: 11)
+            securityHint.textColor = .secondaryLabelColor
+            let privacy = NSButton(title: "개인정보 보호 및 보안 열기", target: self, action: #selector(openPrivacySettings))
+            privacy.bezelStyle = .rounded
+            privacy.frame = NSRect(x: 24, y: 65, width: 225, height: 28)
+            for view in [label, button, progress, downloadLink, securityHint, privacy] { window.contentView?.addSubview(view) }
             self.window = window
         }
         render()
@@ -77,6 +84,12 @@ final class AppUpdateController: NSObject {
     @objc private func openDownloadPage() {
         if let installerPackage { NSWorkspace.shared.activateFileViewerSelecting([installerPackage]) }
         else { NSWorkspace.shared.open(URL(string: "https://no-sleep-pika.online/")!) }
+    }
+
+    @objc private func openPrivacySettings() {
+        if !NSWorkspace.shared.open(URL(string: "x-apple.systempreferences:com.apple.preference.security?General")!) {
+            NSWorkspace.shared.open(URL(fileURLWithPath: "/System/Applications/System Settings.app"))
+        }
     }
 
     private func check() {
@@ -105,7 +118,7 @@ final class AppUpdateController: NSObject {
         }
         let alert = NSAlert()
         alert.messageText = "pika \(release.version)으로 업데이트할까요?"
-        alert.informativeText = "Session을 종료하고 검증한 PKG를 macOS 설치 프로그램으로 엽니다. 설치 프로그램이 열리면 pika는 종료됩니다. 관리자 승인을 거쳐 설치한 후 응용 프로그램에서 pika를 다시 여세요. 덮개를 열고 진행해 주세요."
+        alert.informativeText = "Session을 종료하고 검증한 PKG를 macOS 설치 프로그램으로 엽니다. 설치 프로그램이 열리면 pika는 종료됩니다. 관리자 승인을 거쳐 설치한 후 응용 프로그램에서 pika를 다시 여세요. 덮개를 열고 진행해 주세요.\n\n개발자를 확인할 수 없다는 경고가 나오면 개인정보 보호 및 보안에서 해당 PKG를 확인하고, 출처를 신뢰할 때만 ‘그래도 열기’와 인증을 진행하세요. 업데이트 창에 설정 바로가기가 있습니다."
         alert.addButton(withTitle: "업데이트")
         alert.addButton(withTitle: "취소")
         guard alert.runModal() == .alertFirstButtonReturn else { return }

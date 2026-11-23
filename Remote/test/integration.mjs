@@ -23,7 +23,7 @@ function pass(label){console.log('PASS',++n,label);}
 try {
  let r=await req('/api/pair',{method:'POST',headers:{Origin:'https://evil.test'}});assert.equal(r.status,403);pass('cross-origin pairing denied');
  const p=await (await req('/api/pair',{method:'POST'})).json();assert.match(p.id,/^[\w-]{43}$/);pass('room created with opaque ID');
- const host=await sock(p.id,'host',p.hostToken);
+ let host=await sock(p.id,'host',p.hostToken);
  const claims=await Promise.all([1,2].map(()=>req(`/api/room/${p.id}/claim`,{method:'POST',body:JSON.stringify({token:p.pairToken})})));
  assert.deepEqual(claims.map(x=>x.status).sort(),[200,403]);const v=await claims.find(x=>x.status===200).json();pass('concurrent QR claim succeeds exactly once');
  const viewer=await sock(p.id,'viewer',v.viewerToken);
@@ -32,7 +32,39 @@ try {
  const invalid=await req(`/api/room/${p.id}/socket`,{headers:{Upgrade:'websocket'}});invalid.webSocket.accept();const invalidClose=closed(invalid.webSocket);invalid.webSocket.send('null');assert.equal(await invalidClose,1008);pass('null frame rejected without crashing room');
  const refresh=next(host,'refresh');viewer.send(JSON.stringify({type:'refresh'}));await refresh;pass('legitimate connection survives malformed peer');
  const writeClose=closed(viewer);viewer.send(JSON.stringify({type:'set_session',enabled:true}));assert.equal(await writeClose,1008);pass('remote mutations denied');
- const viewer2=await sock(p.id,'viewer',v.viewerToken);
+ let viewer2=await sock(p.id,'viewer',v.viewerToken);
+ // Permission is tied to both live sockets, not merely possession of the QR token.
+ const uuid=()=>crypto.randomUUID();let grantID=uuid();
+ async function commandResult(action,args,id=uuid()){const result=next(viewer2,'command_result');viewer2.send(JSON.stringify({type:'command',id,grantID,action,args}));return result;}
+ assert.equal((await commandResult('shutdown',{})).code,'denied');pass('old host and unapproved viewer cannot send power commands');
+ let cap=next(viewer2,'capabilities');host.send(JSON.stringify({type:'capabilities',control:true}));assert.equal((await cap).control,true);
+ const approval=next(host,'control_request');viewer2.send(JSON.stringify({type:'control_request',id:uuid()}));
+ const request=await approval;assert.match(request.viewerID,/^[\w-]{43}$/);
+ host.send(JSON.stringify({type:'control_permission',viewerID:'a'.repeat(43),enabled:true}));
+ assert.equal((await commandResult('shutdown',{})).code,'denied');pass('approval for another viewer cannot authorize this phone');
+ const granted=next(viewer2,'control_permission');host.send(JSON.stringify({type:'control_permission',viewerID:request.viewerID,enabled:true,grantID}));assert.equal((await granted).enabled,true);
+ const repeated=next(viewer2,'control_permission');viewer2.send(JSON.stringify({type:'control_request',id:uuid()}));assert.equal((await repeated).grantID,grantID);pass('duplicate approval request preserves existing permission');
+ assert.equal((await commandResult('shutdown',{force:true})).code,'invalid');
+ assert.equal((await commandResult('schedule',{minutes:1,action:'shutdown'})).code,'invalid');pass('approved connection still rejects unexpected and unbounded arguments');
+ const id=uuid(), forwarded=next(host,'command');viewer2.send(JSON.stringify({type:'command',id,grantID,action:'set_session',args:{enabled:true}}));
+ const cmd=await forwarded;assert.equal(cmd.id,id);assert.equal(cmd.viewerID,request.viewerID);assert(cmd.expiresAt>Date.now()&&cmd.expiresAt<=Date.now()+15000);
+ const result=next(viewer2,'command_result');host.send(JSON.stringify({type:'command_result',id,ok:true,code:'accepted',private:'/Users/private'}));
+ assert.deepEqual(await result,{type:'command_result',id,ok:true,code:'accepted'});pass('approved command relayed with expiry and result filtered');
+ assert.equal((await commandResult('set_session',{enabled:true},id)).code,'denied');pass('replayed command ID cannot execute twice');
+ const revokedGrant=next(viewer2,'control_permission');host.send(JSON.stringify({type:'control_permission',viewerID:request.viewerID,enabled:false}));assert.equal((await revokedGrant).enabled,false);
+ const previousGrant=grantID;grantID=uuid();const newGrant=next(viewer2,'control_permission');host.send(JSON.stringify({type:'control_permission',viewerID:request.viewerID,enabled:true,grantID}));assert.equal((await newGrant).grantID,grantID);
+ const staleGrant=next(viewer2,'command_result');viewer2.send(JSON.stringify({type:'command',id:uuid(),grantID:previousGrant,action:'shutdown',args:{}}));assert.equal((await staleGrant).code,'denied');pass('delayed command cannot cross revoke and reapproval of the same phone');
+
+ for(let i=0;i<11;i++) {
+   const commandID=uuid(), relay=next(host,'command');viewer2.send(JSON.stringify({type:'command',id:commandID,grantID,action:'set_monitor',args:{enabled:false}}));await relay;
+   const response=next(viewer2,'command_result');host.send(JSON.stringify({type:'command_result',id:commandID,ok:true,code:'accepted'}));await response;
+ }
+ assert.equal((await commandResult('shutdown',{})).code,'busy');
+ const cancelRelay=next(host,'command');viewer2.send(JSON.stringify({type:'command',id:uuid(),grantID,action:'cancel_timer',args:{}}));assert.equal((await cancelRelay).action,'cancel_timer');pass('command rate cap still permits countdown cancellation');
+ const oldViewer=viewer2, replaced=closed(oldViewer);viewer2=await sock(p.id,'viewer',v.viewerToken);assert.equal(await replaced,4001);
+ assert.equal((await commandResult('shutdown',{})).code,'denied');pass('viewer replacement clears previous Mac approval');
+ const oldHost=host, hostReplaced=closed(oldHost);host=await sock(p.id,'host',p.hostToken);assert.equal(await hostReplaced,4001);
+ assert.equal((await commandResult('shutdown',{})).code,'denied');pass('host reconnect requires fresh capabilities and approval');
  r=await req(`/api/room/${p.id}/revoke`,{method:'POST',headers:{Authorization:`Bearer ${v.viewerToken}`}});assert.equal(r.status,403);pass('viewer cannot revoke as host');
  const hostClose=closed(host), viewerClose=closed(viewer2);
  r=await req(`/api/room/${p.id}/revoke`,{method:'POST',headers:{Authorization:`Bearer ${p.hostToken}`}});assert.equal(r.status,200);await Promise.all([hostClose,viewerClose]);
@@ -57,4 +89,24 @@ try {
  await new Promise(r=>setTimeout(r,1300));
  assert.equal((await req(`/api/room/${q.id}/claim`,{method:'POST',body:JSON.stringify({token:q.pairToken})})).status,403);
  pass('unclaimed QR expires without relying on client clock');
+} finally {await mf.dispose();}
+
+// A silent mobile connection must lose its authority even if the host stays online.
+assert(source.includes('var VIEWER_LEASE_MS = 25e3;'));
+mf=new Miniflare(makeOptions(source.replace('var VIEWER_LEASE_MS = 25e3;','var VIEWER_LEASE_MS = 1000;')));
+try {
+ const p=await (await req('/api/pair',{method:'POST'})).json();
+ const v=await (await req(`/api/room/${p.id}/claim`,{method:'POST',body:JSON.stringify({token:p.pairToken})})).json();
+ const host=await sock(p.id,'host',p.hostToken), viewer=await sock(p.id,'viewer',v.viewerToken);
+ const capability=next(viewer,'capabilities');host.send(JSON.stringify({type:'capabilities',control:true}));await capability;
+ const approval=next(host,'control_request');viewer.send(JSON.stringify({type:'control_request',id:crypto.randomUUID()}));const request=await approval,grantID=crypto.randomUUID();
+ const granted=next(viewer,'control_permission');host.send(JSON.stringify({type:'control_permission',viewerID:request.viewerID,enabled:true,grantID}));assert.equal((await granted).enabled,true);
+ await new Promise(r=>setTimeout(r,500));
+ const refresh=next(host,'refresh');viewer.send(JSON.stringify({type:'refresh'}));await refresh;
+ const lastBeat=Date.now(), hostPresence=next(host,'presence'), viewerClosed=closed(viewer);
+ assert.equal(await viewerClosed,4002);assert(Date.now()-lastBeat>=850);
+ const presence=await hostPresence;assert.equal(presence.viewer,false);assert.equal(presence.viewerID,null);assert.equal(presence.host,true);
+ const replacement=await sock(p.id,'viewer',v.viewerToken);
+ const denied=next(replacement,'command_result');replacement.send(JSON.stringify({type:'command',id:crypto.randomUUID(),action:'shutdown',args:{}}));assert.equal((await denied).code,'denied');
+ pass('phone heartbeat renews lease; silent phone expires and cannot retain approval');
 } finally {await mf.dispose();}

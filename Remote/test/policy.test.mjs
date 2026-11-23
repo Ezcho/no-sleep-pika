@@ -12,3 +12,13 @@ test('strict token and status allowlists',()=>{
  const s=safeStatus({ok:false,lastError:'/Users/private',command:'rm',safety:{batteryPercent:101,thermalState:'<script>',onAC:true,issue:'secret'}});
  assert.deepEqual(s,{ok:false,safety:{onAC:true}});
 });
+
+test('remote commands accept only fixed bounded typed arguments',async()=>{
+ const {validCommand,validCommandID}=await import('../src/policy.mjs');
+ assert(validCommandID('b8befabc-26bc-4c02-a955-0756a68b5088'));
+ for(const value of [null,'id',{},'../cmd'])assert.equal(validCommandID(value),false);
+ for(const [action,args] of [['shutdown',{}],['restart',{}],['cancel_timer',{}],['set_session',{enabled:false}],['set_conditions',{acOnly:true,stopOnDisconnect:false,batteryFloor:30}],['schedule',{minutes:15,action:'sleep'}]])assert(validCommand(action,args));
+ for(const [action,args] of [['shutdown',{force:true}],['exec',{command:'ls'}],['set_session',{enabled:1}],['schedule',{minutes:1,action:'shutdown'}],['schedule',{minutes:15,action:'logout'}],['set_conditions',{acOnly:true,stopOnDisconnect:false,batteryFloor:10}],['cancel_timer',[]]])assert.equal(validCommand(action,args),false);
+ const safe=safeStatus({power:{acOnly:true,stopOnDisconnect:false,batteryFloor:30,timerAction:'shutdown',timerDeadline:12345,pendingAction:'none',pendingDeadline:null,private:'/Users/me'}});
+ assert.deepEqual(safe.power,{acOnly:true,stopOnDisconnect:false,batteryFloor:30,timerAction:'shutdown',pendingAction:'none',timerDeadline:12345,pendingDeadline:null});
+});

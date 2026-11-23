@@ -3,11 +3,11 @@ Language: id
 
 # Tutup Mac, pekerjaan tetap berjalan.
 
-[Unduh untuk Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[Unduh untuk Mac](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 90 Unduhan
 
-Rilis publik 1.2.0 · macOS 13+ · Apple Silicon & Intel
+Rilis publik 1.3.0 · macOS 13+ · Apple Silicon & Intel
 
 ## Hubungkan MCP
 
@@ -69,7 +69,7 @@ Closing the agent does not end a pika session. Turn Session OFF in pika or ask y
 
 Phone monitoring · pika 1.1.0+
 
-After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; read-only access lasts up to 24 hours. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
+After updating, restart your MCP connection and ask: Create a pika QR. pika_remote_pair returns a text QR plus a PNG and HTML fallback. Scan with your phone camera and tap Connect. The QR is single-use and expires in 5 minutes; the connection lasts up to 24 hours. It starts read-only. With pika 1.3.0, tap Request control and approve on the Mac to enable Session, timers and power controls. Reconnecting requires approval again. It does not start Session. Revoke with pika_remote_revoke or the Mac menu. Never share the QR.
 
 Connection not working?
 

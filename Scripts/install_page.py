@@ -14,8 +14,11 @@ COPY = {
         ('Open pika', 'Open pika from Applications. The control window appears in front. Wait for helper connection, then turn Session ON and close the lid.')],
     'applications': 'Applications', 'open': 'Open', 'security': 'Privacy & Security', 'allow': 'Open Anyway',
     'warning': 'If macOS blocks the PKG or pika because the developer is unidentified or it cannot verify the app: open System Settings → Privacy & Security → Open Anyway, only if you trust this download. This build is not Developer ID signed or notarized.',
-    'apple': 'Apple’s instructions for opening an app',
-    'do_not': 'If macOS says the app will damage your computer or is damaged, stop and check the download; this is a different warning.',
+    'security_title': 'Blocked before installation or after an update?',
+    'security_intro': 'pika cannot display its own help until macOS allows it to open. Keep this page open while installing. An update may ask for approval again.',
+    'security_steps': ['First, try to open the downloaded pika PKG. If installation completed but the app is blocked, try pika in Applications instead.', 'For an unidentified developer or an app Apple cannot verify, open System Settings → Privacy & Security. Scroll to Security and find the entry for the file you just opened.', 'Only if you trust that file and its source, click Open Anyway. Authenticate if macOS asks, then confirm Open in the repeated prompt.', 'If there is no matching entry, try opening the same file once more and return to this panel. A Mac managed by an organization may require its administrator.'],
+    'apple': 'Apple’s official opening instructions',
+    'do_not': '“Will damage your computer”, known-malware or revoked-authorization warnings must not be overridden. If the file is “damaged”, stop, delete that download and get a fresh copy from the official homepage; if it repeats, ask for support rather than bypassing the warning.',
     'helper_title': 'App opened, but Session will not start?',
     'helper_intro': 'Opening the app and installing its helper are separate steps. “Open Anyway” alone does not repair a helper connection.',
     'helper_steps': ['Download the latest full pika PKG from the homepage.', 'Turn Session OFF and quit pika from the menu bar before running the installer.', 'Complete installation and reopen pika. If it fails again, use Installer → Window → Installer Log to check the reason.'],
@@ -33,8 +36,11 @@ COPY = {
         ('pika 실행', '응용 프로그램에서 pika를 여세요. 제어창이 전면에 나타납니다. 보조 서비스 연결을 확인하고 Session ON → 덮개 닫기 순서로 사용하세요.')],
     'applications': 'Applications', 'open': '열기', 'security': '개인정보 보호 및 보안', 'allow': '그래도 열기',
     'warning': 'PKG나 pika 실행 시 개발자를 확인하거나 앱을 검증할 수 없다는 경고가 나오면, 출처를 신뢰할 때만 시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기를 선택하세요. 현재 빌드는 Developer ID 서명·공증이 없습니다.',
+    'security_title': '설치 전이나 업데이트 후, macOS가 막았나요?',
+    'security_intro': 'macOS가 앱 실행을 허용하기 전에는 pika가 안내창을 띄울 수 없습니다. 이 페이지를 열어 둔 채 진행하세요. 업데이트 후 다시 승인을 요청할 수도 있습니다.',
+    'security_steps': ['다운로드한 pika PKG를 먼저 한 번 여세요. 설치는 끝났는데 앱이 차단됐다면 응용 프로그램의 pika를 먼저 여세요.', '개발자를 확인할 수 없거나 Apple이 검증할 수 없다는 경고라면, 시스템 설정 → 개인정보 보호 및 보안으로 이동하세요. 아래쪽 보안 영역에서 방금 연 파일 이름을 확인하세요.', '그 파일과 다운로드 출처를 신뢰할 때만 ‘그래도 열기’를 선택하세요. macOS가 요청하면 인증하고, 다시 나타나는 경고에서 ‘열기’를 확인하세요.', '해당 항목이 없다면 같은 파일을 한 번 더 열어 본 뒤 돌아오세요. 회사·학교에서 관리하는 Mac은 관리자 확인이 필요할 수 있습니다.'],
     'apple': 'Apple 공식 앱 실행 안내',
-    'do_not': '“컴퓨터를 손상시킵니다” 또는 “앱이 손상되었습니다”라는 경고는 다릅니다. 이 경우 진행하지 말고 다운로드를 확인하세요.',
+    'do_not': '“컴퓨터를 손상시킵니다”, 악성 소프트웨어 또는 인증 취소 경고는 우회하지 마세요. “손상되었습니다”라면 진행을 멈추고 받은 파일을 삭제한 뒤 공식 홈페이지에서 다시 받으세요. 반복되면 우회하지 말고 문의해 주세요.',
     'helper_title': '앱은 열렸는데 Session이 시작되지 않나요?',
     'helper_intro': '앱 실행 허용과 보조 서비스 설치는 별개입니다. “그래도 열기”만으로 보조 서비스 연결 문제가 해결되는 것은 아닙니다.',
     'helper_steps': ['홈페이지에서 최신 pika 통합 PKG를 받으세요.', 'Session을 OFF로 바꾸고 메뉴 막대에서 pika를 종료한 뒤 PKG를 실행하세요.', '설치 완료 후 pika를 다시 여세요. 다시 실패하면 설치 프로그램 → 윈도우 → 설치 프로그램 로그에서 이유를 확인할 수 있습니다.'],
@@ -57,8 +63,9 @@ def render(locale, base, repo):
             return '<div class="diagram"><span class="app-icon">PKG</span><span class="arrow" aria-hidden="true">→</span><div class="mini-window"><strong>pika</strong><span>App + Helper</span></div></div>'
         return '<div class="diagram"><span class="app-icon">pika</span><span class="arrow" aria-hidden="true">→</span><div class="mini-window"><span class="window-dots">● ● ●</span><strong>pika</strong><span>Session <i></i></span><span>Monitor <i></i></span></div></div>'
     steps = ''.join(f'<li><span class="step-number">{i+1:02}</span>{visual(i)}<h2>{e(title)}</h2><p>{e(body)}</p></li>' for i, (title, body) in enumerate(t['steps']))
+    security_steps = ''.join(f'<li>{e(step)}</li>' for step in t['security_steps'])
     helper = ''.join(f'<li>{e(step)}</li>' for step in t['helper_steps'])
-    schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': t['title'], 'description': t['description'], 'url': url, 'inLanguage': locale, 'dateModified': '2026-09-30', 'isPartOf': {'@id': base + '/#website'}, 'about': {'@id': base + '/#app'}}
+    schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': t['title'], 'description': t['description'], 'url': url, 'inLanguage': locale, 'dateModified': '2026-11-23', 'isPartOf': {'@id': base + '/#website'}, 'about': {'@id': base + '/#app'}}
     return f'''<!doctype html>
 <html lang="{locale}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(t['title'])} — no-sleep-pika</title><meta name="description" content="{e(t['description'])}">
@@ -68,7 +75,7 @@ def render(locale, base, repo):
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script><script src="/visitors.js" defer></script></head>
 <body><a class="skip" href="#main">{e(t['skip'])}</a><div class="shell"><header><a class="brand" href="{home}"><img src="/assets/favicon.svg" alt="" width="30" height="30">no-sleep-pika.</a><nav aria-label="{e(t['language'])}"><a href="/install/" lang="en"{' aria-current="page"' if locale == 'en' else ''}>English</a><a href="/install/ko/" lang="ko"{' aria-current="page"' if locale == 'ko' else ''}>한국어</a></nav></header>
 <main id="main"><a class="back" href="{home}">← {e(t['back'])}</a><h1>{e(t['title'])}</h1><p class="intro">{e(t['intro'])}</p><ol class="steps">{steps}</ol>
-<aside class="notice"><p>{e(t['warning'])}</p><p>{e(t['do_not'])}</p><a href="https://support.apple.com/{'ko-kr' if locale == 'ko' else 'en-us'}/102445">{e(t['apple'])} ↗</a></aside>
+<aside class="notice" id="gatekeeper" aria-labelledby="gatekeeper-title"><h2 id="gatekeeper-title">{e(t['security_title'])}</h2><p>{e(t['security_intro'])}</p><ol>{security_steps}</ol><p>{e(t['warning'])}</p><p>{e(t['do_not'])}</p><a href="https://support.apple.com/{'ko-kr' if locale == 'ko' else 'en-us'}/102445">{e(t['apple'])} ↗</a></aside>
 <section class="helper" aria-labelledby="helper-title"><h2 id="helper-title">{e(t['helper_title'])}</h2><p>{e(t['helper_intro'])}</p><ol>{helper}</ol><p class="muted">{e(t['helper_note'])}</p><p class="ready">{e(t['ready'])}</p></section>
 </main><footer><a href="{guide}">{'덮개·잠금·네트워크·MCP 사용 안내' if locale == 'ko' else 'Lid, lock, network & MCP guide'} →</a><a href="{repo}#readme">{e(t['github'])} ↗</a><p>{e(t['languages'])}</p></footer></div></body></html>'''
 

@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 Instale pika e o serviço auxiliar, ligue Session, mantenha Monitor OFF se não precisar da tela e feche a tampa. A política de tela é aplicada ao fechar. Session OFF libera o repouso sem apagar imediatamente a tela. Use energia e mesa ventilada, nunca bolsa fechada. Proteções ou falhas do serviço podem parar a sessão.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Ajuda de instalação](https://no-sleep-pika.online/install/)
 
 ## Perguntas comuns
 
@@ -59,6 +59,8 @@ Fontes oficiais e implementação verificadas em 5 de outubro de 2026. Guia do c
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Controle o Mac por QR: sessões, temporizadores e desligamento pelo celular →](https://no-sleep-pika.online/guide/pt-BR/control-mac-from-phone-qr/)
+
 [Claude Code é IA local? Entenda Llama, Qwen e IA no dispositivo →](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/)
 
 [Se a IA trabalha à noite, quem paga a eletricidade? →](https://no-sleep-pika.online/guide/pt-BR/ai-overnight-electricity-cost/)
@@ -67,4 +69,4 @@ Fontes oficiais e implementação verificadas em 5 de outubro de 2026. Guia do c
 
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
-[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/mac-locked-ai-running/index.md)
+[Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/mac-locked-ai-running/index.md)

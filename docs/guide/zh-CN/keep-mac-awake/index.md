@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika 支持 macOS 13 及以上、Apple Silicon 和 Intel。下载官方完整 PKG，安装应用和管理员辅助服务，并由用户完成 macOS 身份认证与必要的安全批准。打开 /Applications/pika.app，确认服务连接，开启 Session，按需关闭 Monitor，然后合盖。系统防睡眠会提前准备，屏幕策略在合盖后应用。开盖时切换 Monitor 只保存选择。关闭 Session 会恢复 pika 管理的设置，但不会立即熄屏；关闭窗口也不会退出应用。
 
-[下载 pika · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[下载 pika · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [安装帮助](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[用一个二维码控制 Mac：手机管理会话、定时与关机 →](https://no-sleep-pika.online/guide/zh-CN/control-mac-from-phone-qr/)
+
 [让 AI 加班一整晚，电费谁来付？ →](https://no-sleep-pika.online/guide/zh-CN/ai-overnight-electricity-cost/)
 
 [MacBook 下载停止：关屏、睡眠和合盖有什么不同？ →](https://no-sleep-pika.online/guide/zh-CN/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ man caffeinate
 
 由 no-sleep-pika 开发者撰写，包含自家应用的比较。
 
-[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[MacBook 合盖指南 →](https://no-sleep-pika.online/guide/zh-CN/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/index.md)
+[下载 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[MacBook 合盖指南 →](https://no-sleep-pika.online/guide/zh-CN/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/zh-CN/keep-mac-awake/index.md)

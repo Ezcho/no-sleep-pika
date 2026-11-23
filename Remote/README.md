@@ -1,6 +1,6 @@
 # pika remote gateway
 
-Read-only QR pairing for the native pika app. Cloudflare Workers + SQLite Durable
+QR pairing for the native pika app. Connections start read-only; pika 1.3.0 can grant explicit local approval for bounded remote controls. Cloudflare Workers + SQLite Durable
 Objects host both the mobile page and WSS relay. Existing GitHub Pages is unchanged.
 Production gateway: https://pika-remote.always-wakeup.workers.dev (deployed 2026-11-03 KST).
 
@@ -18,9 +18,7 @@ Production gateway: https://pika-remote.always-wakeup.workers.dev (deployed 2026
 
 The app owns the connection: closing the MCP client does not terminate it. Host
 credentials live in app memory; app restart requires new pairing. Browser credentials
-are tab-scoped sessionStorage. A lost claim response requires a new QR. No commands,
-keyboard/mouse control, screen video, arbitrary IPC, AI outputs, or file access are
-exposed. Those require a separate explicit authorization design.
+are tab-scoped sessionStorage. A lost claim response requires a new QR. The Mac must explicitly approve each live viewer connection before remote controls are accepted. Approval clears when either socket reconnects or disconnects. The fixed commands are Session/Monitor ON/OFF, power conditions, timer scheduling/cancellation, and shutdown/restart with a native cancellable countdown. No keyboard/mouse control, screen video, arbitrary IPC, shell commands, AI outputs, or file access are exposed.
 
 ## Develop and validate
 
@@ -77,7 +75,7 @@ part of routine code rollback. A compatible earlier Worker version is preferred.
 - Fragment-only QR secret, removed from page history on load. Auth is an initial
   WebSocket frame, never a query parameter; host revocation uses Authorization.
 - Atomic claim; every auth/message checks expiry. Alarms close expired sockets.
-- 4 sockets/room, pending auth 10 seconds, frames <=8 KiB, 30 JSON frames/min/socket.
+- 4 sockets/room, pending auth 10 seconds, frames <=8 KiB, 45 viewer JSON frames/minute and 60 host frames/minute (status plus command replies).
 - Native status sampling every 5 seconds while observed; changed values only, minimum
   3 seconds between sends. Auto-response keepalive uses WebSocket hibernation.
 - Pairing capped at 3/min/IP, 20/day/IP, 1,000/day across the deployment. Other HTTP
@@ -91,8 +89,9 @@ part of routine code rollback. A compatible earlier Worker version is preferred.
   limited allowlisted state. Do not extend it to terminal output without revisiting this.
 - If revoke cannot reach the gateway, local bridge stops and reports unconfirmed
   revocation; retain credentials for retry. Server credentials expire within 24 hours.
-- QR is a bearer invitation: whoever scans it first can read state. No identity proof
-  is claimed. Remote writes are rejected at the server, not merely hidden in the UI.
+- QR is a bearer invitation: whoever scans it first can read state. No identity proof is claimed. Remote writes are denied by both server and native app until the Mac explicitly approves the current viewer ID. Each approval creates a fresh grant UUID included in every command, so delayed frames from a previous grant cannot cross a revoke/reapprove boundary. Reconnection requires approval again.
+- Commands use exact typed allowlists, UUID IDs and 15-second delivery expiry. IDs are retained for the host socket lifetime, up to 256 commands; exhaustion requires a new connection and approval, not replay-cache eviction. The server allows at most 12 mutating commands per viewer per minute. Idempotent cancellation remains available at that limit and at the replay-cache capacity; overall frame limits still apply. No commands are queued for disconnected Macs. The phone sends an application heartbeat every 10 seconds; a 25-second viewer lease closes silent/dead sockets, clears approval, and notifies the Mac to cancel remote timers. Background browser suspension can therefore require reapproval.
+- The browser disables controls on stale status and connection loss, never reports an optimistic state change, and allows cancellation while a prior command result is pending. Native shutdown/restart countdowns are canceled when remote permission or connectivity is lost.
 
 ## Release status
 

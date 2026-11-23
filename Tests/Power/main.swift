@@ -84,6 +84,23 @@ MainActor.assumeIsolated {
     reading.onAC = true
     check(conditions.reason(reading: reading, previouslyOnAC: nil) == nil, "battery threshold does not stop AC session")
     check(conditions.batteryFloor > SafetyProfile.closed.batteryFloor, "custom thresholds cannot weaken existing closed-lid protection")
+    model.active = false
+    power.armRemotePower(.shutdown)
+    check(power.schedule?.countdown == true && power.schedule!.deadline.timeIntervalSinceNow > 59, "remote shutdown has 60-second countdown")
+    power.cancelRemoteActions()
+    check(power.schedule == nil, "disconnect cancels remote countdown")
+    power.arm(minutes: 15, action: .shutdown, remote: true)
+    model.active = true
+    power.conditions = PowerConditions()
+    power.refresh(now: power.schedule!.deadline)
+    power.cancelRemoteActions()
+    let beforeRemoteStop = requests.count
+    model.complete(true)
+    check(requests.count == beforeRemoteStop, "disconnect cancels remote execution awaiting restoration")
+    power.arm(minutes: 15, action: .release)
+    power.cancelRemoteActions()
+    check(power.schedule != nil, "remote revocation preserves local timer")
+    power.cancel()
     let reopened = PowerController(model: AppModel(), defaults: defaults, send: { _ in })
     check(reopened.schedule == nil, "restart never restores destructive timer")
     reopened.invalidate()

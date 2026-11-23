@@ -41,7 +41,7 @@ while true; do date "+%Y-%m-%d %H:%M:%S"; sleep 10; done
 
 ثبّت pika وخدمته المساعدة، وفعّل Session واترك Monitor OFF إن لم تحتج الشاشة، ثم أغلق الغطاء. تطبق سياسة الشاشة بعد الإغلاق. يحرر Session OFF منع السكون دون إطفاء الشاشة فوراً. استخدم الطاقة ومكتباً جيد التهوية، لا حقيبة مغلقة. قد توقف الحماية أو أخطاء الخدمة الجلسة.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [مساعدة التثبيت](https://no-sleep-pika.online/install/)
 
 ## أسئلة شائعة
 
@@ -59,6 +59,8 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[تحكّم في Mac برمز QR: الجلسات والمؤقتات والإيقاف من هاتفك →](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/)
+
 [هل Claude Code ذكاء اصطناعي محلي؟ فهم Llama وQwen والذكاء على الجهاز →](https://no-sleep-pika.online/guide/ar/local-on-device-ai/)
 
 [إذا عمل الذكاء الاصطناعي طوال الليل، فمن يدفع فاتورة الكهرباء؟ →](https://no-sleep-pika.online/guide/ar/ai-overnight-electricity-cost/)
@@ -67,4 +69,4 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
-[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)
+[تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/mac-locked-ai-running/index.md)

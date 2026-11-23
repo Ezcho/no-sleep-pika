@@ -55,7 +55,7 @@ caffeinate -i make
 
 pika macOS 13 या नया, Apple Silicon और Intel पर काम करता है। आधिकारिक पूर्ण PKG ऐप और एडमिन सहायक सेवा इंस्टॉल करता है। macOS प्रमाणीकरण और आवश्यक अनुमति खुद पूरी करें। /Applications/pika.app खोलें, सेवा कनेक्शन जाँचें, Session ON करें, जरूरत हो तो Monitor OFF चुनें और ढक्कन बंद करें। स्लीप रोकने की तैयारी पहले होती है; स्क्रीन नीति बंद होने के बाद लागू होती है। खुले ढक्कन में Monitor सिर्फ चयन बचाता है। Session OFF प्रबंधित सेटिंग वापस करता है, स्क्रीन तुरंत बंद नहीं करता। विंडो बंद करने से ऐप बंद नहीं होता।
 
-[pika डाउनलोड करें · 1.2.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)
+[pika डाउनलोड करें · 1.3.0](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)
 
 [इंस्टॉलेशन सहायता](https://no-sleep-pika.online/install/)
 
@@ -87,6 +87,8 @@ man caffeinate
 
 - `man caffeinate` · macOS System Manager’s Manual
 
+[एक QR से Mac नियंत्रित करें: फ़ोन से सेशन, टाइमर और शटडाउन →](https://no-sleep-pika.online/guide/hi/control-mac-from-phone-qr/)
+
 [AI रात भर काम करे तो बिजली का बिल कौन भरेगा? →](https://no-sleep-pika.online/guide/hi/ai-overnight-electricity-cost/)
 
 [MacBook डाउनलोड रुकता है: स्क्रीन बंद, स्लीप या ढक्कन? →](https://no-sleep-pika.online/guide/hi/macbook-downloads-stop/)
@@ -95,4 +97,4 @@ man caffeinate
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
-[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[बंद MacBook की गाइड →](https://no-sleep-pika.online/guide/hi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/hi/keep-mac-awake/index.md)
+[pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[बंद MacBook की गाइड →](https://no-sleep-pika.online/guide/hi/macbook-lid-closed/)[Markdown](https://no-sleep-pika.online/guide/hi/keep-mac-awake/index.md)

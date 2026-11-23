@@ -49,6 +49,8 @@ pika puede finalizar la sesión si la batería o el estado térmico de macOS alc
 
 [Más ayuda de instalación, conexión y diagnóstico · English →](https://no-sleep-pika.online/guide/)
 
+[Controla tu Mac con un QR: sesiones, temporizadores y apagado desde el móvil →](https://no-sleep-pika.online/guide/es/control-mac-from-phone-qr/)
+
 [Cómo evitar que tu Mac se duerma: modo cerrado, caffeinate y pika →](https://no-sleep-pika.online/guide/es/keep-mac-awake/)
 
 ## Cómo mantener el MacBook funcionando con la tapa cerrada

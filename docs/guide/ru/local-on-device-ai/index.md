@@ -47,7 +47,7 @@ Claude Code работает с файлами и командами. Llama и Q
 
 Сон может прервать или задержать местную работу, в отличие от самостоятельной серверной задачи. pika не запускает модели и не превращает облако в локальный ИИ, а поддерживает бодрствование Mac. Проверьте службу, включите Session и ненадолго закройте и откройте крышку. Используйте питание и проветриваемый стол, затем выключите Session.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Помощь с установкой](https://no-sleep-pika.online/install/)
 
 Источники и рамки
 
@@ -63,6 +63,8 @@ Claude Code работает с файлами и командами. Llama и Q
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Управляйте Mac по QR: сеансы, таймеры и выключение с телефона →](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/)
+
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
-[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/local-on-device-ai/index.md)
+[Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/local-on-device-ai/index.md)

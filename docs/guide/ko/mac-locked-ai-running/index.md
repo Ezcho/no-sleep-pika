@@ -61,7 +61,7 @@ Session은 잠자기 방지를 준비하는 제어이고 Monitor는 화면 유�
 
 pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결에 문제가 생기면 세션이 중단될 수 있습니다. 장시간 작업은 전원을 연결하고 통풍되는 책상 위에서 먼저 확인하세요. 닫힌 가방 안에 실행 중인 Mac을 넣어 두는 사용법을 권장하지 않습니다. 작업이 끝나면 Session을 OFF로 돌립니다. pika는 승인 응답, AI 오류 복구, 네트워크 연결이나 작업 완료까지 보장하지 않습니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [설치 도움말](https://no-sleep-pika.online/install/ko/)
 
 ## 자주 묻는 질문
 
@@ -83,6 +83,8 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[QR 하나로 Mac을 제어하세요: 휴대폰에서 세션·타이머·종료까지 →](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/)
+
 [Claude Code도 로컬 AI일까? Llama·Qwen으로 이해하는 온디바이스 AI →](https://no-sleep-pika.online/guide/ko/local-on-device-ai/)
 
 [AI에게 야근시키면 전기요금은 누가 낼까? →](https://no-sleep-pika.online/guide/ko/ai-overnight-electricity-cost/)
@@ -91,4 +93,4 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
-[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)
+[pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/mac-locked-ai-running/index.md)

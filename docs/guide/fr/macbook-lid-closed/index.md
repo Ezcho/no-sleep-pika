@@ -49,6 +49,8 @@ pika peut arrêter la session lorsque la batterie ou l’état thermique macOS a
 
 [Aide détaillée pour l’installation, la connexion et le dépannage · English →](https://no-sleep-pika.online/guide/)
 
+[Contrôlez votre Mac avec un QR : sessions, minuteurs et extinction depuis le téléphone →](https://no-sleep-pika.online/guide/fr/control-mac-from-phone-qr/)
+
 [Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)
 
 ## Comment garder un MacBook actif avec le capot fermé

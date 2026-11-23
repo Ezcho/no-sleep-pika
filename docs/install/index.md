@@ -35,11 +35,23 @@ pika→
 
 Open pika from Applications. The control window appears in front. Wait for helper connection, then turn Session ON and close the lid.
 
+## Blocked before installation or after an update?
+
+pika cannot display its own help until macOS allows it to open. Keep this page open while installing. An update may ask for approval again.
+
+- First, try to open the downloaded pika PKG. If installation completed but the app is blocked, try pika in Applications instead.
+
+- For an unidentified developer or an app Apple cannot verify, open System Settings → Privacy & Security. Scroll to Security and find the entry for the file you just opened.
+
+- Only if you trust that file and its source, click Open Anyway. Authenticate if macOS asks, then confirm Open in the repeated prompt.
+
+- If there is no matching entry, try opening the same file once more and return to this panel. A Mac managed by an organization may require its administrator.
+
 If macOS blocks the PKG or pika because the developer is unidentified or it cannot verify the app: open System Settings → Privacy & Security → Open Anyway, only if you trust this download. This build is not Developer ID signed or notarized.
 
-If macOS says the app will damage your computer or is damaged, stop and check the download; this is a different warning.
+“Will damage your computer”, known-malware or revoked-authorization warnings must not be overridden. If the file is “damaged”, stop, delete that download and get a fresh copy from the official homepage; if it repeats, ask for support rather than bypassing the warning.
 
-[Apple’s instructions for opening an app ↗](https://support.apple.com/en-us/102445)
+[Apple’s official opening instructions ↗](https://support.apple.com/en-us/102445)
 
 ## App opened, but Session will not start?
 

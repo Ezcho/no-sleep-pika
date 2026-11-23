@@ -33,6 +33,8 @@ struct PowerConditions {
 struct PowerSchedule {
     let deadline: Date
     let action: PowerAction
+    var remote = false
+    var countdown = false
     // A sleeping Mac must not unexpectedly shut down when the user opens it later.
     func isStale(at now: Date) -> Bool { now.timeIntervalSince(deadline) > 60 }
     func isDue(at now: Date) -> Bool { now >= deadline }

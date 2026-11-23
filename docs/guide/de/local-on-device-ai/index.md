@@ -47,7 +47,7 @@ Lies schließlich Einstellungen und Dokumentation. Ollamas lokaler Modus deaktiv
 
 Ruhezustand kann lokale Arbeit unterbrechen oder verzögern; eigenständige Serverjobs sind etwas anderes. pika betreibt keine Modelle und macht Cloud-KI nicht lokal, sondern hält den Mac wach. Hilfsdienst prüfen, Session einschalten und kurz mit geschlossenem Deckel testen. Netzstrom und belüfteten Tisch nutzen, danach Session ausschalten.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Installationshilfe](https://no-sleep-pika.online/install/)
 
 Quellen und Umfang
 
@@ -63,6 +63,8 @@ Einführung vom pika-Entwickler; offizielle Quellen am 22. Oktober 2026 geprüft
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Mac per QR steuern: Sitzungen, Timer und Ausschalten vom Smartphone →](https://no-sleep-pika.online/guide/de/control-mac-from-phone-qr/)
+
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.
 
-[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/local-on-device-ai/index.md)
+[pika herunterladen](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/de/local-on-device-ai/index.md)

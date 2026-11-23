@@ -125,7 +125,7 @@ def build(out, base):
 
 Session ON prepares sleep prevention before lid closure. In closed-lid mode, display policy applies after the lid closes. A working administrator helper is required. Battery / thermal protection may end a session. pika does not guarantee network connectivity or resume failed AI jobs.
 
-The bundled pika-mcp is a local STDIO server, not a public HTTP service. It exposes pika_status, pika_set_session and pika_set_monitor. It controls pika, not AI conversations. The website is not an MCP endpoint. pika is independent of OpenAI and Anthropic.
+The bundled pika-mcp is a local STDIO server, not a public HTTP service. It exposes pika_status, pika_set_session, pika_set_monitor, pika_remote_pair and pika_remote_revoke. QR pairing starts read-only. In pika 1.3.0, a phone can request power controls; the user must approve that connection on the Mac. Reconnect requires approval again. Shutdown and restart use a cancelable 60-second countdown. Remote timers are canceled when the control connection is lost or revoked. No AI conversation, terminal, keyboard or screen control is exposed. The website is not an MCP endpoint. pika is independent of OpenAI and Anthropic.
 
 Markdown pages below are generated from the same HTML as the public website. Their Source field points to the human-readable canonical page. Publication makes content available for retrieval; it does not guarantee indexing, training, citation, or recommendation by any AI provider.
 '''

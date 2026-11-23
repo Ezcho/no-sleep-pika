@@ -16,17 +16,18 @@ from locked_ai_article import build as build_locked_ai, UPDATED as LOCK_UPDATED,
 from local_ai_article import build as build_local_ai, UPDATED as LOCAL_AI_UPDATED, PATHS as LOCAL_AI_PATHS, COPY as LOCAL_AI_COPY
 from energy_article import build as build_energy_article, UPDATED as ENERGY_UPDATED, PATHS as ENERGY_PATHS, COPY as ENERGY_COPY
 from download_article import build as build_download_article, UPDATED as DOWNLOAD_UPDATED, PATHS as DOWNLOAD_PATHS, COPY as DOWNLOAD_COPY
+from control_article import build as build_control_article, UPDATED as CONTROL_UPDATED, PATHS as CONTROL_PATHS, COPY as CONTROL_COPY
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'docs'
 BASE = 'https://no-sleep-pika.online'
 REPO = 'https://github.com/Ezcho/no-sleep-pika'
 # Keep this aligned with the published release, not the unreleased source version.
-RELEASE = 'v1.2.0'
+RELEASE = 'v1.3.0'
 DOWNLOAD = f'{REPO}/releases/download/{RELEASE}/pika-{RELEASE[1:]}.pkg'
 # Content dates are intentional, not the time the generator happened to run.
 HOME_UPDATED = '2026-11-23'
-INSTALL_UPDATED = '2026-09-30'
+INSTALL_UPDATED = '2026-11-23'
 LANGUAGES = [('en','English'),('ko','한국어'),('zh-CN','简体中文'),('zh-TW','繁體中文'),('ja','日本語'),('hi','हिन्दी'),('id','Bahasa Indonesia'),('es','Español'),('fr','Français'),('de','Deutsch'),('pt-BR','Português'),('ru','Русский'),('ar','العربية'),('vi','Tiếng Việt'),('th','ไทย')]
 KEYS = '''title description skip features connect download eyebrow headline intro source release compatibility scroll feature1 body1 feature2 body2 feature3 body3 controls controlstitle controlsbody window mcp mcptitle mcpbody buildstep addstep toolstep copy copied copyfail installation installtitle install1 install2 install3 limitation safety faq q1 a1 q2 a2 q3 a3 footer language screenshot buildlabel configlabel'''.split()
 TEXT = {}
@@ -46,7 +47,7 @@ A SMALL APP FOR LONGER SESSIONS
 A little pika.<br>A longer session.
 Session and display controls, right in your Mac’s menu bar. A quiet companion for work that takes a little longer.
 View source
-Public release 1.2.0 · macOS 13+ · Apple Silicon & Intel
+Public release 1.3.0 · macOS 13+ · Apple Silicon & Intel
 Check installation requirements
 Meet your night-shift companion
 One session switch.
@@ -99,7 +100,7 @@ Mac용 다운로드
 작은 피카.<br>조금 더 긴 작업.
 Mac 메뉴 막대에서 세션과 화면을 간편하게 제어하세요. 시간이 더 필요한 작업 곁에 조용히 머뭅니다.
 소스코드 보기
-공개 버전 1.2.0 · macOS 13+ · Apple Silicon 및 Intel
+공개 버전 1.3.0 · macOS 13+ · Apple Silicon 및 Intel
 설치 요구사항 확인
 야근을 함께할 작은 친구
 세션은 스위치 하나로.
@@ -152,7 +153,7 @@ no-sleep-pika 是轻量级 macOS 菜单栏应用，提供会话与显示控制�
 小小鼠兔。<br>陪你多做一会儿。
 在 Mac 菜单栏轻松控制会话和屏幕。为需要更多时间的工作，留一个安静的伙伴。
 查看源代码
-公开版本 1.2.0 · macOS 13+ · Apple Silicon 与 Intel
+公开版本 1.3.0 · macOS 13+ · Apple Silicon 与 Intel
 查看安装要求
 认识你的夜班伙伴
 一个开关，管理会话。
@@ -205,7 +206,7 @@ no-sleep-pika 是輕量 macOS 選單列應用程式，提供工作階段與螢�
 小小鼠兔。<br>陪你多做一會兒。
 在 Mac 選單列輕鬆控制工作階段與螢幕。為需要更多時間的工作，留一位安靜的夥伴。
 查看原始碼
-公開版本 1.2.0 · macOS 13+ · Apple Silicon 與 Intel
+公開版本 1.3.0 · macOS 13+ · Apple Silicon 與 Intel
 查看安裝需求
 認識你的夜班夥伴
 一個開關，管理工作階段。
@@ -258,7 +259,7 @@ Mac 版をダウンロード
 小さなナキウサギ。<br>もう少し、作業のそばに。
 Mac のメニューバーからセッションと画面を操作。時間のかかる作業に、静かな相棒を。
 ソースを見る
-公開版 1.2.0 · macOS 13+ · Apple Silicon / Intel
+公開版 1.3.0 · macOS 13+ · Apple Silicon / Intel
 インストール要件を見る
 夜の作業の小さな相棒
 セッションはスイッチひとつ。
@@ -311,7 +312,7 @@ Mac के लिए डाउनलोड
 नन्हा पिका।<br>काम के लिए थोड़ा और समय।
 Mac के मेनू बार से सेशन और स्क्रीन नियंत्रित करें। समय लेने वाले काम के लिए एक शांत साथी।
 सोर्स कोड देखें
-सार्वजनिक संस्करण 1.2.0 · macOS 13+ · Apple Silicon और Intel
+सार्वजनिक संस्करण 1.3.0 · macOS 13+ · Apple Silicon और Intel
 इंस्टॉल करने की ज़रूरतें देखें
 रात के काम का छोटा साथी
 सेशन के लिए एक स्विच।
@@ -364,7 +365,7 @@ APLIKASI KECIL, SESI LEBIH PANJANG
 Pika kecil.<br>Waktu kerja lebih panjang.
 Kontrol sesi dan layar langsung dari bilah menu Mac. Teman tenang untuk pekerjaan yang butuh sedikit waktu lagi.
 Lihat kode sumber
-Rilis publik 1.2.0 · macOS 13+ · Apple Silicon & Intel
+Rilis publik 1.3.0 · macOS 13+ · Apple Silicon & Intel
 Lihat persyaratan instalasi
 Kenali teman kerja malam Anda
 Satu sakelar untuk sesi.
@@ -417,7 +418,7 @@ UNA PEQUEÑA APP PARA SESIONES MÁS LARGAS
 Una pequeña pika.<br>Un poco más de tiempo.
 Controla las sesiones y la pantalla desde la barra de menús del Mac. Una compañía discreta para el trabajo que necesita un poco más de tiempo.
 Ver código fuente
-Versión pública 1.2.0 · macOS 13+ · Apple Silicon e Intel
+Versión pública 1.3.0 · macOS 13+ · Apple Silicon e Intel
 Consultar requisitos de instalación
 Tu compañía para el turno de noche
 Un interruptor para la sesión.
@@ -470,7 +471,7 @@ UNE PETITE APP POUR PRENDRE SON TEMPS
 Un petit pika.<br>Un peu plus de temps.
 Contrôlez les sessions et l’écran depuis la barre des menus du Mac. Un compagnon discret pour les tâches qui demandent un peu plus de temps.
 Voir le code source
-Version publique 1.2.0 · macOS 13+ · Apple Silicon et Intel
+Version publique 1.3.0 · macOS 13+ · Apple Silicon et Intel
 Consulter les prérequis
 Votre compagnon de nuit
 Un seul interrupteur pour la session.
@@ -523,7 +524,7 @@ KLEINE APP, LÄNGERE SITZUNGEN
 Ein kleiner Pfeifhase.<br>Ein bisschen mehr Zeit.
 Sitzungen und Display direkt über die Menüleiste steuern. Ein stiller Begleiter für Arbeit, die etwas länger dauert.
 Quellcode ansehen
-Öffentliche Version 1.2.0 · macOS 13+ · Apple Silicon & Intel
+Öffentliche Version 1.3.0 · macOS 13+ · Apple Silicon & Intel
 Installationsvoraussetzungen
 Dein Begleiter für die Nachtschicht
 Ein Schalter für die Sitzung.
@@ -576,7 +577,7 @@ UM APP PEQUENO PARA SESSÕES MAIS LONGAS
 Uma pequena pika.<br>Um pouco mais de tempo.
 Controle a sessão e a tela direto da barra de menus do Mac. Uma companhia discreta para o trabalho que precisa de mais um tempinho.
 Ver código-fonte
-Versão pública 1.2.0 · macOS 13+ · Apple Silicon e Intel
+Versão pública 1.3.0 · macOS 13+ · Apple Silicon e Intel
 Conferir requisitos de instalação
 Sua companhia no turno da noite
 Um interruptor para a sessão.
@@ -629,7 +630,7 @@ no-sleep-pika — лёгкое приложение для строки меню
 Маленькая пищуха.<br>Чуть больше времени.
 Управляйте сеансом и экраном из строки меню Mac. Тихий спутник для работы, которой нужно немного больше времени.
 Исходный код
-Публичная версия 1.2.0 · macOS 13+ · Apple Silicon и Intel
+Публичная версия 1.3.0 · macOS 13+ · Apple Silicon и Intel
 Требования к установке
 Ваш спутник в ночную смену
 Один переключатель сеанса.
@@ -682,7 +683,7 @@ no-sleep-pika تطبيق خفيف لشريط قوائم macOS للتحكم في 
 بيكا صغير.<br>وقت أطول للعمل.
 تحكّم في الجلسة والشاشة مباشرة من شريط قوائم Mac. رفيق هادئ للعمل الذي يحتاج إلى مزيد من الوقت.
 عرض الشيفرة المصدرية
-الإصدار العام 1.2.0 · macOS 13+ · Apple Silicon وIntel
+الإصدار العام 1.3.0 · macOS 13+ · Apple Silicon وIntel
 متطلبات التثبيت
 تعرّف إلى رفيق العمل الليلي
 مفتاح واحد للجلسة.
@@ -735,7 +736,7 @@ Tải cho Mac
 Pika bé nhỏ.<br>Thêm thời gian làm việc.
 Điều khiển phiên và màn hình ngay trên thanh menu Mac. Người bạn yên lặng cho những công việc cần thêm chút thời gian.
 Xem mã nguồn
-Bản công khai 1.2.0 · macOS 13+ · Apple Silicon & Intel
+Bản công khai 1.3.0 · macOS 13+ · Apple Silicon & Intel
 Xem yêu cầu cài đặt
 Người bạn đồng hành ca đêm
 Một công tắc cho phiên.
@@ -788,7 +789,7 @@ no-sleep-pika เป็นแอปแถบเมนู macOS ขนาดเ�
 พิกาตัวน้อย<br>เพิ่มเวลาทำงานอีกนิด
 ควบคุมเซสชันและหน้าจอจากแถบเมนู Mac เพื่อนเงียบ ๆ สำหรับงานที่ต้องการเวลาเพิ่มอีกหน่อย
 ดูซอร์สโค้ด
-รุ่นสาธารณะ 1.2.0 · macOS 13+ · Apple Silicon และ Intel
+รุ่นสาธารณะ 1.3.0 · macOS 13+ · Apple Silicon และ Intel
 ดูข้อกำหนดการติดตั้ง
 เพื่อนร่วมงานยามค่ำคืน
 สวิตช์เดียวสำหรับเซสชัน
@@ -949,6 +950,13 @@ def main():
     download_urls = build_download_article(OUT, BASE, REPO, RELEASE)
     energy_urls = build_energy_article(OUT, BASE, REPO, RELEASE)
     local_ai_urls = build_local_ai(OUT, BASE, REPO, RELEASE)
+    control_urls = build_control_article(OUT, BASE, REPO, RELEASE)
+    for collection in (ARTICLE_PATHS, KEEP_PATHS, LOCK_PATHS, LOCAL_AI_PATHS):
+        for locale, path in collection.items():
+            page = OUT / path.strip('/') / 'index.html'
+            content = page.read_text(encoding='utf-8')
+            related = f'<p><a href="{CONTROL_PATHS[locale]}">{html.escape(CONTROL_COPY[locale]["title"])} →</a></p>'
+            page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
     for collection in (ENERGY_PATHS, LOCK_PATHS):
         for locale, path in collection.items():
             page = OUT / path.strip('/') / 'index.html'
@@ -979,12 +987,12 @@ def main():
         related = f'<p><a href="{KEEP_PATHS[locale]}">{html.escape(KEEP_COPY[locale]["title"])} →</a></p>'
         page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
     # Apply the same analytics loader to every generated language and guide.
-    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls + download_urls + energy_urls + local_ai_urls:
+    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls + download_urls + energy_urls + local_ai_urls + control_urls:
         page = OUT / url.removeprefix(BASE).lstrip('/') / 'index.html'
         content = page.read_text(encoding='utf-8')
         content = content.replace('</head>', '<script src="/ga.js" defer></script></head>')
         page.write_text(content, encoding='utf-8')
-    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS)), (download_urls, DOWNLOAD_UPDATED, tuple(DOWNLOAD_PATHS)), (energy_urls, ENERGY_UPDATED, tuple(ENERGY_PATHS)), (local_ai_urls, LOCAL_AI_UPDATED, tuple(LOCAL_AI_PATHS))):
+    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS)), (download_urls, DOWNLOAD_UPDATED, tuple(DOWNLOAD_PATHS)), (energy_urls, ENERGY_UPDATED, tuple(ENERGY_PATHS)), (local_ai_urls, LOCAL_AI_UPDATED, tuple(LOCAL_AI_PATHS)), (control_urls, CONTROL_UPDATED, tuple(CONTROL_PATHS))):
         alternates = ''.join(f'<xhtml:link rel="alternate" hreflang="{language}" href="{url}"/>' for language, url in zip(languages, urls))
         alternates += f'<xhtml:link rel="alternate" hreflang="x-default" href="{urls[0]}"/>'
         entries += ''.join(f'<url><loc>{url}</loc><lastmod>{updated}</lastmod>{alternates}</url>' for url in urls)
@@ -996,7 +1004,7 @@ def main():
             robots.write(f'\nUser-agent: {agent}\nAllow: /\n')
     build_ai_docs(OUT, BASE)
     (OUT / '.nojekyll').touch()
-    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 90 articles, sitemap.xml and robots.txt.')
+    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 105 articles, sitemap.xml and robots.txt.')
 
 if __name__ == '__main__':
     main()

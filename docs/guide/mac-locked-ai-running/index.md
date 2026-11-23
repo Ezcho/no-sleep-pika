@@ -51,7 +51,7 @@ Install pika and its helper, prepare Session ON, leave Monitor OFF if display re
 
 Session OFF releases sleep prevention and shows Monitor OFF without immediately blanking the screen. Battery or thermal protection and helper failures can stop a session. Start with power connected on a ventilated desk, never rely on operation inside a closed bag, and turn Session OFF when finished. pika cannot guarantee connectivity or task completion.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg) · [Installation help](https://no-sleep-pika.online/install/)
 
 ## Common questions
 
@@ -71,6 +71,8 @@ Checked against official documentation and current pika source on October 5, 202
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Control your Mac with a QR code: sessions, timers and shutdown from your phone →](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/)
+
 [Is Claude Code local AI? On-device AI explained with Llama and Qwen →](https://no-sleep-pika.online/guide/local-on-device-ai/)
 
 [Who pays the electricity bill when AI works overnight? →](https://no-sleep-pika.online/guide/ai-overnight-electricity-cost/)
@@ -79,4 +81,4 @@ Checked against official documentation and current pika source on October 5, 202
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
-[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.2.0/pika-1.2.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)
+[Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/mac-locked-ai-running/index.md)

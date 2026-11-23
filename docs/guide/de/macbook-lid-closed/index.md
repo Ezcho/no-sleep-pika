@@ -49,6 +49,8 @@ pika kann die Session beenden, wenn Akku oder macOS-Wärmezustand Schutzgrenzen 
 
 [Weitere Hilfe zu Installation, Verbindung und Problemen · English →](https://no-sleep-pika.online/guide/)
 
+[Mac per QR steuern: Sitzungen, Timer und Ausschalten vom Smartphone →](https://no-sleep-pika.online/guide/de/control-mac-from-phone-qr/)
+
 [Mac wach halten: Clamshell-Modus, caffeinate und pika im Vergleich →](https://no-sleep-pika.online/guide/de/keep-mac-awake/)
 
 ## MacBook zugeklappt weiterlaufen lassen: So geht’s
