@@ -171,7 +171,8 @@ final class RemotePairing {
         guard let output=filter.outputImage else{throw URLError(.cannotDecodeContentData)}
         let n=Int(output.extent.width),size=n+8
         var pixels=[UInt8](repeating:255,count:n*n)
-        CIContext().render(output,toBitmap:&pixels,rowBytes:n,bounds:output.extent,format:.L8,colorSpace:CGColorSpaceCreateDeviceGray())
+        CIContext(options: [.useSoftwareRenderer: true]).render(output,toBitmap:&pixels,rowBytes:n,bounds:output.extent,format:.L8,colorSpace:CGColorSpaceCreateDeviceGray())
+        guard pixels.contains(where: { $0 < 128 }) else { throw URLError(.cannotDecodeContentData) }
         func black(_ x:Int,_ y:Int)->Bool {x>=4 && y>=4 && x<n+4 && y<n+4 && pixels[(y-4)*n+x-4]<128}
         var lines=[String]()
         for y in 0..<size { var line=""; for x in 0..<size {line += black(x,y) ? "██" : "  "};lines.append(line) }

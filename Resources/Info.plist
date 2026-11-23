@@ -6,14 +6,15 @@
     <key>CFBundleDisplayName</key><string>pika</string>
     <key>CFBundleExecutable</key><string>pika</string>
     <key>CFBundlePackageType</key><string>APPL</string>
-    <key>CFBundleShortVersionString</key><string>1.1.0</string>
-    <key>CFBundleVersion</key><string>17</string>
+    <key>CFBundleShortVersionString</key><string>1.2.0</string>
+    <key>CFBundleVersion</key><string>18</string>
     <key>CFBundleIconFile</key><string>AppIcon</string>
     <key>PikaRemoteGateway</key><string>https://pika-remote.always-wakeup.workers.dev</string>
     <key>LSMinimumSystemVersion</key><string>13.0</string>
     <key>LSUIElement</key><true/>
     <key>LSFileQuarantineEnabled</key><true/>
     <key>NSHighResolutionCapable</key><true/>
+    <key>NSAppleEventsUsageDescription</key><string>사용자가 요청한 Mac 종료, 재시동 및 잠자기를 macOS에 전달합니다.</string>
     <key>NSPrincipalClass</key><string>NSApplication</string>
     <key>NSHumanReadableCopyright</key><string>Copyright © 2026 Ezcho</string>
     <key>CFBundleDevelopmentRegion</key><string>ko</string>

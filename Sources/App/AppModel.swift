@@ -38,6 +38,7 @@ final class AppModel {
     private var heartbeatInFlight = false
     private var checkingHelper = false
     private var activity: NSObjectProtocol?
+    var sessionStartIssue: (() -> String?)?
     var onChange: (() -> Void)?
 
     init() {
@@ -125,6 +126,7 @@ final class AppModel {
         if active || recoveryRequired { stop { _ in completion?() }; return }
         guard serviceReady else { prepareService(); completion?(); return }
         if let issue = HardwareReading.current().issue { error = issue; completion?(); return }
+        if let issue = sessionStartIssue?() { error = issue; completion?(); return }
         busy = true
         error = nil
         client.call(.start) { [weak self] result in

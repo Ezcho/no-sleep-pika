@@ -23,6 +23,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
     private let updateItem = NSMenuItem(title: "업데이트 확인…", action: #selector(checkForUpdates), keyEquivalent: "")
     private var controlWindow: NSWindow?
     private var setupWindow: SetupWindowController?
+    private var power: PowerController!
+    private var powerWindow: PowerWindowController?
+    private let powerStatusItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
+    private let powerTimerItem = NSMenuItem(title: "", action: nil, keyEquivalent: "")
     private let windowSessionRow = MenuSwitchRow(title: "Session")
     private let windowMonitorRow = MenuSwitchRow(title: "Monitor")
     private let windowSetup = NSButton(title: "권한 허용…", target: nil, action: nil)
@@ -109,6 +113,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
         let remoteItem = NSMenuItem(title: "휴대폰 연결 해제", action: #selector(revokeRemote), keyEquivalent: "")
         remoteItem.target = self
         menu.insertItem(remoteItem, at: menu.numberOfItems - 1)
+        power = PowerController(model: model)
+        power.isVisible = { [weak self] in self?.powerWindow?.window?.isVisible == true }
+        power.onChange = { [weak self] in self?.updatePowerUI() }
+        let powerItem = NSMenuItem(title: "전원 및 타이머…", action: #selector(showPowerWindow), keyEquivalent: "")
+        powerItem.target = self
+        menu.insertItem(powerItem, at: 3)
+        powerStatusItem.isEnabled = false
+        powerTimerItem.isEnabled = false
+        menu.insertItem(powerStatusItem, at: 3)
+        menu.insertItem(powerTimerItem, at: 4)
+        power.refresh()
         model.onChange = { [weak self] in self?.updateMenu() }
         model.onSetupRequested = { [weak self] in self?.showSetupWindow() }
         do {
@@ -187,6 +202,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
             updateButton.controlSize = .mini
             updateButton.frame = NSRect(x: 172, y: 163, width: 80, height: 20)
             window.contentView?.addSubview(updateButton)
+            let powerButton = NSButton(title: "전원·타이머…", target: self, action: #selector(showPowerWindow))
+            powerButton.bezelStyle = .rounded
+            powerButton.controlSize = .mini
+            powerButton.frame = NSRect(x: 24, y: 163, width: 130, height: 20)
+            window.contentView?.addSubview(powerButton)
             windowMode.font = .systemFont(ofSize: 11)
             windowMode.textColor = .secondaryLabelColor
             windowMode.frame = NSRect(x: 24, y: 46, width: 216, height: 34)
@@ -195,6 +215,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
             }
             controlWindow = window
         }
+        power?.refresh()
         updateMenu()
         NSApp.activate(ignoringOtherApps: true)
         controlWindow?.makeKeyAndOrderFront(nil)
@@ -218,7 +239,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
         statusItem.menu = nil
     }
 
-    func menuWillOpen(_ menu: NSMenu) { model.refreshService(); updateMenu() }
+    func menuWillOpen(_ menu: NSMenu) { model.refreshService(); power?.refresh(); updateMenu() }
 
     private func updateMenu() {
         setupWindow?.update(helperReady: model.helperConnected, busy: model.busy, status: model.setupStatus ?? model.error)
@@ -269,6 +290,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
             }
         }
     }
+    private func updatePowerUI() {
+        powerStatusItem.title = power.statusText
+        powerTimerItem.title = power.timerText
+        powerTimerItem.isHidden = power.schedule == nil
+        powerWindow?.update()
+    }
+    @objc private func showPowerWindow() {
+        menu.cancelTracking()
+        if powerWindow == nil { powerWindow = PowerWindowController(power: power) }
+        powerWindow?.present()
+    }
     @objc private func toggleMonitor() { model.setMonitor(!model.monitorOn) }
     @objc private func prepareService() { showSetupWindow() }
     @objc private func removeService() { menu.cancelTracking(); model.removeService() }
@@ -297,7 +329,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
     @objc private func quitApp() { menu.cancelTracking(); NSApp.terminate(nil) }
     func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool { showControlWindow(); return true }
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { false }
-    func applicationWillTerminate(_ notification: Notification) { remotePairing.stopConnection(); statusIcon?.invalidate() }
+    func applicationWillTerminate(_ notification: Notification) { power?.invalidate(); remotePairing.stopConnection(); statusIcon?.invalidate() }
 
     func applicationShouldTerminate(_ sender: NSApplication) -> NSApplication.TerminateReply {
         if updateHandoff && !model.active && !model.recoveryRequired { model.client.invalidate(); return .terminateNow }

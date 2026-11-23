@@ -51,7 +51,7 @@ SIGN_FLAGS=(--force --options runtime --sign "$IDENTITY")
 if [[ "$IDENTITY" != "-" ]]; then SIGN_FLAGS+=(--timestamp); fi
 codesign "${SIGN_FLAGS[@]}" --identifier com.alwaysawake.mac.helper "$APP/Contents/Library/HelperTools/AlwaysAwakeHelper"
 codesign "${SIGN_FLAGS[@]}" --identifier com.alwaysawake.mac.mcp "$APP/Contents/MacOS/pika-mcp"
-codesign "${SIGN_FLAGS[@]}" "$APP"
+codesign "${SIGN_FLAGS[@]}" --entitlements Resources/pika.entitlements "$APP"
 codesign --verify --deep --strict --verbose=2 "$APP"
 # Never overwrite an executable in place: a running process may still map it.
 # A failed compilation or signature check leaves the previous bundle untouched.

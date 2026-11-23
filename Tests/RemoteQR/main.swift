@@ -10,7 +10,7 @@ import AppKit
         request.symbologies = [.qr]
         request.usesCPUOnly = true
         try VNImageRequestHandler(data:data).perform([request])
-        precondition(request.results?.first?.payloadStringValue == text, "QR must decode to exact pairing URL")
+        guard request.results?.first?.payloadStringValue == text else { throw NSError(domain:"QRTests",code:1,userInfo:[NSLocalizedDescriptionKey:"Vision QR decode failed; observations: \(request.results?.count ?? 0), PNG bytes: \(data.count)"]) }
         let wire = try JSONSerialization.data(withJSONObject:["ok":true,"url":text,"qrText":result.text,"qrPNG":result.png])
         precondition(wire.count < ControlWire.limit, "QR must fit local control frame")
         precondition(!RemotePairing.valid("../bad") && RemotePairing.valid(String(repeating:"a",count:43)))

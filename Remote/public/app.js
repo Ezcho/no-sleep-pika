@@ -28,6 +28,7 @@ function connect() {
       message(s.ok===true?'Mac 연결됨':'Mac 상태 확인 실패'); if(s.ok!==true)$('dashboard').classList.add('stale');
       $('session').textContent=typeof s.sessionOn==='boolean'?(s.sessionOn?'ON':'OFF'):'확인 불가';$('monitor').textContent=typeof s.monitorOn==='boolean'?(s.monitorOn?'ON':'OFF'):'확인 불가';
       $('battery').textContent=typeof s.safety?.batteryPercent==='number'?`${s.safety.batteryPercent}%${s.safety.onAC?' · 충전 중':''}`:'확인 불가';
+      $('thermal').textContent=({normal:'정상',nominal:'정상',fair:'주의',serious:'높음',critical:'위험'})[s.safety?.thermalState]||'확인 불가';
       $('lid').textContent=typeof s.safety?.lidClosed==='boolean'?(s.safety.lidClosed?'닫힘':'열림'):'확인 불가';
       $('health').textContent=s.recoveryRequired?'Mac에서 복구 필요':s.waitingForLid?'덮개 닫기 대기':s.busy?'처리 중':s.ok?'정상':'확인 불가';
       $('updated').textContent=`마지막 확인 ${new Date(m.at).toLocaleTimeString()}`;
