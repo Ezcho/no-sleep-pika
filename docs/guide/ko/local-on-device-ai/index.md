@@ -85,6 +85,8 @@ pika는 AI 모델을 실행하거나 클라우드 AI를 로컬 AI로 바꾸는 �
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[AI 에이전트 둘이 같은 파일을 고치면? 작업 폴더부터 나누세요 →](https://no-sleep-pika.online/guide/ko/parallel-ai-agents-git-worktree/)
+
 [QR 하나로 Mac을 제어하세요: 휴대폰에서 세션·타이머·종료까지 →](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/)
 
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.

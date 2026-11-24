@@ -63,6 +63,8 @@ no-sleep-pika के निर्माता की अपनी ऐप 1.3.0 �
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[दो AI एजेंट एक ही फ़ाइल बदल रहे हैं? पहले काम के फ़ोल्डर अलग करें। →](https://no-sleep-pika.online/guide/hi/parallel-ai-agents-git-worktree/)
+
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।
 
 [pika डाउनलोड करें](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Mac को स्लीप में जाने से कैसे रोकें: क्लैमशेल, caffeinate और pika →](https://no-sleep-pika.online/guide/hi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/hi/control-mac-from-phone-qr/index.md)

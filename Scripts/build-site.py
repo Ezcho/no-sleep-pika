@@ -16,6 +16,7 @@ from locked_ai_article import build as build_locked_ai, UPDATED as LOCK_UPDATED,
 from local_ai_article import build as build_local_ai, UPDATED as LOCAL_AI_UPDATED, PATHS as LOCAL_AI_PATHS, COPY as LOCAL_AI_COPY
 from energy_article import build as build_energy_article, UPDATED as ENERGY_UPDATED, PATHS as ENERGY_PATHS, COPY as ENERGY_COPY
 from download_article import build as build_download_article, UPDATED as DOWNLOAD_UPDATED, PATHS as DOWNLOAD_PATHS, COPY as DOWNLOAD_COPY
+from worktree_article import build as build_worktree_article, UPDATED as WORKTREE_UPDATED, PATHS as WORKTREE_PATHS, COPY as WORKTREE_COPY
 from control_article import build as build_control_article, UPDATED as CONTROL_UPDATED, PATHS as CONTROL_PATHS, COPY as CONTROL_COPY
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -951,6 +952,13 @@ def main():
     energy_urls = build_energy_article(OUT, BASE, REPO, RELEASE)
     local_ai_urls = build_local_ai(OUT, BASE, REPO, RELEASE)
     control_urls = build_control_article(OUT, BASE, REPO, RELEASE)
+    worktree_urls = build_worktree_article(OUT, BASE, REPO, RELEASE)
+    for collection in (LOCAL_AI_PATHS, LOCK_PATHS, CONTROL_PATHS):
+        for locale, path in collection.items():
+            page = OUT / path.strip('/') / 'index.html'
+            content = page.read_text(encoding='utf-8')
+            related = f'<p><a href="{WORKTREE_PATHS[locale]}">{html.escape(WORKTREE_COPY[locale]["title"])} →</a></p>'
+            page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
     for collection in (ARTICLE_PATHS, KEEP_PATHS, LOCK_PATHS, LOCAL_AI_PATHS):
         for locale, path in collection.items():
             page = OUT / path.strip('/') / 'index.html'
@@ -987,12 +995,12 @@ def main():
         related = f'<p><a href="{KEEP_PATHS[locale]}">{html.escape(KEEP_COPY[locale]["title"])} →</a></p>'
         page.write_text(content.replace('</article>', related + '</article>'), encoding='utf-8')
     # Apply the same analytics loader to every generated language and guide.
-    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls + download_urls + energy_urls + local_ai_urls + control_urls:
+    for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls + download_urls + energy_urls + local_ai_urls + control_urls + worktree_urls:
         page = OUT / url.removeprefix(BASE).lstrip('/') / 'index.html'
         content = page.read_text(encoding='utf-8')
         content = content.replace('</head>', '<script src="/ga.js" defer></script></head>')
         page.write_text(content, encoding='utf-8')
-    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS)), (download_urls, DOWNLOAD_UPDATED, tuple(DOWNLOAD_PATHS)), (energy_urls, ENERGY_UPDATED, tuple(ENERGY_PATHS)), (local_ai_urls, LOCAL_AI_UPDATED, tuple(LOCAL_AI_PATHS)), (control_urls, CONTROL_UPDATED, tuple(CONTROL_PATHS))):
+    for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS)), (download_urls, DOWNLOAD_UPDATED, tuple(DOWNLOAD_PATHS)), (energy_urls, ENERGY_UPDATED, tuple(ENERGY_PATHS)), (local_ai_urls, LOCAL_AI_UPDATED, tuple(LOCAL_AI_PATHS)), (control_urls, CONTROL_UPDATED, tuple(CONTROL_PATHS)), (worktree_urls, WORKTREE_UPDATED, tuple(WORKTREE_PATHS))):
         alternates = ''.join(f'<xhtml:link rel="alternate" hreflang="{language}" href="{url}"/>' for language, url in zip(languages, urls))
         alternates += f'<xhtml:link rel="alternate" hreflang="x-default" href="{urls[0]}"/>'
         entries += ''.join(f'<url><loc>{url}</loc><lastmod>{updated}</lastmod>{alternates}</url>' for url in urls)
@@ -1004,7 +1012,7 @@ def main():
             robots.write(f'\nUser-agent: {agent}\nAllow: /\n')
     build_ai_docs(OUT, BASE)
     (OUT / '.nojekyll').touch()
-    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 105 articles, sitemap.xml and robots.txt.')
+    print(f'Built {len(LANGUAGES)} localized homepages, 4 guides, 120 articles, sitemap.xml and robots.txt.')
 
 if __name__ == '__main__':
     main()

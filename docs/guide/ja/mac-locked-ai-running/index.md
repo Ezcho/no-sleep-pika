@@ -59,6 +59,8 @@ Monitor OFFはAIの停止ではありません。tmuxはシステムのスリー
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AIエージェント2つが同じファイルを編集？まず作業フォルダを分けよう →](https://no-sleep-pika.online/guide/ja/parallel-ai-agents-git-worktree/)
+
 [QRコードでMacを操作：スマホからセッション・タイマー・電源を管理 →](https://no-sleep-pika.online/guide/ja/control-mac-from-phone-qr/)
 
 [Claude CodeもローカルAI？Llama・Qwenで学ぶオンデバイスAI →](https://no-sleep-pika.online/guide/ja/local-on-device-ai/)

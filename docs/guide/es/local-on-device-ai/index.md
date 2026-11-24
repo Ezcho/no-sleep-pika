@@ -63,6 +63,8 @@ Guía del creador de pika basada en documentos oficiales revisados el 22 de octu
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[¿Dos agentes de IA editando los mismos archivos? Separa sus carpetas. →](https://no-sleep-pika.online/guide/es/parallel-ai-agents-git-worktree/)
+
 [Controla tu Mac con un QR: sesiones, temporizadores y apagado desde el móvil →](https://no-sleep-pika.online/guide/es/control-mac-from-phone-qr/)
 
 Escrito por el creador de no-sleep-pika; incluye nuestra app.

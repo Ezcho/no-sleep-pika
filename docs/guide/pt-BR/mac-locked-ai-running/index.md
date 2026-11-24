@@ -59,6 +59,8 @@ Fontes oficiais e implementação verificadas em 5 de outubro de 2026. Guia do c
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Dois agentes de IA editando os mesmos arquivos? Separe as pastas. →](https://no-sleep-pika.online/guide/pt-BR/parallel-ai-agents-git-worktree/)
+
 [Controle o Mac por QR: sessões, temporizadores e desligamento pelo celular →](https://no-sleep-pika.online/guide/pt-BR/control-mac-from-phone-qr/)
 
 [Claude Code é IA local? Entenda Llama, Qwen e IA no dispositivo →](https://no-sleep-pika.online/guide/pt-BR/local-on-device-ai/)

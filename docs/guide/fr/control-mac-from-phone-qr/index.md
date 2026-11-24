@@ -63,6 +63,8 @@ Guide de l’auteur de no-sleep-pika sur sa propre application 1.3.0, rédigé l
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[Deux agents IA modifient les mêmes fichiers ? Séparez leurs dossiers. →](https://no-sleep-pika.online/guide/fr/parallel-ai-agents-git-worktree/)
+
 Rédigé par le créateur de no-sleep-pika ; présente notre app.
 
 [Télécharger pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Empêcher un Mac de se mettre en veille : écran fermé, caffeinate et pika →](https://no-sleep-pika.online/guide/fr/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/fr/control-mac-from-phone-qr/index.md)

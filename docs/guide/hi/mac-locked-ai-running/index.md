@@ -59,6 +59,8 @@ Monitor OFF AI समाप्त करने का आदेश नहीं 
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[दो AI एजेंट एक ही फ़ाइल बदल रहे हैं? पहले काम के फ़ोल्डर अलग करें। →](https://no-sleep-pika.online/guide/hi/parallel-ai-agents-git-worktree/)
+
 [एक QR से Mac नियंत्रित करें: फ़ोन से सेशन, टाइमर और शटडाउन →](https://no-sleep-pika.online/guide/hi/control-mac-from-phone-qr/)
 
 [क्या Claude Code लोकल AI है? Llama, Qwen और ऑन-डिवाइस AI समझें →](https://no-sleep-pika.online/guide/hi/local-on-device-ai/)

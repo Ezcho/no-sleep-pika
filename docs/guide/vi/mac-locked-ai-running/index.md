@@ -59,6 +59,8 @@ Nguồn và phạm vi
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Hai tác nhân AI cùng sửa một tệp? Hãy tách thư mục trước. →](https://no-sleep-pika.online/guide/vi/parallel-ai-agents-git-worktree/)
+
 [Điều khiển Mac bằng QR: phiên, hẹn giờ và tắt máy từ điện thoại →](https://no-sleep-pika.online/guide/vi/control-mac-from-phone-qr/)
 
 [Claude Code có phải AI cục bộ? Hiểu Llama, Qwen và AI trên thiết bị →](https://no-sleep-pika.online/guide/vi/local-on-device-ai/)

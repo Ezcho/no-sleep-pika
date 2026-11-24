@@ -63,6 +63,8 @@ Guide du créateur de pika, documents officiels vérifiés le 22 octobre 2026. C
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Deux agents IA modifient les mêmes fichiers ? Séparez leurs dossiers. →](https://no-sleep-pika.online/guide/fr/parallel-ai-agents-git-worktree/)
+
 [Contrôlez votre Mac avec un QR : sessions, minuteurs et extinction depuis le téléphone →](https://no-sleep-pika.online/guide/fr/control-mac-from-phone-qr/)
 
 Rédigé par le créateur de no-sleep-pika ; présente notre app.

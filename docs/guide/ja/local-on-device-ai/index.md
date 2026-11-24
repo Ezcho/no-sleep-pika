@@ -63,6 +63,8 @@ Macが処理する仕事はスリープで止まったり遅れたりします�
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[AIエージェント2つが同じファイルを編集？まず作業フォルダを分けよう →](https://no-sleep-pika.online/guide/ja/parallel-ai-agents-git-worktree/)
+
 [QRコードでMacを操作：スマホからセッション・タイマー・電源を管理 →](https://no-sleep-pika.online/guide/ja/control-mac-from-phone-qr/)
 
 pika開発者による、自社アプリを含む比較です。

@@ -28,6 +28,8 @@ Markdown pages below are generated from the same HTML as the public website. The
 - [Claude Code도 로컬 AI일까? Llama·Qwen으로 이해하는 온디바이스 AI | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/local-on-device-ai/index.md)
 - [Control your Mac with a QR code: sessions, timers and shutdown from your phone | no-sleep-pika (en)](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/index.md)
 - [QR 하나로 Mac을 제어하세요: 휴대폰에서 세션·타이머·종료까지 | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/index.md)
+- [Two AI agents editing the same files? Give them separate folders. | no-sleep-pika (en)](https://no-sleep-pika.online/guide/parallel-ai-agents-git-worktree/index.md)
+- [AI 에이전트 둘이 같은 파일을 고치면? 작업 폴더부터 나누세요 | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/parallel-ai-agents-git-worktree/index.md)
 
 ## All localized pages and articles
 
@@ -155,6 +157,21 @@ Markdown pages below are generated from the same HTML as the public website. The
 - [تحكّم في Mac برمز QR: الجلسات والمؤقتات والإيقاف من هاتفك | no-sleep-pika (ar)](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/index.md)
 - [Điều khiển Mac bằng QR: phiên, hẹn giờ và tắt máy từ điện thoại | no-sleep-pika (vi)](https://no-sleep-pika.online/guide/vi/control-mac-from-phone-qr/index.md)
 - [ควบคุม Mac ด้วย QR: เซสชัน ตัวตั้งเวลา และปิดเครื่องผ่านมือถือ | no-sleep-pika (th)](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/index.md)
+- [Two AI agents editing the same files? Give them separate folders. | no-sleep-pika (en)](https://no-sleep-pika.online/guide/parallel-ai-agents-git-worktree/index.md)
+- [AI 에이전트 둘이 같은 파일을 고치면? 작업 폴더부터 나누세요 | no-sleep-pika (ko)](https://no-sleep-pika.online/guide/ko/parallel-ai-agents-git-worktree/index.md)
+- [两个 AI 同时改同一份文件？先把工作文件夹分开 | no-sleep-pika (zh-CN)](https://no-sleep-pika.online/guide/zh-CN/parallel-ai-agents-git-worktree/index.md)
+- [兩個 AI 同時改同一份檔案？先把工作資料夾分開 | no-sleep-pika (zh-TW)](https://no-sleep-pika.online/guide/zh-TW/parallel-ai-agents-git-worktree/index.md)
+- [AIエージェント2つが同じファイルを編集？まず作業フォルダを分けよう | no-sleep-pika (ja)](https://no-sleep-pika.online/guide/ja/parallel-ai-agents-git-worktree/index.md)
+- [दो AI एजेंट एक ही फ़ाइल बदल रहे हैं? पहले काम के फ़ोल्डर अलग करें। | no-sleep-pika (hi)](https://no-sleep-pika.online/guide/hi/parallel-ai-agents-git-worktree/index.md)
+- [Dua agen AI mengedit berkas yang sama? Pisahkan foldernya dulu. | no-sleep-pika (id)](https://no-sleep-pika.online/guide/id/parallel-ai-agents-git-worktree/index.md)
+- [¿Dos agentes de IA editando los mismos archivos? Separa sus carpetas. | no-sleep-pika (es)](https://no-sleep-pika.online/guide/es/parallel-ai-agents-git-worktree/index.md)
+- [Deux agents IA modifient les mêmes fichiers ? Séparez leurs dossiers. | no-sleep-pika (fr)](https://no-sleep-pika.online/guide/fr/parallel-ai-agents-git-worktree/index.md)
+- [Zwei KI-Agenten ändern dieselben Dateien? Erst die Ordner trennen. | no-sleep-pika (de)](https://no-sleep-pika.online/guide/de/parallel-ai-agents-git-worktree/index.md)
+- [Dois agentes de IA editando os mesmos arquivos? Separe as pastas. | no-sleep-pika (pt-BR)](https://no-sleep-pika.online/guide/pt-BR/parallel-ai-agents-git-worktree/index.md)
+- [Два ИИ-агента меняют одни файлы? Сначала разделите папки. | no-sleep-pika (ru)](https://no-sleep-pika.online/guide/ru/parallel-ai-agents-git-worktree/index.md)
+- [وكيلان للذكاء الاصطناعي يعدّلان الملفات نفسها؟ افصل مجلدات العمل أولاً. | no-sleep-pika (ar)](https://no-sleep-pika.online/guide/ar/parallel-ai-agents-git-worktree/index.md)
+- [Hai tác nhân AI cùng sửa một tệp? Hãy tách thư mục trước. | no-sleep-pika (vi)](https://no-sleep-pika.online/guide/vi/parallel-ai-agents-git-worktree/index.md)
+- [AI สองตัวแก้ไฟล์เดียวกัน? แยกโฟลเดอร์ทำงานก่อน | no-sleep-pika (th)](https://no-sleep-pika.online/guide/th/parallel-ai-agents-git-worktree/index.md)
 
 ## Optional
 

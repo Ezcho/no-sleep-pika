@@ -59,6 +59,8 @@ Offizielle Quellen und pika-Code geprüft am 5. Oktober 2026. Vom pika-Entwickle
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Zwei KI-Agenten ändern dieselben Dateien? Erst die Ordner trennen. →](https://no-sleep-pika.online/guide/de/parallel-ai-agents-git-worktree/)
+
 [Mac per QR steuern: Sitzungen, Timer und Ausschalten vom Smartphone →](https://no-sleep-pika.online/guide/de/control-mac-from-phone-qr/)
 
 [Ist Claude Code lokale KI? Llama, Qwen und On-Device-KI erklärt →](https://no-sleep-pika.online/guide/de/local-on-device-ai/)

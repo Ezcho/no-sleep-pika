@@ -59,6 +59,8 @@ Documentación oficial e implementación de pika revisadas el 5 de octubre de 20
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[¿Dos agentes de IA editando los mismos archivos? Separa sus carpetas. →](https://no-sleep-pika.online/guide/es/parallel-ai-agents-git-worktree/)
+
 [Controla tu Mac con un QR: sesiones, temporizadores y apagado desde el móvil →](https://no-sleep-pika.online/guide/es/control-mac-from-phone-qr/)
 
 [¿Claude Code es IA local? Entender Llama, Qwen y la IA en el dispositivo →](https://no-sleep-pika.online/guide/es/local-on-device-ai/)

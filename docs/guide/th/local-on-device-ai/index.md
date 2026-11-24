@@ -63,6 +63,8 @@ Claude Code เป็นเครื่องมือจัดการไฟ�
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[AI สองตัวแก้ไฟล์เดียวกัน? แยกโฟลเดอร์ทำงานก่อน →](https://no-sleep-pika.online/guide/th/parallel-ai-agents-git-worktree/)
+
 [ควบคุม Mac ด้วย QR: เซสชัน ตัวตั้งเวลา และปิดเครื่องผ่านมือถือ →](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/)
 
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง

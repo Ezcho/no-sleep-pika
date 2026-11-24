@@ -79,6 +79,8 @@ Official documentation checked on October 22, 2026. Written by pika’s maker as
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Two AI agents editing the same files? Give them separate folders. →](https://no-sleep-pika.online/guide/parallel-ai-agents-git-worktree/)
+
 [Control your Mac with a QR code: sessions, timers and shutdown from your phone →](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/)
 
 Written by the maker of no-sleep-pika; this comparison includes our own app.

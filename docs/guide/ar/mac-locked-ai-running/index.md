@@ -59,6 +59,8 @@ Monitor OFF ليس أمراً بإنهاء مهمة الذكاء الاصطنا�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[وكيلان للذكاء الاصطناعي يعدّلان الملفات نفسها؟ افصل مجلدات العمل أولاً. →](https://no-sleep-pika.online/guide/ar/parallel-ai-agents-git-worktree/)
+
 [تحكّم في Mac برمز QR: الجلسات والمؤقتات والإيقاف من هاتفك →](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/)
 
 [هل Claude Code ذكاء اصطناعي محلي؟ فهم Llama وQwen والذكاء على الجهاز →](https://no-sleep-pika.online/guide/ar/local-on-device-ai/)

@@ -59,6 +59,8 @@ Monitor OFF не завершает ИИ-задачу. tmux не предотв�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Два ИИ-агента меняют одни файлы? Сначала разделите папки. →](https://no-sleep-pika.online/guide/ru/parallel-ai-agents-git-worktree/)
+
 [Управляйте Mac по QR: сеансы, таймеры и выключение с телефона →](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/)
 
 [Claude Code — локальный ИИ? Объясняем Llama, Qwen и ИИ на устройстве →](https://no-sleep-pika.online/guide/ru/local-on-device-ai/)

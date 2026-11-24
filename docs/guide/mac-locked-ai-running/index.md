@@ -71,6 +71,8 @@ Checked against official documentation and current pika source on October 5, 202
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Two AI agents editing the same files? Give them separate folders. →](https://no-sleep-pika.online/guide/parallel-ai-agents-git-worktree/)
+
 [Control your Mac with a QR code: sessions, timers and shutdown from your phone →](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/)
 
 [Is Claude Code local AI? On-device AI explained with Llama and Qwen →](https://no-sleep-pika.online/guide/local-on-device-ai/)

@@ -63,6 +63,8 @@ no-sleep-pikaの制作者が2026年11月23日に自社アプリ1.3.0について
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[AIエージェント2つが同じファイルを編集？まず作業フォルダを分けよう →](https://no-sleep-pika.online/guide/ja/parallel-ai-agents-git-worktree/)
+
 pika開発者による、自社アプリを含む比較です。
 
 [pikaをダウンロード](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Macをスリープさせない方法：クラムシェル・caffeinate・pika →](https://no-sleep-pika.online/guide/ja/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ja/control-mac-from-phone-qr/index.md)

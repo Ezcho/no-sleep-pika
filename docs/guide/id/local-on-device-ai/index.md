@@ -63,6 +63,8 @@ Panduan pembuat pika, sumber resmi diperiksa 22 Oktober 2026. Bukan pengujian se
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Dua agen AI mengedit berkas yang sama? Pisahkan foldernya dulu. →](https://no-sleep-pika.online/guide/id/parallel-ai-agents-git-worktree/)
+
 [Kendalikan Mac dengan QR: sesi, timer, dan matikan dari ponsel →](https://no-sleep-pika.online/guide/id/control-mac-from-phone-qr/)
 
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.

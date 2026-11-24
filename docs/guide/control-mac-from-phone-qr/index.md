@@ -63,6 +63,8 @@ Written by the no-sleep-pika maker on November 23, 2026, for pika 1.3.0. This is
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[Two AI agents editing the same files? Give them separate folders. →](https://no-sleep-pika.online/guide/parallel-ai-agents-git-worktree/)
+
 Written by the maker of no-sleep-pika; this comparison includes our own app.
 
 [Download pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[How to keep your Mac awake: clamshell mode, caffeinate and pika →](https://no-sleep-pika.online/guide/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/control-mac-from-phone-qr/index.md)

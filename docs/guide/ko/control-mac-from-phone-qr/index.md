@@ -65,6 +65,8 @@ QR은 다른 사람과 공유하지 마세요. 이동 전에는 중요하지 않
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[AI 에이전트 둘이 같은 파일을 고치면? 작업 폴더부터 나누세요 →](https://no-sleep-pika.online/guide/ko/parallel-ai-agents-git-worktree/)
+
 no-sleep-pika 제작자가 작성한 자사 앱 포함 비교 안내입니다.
 
 [pika 다운로드](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Mac에서 맥을 잠들지 않게 하는 방법: 클램쉘·터미널·pika 비교 →](https://no-sleep-pika.online/guide/ko/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/index.md)

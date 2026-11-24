@@ -59,6 +59,8 @@ Dokumentasi resmi dan implementasi diperiksa 5 Oktober 2026. Panduan dari pembua
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Dua agen AI mengedit berkas yang sama? Pisahkan foldernya dulu. →](https://no-sleep-pika.online/guide/id/parallel-ai-agents-git-worktree/)
+
 [Kendalikan Mac dengan QR: sesi, timer, dan matikan dari ponsel →](https://no-sleep-pika.online/guide/id/control-mac-from-phone-qr/)
 
 [Apakah Claude Code AI lokal? Memahami Llama, Qwen dan AI di perangkat →](https://no-sleep-pika.online/guide/id/local-on-device-ai/)

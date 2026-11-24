@@ -63,6 +63,8 @@ pika 製作者於2026年10月22日核對官方資料撰寫。本文是入門說�
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[兩個 AI 同時改同一份檔案？先把工作資料夾分開 →](https://no-sleep-pika.online/guide/zh-TW/parallel-ai-agents-git-worktree/)
+
 [用一個 QR Code 控制 Mac：手機管理工作階段、計時與關機 →](https://no-sleep-pika.online/guide/zh-TW/control-mac-from-phone-qr/)
 
 由 no-sleep-pika 開發者撰寫，包含自家產品。

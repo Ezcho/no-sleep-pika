@@ -63,6 +63,8 @@ Claude Code работает с файлами и командами. Llama и Q
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Два ИИ-агента меняют одни файлы? Сначала разделите папки. →](https://no-sleep-pika.online/guide/ru/parallel-ai-agents-git-worktree/)
+
 [Управляйте Mac по QR: сеансы, таймеры и выключение с телефона →](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/)
 
 Материал разработчика no-sleep-pika с описанием собственного приложения.

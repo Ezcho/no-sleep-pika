@@ -61,6 +61,8 @@ Guia do criador do no-sleep-pika sobre o próprio aplicativo 1.3.0, escrito em 2
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[Dois agentes de IA editando os mesmos arquivos? Separe as pastas. →](https://no-sleep-pika.online/guide/pt-BR/parallel-ai-agents-git-worktree/)
+
 Escrito pelo criador de no-sleep-pika; inclui nosso app.
 
 [Baixar pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Como manter o Mac acordado: modo clamshell, caffeinate e pika →](https://no-sleep-pika.online/guide/pt-BR/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/pt-BR/control-mac-from-phone-qr/index.md)

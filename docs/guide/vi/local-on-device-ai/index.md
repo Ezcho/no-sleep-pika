@@ -63,6 +63,8 @@ Hướng dẫn của người tạo pika, kiểm tra nguồn chính thức ngày
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Hai tác nhân AI cùng sửa một tệp? Hãy tách thư mục trước. →](https://no-sleep-pika.online/guide/vi/parallel-ai-agents-git-worktree/)
+
 [Điều khiển Mac bằng QR: phiên, hẹn giờ và tắt máy từ điện thoại →](https://no-sleep-pika.online/guide/vi/control-mac-from-phone-qr/)
 
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.

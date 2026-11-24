@@ -63,6 +63,8 @@ pika निर्माता की शुरुआती गाइड; आध�
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[दो AI एजेंट एक ही फ़ाइल बदल रहे हैं? पहले काम के फ़ोल्डर अलग करें। →](https://no-sleep-pika.online/guide/hi/parallel-ai-agents-git-worktree/)
+
 [एक QR से Mac नियंत्रित करें: फ़ोन से सेशन, टाइमर और शटडाउन →](https://no-sleep-pika.online/guide/hi/control-mac-from-phone-qr/)
 
 no-sleep-pika निर्माता की अपनी ऐप सहित तुलना।

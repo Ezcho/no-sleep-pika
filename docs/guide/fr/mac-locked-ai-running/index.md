@@ -59,6 +59,8 @@ Sources officielles et code pika consultés le 5 octobre 2026. Guide rédigé pa
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[Deux agents IA modifient les mêmes fichiers ? Séparez leurs dossiers. →](https://no-sleep-pika.online/guide/fr/parallel-ai-agents-git-worktree/)
+
 [Contrôlez votre Mac avec un QR : sessions, minuteurs et extinction depuis le téléphone →](https://no-sleep-pika.online/guide/fr/control-mac-from-phone-qr/)
 
 [Claude Code est-il une IA locale ? Comprendre Llama, Qwen et l’IA sur appareil →](https://no-sleep-pika.online/guide/fr/local-on-device-ai/)

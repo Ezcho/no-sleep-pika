@@ -61,6 +61,8 @@ MAC GUIDE · 2026-11-23
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[وكيلان للذكاء الاصطناعي يعدّلان الملفات نفسها؟ افصل مجلدات العمل أولاً. →](https://no-sleep-pika.online/guide/ar/parallel-ai-agents-git-worktree/)
+
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.
 
 [تنزيل pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[كيف تمنع Mac من السكون: وضع الغطاء المغلق وcaffeinate وpika →](https://no-sleep-pika.online/guide/ar/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/index.md)

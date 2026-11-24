@@ -83,6 +83,8 @@ pika의 배터리·열 상태 보호가 작동하거나 보조 서비스 연결�
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI 에이전트 둘이 같은 파일을 고치면? 작업 폴더부터 나누세요 →](https://no-sleep-pika.online/guide/ko/parallel-ai-agents-git-worktree/)
+
 [QR 하나로 Mac을 제어하세요: 휴대폰에서 세션·타이머·종료까지 →](https://no-sleep-pika.online/guide/ko/control-mac-from-phone-qr/)
 
 [Claude Code도 로컬 AI일까? Llama·Qwen으로 이해하는 온디바이스 AI →](https://no-sleep-pika.online/guide/ko/local-on-device-ai/)

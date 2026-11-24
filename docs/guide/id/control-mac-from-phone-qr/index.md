@@ -63,6 +63,8 @@ Ditulis pembuat no-sleep-pika pada 23 November 2026 untuk aplikasi sendiri, vers
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[Dua agen AI mengedit berkas yang sama? Pisahkan foldernya dulu. →](https://no-sleep-pika.online/guide/id/parallel-ai-agents-git-worktree/)
+
 Ditulis oleh pembuat no-sleep-pika; mencakup aplikasi kami.
 
 [Unduh pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Cara menjaga Mac tetap aktif: clamshell, caffeinate, dan pika →](https://no-sleep-pika.online/guide/id/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/id/control-mac-from-phone-qr/index.md)

@@ -63,6 +63,8 @@ Claude Code أداة للملفات والأوامر. Llama وQwen عائلتا�
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[وكيلان للذكاء الاصطناعي يعدّلان الملفات نفسها؟ افصل مجلدات العمل أولاً. →](https://no-sleep-pika.online/guide/ar/parallel-ai-agents-git-worktree/)
+
 [تحكّم في Mac برمز QR: الجلسات والمؤقتات والإيقاف من هاتفك →](https://no-sleep-pika.online/guide/ar/control-mac-from-phone-qr/)
 
 مقارنة كتبها مطور no-sleep-pika وتشمل تطبيقه.

@@ -63,6 +63,8 @@ Einführung vom pika-Entwickler; offizielle Quellen am 22. Oktober 2026 geprüft
 
 - [Meta · Llama models](https://github.com/meta-llama/llama-models)
 
+[Zwei KI-Agenten ändern dieselben Dateien? Erst die Ordner trennen. →](https://no-sleep-pika.online/guide/de/parallel-ai-agents-git-worktree/)
+
 [Mac per QR steuern: Sitzungen, Timer und Ausschalten vom Smartphone →](https://no-sleep-pika.online/guide/de/control-mac-from-phone-qr/)
 
 Vom no-sleep-pika-Entwickler verfasst; enthält unsere eigene App.

@@ -63,6 +63,8 @@ Session 用來開啟或解除防睡眠。Monitor 僅在 Session 開啟時可用�
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[兩個 AI 同時改同一份檔案？先把工作資料夾分開 →](https://no-sleep-pika.online/guide/zh-TW/parallel-ai-agents-git-worktree/)
+
 由 no-sleep-pika 開發者撰寫，包含自家產品。
 
 [下載 pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[讓 Mac 不進入睡眠的方法：闔蓋模式、caffeinate 與 pika →](https://no-sleep-pika.online/guide/zh-TW/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/zh-TW/control-mac-from-phone-qr/index.md)

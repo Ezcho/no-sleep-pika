@@ -61,6 +61,8 @@ Session เปิดหรือยุติการป้องกันพั
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[AI สองตัวแก้ไฟล์เดียวกัน? แยกโฟลเดอร์ทำงานก่อน →](https://no-sleep-pika.online/guide/th/parallel-ai-agents-git-worktree/)
+
 เขียนโดยผู้พัฒนา no-sleep-pika และแนะนำแอปของตนเอง
 
 [ดาวน์โหลด pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[วิธีทำให้ Mac ไม่พักเครื่อง: clamshell, caffeinate และ pika →](https://no-sleep-pika.online/guide/th/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/index.md)

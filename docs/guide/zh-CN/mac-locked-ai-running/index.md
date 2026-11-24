@@ -59,6 +59,8 @@ Monitor OFF 不是结束 AI 任务。tmux 不阻止系统睡眠；caffeinate 不
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[两个 AI 同时改同一份文件？先把工作文件夹分开 →](https://no-sleep-pika.online/guide/zh-CN/parallel-ai-agents-git-worktree/)
+
 [用一个二维码控制 Mac：手机管理会话、定时与关机 →](https://no-sleep-pika.online/guide/zh-CN/control-mac-from-phone-qr/)
 
 [Claude Code 也是本地 AI 吗？用 Llama、Qwen 理解端侧 AI →](https://no-sleep-pika.online/guide/zh-CN/local-on-device-ai/)

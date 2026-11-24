@@ -61,6 +61,8 @@ Session включает или снимает запрет сна. Monitor ме
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[Два ИИ-агента меняют одни файлы? Сначала разделите папки. →](https://no-sleep-pika.online/guide/ru/parallel-ai-agents-git-worktree/)
+
 Материал разработчика no-sleep-pika с описанием собственного приложения.
 
 [Скачать pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Как не дать Mac уснуть: закрытая крышка, caffeinate и pika →](https://no-sleep-pika.online/guide/ru/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/ru/control-mac-from-phone-qr/index.md)

@@ -59,6 +59,8 @@ Monitor OFF ไม่ได้สั่งจบงาน AI ส่วน tmux �
 
 - [Anthropic · Claude Code Remote Control](https://code.claude.com/docs/en/remote-control)
 
+[AI สองตัวแก้ไฟล์เดียวกัน? แยกโฟลเดอร์ทำงานก่อน →](https://no-sleep-pika.online/guide/th/parallel-ai-agents-git-worktree/)
+
 [ควบคุม Mac ด้วย QR: เซสชัน ตัวตั้งเวลา และปิดเครื่องผ่านมือถือ →](https://no-sleep-pika.online/guide/th/control-mac-from-phone-qr/)
 
 [Claude Code เป็น AI ในเครื่องไหม? เข้าใจ Llama, Qwen และ On-device AI →](https://no-sleep-pika.online/guide/th/local-on-device-ai/)

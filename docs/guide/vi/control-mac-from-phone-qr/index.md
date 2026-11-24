@@ -61,6 +61,8 @@ Hướng dẫn do nhà phát triển no-sleep-pika viết cho ứng dụng 1.3.0
 
 - [Apple · Safely open apps on your Mac](https://support.apple.com/en-us/102445)
 
+[Hai tác nhân AI cùng sửa một tệp? Hãy tách thư mục trước. →](https://no-sleep-pika.online/guide/vi/parallel-ai-agents-git-worktree/)
+
 Do nhà phát triển no-sleep-pika viết, có giới thiệu ứng dụng của mình.
 
 [Tải pika](https://github.com/Ezcho/no-sleep-pika/releases/download/v1.3.0/pika-1.3.0.pkg)[Cách giữ Mac không ngủ: clamshell, caffeinate và pika →](https://no-sleep-pika.online/guide/vi/keep-mac-awake/)[Markdown](https://no-sleep-pika.online/guide/vi/control-mac-from-phone-qr/index.md)
