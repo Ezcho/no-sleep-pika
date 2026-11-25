@@ -13,7 +13,6 @@ final class AppModel {
     var needsApproval = false { didSet { onChange?() } }
     var helperConnected = false { didSet { onChange?() } }
     var setupStatus: String? { didSet { onChange?() } }
-    var onSetupRequested: (() -> Void)?
     private let requiresInstalledHelper = Signature.isAdHoc(Bundle.main.bundleURL.appendingPathComponent("Contents/Library/HelperTools/AlwaysAwakeHelper"))
     private(set) var installedHelperReady = false
     // Retained in the MCP status schema for older clients. Sessions require lid support.
@@ -89,12 +88,11 @@ final class AppModel {
         setupStatus = nil
         if InstalledHelper.isPresent {
             do { try InstalledHelper.validateForClient() }
-            catch { self.error = error.localizedDescription; onSetupRequested?() }
+            catch { self.error = error.localizedDescription }
             return
         }
         guard !requiresInstalledHelper else {
             error = "덮개 모드에는 보조 서비스가 필요합니다. 설치 안내에서 pika PKG를 다시 설치해 주세요."
-            onSetupRequested?()
             return
         }
         // A stable installation path is required by ServiceManagement and app updates.
@@ -150,7 +148,6 @@ final class AppModel {
                 self.error = failure.localizedDescription
                 self.helperConnected = false
                 self.refreshService()
-                self.onSetupRequested?()
             }
             self.onChange?()
         }

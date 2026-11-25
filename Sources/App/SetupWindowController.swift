@@ -26,7 +26,7 @@ final class SetupWindowController: NSWindowController {
         let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 500, height: 604),
                               styleMask: [.titled, .closable, .miniaturizable],
                               backing: .buffered, defer: false)
-        window.title = "pika · 시작하기"
+        window.title = "pika · 설치 안내"
         window.isReleasedWhenClosed = false
         window.collectionBehavior = [.moveToActiveSpace]
         window.backgroundColor = NSColor(calibratedRed: 0.98, green: 0.97, blue: 0.93, alpha: 1)
@@ -75,7 +75,7 @@ final class SetupWindowController: NSWindowController {
             stack.bottomAnchor.constraint(lessThanOrEqualTo: content.bottomAnchor, constant: -18)
         ])
 
-        let heading = label("pika, 시작할 준비", size: 23, weight: .bold)
+        let heading = label("pika 설치 안내", size: 23, weight: .bold)
         stack.addArrangedSubview(heading)
 
         let first = card(badge: NSTextField(labelWithString: "✓"),

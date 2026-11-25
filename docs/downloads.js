@@ -4,15 +4,15 @@
   if (!document.querySelectorAll || !document.createElement) return;
   const ko = document.documentElement.lang === 'ko';
   const copy = ko ? {
-    title: '설치가 막히면 이렇게 해주세요',
-    intro: '다운로드한 PKG를 먼저 한 번 여세요. 설치 후 앱이 차단되면 응용 프로그램의 pika를 먼저 여세요.',
+    title: 'PKG가 열리지 않나요?',
+    intro: '다운로드한 pika PKG를 여세요. 개발자를 확인할 수 없어 열리지 않으면 아래 순서로 허용해 주세요.',
     steps: ['시스템 설정 → 개인정보 보호 및 보안', '아래쪽 보안 영역에서 방금 연 pika 파일 확인', '출처를 신뢰하면 ‘그래도 열기’ → macOS 인증 → ‘열기’'],
     note: '개발자를 확인하거나 앱을 검증할 수 없다는 경고에만 해당합니다. 현재 빌드는 Developer ID 서명·공증이 없습니다.',
     danger: '손상 경고는 파일을 다시 받은 뒤 확인하세요. 악성 소프트웨어·인증 취소 경고는 우회하지 마세요.',
     link: '단계별 설치 안내 ↗', close: '알겠어요'
   } : {
-    title: 'If macOS blocks installation',
-    intro: 'Try opening the downloaded PKG once. If the app is blocked after installation, first open pika in Applications.',
+    title: 'Can’t open the PKG?',
+    intro: 'Open the downloaded pika PKG. If macOS blocks it because the developer cannot be verified, follow these steps.',
     steps: ['System Settings → Privacy & Security', 'Scroll to Security and find the pika file you just opened', 'If you trust its source: Open Anyway → authenticate if asked → Open'],
     note: 'For unidentified-developer or unverifiable-app warnings only. This build is not Developer ID signed or notarized.',
     danger: 'For a damaged file, download a fresh copy and check again. Do not override malware or revoked-authorization warnings.',

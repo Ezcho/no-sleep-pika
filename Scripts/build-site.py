@@ -910,7 +910,7 @@ def render(locale):
 <meta property="og:locale" content="{locale.replace('-', '_')}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{h('title')}"><meta name="twitter:description" content="{esc(t['description'], quote=True)}"><meta name="twitter:image" content="{BASE}/assets/pika-working.png">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/style.css?v=tagline-1"><script src="/site.js" defer></script><script src="/downloads.js" defer></script><script src="/motion.js?v=pointer-16" defer></script><script src="/visitors.js" defer></script>
+<link rel="stylesheet" href="/style.css?v=tagline-1"><script src="/site.js" defer></script><script src="/motion.js?v=pointer-16" defer></script><script src="/visitors.js" defer></script>
 <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
 <script type="application/ld+json">{json.dumps(metadata, ensure_ascii=False)}</script>
 </head>
@@ -998,7 +998,7 @@ def main():
     for url in [page_url(code) for code, _ in LANGUAGES] + install_urls + support_urls + article_urls + keep_urls + lock_urls + download_urls + energy_urls + local_ai_urls + control_urls + worktree_urls:
         page = OUT / url.removeprefix(BASE).lstrip('/') / 'index.html'
         content = page.read_text(encoding='utf-8')
-        content = content.replace('</head>', '<script src="/ga.js" defer></script></head>')
+        content = content.replace('</head>', '<script src="/ga.js" defer></script><script src="/downloads.js?v=20261126" defer></script></head>')
         page.write_text(content, encoding='utf-8')
     for urls, updated, languages in ((install_urls, INSTALL_UPDATED, ('en', 'ko')), (support_urls, SUPPORT_UPDATED, ('en', 'ko')), (article_urls, ARTICLE_UPDATED, tuple(ARTICLE_PATHS)), (keep_urls, KEEP_UPDATED, tuple(KEEP_PATHS)), (lock_urls, LOCK_UPDATED, tuple(LOCK_PATHS)), (download_urls, DOWNLOAD_UPDATED, tuple(DOWNLOAD_PATHS)), (energy_urls, ENERGY_UPDATED, tuple(ENERGY_PATHS)), (local_ai_urls, LOCAL_AI_UPDATED, tuple(LOCAL_AI_PATHS)), (control_urls, CONTROL_UPDATED, tuple(CONTROL_PATHS)), (worktree_urls, WORKTREE_UPDATED, tuple(WORKTREE_PATHS))):
         alternates = ''.join(f'<xhtml:link rel="alternate" hreflang="{language}" href="{url}"/>' for language, url in zip(languages, urls))

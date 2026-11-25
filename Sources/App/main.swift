@@ -143,7 +143,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
             self?.remoteControlItem.isEnabled = enabled
         }
         model.onChange = { [weak self] in self?.updateMenu() }
-        model.onSetupRequested = { [weak self] in self?.showSetupWindow() }
         do {
             try controlServer.start { [weak self] request, reply in
                 MainActor.assumeIsolated {
@@ -156,9 +155,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
         } catch { logger.error("MCP local control unavailable: \(error.localizedDescription)") }
         updateMenu()
         showControlWindow()
-        if !UserDefaults.standard.bool(forKey: "setupGuideSeen") || !model.serviceReady {
-            showSetupWindow()
-        }
         model.checkHelperConnection()
         updater.checkAutomatically()
     }
@@ -185,7 +181,6 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
                     NSWorkspace.shared.open(URL(fileURLWithPath: "/System/Applications/System Settings.app"))
                 }
             }, onContinue: { [weak self] in
-                UserDefaults.standard.set(true, forKey: "setupGuideSeen")
                 self?.setupWindow?.close()
                 self?.showControlWindow()
             })
@@ -298,12 +293,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate, NSWind
                 self.updateMenu()
                 self.logger.notice("Session toggle completed: active=\(self.model.active)")
                 if self.model.error != nil {
-                    if !self.model.helperConnected && !self.model.recoveryRequired {
-                        self.showSetupWindow()
-                    } else {
-                        self.showControlWindow()
-                        self.showMessage()
-                    }
+                    // A start failure is a runtime diagnostic, not first-run setup.
+                    self.showControlWindow()
+                    self.showMessage()
                 }
             }
         }
